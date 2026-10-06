@@ -209,6 +209,16 @@ pre.tagform{ font-family:"Atkinson Hyperlegible", ui-monospace, monospace; backg
 .toast.show{ opacity:1; }
 
 /* master additions */
+.tools .sbtn[data-act="palette"]{ padding:6px 10px; }
+.pals{ display:grid; grid-template-columns:repeat(auto-fill, minmax(140px, 1fr)); gap:8px; }
+.pal{ display:grid; gap:8px; text-align:left; border:2px solid var(--rule); border-radius:12px; padding:10px; cursor:pointer; font:inherit; min-height:84px; }
+.pal[aria-pressed="true"]{ border-color:var(--marker); box-shadow:0 0 0 2px var(--marker); }
+.pal-s{ display:flex; gap:4px; padding:7px; border:1px solid; border-radius:8px; }
+.pal-s i{ width:14px; height:14px; border-radius:50%; display:block; }
+.pal-n{ font-weight:700; font-size:14.5px; line-height:1.25; }
+.pal-on{ font-size:12px; font-weight:700; }
+.palauto{ width:100%; margin:4px 0 6px; }
+
 .fab{ position:fixed; right:16px; bottom:calc(70px + env(safe-area-inset-bottom, 0px)); z-index:7; display:inline-flex; align-items:center; gap:8px; min-height:48px; padding:10px 16px; border-radius:999px; border:2px solid var(--ink); background:var(--ink); color:var(--surface); font-weight:700; cursor:pointer; box-shadow:0 4px 14px rgba(8,14,16,.22); font-variant-numeric:tabular-nums; }
 .fab svg{ width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; }
 .fab.on{ background:var(--marker); border-color:var(--marker); }
@@ -257,7 +267,7 @@ input[type=number]{ font:inherit; font-size:16px; color:var(--ink); background:v
 .tools{ display:flex; align-items:center; gap:12px; }
 .sbtn{ display:inline-flex; align-items:center; gap:6px; min-height:40px; padding:6px 12px; font-size:14.5px; }
 .sbtn svg{ width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; }
-@media (max-width: 420px){ .sbtn span{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); } .doc{ font-size:13.5px; } }
+@media (max-width: 460px){ .sbtn span{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); } .doc{ display:none; } .tools{ gap:8px; } }
 .meters{ display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:8px; }
 .meter{ display:grid; gap:3px; text-align:left; background:var(--surface); border:1px solid var(--rule); border-radius:12px; padding:10px 12px; cursor:pointer; }
 .meter:hover{ border-color:var(--ink-2); }
@@ -318,7 +328,7 @@ details.cat .ctop, details.cat .chook{ font-weight:400; font-size:14px; color:va
 </style>
 </head>
 <body>
-<header class="top"><div class="top-in"><div><p class="brand">Crochet Master Plan</p><p id="sync" class="sync">Saved on this device</p></div><div class="tools"><button class="btn ghost sbtn" data-act="search" aria-label="Search everything"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><span>Search</span></button><a class="doc" id="doclink" href="#">Curriculum</a></div></div></header>
+<header class="top"><div class="top-in"><div><p class="brand">Crochet Master Plan</p><p id="sync" class="sync">Saved on this device</p></div><div class="tools"><button class="btn ghost sbtn" data-act="palette" aria-label="Color scheme"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.7-.9 1.4-1.8-.4-1.2.3-2.4 1.6-2.4H17a4 4 0 0 0 4-4c0-5.2-4-9.8-9-9.8z"/><circle cx="7.5" cy="11" r="1.2"/><circle cx="10.5" cy="7" r="1.2"/><circle cx="15" cy="7.5" r="1.2"/></svg></button><button class="btn ghost sbtn" data-act="search" aria-label="Search everything"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><span>Search</span></button><a class="doc" id="doclink" href="#">Curriculum</a></div></div></header>
 <main id="view"></main>
 <div id="sheet" class="sheet" hidden></div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
@@ -1414,7 +1424,7 @@ function merge(d){
 }
 let S = blank();
 try { const t = localStorage.getItem(LS); if (t) S = merge(JSON.parse(t)); } catch (e) {}
-const UI = {calc: {w: "w", l: 5}, tab: "today", seg: {projects: "ami", shelf: "books", yarn: "shop", yf: "all"}, sheet: null, work: false, askOpen: false, ask: {q: "", ans: "", err: "", busy: false}, sm: {n: 36, t: 42, g: 16, w: 20}, search: false, sq: "", pendingImport: null, open: {}, gq: ""};
+const UI = {calc: {w: "w", l: 5}, tab: "today", seg: {projects: "ami", shelf: "books", yarn: "shop", yf: "all"}, sheet: null, work: false, palOpen: false, askOpen: false, ask: {q: "", ans: "", err: "", busy: false}, sm: {n: 36, t: 42, g: 16, w: 20}, search: false, sq: "", pendingImport: null, open: {}, gq: ""};
 try { const t = localStorage.getItem(LS + ":ui"); if (t) { const u = JSON.parse(t); if (u && u.tab) UI.tab = u.tab; if (u && u.seg) Object.assign(UI.seg, u.seg); } } catch (e) {}
 function saveUI(){ try { localStorage.setItem(LS + ":ui", JSON.stringify({tab: UI.tab, seg: UI.seg})); } catch (e) {} }
 
@@ -1937,8 +1947,8 @@ function searchResults(){
 function searchSheet(){
   return '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="Search"><div class="shead"><label class="sr" for="sq">Search everything</label><input id="sq" type="search" placeholder="Search everything" value="' + esc(UI.sq) + '" autocomplete="off"><button class="btn ghost" data-act="close">Close</button></div><div id="sres">' + searchResults() + "</div></div>";
 }
-function openSearch(){ UI.search = true; UI.sheet = null; UI.work = false; UI.askOpen = false; render(); }
-function closeSheets(){ UI.sheet = null; UI.search = false; UI.work = false; UI.askOpen = false; render(); }
+function openSearch(){ UI.search = true; UI.sheet = null; UI.work = false; UI.askOpen = false; UI.palOpen = false; render(); }
+function closeSheets(){ UI.sheet = null; UI.search = false; UI.work = false; UI.askOpen = false; UI.palOpen = false; render(); }
 function jump(ds){
   const tab = ds.tab;
   UI.search = false; UI.sheet = null; UI.work = false; UI.askOpen = false; UI.tab = tab;
@@ -2135,6 +2145,60 @@ function openAsk(){
   getSample().then(s => s && s.limits ? s.limits().catch(() => null) : null).then(c => { askCaps = c; const el = document.getElementById("askimgf"); if (el) el.classList.toggle("is-off", !(c && c.images)); });
 }
 
+const PALETTES = [{"id":"sage","name":"Sage Cotton","dark":false,"c":{"paper":"#eef2ea","surface":"#fbfcf8","line":"#d3dccb","ink":"#26332a","muted":"#5b6b5e","red":"#b5453f","orange":"#b8642a","yellow":"#93761a","green":"#3f7d4c","teal":"#2b7a73","blue":"#36689c","purple":"#73559c","pink":"#a94775"}},{"id":"peach","name":"Peach Fuzz","dark":false,"c":{"paper":"#fbefe8","surface":"#fffaf6","line":"#ecd6ca","ink":"#3a2722","muted":"#7a5f56","red":"#b8433e","orange":"#c0602a","yellow":"#94741c","green":"#4c7d45","teal":"#2e7d7a","blue":"#3c6aa0","purple":"#7a52a3","pink":"#b44a7c"}},{"id":"mulberry","name":"Mulberry","dark":true,"c":{"paper":"#1d1420","surface":"#281c2c","line":"#3d2c42","ink":"#f1e6ee","muted":"#b9a3b5","red":"#f07a83","orange":"#f2a368","yellow":"#eecf7a","green":"#8fd1a0","teal":"#79cfc6","blue":"#8eb3f0","purple":"#c9a3f0","pink":"#f39cc6"}},{"id":"denim","name":"Denim","dark":true,"c":{"paper":"#121a26","surface":"#1a2434","line":"#2b3a50","ink":"#e3eaf4","muted":"#9eadc4","red":"#ef8a85","orange":"#f2aa6b","yellow":"#efd27c","green":"#8fcf9a","teal":"#73cbc6","blue":"#86b4f2","purple":"#b8a2ee","pink":"#f0a0c4"}},{"id":"ayu-light","name":"Ayu Light","dark":false,"c":{"paper":"#fafafa","surface":"#ffffff","line":"#e7e8e9","ink":"#575f66","muted":"#8a9199","red":"#f07171","orange":"#fa8d3e","yellow":"#f2ae49","green":"#86b300","teal":"#4cbf99","blue":"#399ee6","purple":"#a37acc","pink":"#f07171"}},{"id":"latte","name":"Catppuccin Latte","dark":false,"c":{"paper":"#eff1f5","surface":"#ffffff","line":"#ccd0da","ink":"#4c4f69","muted":"#6c6f85","red":"#d20f39","orange":"#fe640b","yellow":"#df8e1d","green":"#40a02b","teal":"#179299","blue":"#1e66f5","purple":"#8839ef","pink":"#ea76cb"}},{"id":"everforest-light","name":"Everforest Light","dark":false,"c":{"paper":"#fdf6e3","surface":"#fffbef","line":"#e0dcc7","ink":"#5c6a72","muted":"#829181","red":"#f85552","orange":"#f57d26","yellow":"#dfa000","green":"#8da101","teal":"#35a77c","blue":"#3a94c5","purple":"#df69ba","pink":"#df69ba"}},{"id":"flexoki-light","name":"Flexoki Light","dark":false,"c":{"paper":"#fffcf0","surface":"#ffffff","line":"#dad8ce","ink":"#100f0f","muted":"#6f6e69","red":"#af3029","orange":"#bc5215","yellow":"#ad8301","green":"#66800b","teal":"#24837b","blue":"#205ea6","purple":"#5e409d","pink":"#a02f6f"}},{"id":"github-light","name":"GitHub Light","dark":false,"c":{"paper":"#f6f8fa","surface":"#ffffff","line":"#d0d7de","ink":"#1f2328","muted":"#656d76","red":"#cf222e","orange":"#bc4c00","yellow":"#9a6700","green":"#1a7f37","teal":"#1b7c83","blue":"#0969da","purple":"#8250df","pink":"#bf3989"}},{"id":"gruvbox-light","name":"Gruvbox Light","dark":false,"c":{"paper":"#fbf1c7","surface":"#f9f5d7","line":"#d5c4a1","ink":"#3c3836","muted":"#7c6f64","red":"#9d0006","orange":"#af3a03","yellow":"#b57614","green":"#79740e","teal":"#427b58","blue":"#076678","purple":"#8f3f71","pink":"#8f3f71"}},{"id":"kanagawa-lotus","name":"Kanagawa Lotus","dark":false,"c":{"paper":"#f2ecbc","surface":"#f8f3d4","line":"#dcd5ac","ink":"#545464","muted":"#716e61","red":"#c84053","orange":"#cc6d00","yellow":"#77713f","green":"#6f894e","teal":"#597b75","blue":"#4d699b","purple":"#624c83","pink":"#b35b79"}},{"id":"nord-light","name":"Nord Snow","dark":false,"c":{"paper":"#eceff4","surface":"#f8f9fb","line":"#d8dee9","ink":"#2e3440","muted":"#4c566a","red":"#bf616a","orange":"#c46a4f","yellow":"#a37c1a","green":"#5f8a4c","teal":"#4f8f8e","blue":"#5e81ac","purple":"#9a6f94","pink":"#9a6f94"}},{"id":"onelight","name":"One Light","dark":false,"c":{"paper":"#fafafa","surface":"#ffffff","line":"#e0e0e2","ink":"#383a42","muted":"#696c77","red":"#e45649","orange":"#986801","yellow":"#c18401","green":"#50a14f","teal":"#0184bc","blue":"#4078f2","purple":"#a626a4","pink":"#a626a4"}},{"id":"rosepine-dawn","name":"Rosé Pine Dawn","dark":false,"c":{"paper":"#faf4ed","surface":"#fffaf3","line":"#dfdad9","ink":"#575279","muted":"#797593","red":"#b4637a","orange":"#d7827e","yellow":"#ea9d34","green":"#56949f","teal":"#56949f","blue":"#286983","purple":"#907aa9","pink":"#b4637a"}},{"id":"solarized-light","name":"Solarized Light","dark":false,"c":{"paper":"#fdf6e3","surface":"#eee8d5","line":"#ddd6c1","ink":"#586e75","muted":"#657b83","red":"#dc322f","orange":"#cb4b16","yellow":"#b58900","green":"#859900","teal":"#2aa198","blue":"#268bd2","purple":"#6c71c4","pink":"#d33682"}},{"id":"tokyo-day","name":"Tokyo Night Day","dark":false,"c":{"paper":"#e1e2e7","surface":"#eef0f6","line":"#c4c8da","ink":"#3760bf","muted":"#6172b0","red":"#c64343","orange":"#b15c00","yellow":"#8c6c3e","green":"#587539","teal":"#118c74","blue":"#2e7de9","purple":"#9854f1","pink":"#d20065"}},{"id":"ayu-dark","name":"Ayu Dark","dark":true,"c":{"paper":"#0a0e14","surface":"#0f131a","line":"#1b2028","ink":"#b3b1ad","muted":"color-mix(in srgb,var(--ink) 68%,var(--paper))","red":"#f07178","orange":"#ff8f40","yellow":"#ffb454","green":"#c2d94c","teal":"#95e6cb","blue":"#59c2ff","purple":"#39bae6","pink":"#f07178"}},{"id":"ayu-mirage","name":"Ayu Mirage","dark":true,"c":{"paper":"#1f2430","surface":"#242936","line":"#323844","ink":"#cbccc6","muted":"color-mix(in srgb,var(--ink) 68%,var(--paper))","red":"#f28779","orange":"#ffad66","yellow":"#ffd173","green":"#d5ff80","teal":"#95e6cb","blue":"#73d0ff","purple":"#d4bfff","pink":"#f28779"}},{"id":"mocha","name":"Catppuccin Mocha","dark":true,"c":{"paper":"#1e1e2e","surface":"#313244","line":"#45475a","ink":"#cdd6f4","muted":"#a6adc8","red":"#f38ba8","orange":"#fab387","yellow":"#f9e2af","green":"#a6e3a1","teal":"#94e2d5","blue":"#89b4fa","purple":"#cba6f7","pink":"#f5c2e7"}},{"id":"dracula","name":"Dracula","dark":true,"c":{"paper":"#282a36","surface":"#21222c","line":"#44475a","ink":"#f8f8f2","muted":"color-mix(in srgb,var(--ink) 68%,var(--paper))","red":"#ff5555","orange":"#ffb86c","yellow":"#f1fa8c","green":"#50fa7b","teal":"#8be9fd","blue":"#8be9fd","purple":"#bd93f9","pink":"#ff79c6"}},{"id":"everforest","name":"Everforest","dark":true,"c":{"paper":"#2d353b","surface":"#343f44","line":"#475258","ink":"#d3c6aa","muted":"#9da9a0","red":"#e67e80","orange":"#e69875","yellow":"#dbbc7f","green":"#a7c080","teal":"#83c092","blue":"#7fbbb3","purple":"#d699b6","pink":"#d699b6"}},{"id":"flexoki","name":"Flexoki","dark":true,"c":{"paper":"#100f0f","surface":"#1c1b1a","line":"#343331","ink":"#cecdc3","muted":"#878580","red":"#d14d41","orange":"#da702c","yellow":"#d0a215","green":"#879a39","teal":"#3aa99f","blue":"#4385be","purple":"#8b7ec8","pink":"#ce5d97"}},{"id":"github-dark","name":"GitHub Dark","dark":true,"c":{"paper":"#0d1117","surface":"#161b22","line":"#30363d","ink":"#e6edf3","muted":"#8b949e","red":"#f85149","orange":"#db6d28","yellow":"#d29922","green":"#3fb950","teal":"#39c5cf","blue":"#58a6ff","purple":"#a371f7","pink":"#db61a2"}},{"id":"gruvbox","name":"Gruvbox","dark":true,"c":{"paper":"#282828","surface":"#3c3836","line":"#504945","ink":"#ebdbb2","muted":"#bdae93","red":"#fb4934","orange":"#fe8019","yellow":"#fabd2f","green":"#b8bb26","teal":"#8ec07c","blue":"#83a598","purple":"#d3869b","pink":"#d3869b"}},{"id":"iceberg","name":"Iceberg","dark":true,"c":{"paper":"#161821","surface":"#1e2132","line":"#2e3244","ink":"#c6c8d1","muted":"color-mix(in srgb,var(--ink) 68%,var(--paper))","red":"#e27878","orange":"#e2a478","yellow":"#e2a478","green":"#b4be82","teal":"#89b8c2","blue":"#84a0c6","purple":"#a093c7","pink":"#a093c7"}},{"id":"kanagawa","name":"Kanagawa","dark":true,"c":{"paper":"#1f1f28","surface":"#2a2a37","line":"#363646","ink":"#dcd7ba","muted":"#9cabca","red":"#e46876","orange":"#ffa066","yellow":"#e6c384","green":"#98bb6c","teal":"#7aa89f","blue":"#7e9cd8","purple":"#957fb8","pink":"#d27e99"}},{"id":"monokai","name":"Monokai","dark":true,"c":{"paper":"#272822","surface":"#3e3d32","line":"#49483e","ink":"#f8f8f2","muted":"color-mix(in srgb,var(--ink) 68%,var(--paper))","red":"#f92672","orange":"#fd971f","yellow":"#e6db74","green":"#a6e22e","teal":"#66d9ef","blue":"#66d9ef","purple":"#ae81ff","pink":"#f92672"}},{"id":"nightowl","name":"Night Owl","dark":true,"c":{"paper":"#011627","surface":"#0b2942","line":"#1d3b53","ink":"#d6deeb","muted":"color-mix(in srgb,var(--ink) 68%,var(--paper))","red":"#ef5350","orange":"#f78c6c","yellow":"#ecc48d","green":"#addb67","teal":"#7fdbca","blue":"#82aaff","purple":"#c792ea","pink":"#ff5874"}},{"id":"nord","name":"Nord","dark":true,"c":{"paper":"#2e3440","surface":"#3b4252","line":"#434c5e","ink":"#e5e9f0","muted":"color-mix(in srgb,var(--ink) 68%,var(--paper))","red":"#bf616a","orange":"#d08770","yellow":"#ebcb8b","green":"#a3be8c","teal":"#8fbcbb","blue":"#81a1c1","purple":"#b48ead","pink":"#b48ead"}},{"id":"onedark","name":"One Dark","dark":true,"c":{"paper":"#282c34","surface":"#21252b","line":"#3e4451","ink":"#abb2bf","muted":"color-mix(in srgb,var(--ink) 68%,var(--paper))","red":"#e06c75","orange":"#d19a66","yellow":"#e5c07b","green":"#98c379","teal":"#56b6c2","blue":"#61afef","purple":"#c678dd","pink":"#c678dd"}},{"id":"rosepine","name":"Rosé Pine","dark":true,"c":{"paper":"#191724","surface":"#1f1d2e","line":"#403d52","ink":"#e0def4","muted":"#908caa","red":"#eb6f92","orange":"#ebbcba","yellow":"#f6c177","green":"#9ccfd8","teal":"#9ccfd8","blue":"#31748f","purple":"#c4a7e7","pink":"#ebbcba"}},{"id":"solarized-dark","name":"Solarized Dark","dark":true,"c":{"paper":"#002b36","surface":"#073642","line":"#0f4553","ink":"#93a1a1","muted":"#839496","red":"#dc322f","orange":"#cb4b16","yellow":"#b58900","green":"#859900","teal":"#2aa198","blue":"#268bd2","purple":"#6c71c4","pink":"#d33682"}},{"id":"tokyo","name":"Tokyo Night","dark":true,"c":{"paper":"#1a1b26","surface":"#16161e","line":"#3b4261","ink":"#c0caf5","muted":"#a9b1d6","red":"#f7768e","orange":"#ff9e64","yellow":"#e0af68","green":"#9ece6a","teal":"#73daca","blue":"#7aa2f7","purple":"#bb9af7","pink":"#ff007c"}}];
+const PAL_GROUPS = [["Crochet colors", ["sage", "peach", "mulberry", "denim"]], ["Light", ["ayu-light", "latte", "everforest-light", "flexoki-light", "github-light", "gruvbox-light", "kanagawa-lotus", "nord-light", "onelight", "rosepine-dawn", "solarized-light", "tokyo-day"]], ["Dark", ["ayu-dark", "ayu-mirage", "mocha", "dracula", "everforest", "flexoki", "github-dark", "gruvbox", "iceberg", "kanagawa", "monokai", "nightowl", "nord", "onedark", "rosepine", "solarized-dark", "tokyo"]]];
+/* ---------- color schemes ---------- */
+const hx = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+const toHex = a => "#" + a.map(v => Math.max(0, Math.min(255, Math.round(v))).toString(16).padStart(2, "0")).join("");
+const mixHex = (a, b, t) => { const x = hx(a), y = hx(b); return toHex(x.map((v, i) => v * t + y[i] * (1 - t))); };
+const lum = h => { const c = hx(h).map(v => v / 255).map(v => v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)); return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]; };
+const contrast = (a, b) => { const x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
+// ponytail: nudges a color toward `toward` in 8% steps until it reads on every background; fine for 33 palettes at load
+function legible(c, toward, bgs, min){ let out = c; for (let t = 0; t <= 1.0001 && bgs.some(b => contrast(out, b) < min); t += 0.08) out = mixHex(toward, c, t); return out; }
+function paletteTokens(p){
+  const c = p.c, edge = p.dark ? "#ffffff" : "#000000", bgs = [c.paper, c.surface];
+  const ink = legible(c.ink, edge, bgs, 7);
+  const muted = legible(c.muted && c.muted[0] === "#" ? c.muted : mixHex(c.ink, c.paper, 0.68), ink, bgs, 4.6);
+  const txt = x => legible(x, ink, bgs, 3.2);
+  return {
+    "--bg": c.paper, "--surface": c.surface, "--ink": ink, "--ink-2": muted, "--rule": c.line, "--soft": mixHex(c.line, c.surface, 0.55),
+    "--marker": txt(c.pink), "--done": txt(c.green), "--wait": txt(c.yellow),
+    "--p0": muted, "--p1": c.blue, "--p2": mixHex(c.blue, ink, 0.8), "--cp": mixHex(c.blue, c.purple, 0.6), "--p3": c.green, "--p4": c.yellow,
+    "--p5": c.teal, "--p6": c.purple, "--p7": c.pink, "--p8": c.orange, "--p9": mixHex(c.purple, c.blue, 0.7), "--cap": c.red,
+    "color-scheme": p.dark ? "dark" : "light"
+  };
+}
+const PAL_KEY = LS + ":palette";
+let PAL = "";
+function applyPalette(id){
+  const p = PALETTES.find(x => x.id === id);
+  PAL = p ? id : "";
+  const root = document.documentElement;
+  if (p) root.setAttribute("data-palette", id); else root.removeAttribute("data-palette");
+  try { if (PAL) localStorage.setItem(PAL_KEY, PAL); else localStorage.removeItem(PAL_KEY); } catch (e) {}
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.content = p ? p.c.paper : "";
+}
+(function(){
+  const st = document.createElement("style");
+  st.textContent = PALETTES.map(p => { const t = paletteTokens(p); return ':root[data-palette="' + p.id + '"]{' + Object.keys(t).map(k => k + ":" + t[k]).join(";") + "}"; }).join("\n");
+  document.head.appendChild(st);
+  let saved = "";
+  try { saved = localStorage.getItem(PAL_KEY) || ""; } catch (e) {}
+  applyPalette(saved);
+})();
+function palCard(p){
+  const c = p.c, on = PAL === p.id;
+  return '<button class="pal" data-act="pal" data-p="' + p.id + '" aria-pressed="' + on + '" style="background:' + c.paper + ";color:" + legible(c.ink, p.dark ? "#ffffff" : "#000000", [c.paper], 7) + '"><span class="pal-s" style="background:' + c.surface + ";border-color:" + c.line + '">' +
+    [c.green, c.pink, c.blue, c.yellow, c.purple].map(x => '<i style="background:' + x + '"></i>').join("") + '</span><span class="pal-n">' + esc(p.name) + "</span>" + (on ? '<span class="pal-on">In use</span>' : "") + "</button>";
+}
+function paletteSheet(){
+  return '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="Color scheme"><div class="shead"><h2 class="sec" style="margin:0;flex:1">Color scheme</h2><button class="btn ghost" data-act="close">Close</button></div>' +
+    '<p class="sub">Saved on this device. Secondary text and accents are adjusted where a scheme would be hard to read.</p>' +
+    '<button class="btn' + (PAL ? " ghost" : "") + ' palauto" data-act="pal" data-p="" aria-pressed="' + !PAL + '">Match my device' + (PAL ? "" : " (in use)") + "</button>" +
+    PAL_GROUPS.map(g => '<h3 class="stage">' + g[0] + " <span class=\"sub\">" + g[1].length + '</span></h3><div class="pals">' + g[1].map(id => palCard(PALETTES.find(p => p.id === id))).join("") + "</div>").join("") + "</div>";
+}
+
 /* ---------- Help ---------- */
 function glossaryList(){
   const q = UI.gq.trim().toLowerCase();
@@ -2173,7 +2237,7 @@ function setDone(id, v){
   mutate(s => { const x = s.units[id] || (s.units[id] = {}); x.done = v; if (v) x.checks = u.pass.map(() => true); });
   if (v) { const ci = curIndex(); toast(label(u) + " done." + (ci >= 0 ? " Up next: " + label(UNITS[ci]).toLowerCase() + "." : "")); }
 }
-function go(tab){ UI.tab = tab; UI.sheet = null; UI.search = false; UI.work = false; UI.askOpen = false; saveUI(); setHash(); render(); try { window.scrollTo(0, 0); } catch (e) {} }
+function go(tab){ UI.tab = tab; UI.sheet = null; UI.search = false; UI.work = false; UI.askOpen = false; UI.palOpen = false; saveUI(); setHash(); render(); try { window.scrollTo(0, 0); } catch (e) {} }
 function setFlag(map, key, v){ return s => { if (v) s[map][key] = true; else delete s[map][key]; }; }
 
 document.addEventListener("click", e => {
@@ -2194,6 +2258,8 @@ document.addEventListener("click", e => {
   else if (a === "unlog") { const k = dayKey(new Date()); mutate(s => { const arr = Array.isArray(s.days[k]) ? s.days[k].slice() : []; arr.pop(); if (arr.length) s.days[k] = arr; else delete s.days[k]; }); }
   else if (a === "qadd") addQueue();
   else if (a === "search") openSearch();
+  else if (a === "palette") { UI.palOpen = true; UI.search = false; UI.sheet = null; UI.work = false; UI.askOpen = false; render(); }
+  else if (a === "pal") { const sc = document.querySelector(".sheet-in"), y = sc ? sc.scrollTop : 0; applyPalette(el.dataset.p); render(); const sc2 = document.querySelector(".sheet-in"); if (sc2) sc2.scrollTop = y; const pp = PALETTES.find(x => x.id === PAL); toast(pp ? pp.name : "Matching your device"); }
   else if (a === "work") { UI.work = true; UI.search = false; UI.sheet = null; UI.askOpen = false; render(); }
   else if (/^(wstart|wpause|wfinish|wdiscard|st\+|st-|rd\+|rd-|wreset)$/.test(a)) workAct(a);
   else if (a === "ask") openAsk();
@@ -2244,7 +2310,7 @@ const calTip = e => { const c = e.target && e.target.closest ? e.target.closest(
 ["mouseover", "focusin", "click"].forEach(ev => document.addEventListener(ev, calTip));
 document.addEventListener("input", e => { if (e.target && e.target.id === "sq") { UI.sq = e.target.value; const box = document.getElementById("sres"); if (box) box.innerHTML = searchResults(); return; } if (e.target && e.target.id === "gq") { UI.gq = e.target.value; const box = document.getElementById("glist"); if (box) box.innerHTML = glossaryList(); } });
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape" && (UI.sheet || UI.search || UI.work || UI.askOpen)) closeSheets();
+  if (e.key === "Escape" && (UI.sheet || UI.search || UI.work || UI.askOpen || UI.palOpen)) closeSheets();
   if (e.key === "/" && !UI.search && !/INPUT|TEXTAREA|SELECT/.test((e.target && e.target.tagName) || "")) { e.preventDefault(); openSearch(); }
   if (e.key === "Enter" && e.target && ["qname", "qgroup", "qnote"].indexOf(e.target.id) >= 0) { e.preventDefault(); addQueue(); }
 });
@@ -2255,7 +2321,8 @@ function render(){
   main.innerHTML = t === "path" ? renderPath() : t === "projects" ? renderProjects() : t === "shelf" ? renderShelf() : t === "yarn" ? renderYarn() : t === "help" ? renderHelp() : renderToday();
   document.querySelectorAll(".nav button").forEach(b => b.setAttribute("aria-current", b.dataset.tab === t ? "page" : "false"));
   const sh = document.getElementById("sheet"), su = UI.sheet ? unitById(UI.sheet) : null;
-  if (UI.work) { sh.hidden = false; sh.innerHTML = workSheet(); document.body.classList.add("noscroll"); }
+  if (UI.palOpen) { sh.hidden = false; sh.innerHTML = paletteSheet(); document.body.classList.add("noscroll"); }
+  else if (UI.work) { sh.hidden = false; sh.innerHTML = workSheet(); document.body.classList.add("noscroll"); }
   else if (UI.askOpen) { sh.hidden = false; sh.innerHTML = askSheet(); document.body.classList.add("noscroll"); }
   else if (UI.search) { sh.hidden = false; sh.innerHTML = searchSheet(); document.body.classList.add("noscroll"); const i = document.getElementById("sq"); if (i) { i.focus(); i.setSelectionRange(i.value.length, i.value.length); } }
   else if (su) { sh.hidden = false; sh.innerHTML = '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="' + esc(label(su)) + '"><button class="btn ghost close" data-act="close">Close</button>' + unitCard(su) + "</div>"; document.body.classList.add("noscroll"); }
