@@ -205,10 +205,53 @@ pre.tagform{ font-family:"Atkinson Hyperlegible", ui-monospace, monospace; backg
 .sheet[hidden]{ display:none; }
 .sheet-in{ width:100%; max-width:760px; max-height:calc(100% - 20px); overflow:auto; background:var(--bg); border-radius:16px 16px 0 0; padding:14px 16px calc(24px + env(safe-area-inset-bottom, 0px)); }
 .close{ display:block; margin:0 0 12px auto; min-height:40px; padding:8px 14px; }
-.toast{ position:fixed; left:50%; bottom:calc(70px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); z-index:12; background:var(--ink); color:var(--surface); padding:10px 16px; border-radius:10px; max-width:calc(100% - 32px); font-size:15px; opacity:0; pointer-events:none; transition:opacity .2s; }
+.toast{ position:fixed; left:50%; bottom:calc(128px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); z-index:12; background:var(--ink); color:var(--surface); padding:10px 16px; border-radius:10px; max-width:calc(100% - 32px); font-size:15px; opacity:0; pointer-events:none; transition:opacity .2s; }
 .toast.show{ opacity:1; }
 
 /* master additions */
+.fab{ position:fixed; right:16px; bottom:calc(70px + env(safe-area-inset-bottom, 0px)); z-index:7; display:inline-flex; align-items:center; gap:8px; min-height:48px; padding:10px 16px; border-radius:999px; border:2px solid var(--ink); background:var(--ink); color:var(--surface); font-weight:700; cursor:pointer; box-shadow:0 4px 14px rgba(8,14,16,.22); font-variant-numeric:tabular-nums; }
+.fab svg{ width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; }
+.fab.on{ background:var(--marker); border-color:var(--marker); }
+.dotlive{ width:9px; height:9px; border-radius:50%; background:var(--surface); animation:pulse 1.6s ease-in-out infinite; }
+@keyframes pulse{ 50%{ opacity:.35; } }
+@media (prefers-reduced-motion: reduce){ .dotlive{ animation:none; } }
+main{ padding-bottom:calc(150px + env(safe-area-inset-bottom, 0px)) !important; }
+.work .field{ margin-bottom:10px; }
+.work input, .askcard + * textarea, #askq{ font:inherit; font-size:16px; color:var(--ink); background:var(--surface); border:1px solid var(--rule); border-radius:9px; padding:10px 12px; width:100%; }
+.timer{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px 16px; padding:12px 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); margin:4px 0 12px; }
+.timer .btnrow{ margin:0; align-items:center; }
+.clock{ font-size:34px; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:.5px; }
+.counters{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.ctr{ display:grid; gap:6px; justify-items:center; background:var(--surface); border:1px solid var(--rule); border-radius:14px; padding:12px 10px; text-align:center; }
+.ctr-l{ font-size:13.5px; color:var(--ink-2); }
+.ctr-n{ font-size:48px; line-height:1; font-weight:700; font-variant-numeric:tabular-nums; }
+.ctr-n.full{ color:var(--done); }
+.ctr-b{ display:flex; gap:6px; width:100%; }
+.ctr-b .btn{ flex:1; padding:10px 6px; }
+.ctr-b .btn.big{ flex:2; font-size:20px; min-height:56px; }
+.ctr-b .btn.ghost{ flex:0 0 46px; font-size:20px; }
+.wfoot{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:8px 16px; margin:12px 0 6px; }
+.wfoot .field{ flex:1 1 180px; margin:0; }
+.cal{ margin-top:14px; }
+.cal-head, .cal-foot{ display:flex; justify-content:space-between; gap:8px; flex-wrap:wrap; align-items:center; }
+.cal-g{ display:grid; grid-template-rows:repeat(7, 1fr); grid-auto-flow:column; grid-auto-columns:minmax(0, 1fr); gap:3px; margin:6px 0; max-width:420px; }
+.cal-c{ display:block; aspect-ratio:1; border-radius:3px; background:var(--soft); outline-offset:1px; }
+.cal-c.l1{ background:color-mix(in srgb, var(--done) 35%, var(--soft)); }
+.cal-c.l2{ background:color-mix(in srgb, var(--done) 65%, var(--soft)); }
+.cal-c.l3{ background:var(--done); }
+.cal-c.is-today{ box-shadow:0 0 0 2px var(--marker); }
+.cal-key{ display:inline-flex; align-items:center; gap:3px; }
+.cal-key .cal-c{ width:11px; display:inline-block; }
+.askcard{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px 16px; background:var(--surface); border:1px solid var(--rule); border-radius:12px; padding:14px 16px; margin:0 0 16px; }
+.askcard > div{ flex:1 1 220px; min-width:0; }
+.askcard .sub{ margin:2px 0 0; }
+.askrow{ margin:12px 0 0; }
+.askout{ background:var(--surface); border:1px solid var(--rule); border-left:6px solid var(--p6); border-radius:12px; padding:12px 16px; margin:10px 0; }
+.askout p:last-child{ margin-bottom:0; }
+.askerr{ color:var(--marker); font-weight:700; }
+.is-off{ display:none !important; }
+input[type=number]{ font:inherit; font-size:16px; color:var(--ink); background:var(--surface); border:1px solid var(--rule); border-radius:9px; padding:10px 12px; width:100%; }
+
 .sr{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
 .brand{ white-space:nowrap; }
 .tools{ display:flex; align-items:center; gap:12px; }
@@ -279,6 +322,7 @@ details.cat .ctop, details.cat .chook{ font-weight:400; font-size:14px; color:va
 <main id="view"></main>
 <div id="sheet" class="sheet" hidden></div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="fab"></div>
 <nav class="nav" aria-label="Sections"><div class="nav-in">
 <button data-act="tab" data-tab="today"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8 L12 19 L18 8"/><circle cx="12" cy="4.5" r="1.8"/></svg>Today</button>
 <button data-act="tab" data-tab="path"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.3"/><circle cx="4.5" cy="12" r="1.3"/><circle cx="4.5" cy="18" r="1.3"/></svg>Path</button>
@@ -1352,7 +1396,7 @@ const SEED_HAVE = ["Purple", "Black", "White", "Banana", "Pink", "Easy Peasy pas
 function seedHave(){ const o = {}; SEED_HAVE.forEach(k => { o[k] = true; }); return o; }
 const SEED_DONE = ["0", "1.0", "1.1", "1.5", "1.6", "1.7"]; // units already covered with the first three toys
 function seedUnits(){ const o = {}; SEED_DONE.forEach(id => { const u = unitById(id); if (u) o[id] = {done: true, checks: u.pass.map(() => true)}; }); return o; }
-function blank(){ return {v: 1, units: seedUnits(), rungs: {}, pp: {}, wb: {}, kit: {}, have: seedHave(), notes: {}, queue: [], sophie: {ver: "cal", parts: {}, steps: {}}, books: {}, classes: {}, gear: {}, reviews: {}, days: {}}; }
+function blank(){ return {v: 1, units: seedUnits(), rungs: {}, pp: {}, wb: {}, kit: {}, have: seedHave(), notes: {}, work: {proj: "", round: 1, st: 0, target: 0, started: null, acc: 0}, queue: [], sophie: {ver: "cal", parts: {}, steps: {}}, books: {}, classes: {}, gear: {}, reviews: {}, days: {}}; }
 function merge(d){
   const s = blank();
   if (d && typeof d === "object") {
@@ -1362,13 +1406,15 @@ function merge(d){
     if (!s.sophie.steps) s.sophie.steps = {};
     if (s.sophie.ver !== "book") s.sophie.ver = "cal";
     if (!Array.isArray(s.queue)) s.queue = [];
+    const w = (s.work && typeof s.work === "object") ? s.work : {};
+    s.work = {proj: typeof w.proj === "string" ? w.proj.slice(0, 120) : "", round: Math.max(1, Number(w.round) || 1), st: Math.max(0, Number(w.st) || 0), target: Math.max(0, Number(w.target) || 0), started: Number(w.started) || null, acc: Math.max(0, Number(w.acc) || 0)};
     ["units", "rungs", "pp", "wb", "kit", "have", "notes", "books", "classes", "gear", "reviews", "days"].forEach(k => { if (!s[k] || typeof s[k] !== "object" || Array.isArray(s[k])) s[k] = {}; });
   }
   return s;
 }
 let S = blank();
 try { const t = localStorage.getItem(LS); if (t) S = merge(JSON.parse(t)); } catch (e) {}
-const UI = {calc: {w: "w", l: 5}, tab: "today", seg: {projects: "ami", shelf: "books", yarn: "shop", yf: "all"}, sheet: null, search: false, sq: "", pendingImport: null, open: {}, gq: ""};
+const UI = {calc: {w: "w", l: 5}, tab: "today", seg: {projects: "ami", shelf: "books", yarn: "shop", yf: "all"}, sheet: null, work: false, askOpen: false, ask: {q: "", ans: "", err: "", busy: false}, sm: {n: 36, t: 42, g: 16, w: 20}, search: false, sq: "", pendingImport: null, open: {}, gq: ""};
 try { const t = localStorage.getItem(LS + ":ui"); if (t) { const u = JSON.parse(t); if (u && u.tab) UI.tab = u.tab; if (u && u.seg) Object.assign(UI.seg, u.seg); } } catch (e) {}
 function saveUI(){ try { localStorage.setItem(LS + ":ui", JSON.stringify({tab: UI.tab, seg: UI.seg})); } catch (e) {} }
 
@@ -1485,6 +1531,7 @@ function unitCard(u){
   if (u.map) h += sec("What the exam tests, and where you learned it", '<div class="tablewrap"><table><thead><tr><th>Part</th><th>What it tests</th><th>Taught in</th></tr></thead><tbody>' + u.map.map(r => "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td><td>" + r[2] + "</td></tr>").join("") + "</tbody></table></div>");
   if (u.help) h += sec("If you need help", para(u.help));
   h += '<h3>Pass when</h3><p class="count">' + k + " of " + n + ' checked</p><div class="checks">' + u.pass.map((p, i) => '<label class="chk"><input type="checkbox" data-act="check" data-u="' + esc(u.id) + '" data-i="' + i + '"' + (c[i] ? " checked" : "") + "><span>" + p + "</span></label>").join("") + "</div>";
+  h += '<p class="askrow"><button class="link" data-act="ask">Stuck? Ask Claude about this unit</button></p>';
   if (u.wrong) h += '<details class="wrong"><summary>If it goes wrong</summary>' + u.wrong.map(w => "<p><strong>" + w[0] + ":</strong> " + w[1] + "</p>").join("") + "</details>";
   if (dn) h += '<div class="foot"><span class="donetag">Done</span><button class="link" data-act="setdone" data-u="' + esc(u.id) + '" data-v="0">Mark not done</button></div>';
   else if (k === n) h += '<div class="foot"><button class="btn" data-act="setdone" data-u="' + esc(u.id) + '" data-v="1">Mark ' + esc(label(u).toLowerCase()) + " done</button></div>";
@@ -1543,7 +1590,7 @@ function reviewCard(){
 }
 function sessionsCard(){
   const w = weekStats(), tot = totalMin(), today = S.days[dayKey(new Date())];
-  return '<section class="block"><h2 class="sec">This week</h2><p class="week"><strong>' + w.n + "</strong> " + (w.n === 1 ? "session" : "sessions") + (w.m ? ", " + fmtMin(w.m) : "") + '<span class="sub">Aim for 4–5 sessions of 30–45 minutes.</span></p>' + streakLine() + '<div class="btnrow"><button class="btn ghost" data-act="log" data-m="30">Log 30 min</button><button class="btn ghost" data-act="log" data-m="45">Log 45 min</button><button class="btn ghost" data-act="log" data-m="60">Log 60 min</button></div><p class="sub">' + fmtMin(tot) + " logged in all. " + esc(paceLine()) + (Array.isArray(today) && today.length ? ' <button class="link" data-act="unlog">Remove today\'s last session</button>' : "") + "</p></section>";
+  return '<section class="block"><h2 class="sec">This week</h2><p class="week"><strong>' + w.n + "</strong> " + (w.n === 1 ? "session" : "sessions") + (w.m ? ", " + fmtMin(w.m) : "") + '<span class="sub">Aim for 4–5 sessions of 30–45 minutes.</span></p>' + streakLine() + '<div class="btnrow"><button class="btn ghost" data-act="log" data-m="30">Log 30 min</button><button class="btn ghost" data-act="log" data-m="45">Log 45 min</button><button class="btn ghost" data-act="log" data-m="60">Log 60 min</button><button class="btn" data-act="work">Time a session</button></div>' + calendar() + '<p class="sub">' + fmtMin(tot) + " logged in all. " + esc(paceLine()) + (Array.isArray(today) && today.length ? ' <button class="link" data-act="unlog">Remove today\'s last session</button>' : "") + "</p></section>";
 }
 
 /* ---------- Path ---------- */
@@ -1772,7 +1819,7 @@ function storesSection(){
 function renderYarn(){
   const seg = UI.seg.yarn;
   let h = '<h1 class="page">Yarn and tools</h1>' + segBar("yarn", [["shop", "Shopping"], ["mine", "Your yarn"], ["picks", "All picks"], ["tools", "Tools"], ["stores", "Stores"]], seg);
-  return h + (seg === "picks" ? picksSection() : seg === "tools" ? toolsSection() : seg === "stores" ? storesSection() : seg === "mine" ? mineSection() : shopSection());
+  return h + (seg === "picks" ? picksSection() : seg === "tools" ? toolsSection() + mathSection() : seg === "stores" ? storesSection() : seg === "mine" ? mineSection() : shopSection());
 }
 
 /* ---------- saving without a redraw (typing a note) ---------- */
@@ -1890,10 +1937,11 @@ function searchResults(){
 function searchSheet(){
   return '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="Search"><div class="shead"><label class="sr" for="sq">Search everything</label><input id="sq" type="search" placeholder="Search everything" value="' + esc(UI.sq) + '" autocomplete="off"><button class="btn ghost" data-act="close">Close</button></div><div id="sres">' + searchResults() + "</div></div>";
 }
-function openSearch(){ UI.search = true; UI.sheet = null; render(); }
+function openSearch(){ UI.search = true; UI.sheet = null; UI.work = false; UI.askOpen = false; render(); }
+function closeSheets(){ UI.sheet = null; UI.search = false; UI.work = false; UI.askOpen = false; render(); }
 function jump(ds){
   const tab = ds.tab;
-  UI.search = false; UI.sheet = null; UI.tab = tab;
+  UI.search = false; UI.sheet = null; UI.work = false; UI.askOpen = false; UI.tab = tab;
   if (ds.seg) UI.seg[tab] = ds.seg;
   if (tab === "yarn") UI.seg.yf = "all";
   if (ds.open) UI.open[ds.open] = true;
@@ -1940,6 +1988,153 @@ function readBackup(file){
   fr.readAsText(file);
 }
 
+/* ---------- work session: timer and counters ---------- */
+const W = () => S.work;
+const workMs = () => W().acc + (W().started ? Date.now() - W().started : 0);
+function fmtClock(ms){
+  const t = Math.floor(ms / 1000), h = Math.floor(t / 3600), m = Math.floor(t / 60) % 60, s = t % 60;
+  return (h ? h + ":" + String(m).padStart(2, "0") : m) + ":" + String(s).padStart(2, "0");
+}
+let tick = null, wakeLock = null;
+function syncTicker(){
+  const run = !!W().started;
+  if (run && !tick) tick = setInterval(() => { document.querySelectorAll("[data-clock]").forEach(el => { el.textContent = fmtClock(workMs()); }); }, 1000);
+  if (!run && tick) { clearInterval(tick); tick = null; }
+  if (run && UI.work && !wakeLock && navigator.wakeLock) navigator.wakeLock.request("screen").then(l => { wakeLock = l; l.addEventListener("release", () => { wakeLock = null; }); }).catch(() => {});
+  if ((!run || !UI.work) && wakeLock) { wakeLock.release().catch(() => {}); wakeLock = null; }
+}
+function workDefaultName(){ const w = nextWoob(); if (w) return AP.FULL[w.it[0]] || w.it[0]; const p = PP_ORDER.find(x => !S.pp[PPK(x)]); return p ? AP.ppName(p[2]) : ""; }
+function workAct(a){
+  const now = Date.now();
+  if (a === "wstart") mutate(s => { if (!s.work.started) s.work.started = now; if (!s.work.proj) s.work.proj = workDefaultName(); });
+  else if (a === "wpause") mutate(s => { if (s.work.started) { s.work.acc += now - s.work.started; s.work.started = null; } });
+  else if (a === "wfinish") {
+    const m = Math.max(1, Math.round(workMs() / 60000)), k = dayKey(new Date());
+    mutate(s => { const arr = Array.isArray(s.days[k]) ? s.days[k].slice() : []; arr.push(m); s.days[k] = arr; s.work.acc = 0; s.work.started = null; });
+    toast("Logged " + fmtMin(m));
+  }
+  else if (a === "wdiscard") mutate(s => { s.work.acc = 0; s.work.started = null; });
+  else if (a === "st+") mutate(s => { s.work.st++; if (s.work.target && s.work.st === s.work.target) toast("Round " + s.work.round + " complete: " + s.work.target + " stitches"); });
+  else if (a === "st-") mutate(s => { s.work.st = Math.max(0, s.work.st - 1); });
+  else if (a === "rd+") mutate(s => { s.work.round++; s.work.st = 0; });
+  else if (a === "rd-") mutate(s => { s.work.round = Math.max(1, s.work.round - 1); s.work.st = 0; });
+  else if (a === "wreset") mutate(s => { s.work.round = 1; s.work.st = 0; });
+}
+function workSheet(){
+  const w = W(), run = !!w.started, has = workMs() > 0;
+  return '<div class="sheet-in work" role="dialog" aria-modal="true" aria-label="Crochet now"><div class="shead"><h2 class="sec" style="margin:0;flex:1">Crochet now</h2><button class="btn ghost" data-act="close">Close</button></div>' +
+    '<label class="field"><span>Project</span><input id="wproj" type="text" value="' + esc(w.proj) + '" placeholder="What are you making?" autocomplete="off"></label>' +
+    '<div class="timer"><span class="clock" data-clock>' + fmtClock(workMs()) + '</span><div class="btnrow">' +
+    (run ? '<button class="btn ghost" data-act="wpause">Pause</button>' : '<button class="btn" data-act="wstart">' + (has ? "Resume" : "Start session") + "</button>") +
+    (has ? '<button class="btn' + (run ? "" : " ghost") + '" data-act="wfinish">Finish and log</button><button class="link" data-act="wdiscard">Discard</button>' : "") + "</div></div>" +
+    '<div class="counters"><div class="ctr"><span class="ctr-l">Round</span><span class="ctr-n">' + w.round + '</span><div class="ctr-b"><button class="btn ghost" data-act="rd-" aria-label="Previous round">−</button><button class="btn" data-act="rd+">Next round</button></div></div>' +
+    '<div class="ctr"><span class="ctr-l">Stitch' + (w.target ? " of " + w.target : "") + '</span><span class="ctr-n' + (w.target && w.st >= w.target ? " full" : "") + '">' + w.st + '</span><div class="ctr-b"><button class="btn ghost" data-act="st-" aria-label="One stitch back">−</button><button class="btn big" data-act="st+" aria-label="Count a stitch">+1</button></div></div></div>' +
+    '<div class="wfoot"><label class="field"><span>Stitches this round (optional)</span><input id="wtarget" type="number" inputmode="numeric" min="0" max="999" value="' + (w.target || "") + '" placeholder="For example 36"></label><button class="link" data-act="wreset">Reset counters</button></div>' +
+    '<p class="sub">The screen stays on while the timer runs, where your device allows it. Finishing logs the time to This week.</p></div>';
+}
+function workFab(){
+  const w = W(), run = !!w.started;
+  return '<button class="fab' + (run ? " on" : "") + '" data-act="work" aria-label="Crochet now">' + (run ? '<span class="dotlive" aria-hidden="true"></span><span data-clock>' + fmtClock(workMs()) + "</span>" : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21L17 7.8"/><path d="M17 7.8c1.8-2.1 1-4.5-1.1-4.7-1.7-.2-3 1.4-1.8 3"/></svg><span>Crochet now</span>') + "</button>";
+}
+
+/* ---------- practice calendar (12 weeks) ---------- */
+function calendar(){
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const start = new Date(today); start.setDate(start.getDate() - ((start.getDay() + 6) % 7) - 7 * 11);
+  const lv = m => m === 0 ? 0 : m < 30 ? 1 : m < 60 ? 2 : 3;
+  let cells = "", days = 0, total = 0;
+  for (let d = new Date(start); d <= today; d.setDate(d.getDate() + 1)) {
+    const k = dayKey(d), m = dayMins(k).reduce((x, y) => x + y, 0), lab = d.toLocaleDateString(undefined, {weekday: "short", month: "short", day: "numeric"}) + ": " + (m ? fmtMin(m) : "no session");
+    if (m) { days++; total += m; }
+    cells += '<span class="cal-c l' + lv(m) + (k === dayKey(today) ? " is-today" : "") + '" tabindex="0" data-tip="' + esc(lab) + '" aria-label="' + esc(lab) + '"></span>';
+  }
+  return '<div class="cal"><div class="cal-head"><span class="sub">Last 12 weeks</span><span class="sub">' + days + (days === 1 ? " day, " : " days, ") + fmtMin(total) + '</span></div><div class="cal-g" role="group" aria-label="Practice calendar, last 12 weeks: ' + days + " days with sessions, " + fmtMin(total) + '">' + cells +
+    '</div><div class="cal-foot"><span id="caltip" class="sub" aria-live="polite">Tap a day to see its minutes.</span><span class="cal-key sub">Less <i class="cal-c l0"></i><i class="cal-c l1"></i><i class="cal-c l2"></i><i class="cal-c l3"></i> More</span></div></div>';
+}
+
+/* ---------- stitch math ---------- */
+// Spread a change from n to t stitches evenly over one round or row (US terms).
+function spread(n, t){
+  if (!(n > 0 && t > 0) || n === t) return null;
+  if (t > n) {
+    const k = t - n; if (k > n) return {err: "You can at most double a round: " + n + " stitches make no more than " + 2 * n + "."};
+    const a = Math.floor(n / k), nb = n % k, na = k - nb; // na groups of a stitches, nb groups of a+1
+    const g = x => (x - 1 ? "sc in next " + (x - 1) + ", " : "") + "inc";
+    return {groups: [[na, a], [nb, a + 1]].filter(x => x[0]), text: nb ? "(" + g(a) + ") × " + na + ", then (" + g(a + 1) + ") × " + nb : "(" + g(a) + ") × " + k, check: na * (a + 1) + nb * (a + 2)};
+  }
+  const k = n - t; if (2 * k > n) return {err: "You can at most halve a round: " + n + " stitches make no fewer than " + Math.ceil(n / 2) + "."};
+  const a = Math.floor(n / k), nb = n % k, na = k - nb;
+  const g = x => (x - 2 ? "sc in next " + (x - 2) + ", " : "") + "dec";
+  return {groups: [[na, a], [nb, a + 1]].filter(x => x[0]), text: nb ? "(" + g(a) + ") × " + na + ", then (" + g(a + 1) + ") × " + nb : "(" + g(a) + ") × " + k, check: na * (a - 1) + nb * a};
+}
+function spreadOut(){
+  const n = UI.sm.n, t = UI.sm.t, r = spread(n, t);
+  if (!r) return n === t && n > 0 ? "Same count: work 1 sc in each stitch." : "Enter both counts.";
+  if (r.err) return r.err;
+  return "<b>" + esc(r.text) + "</b><br>" + (t > n ? "Increases" : "Decreases") + ": " + Math.abs(t - n) + ". You end with " + r.check + " stitches." + (r.groups.length > 1 ? " Alternate the two group sizes around the round so the shaping doesn't bunch." : "") + " In the round, stagger the start each round (begin with half a group) so the shaping doesn't stack into corners.";
+}
+function gaugeOut(){
+  const g = UI.sm.g, w = UI.sm.w;
+  if (!(g > 0 && w > 0)) return "Enter your swatch count and the width you want.";
+  const st = Math.round(g / 4 * w);
+  return "<b>" + st + " stitches</b> for " + w + " in. For single crochet, chain " + (st + 1) + "; for hdc, " + (st + 2) + "; for dc, " + (st + 3) + ". Measure gauge on a blocked swatch at least 6 in wide.";
+}
+function mathSection(){
+  return '<section class="block"><h2 class="sec">Stitch math</h2><p class="sub">Spread increases or decreases evenly across a round, the way a pattern writer would.</p>' +
+    '<div class="calc"><label class="field"><span>Stitches now</span><input id="smn" type="number" inputmode="numeric" min="1" max="999" value="' + UI.sm.n + '"></label><label class="field"><span>Stitches wanted</span><input id="smt" type="number" inputmode="numeric" min="1" max="999" value="' + UI.sm.t + '"></label></div>' +
+    '<div class="result"><p id="smout" style="margin:0">' + spreadOut() + "</p></div>" +
+    '<h3 class="stage">Gauge to stitches</h3><div class="calc"><label class="field"><span>Stitches in 4 in of swatch</span><input id="smg" type="number" inputmode="decimal" min="1" max="99" step="0.5" value="' + UI.sm.g + '"></label><label class="field"><span>Width wanted, in</span><input id="smw" type="number" inputmode="decimal" min="1" max="200" step="0.5" value="' + UI.sm.w + '"></label></div>' +
+    '<div class="result"><p id="gout" style="margin:0">' + gaugeOut() + "</p></div></section>";
+}
+
+/* ---------- ask Claude ---------- */
+let sampleP = null, askCtl = null, askCaps = null;
+function getSample(){ if (!sampleP) sampleP = window.claude && typeof window.claude.use === "function" ? window.claude.use("sample").catch(() => null) : Promise.resolve(null); return sampleP; }
+const ASK_ERR = {not_granted: "Asking Claude isn't allowed for this page. You can turn it on in the page's permissions.", sampling_disabled: "Asking Claude is turned off here.", rate_limited: "Too many questions at once. Wait a minute, then ask again.", image_rejected: "That photo couldn't be used. Try a JPEG or PNG.", images_unavailable: "Photos can't be sent from this view. Ask without one.", refused: "Claude couldn't answer that one. Try rephrasing.", prompt_too_large: "That's too long. Shorten the question or leave out the photo."};
+function askContext(){
+  const ci = curIndex(), u = ci >= 0 ? UNITS[ci] : null, w = nextWoob();
+  return [
+    u ? "Current curriculum unit: " + label(u) + ", " + u.t + ". Key ideas: " + strip((u.key || []).join(" ")).slice(0, 900) : "The learner has finished the curriculum.",
+    w ? "Current toy project: " + (AP.FULL[w.it[0]] || w.it[0]) + " (The Woobles)." : "",
+    "Hooks owned: Clover Amour 2.75 mm and 3.5 mm, Tulip Etimo Rose 3.5 mm, Woobles 4 mm. Main yarn: Lion Brand 24/7 Cotton (mercerized worsted cotton)."
+  ].filter(Boolean).join("\n");
+}
+async function askSend(){
+  const q = (document.getElementById("askq") || {}).value || "", f = document.getElementById("askimg"), file = f && f.files && f.files[0];
+  UI.ask.q = q;
+  if (!q.trim()) { toast("Type your question first"); return; }
+  const sample = await getSample();
+  if (!sample) { UI.ask.err = "Asking Claude isn't available in this view. Try r/CrochetHelp, under Help, Getting help."; render(); return; }
+  if (askCtl) askCtl.abort();
+  askCtl = new AbortController();
+  UI.ask.busy = true; UI.ask.ans = ""; UI.ask.err = ""; render();
+  const prompt = "You are a patient crochet teacher helping a self-taught learner who follows a structured curriculum. Use US crochet terms. Answer in plain text, no Markdown headings, under 200 words: first the likely cause or the direct answer, then numbered steps to fix or do it. If a photo is attached, it shows the learner's work; describe what you see before diagnosing, and say so if the photo is too unclear to judge. If the question involves pain, numbness, or a child under 3 and safety eyes, include the safety point.\n\nLearner context:\n" + askContext() + "\n\nQuestion:\n" + q.slice(0, 2000);
+  try {
+    const r = await sample(prompt, Object.assign({cache: false, signal: askCtl.signal, onText: x => { UI.ask.ans = x.text; const o = document.getElementById("askout"); if (o) o.innerHTML = fmtAns(x.text); }}, file ? {images: [file]} : {}));
+    UI.ask.ans = r.text;
+  } catch (e) {
+    if (e && e.code === "cancelled") { UI.ask.ans = (e.text || UI.ask.ans); }
+    else { UI.ask.err = ASK_ERR[e && e.code] || "Claude couldn't answer just now. Try again in a moment."; if (e && e.text) UI.ask.ans = e.text; }
+  }
+  UI.ask.busy = false; askCtl = null; render();
+}
+const fmtAns = t => esc(t).split(/\n{2,}/).map(p => "<p>" + p.replace(/\n/g, "<br>") + "</p>").join("");
+function askSheet(){
+  const a = UI.ask, ci = curIndex(), u = ci >= 0 ? UNITS[ci] : null;
+  return '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="Ask Claude"><div class="shead"><h2 class="sec" style="margin:0;flex:1">Ask Claude</h2><button class="btn ghost" data-act="close">Close</button></div>' +
+    '<p class="sub">Claude knows where you are' + (u ? " (" + esc(label(u).toLowerCase()) + ", " + esc(u.t) + ")" : "") + ", your hooks, and your yarn. A photo of the front and back of your work helps most.</p>" +
+    '<label class="field"><span>Your question</span><textarea id="askq" rows="3" placeholder="For example: why does my piece keep getting wider?">' + esc(a.q) + "</textarea></label>" +
+    '<label class="field' + (askCaps && askCaps.images ? "" : " is-off") + '" id="askimgf"><span>Photo (optional)</span><input id="askimg" type="file" accept="image/jpeg,image/png,image/webp"></label>' +
+    '<div class="btnrow">' + (a.busy ? '<button class="btn ghost" data-act="askstop">Stop</button><span class="sub" style="align-self:center">Thinking…</span>' : '<button class="btn" data-act="asksend">Ask</button>') + "</div>" +
+    (a.err ? '<p class="askerr">' + esc(a.err) + "</p>" : "") +
+    '<div id="askout" class="askout"' + (a.ans || a.busy ? "" : " hidden") + ">" + fmtAns(a.ans) + "</div>" +
+    '<p class="sub">Answers come from Claude and can be wrong. For hands-on help, see Help, Getting help.</p></div>';
+}
+function openAsk(){
+  UI.askOpen = true; UI.work = false; UI.search = false; UI.sheet = null; render();
+  getSample().then(s => s && s.limits ? s.limits().catch(() => null) : null).then(c => { askCaps = c; const el = document.getElementById("askimgf"); if (el) el.classList.toggle("is-off", !(c && c.images)); });
+}
+
 /* ---------- Help ---------- */
 function glossaryList(){
   const q = UI.gq.trim().toLowerCase();
@@ -1967,7 +2162,7 @@ function renderHelp(){
     ["backup", "Back up your progress", backupHtml()],
     ["safety", "Safety", "<p>Never use plastic safety eyes on toys for children under 3; embroider or crochet the eyes instead.</p><p>Pain that keeps coming back is worth a clinician's advice. An ergonomic hook and shorter sessions are the first fixes.</p>"]
   ];
-  return '<h1 class="page">Help</h1><p class="lede">The curriculum\'s front matter, plus answers for when you\'re stuck. The <a href="' + D.doc + '">full curriculum</a> has every detail.</p>' + sections.map(s => '<details class="help" data-ph="h-' + s[0] + '"' + (UI.open["h-" + s[0]] ? " open" : "") + "><summary>" + s[1] + '</summary><div class="hb">' + s[2] + "</div></details>").join("");
+  return '<h1 class="page">Help</h1><div class="askcard"><div><b>Stuck right now?</b><p class="sub">Ask Claude, with a photo of your work if you like. It knows your current unit, hooks, and yarn.</p></div><button class="btn" data-act="ask">Ask Claude</button></div><p class="lede">The curriculum\'s front matter, plus answers for when you\'re stuck. The <a href="' + D.doc + '">full curriculum</a> has every detail.</p>' + sections.map(s => '<details class="help" data-ph="h-' + s[0] + '"' + (UI.open["h-" + s[0]] ? " open" : "") + "><summary>" + s[1] + '</summary><div class="hb">' + s[2] + "</div></details>").join("");
 }
 
 /* ---------- actions ---------- */
@@ -1978,11 +2173,11 @@ function setDone(id, v){
   mutate(s => { const x = s.units[id] || (s.units[id] = {}); x.done = v; if (v) x.checks = u.pass.map(() => true); });
   if (v) { const ci = curIndex(); toast(label(u) + " done." + (ci >= 0 ? " Up next: " + label(UNITS[ci]).toLowerCase() + "." : "")); }
 }
-function go(tab){ UI.tab = tab; UI.sheet = null; UI.search = false; saveUI(); setHash(); render(); try { window.scrollTo(0, 0); } catch (e) {} }
+function go(tab){ UI.tab = tab; UI.sheet = null; UI.search = false; UI.work = false; UI.askOpen = false; saveUI(); setHash(); render(); try { window.scrollTo(0, 0); } catch (e) {} }
 function setFlag(map, key, v){ return s => { if (v) s[map][key] = true; else delete s[map][key]; }; }
 
 document.addEventListener("click", e => {
-  if (e.target && e.target.id === "sheet") { UI.sheet = null; UI.search = false; render(); return; }
+  if (e.target && e.target.id === "sheet") { closeSheets(); return; }
   const el = e.target.closest ? e.target.closest("[data-act]") : null;
   if (!el || el.tagName === "INPUT") return;
   const a = el.dataset.act;
@@ -1993,12 +2188,17 @@ document.addEventListener("click", e => {
     else { UI.seg[name] = v; saveUI(); render(); }
   }
   else if (a === "setdone") setDone(el.dataset.u, el.dataset.v === "1");
-  else if (a === "open") { UI.search = false; UI.sheet = el.dataset.u; render(); }
-  else if (a === "close") { UI.sheet = null; UI.search = false; render(); }
+  else if (a === "open") { UI.search = false; UI.askOpen = false; UI.sheet = el.dataset.u; render(); }
+  else if (a === "close") closeSheets();
   else if (a === "log") { const m = Number(el.dataset.m), k = dayKey(new Date()); mutate(s => { const arr = Array.isArray(s.days[k]) ? s.days[k].slice() : []; arr.push(m); s.days[k] = arr; }); toast("Logged " + m + " minutes"); }
   else if (a === "unlog") { const k = dayKey(new Date()); mutate(s => { const arr = Array.isArray(s.days[k]) ? s.days[k].slice() : []; arr.pop(); if (arr.length) s.days[k] = arr; else delete s.days[k]; }); }
   else if (a === "qadd") addQueue();
   else if (a === "search") openSearch();
+  else if (a === "work") { UI.work = true; UI.search = false; UI.sheet = null; UI.askOpen = false; render(); }
+  else if (/^(wstart|wpause|wfinish|wdiscard|st\+|st-|rd\+|rd-|wreset)$/.test(a)) workAct(a);
+  else if (a === "ask") openAsk();
+  else if (a === "asksend") askSend();
+  else if (a === "askstop") { if (askCtl) askCtl.abort(); }
   else if (a === "jump") jump(el.dataset);
   else if (a === "export") exportBackup();
   else if (a === "import") { const f = document.getElementById("bkfile"); if (f) f.click(); }
@@ -2033,12 +2233,18 @@ document.addEventListener("change", e => {
 document.addEventListener("change", e => {
   const el = e.target;
   if (el && el.dataset && el.dataset.note) { const k = el.dataset.note, val = el.value.trim().slice(0, 300); quiet(s => { if (val) s.notes[k] = val; else delete s.notes[k]; }); toast(val ? "Note saved" : "Note removed"); }
+  else if (el && el.id === "wproj") { const v = el.value.trim().slice(0, 120); quiet(s => { s.work.proj = v; }); }
+  else if (el && el.id === "wtarget") { const v = Math.max(0, Math.min(999, parseInt(el.value, 10) || 0)); mutate(s => { s.work.target = v; }); }
   else if (el && el.id === "bkfile" && el.files && el.files[0]) { readBackup(el.files[0]); el.value = ""; }
 });
 document.addEventListener("toggle", e => { const d = e.target; if (d && d.dataset && d.dataset.ph) UI.open[d.dataset.ph] = d.open; }, true);
+const SM_IDS = {smn: "n", smt: "t", smg: "g", smw: "w"};
+document.addEventListener("input", e => { const id = e.target && e.target.id; if (SM_IDS[id]) { UI.sm[SM_IDS[id]] = Math.max(0, parseFloat(e.target.value) || 0); if (id === "smn" || id === "smt") { UI.sm[SM_IDS[id]] = Math.round(UI.sm[SM_IDS[id]]); const o = document.getElementById("smout"); if (o) o.innerHTML = spreadOut(); } else { const o = document.getElementById("gout"); if (o) o.innerHTML = gaugeOut(); } return; } });
+const calTip = e => { const c = e.target && e.target.closest ? e.target.closest(".cal-c[data-tip]") : null; const t = document.getElementById("caltip"); if (c && t) t.textContent = c.dataset.tip; };
+["mouseover", "focusin", "click"].forEach(ev => document.addEventListener(ev, calTip));
 document.addEventListener("input", e => { if (e.target && e.target.id === "sq") { UI.sq = e.target.value; const box = document.getElementById("sres"); if (box) box.innerHTML = searchResults(); return; } if (e.target && e.target.id === "gq") { UI.gq = e.target.value; const box = document.getElementById("glist"); if (box) box.innerHTML = glossaryList(); } });
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape" && (UI.sheet || UI.search)) { UI.sheet = null; UI.search = false; render(); }
+  if (e.key === "Escape" && (UI.sheet || UI.search || UI.work || UI.askOpen)) closeSheets();
   if (e.key === "/" && !UI.search && !/INPUT|TEXTAREA|SELECT/.test((e.target && e.target.tagName) || "")) { e.preventDefault(); openSearch(); }
   if (e.key === "Enter" && e.target && ["qname", "qgroup", "qnote"].indexOf(e.target.id) >= 0) { e.preventDefault(); addQueue(); }
 });
@@ -2049,9 +2255,13 @@ function render(){
   main.innerHTML = t === "path" ? renderPath() : t === "projects" ? renderProjects() : t === "shelf" ? renderShelf() : t === "yarn" ? renderYarn() : t === "help" ? renderHelp() : renderToday();
   document.querySelectorAll(".nav button").forEach(b => b.setAttribute("aria-current", b.dataset.tab === t ? "page" : "false"));
   const sh = document.getElementById("sheet"), su = UI.sheet ? unitById(UI.sheet) : null;
-  if (UI.search) { sh.hidden = false; sh.innerHTML = searchSheet(); document.body.classList.add("noscroll"); const i = document.getElementById("sq"); if (i) { i.focus(); i.setSelectionRange(i.value.length, i.value.length); } }
+  if (UI.work) { sh.hidden = false; sh.innerHTML = workSheet(); document.body.classList.add("noscroll"); }
+  else if (UI.askOpen) { sh.hidden = false; sh.innerHTML = askSheet(); document.body.classList.add("noscroll"); }
+  else if (UI.search) { sh.hidden = false; sh.innerHTML = searchSheet(); document.body.classList.add("noscroll"); const i = document.getElementById("sq"); if (i) { i.focus(); i.setSelectionRange(i.value.length, i.value.length); } }
   else if (su) { sh.hidden = false; sh.innerHTML = '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="' + esc(label(su)) + '"><button class="btn ghost close" data-act="close">Close</button>' + unitCard(su) + "</div>"; document.body.classList.add("noscroll"); }
   else { sh.hidden = true; sh.innerHTML = ""; document.body.classList.remove("noscroll"); }
+  const fab = document.getElementById("fab"); if (fab) { fab.innerHTML = workFab(); fab.hidden = !sh.hidden; }
+  syncTicker();
   document.querySelectorAll('a[href^="http"]').forEach(a => { a.target = "_blank"; a.rel = "noopener"; });
 }
 readHash();
