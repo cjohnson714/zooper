@@ -209,6 +209,22 @@ pre.tagform{ font-family:"Atkinson Hyperlegible", ui-monospace, monospace; backg
 .toast.show{ opacity:1; }
 
 /* master additions */
+.goalbox{ margin:4px 0 18px; }
+.goalbox .seg{ margin-top:4px; }
+.track{ margin:22px 0; }
+.thead{ margin-bottom:6px; }
+.thead .sec{ margin:4px 0 2px; }
+.tbadge{ display:inline-block; font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; padding:2px 9px; border-radius:999px; background:var(--ink); color:var(--surface); }
+.tbadge.opt{ background:transparent; color:var(--ink-2); border:1px solid var(--rule); }
+.tbadge.dreamb{ background:var(--marker); color:var(--surface); }
+.track.optional details.phase > summary .pn{ color:var(--ink-2); }
+.track.optional details.phase[open] > summary .pn{ color:var(--ink); }
+.code{ display:inline-block; font-size:12px; font-weight:700; letter-spacing:.04em; color:var(--ink-2); margin-right:8px; font-variant-numeric:tabular-nums; }
+.dream{ background:var(--surface); border:1px solid var(--rule); border-radius:14px; padding:14px 16px; }
+.mini-rungs{ margin:8px 0 12px; padding-left:22px; }
+.mini-rungs li{ margin:6px 0; }
+.mini-rungs li.done b{ color:var(--ink-2); text-decoration:line-through; text-decoration-color:var(--rule); }
+
 .tools .sbtn[data-act="palette"]{ padding:6px 10px; }
 .pals{ display:grid; grid-template-columns:repeat(auto-fill, minmax(140px, 1fr)); gap:8px; }
 .pal{ display:grid; gap:8px; text-align:left; border:2px solid var(--rule); border-radius:12px; padding:10px; cursor:pointer; font:inherit; min-height:84px; }
@@ -1208,7 +1224,7 @@ const DATA = {
 
   hobby: [
     "Keep two projects going: one path unit and one ladder project. When a drill feels like homework, switch to the ladder project for a session.",
-    "The ladders are optional and open-ended; the path is what makes a master. Each ladder rung names a unit to finish first only so the project is a pleasure rather than a struggle.",
+    "The required path builds the skills; the toys and the blanket are why you're doing it. Each ladder rung names a unit to finish first only so the project is a pleasure rather than a struggle. Electives are there when curiosity strikes, never as homework.",
     "Pausing is fine. After a long break, redo the last Pass check you completed before moving on.",
     "Join a crochet-along (CAL) when one appeals. Working in step with others is great motivation, and some of the best-loved blankets began as CALs."
   ],
@@ -1387,8 +1403,26 @@ document.getElementById("doclink").href = D.doc;
 
 /* ---------- units ---------- */
 const UNITS = [], UIDX = {}, UPH = {};
-D.phases.forEach(ph => ph.units.forEach(u => { UIDX[u.id] = UNITS.length; UPH[u.id] = ph; UNITS.push(u); }));
-const TOTAL_H = UNITS.reduce((a, u) => a + u.h, 0);
+/* The major: toys first, then the fundamentals; everything else is optional. Unit ids keep their original numbers. */
+const TRACKS = [
+  {id: "core", req: true, name: "Toymaker core", sub: "Required. The foundations, then 3D shaping, ending with a toy you design yourself.", phases: ["p0", "p1", "p3"]},
+  {id: "fund", req: true, name: "Fundamentals", sub: "Required, after the toy core. The techniques every master crocheter knows, ending with the Crochet Guild of America's Fundamentals review.", phases: ["p2", "cp"]},
+  {id: "honors", req: false, name: "Honors and electives", sub: "Optional. Take any of them, in any order, whenever one appeals. None of them holds up the required path.", phases: ["p6", "p4", "p5", "p7", "p8", "p9", "cap"]}
+];
+const CODES = {p0: "FND 100", p1: "FND 101", p3: "TOY 201", p2: "FND 202", cp: "FND 290", p6: "LAC 330", p4: "CLR 310", p5: "TUN 320", p7: "GAR 410", p8: "HER 420", p9: "DES 430", cap: "MST 499"};
+const PH_NOTE = {
+  p6: "Recommended for your dream blanket: Sophie's Dream needs unit 6.2, and Sophie's Universe needs 6.6.",
+  p9: "Toy designers: units 9.1, 9.4, and 9.6 apply to toy patterns too. The rest is garment grading.",
+  cap: "The Crochet Guild of America's Advanced review and a master portfolio. Take it only if you want the title."
+};
+const PHB = {}; D.phases.forEach(ph => { PHB[ph.id] = ph; });
+const TRACK_OF = {};
+TRACKS.forEach(t => t.phases.forEach(pid => { TRACK_OF[pid] = t; PHB[pid].units.forEach(u => { UIDX[u.id] = UNITS.length; UPH[u.id] = PHB[pid]; UNITS.push(u); }); }));
+const isReq = id => !!(UPH[id] && TRACK_OF[UPH[id].id] && TRACK_OF[UPH[id].id].req);
+const REQ = UNITS.filter(u => isReq(u.id));
+const TOTAL_H = REQ.reduce((a, u) => a + u.h, 0);
+const ELECTIVE_H = UNITS.reduce((a, u) => a + u.h, 0) - TOTAL_H;
+D.time = "The required path is about " + TOTAL_H + " hours: the toymaker core first, then the fundamentals. Your toys and blanket run alongside it, and the optional electives add about " + ELECTIVE_H + " hours if you want them.";
 const unitById = id => UNITS[UIDX[id]];
 function label(u){ const id = u.id; if (id === "0") return "Phase 0"; if (id === "1.x") return "Phase 1 exam"; if (id === "cp1") return "Checkpoint 1"; if (/^c\d$/.test(id)) return "Capstone part " + id.slice(1); return "Unit " + id; }
 function shortId(u){ const id = u.id; if (id === "1.x") return "Exam"; if (id === "cp1") return "CP1"; if (/^c\d$/.test(id)) return "Part " + id.slice(1); return id; }
@@ -1404,9 +1438,11 @@ const PP_ORDER = [].concat(PPBY[2], PPBY[1].filter(p => p[3] === 1), PPBY[3].fil
 /* ---------- state ---------- */
 const SEED_HAVE = ["Purple", "Black", "White", "Banana", "Pink", "Easy Peasy pastel", "Easy Peasy purple", "Super Saver White"]; // what you own already
 function seedHave(){ const o = {}; SEED_HAVE.forEach(k => { o[k] = true; }); return o; }
+const SEED_GEAR = ["g1", "g2", "g3", "g4", "g5", "g8", "g9", "g10", "g15"]; // tools and yarn you already own
+function seedGear(){ const o = {}; SEED_GEAR.forEach(g => { o[g] = true; }); return o; }
 const SEED_DONE = ["0", "1.0", "1.1", "1.5", "1.6", "1.7"]; // units already covered with the first three toys
 function seedUnits(){ const o = {}; SEED_DONE.forEach(id => { const u = unitById(id); if (u) o[id] = {done: true, checks: u.pass.map(() => true)}; }); return o; }
-function blank(){ return {v: 1, units: seedUnits(), rungs: {}, pp: {}, wb: {}, kit: {}, have: seedHave(), notes: {}, work: {proj: "", round: 1, st: 0, target: 0, started: null, acc: 0}, queue: [], sophie: {ver: "cal", parts: {}, steps: {}}, books: {}, classes: {}, gear: {}, reviews: {}, days: {}}; }
+function blank(){ return {v: 2, goal: 4, units: seedUnits(), rungs: {}, pp: {}, wb: {}, kit: {}, have: seedHave(), notes: {}, work: {proj: "", round: 1, st: 0, target: 0, started: null, acc: 0}, queue: [], sophie: {ver: "cal", parts: {}, steps: {}}, books: {}, classes: {}, gear: seedGear(), reviews: {}, days: {}}; }
 function merge(d){
   const s = blank();
   if (d && typeof d === "object") {
@@ -1416,6 +1452,8 @@ function merge(d){
     if (!s.sophie.steps) s.sophie.steps = {};
     if (s.sophie.ver !== "book") s.sophie.ver = "cal";
     if (!Array.isArray(s.queue)) s.queue = [];
+    if (typeof s.goal !== "number") s.goal = 4;
+    if (!(d.v >= 2)) { s.v = 2; s.gear = Object.assign({}, s.gear); SEED_GEAR.forEach(g => { s.gear[g] = true; }); }
     const w = (s.work && typeof s.work === "object") ? s.work : {};
     s.work = {proj: typeof w.proj === "string" ? w.proj.slice(0, 120) : "", round: Math.max(1, Number(w.round) || 1), st: Math.max(0, Number(w.st) || 0), target: Math.max(0, Number(w.target) || 0), started: Number(w.started) || null, acc: Math.max(0, Number(w.acc) || 0)};
     ["units", "rungs", "pp", "wb", "kit", "have", "notes", "books", "classes", "gear", "reviews", "days"].forEach(k => { if (!s[k] || typeof s[k] !== "object" || Array.isArray(s[k])) s[k] = {}; });
@@ -1480,9 +1518,9 @@ async function connect(){
 /* ---------- progress helpers ---------- */
 const isDone = id => !!(S.units[id] && S.units[id].done);
 const checksOf = id => (S.units[id] && Array.isArray(S.units[id].checks)) ? S.units[id].checks : [];
-function curIndex(){ for (let i = 0; i < UNITS.length; i++) if (!isDone(UNITS[i].id)) return i; return -1; }
-const hoursDone = () => UNITS.reduce((a, u) => a + (isDone(u.id) ? u.h : 0), 0);
-const doneCount = () => UNITS.filter(u => isDone(u.id)).length;
+function curIndex(){ for (let i = 0; i < UNITS.length; i++) if (isReq(UNITS[i].id) && !isDone(UNITS[i].id)) return i; return -1; }
+const hoursDone = () => REQ.reduce((a, u) => a + (isDone(u.id) ? u.h : 0), 0);
+const doneCount = () => REQ.filter(u => isDone(u.id)).length;
 const LADDERS = {a: D.ladders.ami, b: D.ladders.blanket};
 function rungById(rid){ const L = LADDERS[rid[0]]; return L ? L.find(r => r.n === Number(rid.slice(1))) : null; }
 const ppKeys = books => PP.filter(p => books.indexOf(p[0]) >= 0).map(PPK);
@@ -1550,8 +1588,9 @@ function unitCard(u){
 }
 
 function stitchRow(ci){
-  let h = '<div class="stitches" role="img" aria-label="' + doneCount() + " of " + UNITS.length + ' units done">', last = null;
+  let h = '<div class="stitches" role="img" aria-label="' + doneCount() + " of " + REQ.length + ' required units done">', last = null;
   UNITS.forEach((u, i) => {
+    if (!isReq(u.id)) return;
     const ph = UPH[u.id];
     if (last && last !== ph) h += '<span class="gap"></span>';
     last = ph;
@@ -1564,11 +1603,11 @@ function stitchRow(ci){
 /* ---------- Today ---------- */
 function renderToday(){
   const ci = curIndex();
-  let h = '<section class="hero">' + stitchRow(ci) + '<p class="tally"><strong>' + doneCount() + "</strong> of " + UNITS.length + " units done, about <strong>" + hoursDone() + "</strong> of " + TOTAL_H + " hours</p></section>" + overviewCard();
-  if (ci < 0) h += '<section class="block"><h2 class="sec">You have finished the path</h2><p>Every unit is done. The project ladders, and the Craft Yarn Council teaching program, are still open to you.</p></section>';
+  let h = '<section class="hero">' + stitchRow(ci) + '<p class="tally"><strong>' + doneCount() + "</strong> of " + REQ.length + " required units done, about <strong>" + hoursDone() + "</strong> of " + TOTAL_H + " hours</p></section>" + overviewCard();
+  if (ci < 0) h += '<section class="block"><h2 class="sec">You have finished the required path</h2><p>Every required unit is done. Pick any elective on the Path tab, or keep going with the toys and your blanket. The project ladders, and the Craft Yarn Council teaching program, are still open to you.</p></section>';
   else {
     const u = UNITS[ci], ph = UPH[u.id];
-    h += '<section class="block"><h2 class="sec">Up next on the path</h2><p class="where">' + esc(ph.name) + ": " + esc(ph.t) + "</p>" + unitCard(u) + (ph.note ? '<details class="note"><summary>Teacher\'s note for ' + esc(ph.name) + "</summary><p>" + ph.note + "</p></details>" : "") + "</section>";
+    h += '<section class="block"><h2 class="sec">Up next on the path</h2><p class="where">' + esc(CODES[ph.id] || ph.name) + ": " + esc(ph.t) + "</p>" + unitCard(u) + (ph.note ? '<details class="note"><summary>Teacher\'s note for ' + esc(ph.name) + "</summary><p>" + ph.note + "</p></details>" : "") + "</section>";
   }
   return h + projectsCard() + gearSoon(ci) + reviewCard() + sessionsCard();
 }
@@ -1584,37 +1623,52 @@ function projectsCard(){
 function rungLine(lbl, x){ return '<li><span class="lbl">' + lbl + ", rung " + x.r.n + "</span><b>" + esc(x.item || x.r.t) + "</b>" + (x.item ? '<span class="sub">' + esc(x.r.t) + "</span>" : "") + '<span class="chip ' + x.st.k + '">' + esc(x.st.t) + "</span></li>"; }
 function gearRow(g, ci){
   const ui = UIDX[g.u], soon = ci >= 0 && !S.gear[g.id] && ui !== undefined && ui >= ci && ui <= ci + 4;
-  return '<label class="chk gear"><input type="checkbox" data-act="gear" data-g="' + g.id + '"' + (S.gear[g.id] ? " checked" : "") + "><span><b>" + esc(g.t) + '</b> <span class="cost">' + esc(g.cost) + '</span><br><span class="sub">' + g.d + '</span><br><span class="chip' + (soon ? " cur" : "") + '">' + (soon ? "Buy soon, for " : "For ") + esc(labelById(g.u).toLowerCase()) + "</span></span></label>";
+  return '<label class="chk gear"><input type="checkbox" data-act="gear" data-g="' + g.id + '"' + (S.gear[g.id] ? " checked" : "") + "><span><b>" + esc(g.t) + '</b> <span class="cost">' + esc(g.cost) + '</span><br><span class="sub">' + g.d + '</span><br><span class="chip' + (soon ? " cur" : "") + '">' + (soon ? "Buy soon, for " : "For ") + esc(labelById(g.u).toLowerCase()) + (isReq(g.u) ? "" : ", an elective") + "</span></span></label>";
 }
 function gearSoon(ci){
   if (ci < 0) return "";
-  const soon = D.gear.filter(g => !S.gear[g.id] && UIDX[g.u] !== undefined && UIDX[g.u] >= ci && UIDX[g.u] <= ci + 4);
+  const soon = D.gear.filter(g => !S.gear[g.id] && isReq(g.u) && UIDX[g.u] >= ci && UIDX[g.u] <= ci + 4);
   if (!soon.length) return "";
   return '<section class="block"><h2 class="sec">Buy before you need it</h2><div class="checks">' + soon.map(g => gearRow(g, ci)).join("") + "</div></section>";
 }
 function reviewCard(){
-  const r = D.reviews.find(x => !S.reviews[x.id]);
+  const r = D.reviews.find(x => !S.reviews[x.id] && (isReq(x.after) || isDone(x.after)));
   if (!r) return "";
   const due = isDone(r.after);
   return '<section class="block"><h2 class="sec">Next expert check</h2><div class="review"><p><b>' + esc(r.t) + '</b> <span class="chip ' + (due ? "ready" : "wait") + '">' + (due ? "Due now" : "After " + esc(labelById(r.after).toLowerCase())) + "</span></p><p>" + r.who + '</p><p class="sub">What it checks: ' + esc(r.what) + "</p>" + (due ? '<label class="chk"><input type="checkbox" data-act="review" data-r="' + r.id + '"><span>' + esc(r.doneText) + "</span></label>" : "") + "</div></section>";
 }
 function sessionsCard(){
   const w = weekStats(), tot = totalMin(), today = S.days[dayKey(new Date())];
-  return '<section class="block"><h2 class="sec">This week</h2><p class="week"><strong>' + w.n + "</strong> " + (w.n === 1 ? "session" : "sessions") + (w.m ? ", " + fmtMin(w.m) : "") + '<span class="sub">Aim for 4–5 sessions of 30–45 minutes.</span></p>' + streakLine() + '<div class="btnrow"><button class="btn ghost" data-act="log" data-m="30">Log 30 min</button><button class="btn ghost" data-act="log" data-m="45">Log 45 min</button><button class="btn ghost" data-act="log" data-m="60">Log 60 min</button><button class="btn" data-act="work">Time a session</button></div>' + calendar() + '<p class="sub">' + fmtMin(tot) + " logged in all. " + esc(paceLine()) + (Array.isArray(today) && today.length ? ' <button class="link" data-act="unlog">Remove today\'s last session</button>' : "") + "</p></section>";
+  return '<section class="block"><h2 class="sec">This week</h2><p class="week"><strong>' + w.n + "</strong> " + (w.n === 1 ? "session" : "sessions") + (w.m ? ", " + fmtMin(w.m) : "") + '<span class="sub">' + goalLine(w.m) + '</span></p>' + streakLine() + '<div class="btnrow"><button class="btn ghost" data-act="log" data-m="30">Log 30 min</button><button class="btn ghost" data-act="log" data-m="45">Log 45 min</button><button class="btn ghost" data-act="log" data-m="60">Log 60 min</button><button class="btn" data-act="work">Time a session</button></div>' + calendar() + '<p class="sub">' + fmtMin(tot) + " logged in all. " + esc(paceLine()) + (Array.isArray(today) && today.length ? ' <button class="link" data-act="unlog">Remove today\'s last session</button>' : "") + "</p></section>";
 }
 
 /* ---------- Path ---------- */
+function phaseBlock(ph, curId, curPh){
+  const total = ph.units.length, d = ph.units.filter(u => isDone(u.id)).length, hrs = ph.units.reduce((a, u) => a + u.h, 0), req = TRACK_OF[ph.id].req;
+  const open = UI.open[ph.id] !== undefined ? UI.open[ph.id] : ph.id === curPh;
+  let h = '<details class="phase' + (req ? "" : " opt") + '" data-ph="' + ph.id + '"' + (open ? " open" : "") + ' style="--pc:var(--' + ph.color + ')"><summary><span class="sw"></span><span class="pn"><span class="code">' + esc(CODES[ph.id]) + "</span>" + esc(ph.t) + '</span><span class="pc">' + (d ? d + " of " + total : hrs + " h") + "</span></summary><div class=\"ph-body\">" +
+    '<p class="sub">' + esc(ph.name) + " in the original curriculum · " + total + (total === 1 ? " unit" : " units") + ", about " + hrs + " hours" + (req ? "" : " · optional") + "</p>" + para(ph.intro);
+  if (PH_NOTE[ph.id]) h += '<p class="note-in"><b>Note:</b> ' + esc(PH_NOTE[ph.id]) + "</p>";
+  if (ph.note) h += '<p class="note-in"><b>Teacher\'s note:</b> ' + ph.note + "</p>";
+  if (ph.extra) h += '<p class="extra">' + ph.extra + "</p>";
+  h += '<ul class="units">' + ph.units.map(u => '<li class="urow' + (isDone(u.id) ? " is-done" : "") + (u.id === curId ? " is-cur" : "") + '"><input type="checkbox" aria-label="' + esc(label(u)) + ' done" data-act="toggledone" data-u="' + esc(u.id) + '"' + (isDone(u.id) ? " checked" : "") + '><button class="urow-t" data-act="open" data-u="' + esc(u.id) + '"><span class="uid">' + esc(shortId(u)) + "</span>" + esc(u.t) + (u.id === curId ? ' <span class="chip cur">Up next</span>' : "") + '</button><span class="uh">' + u.h + " h</span></li>").join("") + "</ul></div></details>";
+  return h;
+}
+function dreamCard(){
+  const L = D.ladders.blanket;
+  return '<section class="track dream"><div class="thead"><span class="tbadge dreamb">Dream project</span><h2 class="sec">The heirloom blanket</h2><p class="sub">From granny squares to Sophie\'s Universe, one rung at a time. Each rung names what to finish first, so the blanket stays a pleasure.</p></div><ol class="mini-rungs">' +
+    L.map(r => { const st = rungStatus(r, "b"); return '<li class="' + st.k + '"><b>' + esc(r.t) + '</b> <span class="chip ' + st.k + '">' + esc(st.t) + "</span></li>"; }).join("") +
+    '</ol><button class="btn ghost" data-act="jump" data-tab="projects" data-seg="blanket">Open the blanket tracker</button></section>';
+}
 function renderPath(){
   const ci = curIndex(), curId = ci >= 0 ? UNITS[ci].id : null, curPh = curId ? UPH[curId].id : null;
-  let h = '<h1 class="page">The path</h1><p class="lede">' + esc(D.time) + " Tap a unit to open it.</p>", stage = null;
-  D.phases.forEach(ph => {
-    if (ph.stage !== stage) { stage = ph.stage; h += '<h2 class="stage">' + esc(stage) + "</h2>"; }
-    const total = ph.units.length, d = ph.units.filter(u => isDone(u.id)).length;
-    const open = UI.open[ph.id] !== undefined ? UI.open[ph.id] : ph.id === curPh;
-    h += '<details class="phase" data-ph="' + ph.id + '"' + (open ? " open" : "") + ' style="--pc:var(--' + ph.color + ')"><summary><span class="sw"></span><span class="pn">' + esc(ph.name) + '</span><span class="pt">' + esc(ph.t) + '</span><span class="pc">' + d + " of " + total + '</span></summary><div class="ph-body">' + para(ph.intro);
-    if (ph.note) h += '<p class="note-in"><b>Teacher\'s note:</b> ' + ph.note + "</p>";
-    if (ph.extra) h += '<p class="extra">' + ph.extra + "</p>";
-    h += '<ul class="units">' + ph.units.map(u => '<li class="urow' + (isDone(u.id) ? " is-done" : "") + (u.id === curId ? " is-cur" : "") + '"><input type="checkbox" aria-label="' + esc(label(u)) + ' done" data-act="toggledone" data-u="' + esc(u.id) + '"' + (isDone(u.id) ? " checked" : "") + '><button class="urow-t" data-act="open" data-u="' + esc(u.id) + '"><span class="uid">' + esc(shortId(u)) + "</span>" + esc(u.t) + (u.id === curId ? ' <span class="chip cur">Up next</span>' : "") + '</button><span class="uh">' + u.h + " h</span></li>").join("") + "</ul></div></details>";
+  let h = '<h1 class="page">Your major: toymaking</h1><p class="lede">' + esc(D.time) + " Tap a unit to open it.</p>" +
+    '<div class="goalbox"><span class="sub">Weekly goal</span>' + segBar("goal", GOALS.map(g => [String(g[0]), g[1] + " · " + g[0] + " h"]), String(goalH())) + '<p class="sub">' + esc(paceLine()) + " Change it any time; a lighter week is still progress.</p></div>";
+  TRACKS.forEach(t => {
+    const units = UNITS.filter(u => TRACK_OF[UPH[u.id].id] === t), d = units.filter(u => isDone(u.id)).length, hrs = units.reduce((a, u) => a + u.h, 0);
+    if (!t.req) h += dreamCard();
+    h += '<section class="track' + (t.req ? "" : " optional") + '"><div class="thead"><span class="tbadge' + (t.req ? "" : " opt") + '">' + (t.req ? "Required" : "Optional") + '</span><h2 class="sec">' + esc(t.name) + '</h2><p class="sub">' + esc(t.sub) + " " + d + " of " + units.length + " units, about " + hrs + " hours.</p></div>" +
+      t.phases.map(pid => phaseBlock(PHB[pid], curId, curPh)).join("") + "</section>";
   });
   return h;
 }
@@ -1623,7 +1677,7 @@ function renderPath(){
 function renderProjects(){
   const seg = UI.seg.projects;
   let h = '<h1 class="page">Projects</h1>' + segBar("projects", [["ami", "Ladder"], ["woobles", "Woobles"], ["pp", "Pica Pau"], ["blanket", "Blankets"], ["queue", "Queue"]], seg);
-  if (seg === "blanket") h += rungList(D.ladders.blanket, "b", "Blanket ladder", "Granny squares to Sophie's Universe. Every Sophie stage is a free pattern on the designer's blog, Look At What I Made, in US terms with step-by-step photos.") + sophieSection();
+  if (seg === "blanket") h += rungList(D.ladders.blanket, "b", "Your dream blanket", "Granny squares to Sophie's Universe. Every Sophie stage is a free pattern on the designer's blog, Look At What I Made, in US terms with step-by-step photos.") + sophieSection();
   else if (seg === "queue") h += queueSection();
   else if (seg === "woobles") h += woobSection();
   else if (seg === "pp") h += ppSection();
@@ -1856,7 +1910,7 @@ function meter(lbl, d, n, tab, seg, extra){
 function overviewCard(){
   const wa = woobAll(), wd = wa.filter(k => S.wb[k]).length, pd = PP.filter(p => S.pp[PPK(p)]).length;
   return '<section class="block"><h2 class="sec">At a glance</h2><div class="meters">' +
-    meter("Path units", doneCount(), UNITS.length, "path", "", hoursDone() + " of " + TOTAL_H + " hours") +
+    meter("Required units", doneCount(), REQ.length, "path", "", hoursDone() + " of " + TOTAL_H + " hours") +
     meter("Woobles", wd, wa.length, "projects", "woobles", wd < wa.length ? "4 batches" : "All made") +
     meter("Pica Pau", pd, PP.length, "projects", "pp", "3 books") +
     meter("Sophie's Universe", sophieDone(), sophieN(), "projects", "blanket", "parts") +
@@ -1877,14 +1931,21 @@ function streak(){
   while (dayMins(dayKey(d)).length) { n++; d.setDate(d.getDate() - 1); }
   return n;
 }
-function streakLine(){ const n = streak(); return n > 1 ? '<p class="sub"><b>' + n + "-day streak.</b> Keep it going with a short session.</p>" : ""; }
+function streakLine(){ const n = streak(); return n > 1 ? '<p class="sub">' + n + " days in a row. Rest days are part of the plan; a gap never resets your progress.</p>" : ""; }
+const GOALS = [[2, "Gentle"], [4, "Steady"], [6, "Keen"], [8, "Devoted"]];
+const goalH = () => GOALS.some(g => g[0] === S.goal) ? S.goal : 4;
+function goalLine(m){ const left = goalH() * 60 - m; return left > 0 ? fmtMin(left) + " to your " + goalH() + " h weekly goal. Short, frequent sessions beat long ones." : "Weekly goal met. Anything more is a bonus, not a debt."; }
+// ponytail: assumes half of crochet time goes to path units and half to toys; switch to per-project time tracking if forecasts need to be sharper
+function forecast(perWeek){
+  const left = TOTAL_H - hoursDone();
+  if (left <= 0 || perWeek <= 0) return "";
+  const end = new Date(); end.setDate(end.getDate() + Math.round(left / (perWeek / 2) * 7));
+  return end.toLocaleDateString(undefined, {month: "long", year: "numeric"});
+}
 function paceLine(){
-  const m = recentMin(28), left = TOTAL_H - hoursDone();
-  if (!m || left <= 0) return "";
-  const perWeek = m / 4 / 60, weeks = left / perWeek;
-  if (weeks > 52 * 15) return "";
-  const end = new Date(); end.setDate(end.getDate() + Math.round(weeks * 7));
-  return "At your pace over the last four weeks (" + (Math.round(perWeek * 10) / 10) + " h a week), you would finish the path around " + end.toLocaleDateString(undefined, {month: "long", year: "numeric"}) + ".";
+  const m = recentMin(28), perWeek = m ? m / 4 / 60 : goalH(), f = forecast(perWeek);
+  if (!f) return "";
+  return (m ? "At your last four weeks' pace (" + (Math.round(perWeek * 10) / 10) + " h a week)" : "At your " + goalH() + " h weekly goal") + ", with about half of it on path units, you'd finish the required path around " + f + ".";
 }
 
 /* ---------- shopping list ---------- */
@@ -1912,7 +1973,7 @@ function shopSection(){
   const pps = PP_ORDER.filter(p => !S.pp[PPK(p)]).slice(0, 3);
   if (pps.length) h += '<h3 class="stage">Next Pica Pau animals</h3><p class="sub">Buy only the colors for the next animal; these three are coming up.</p>' + pps.map(p =>
     '<div class="shoprow"><b>' + esc(AP.ppName(p[2])) + '</b> <span class="sub">Book ' + p[0] + ", page " + p[1] + (p[5] ? ", " + esc(p[5]) + " mm eyes" : "") + '</span><div class="chips">' + p[6].map(c => '<span class="chip"><i style="--c:' + esc(c[1]) + '"></i>' + esc(c[0]) + "</span>").join("") + '</div><p class="sub">' + esc(ppYarn(p[0])) + "</p></div>").join("");
-  const soon = ci < 0 ? [] : D.gear.filter(g => !S.gear[g.id] && UIDX[g.u] !== undefined && UIDX[g.u] >= ci && UIDX[g.u] <= ci + 4);
+  const soon = ci < 0 ? [] : D.gear.filter(g => !S.gear[g.id] && isReq(g.u) && UIDX[g.u] >= ci && UIDX[g.u] <= ci + 4);
   const kit = AP.kit.filter(k => !S.kit[k[0]]);
   if (soon.length || kit.length) h += '<h3 class="stage">Tools and gear</h3><div class="checks">' + soon.map(g => gearRow(g, ci)).join("") +
     kit.map(k => '<label class="chk"><input type="checkbox" data-act="kit" data-k="' + k[0] + '"><span><b>' + esc(k[1]) + '</b> <span class="cost">' + esc(k[2]) + '</span><br><span class="sub">' + esc(k[3]) + "</span></span></label>").join("") + "</div>";
@@ -2249,6 +2310,7 @@ document.addEventListener("click", e => {
   else if (a === "seg") {
     const name = el.dataset.s, v = el.dataset.v;
     if (name === "sophie") mutate(s => { s.sophie.ver = v; });
+    else if (name === "goal") mutate(s => { s.goal = Number(v) || 4; });
     else { UI.seg[name] = v; saveUI(); render(); }
   }
   else if (a === "setdone") setDone(el.dataset.u, el.dataset.v === "1");
