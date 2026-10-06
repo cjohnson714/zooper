@@ -209,6 +209,34 @@ pre.tagform{ font-family:"Atkinson Hyperlegible", ui-monospace, monospace; backg
 .toast.show{ opacity:1; }
 
 /* master additions */
+.sr{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+.brand{ white-space:nowrap; }
+.tools{ display:flex; align-items:center; gap:12px; }
+.sbtn{ display:inline-flex; align-items:center; gap:6px; min-height:40px; padding:6px 12px; font-size:14.5px; }
+.sbtn svg{ width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; }
+@media (max-width: 420px){ .sbtn span{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); } .doc{ font-size:13.5px; } }
+.meters{ display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:8px; }
+.meter{ display:grid; gap:3px; text-align:left; background:var(--surface); border:1px solid var(--rule); border-radius:12px; padding:10px 12px; cursor:pointer; }
+.meter:hover{ border-color:var(--ink-2); }
+.m-l{ font-size:13.5px; color:var(--ink-2); }
+.m-n{ font-variant-numeric:tabular-nums; color:var(--ink-2); font-size:14px; }
+.m-n b{ font-size:22px; color:var(--ink); }
+.meter .mbar{ height:6px; border-radius:3px; }
+.m-x{ font-size:12.5px; color:var(--ink-2); }
+.donenote{ display:grid; grid-template-columns:minmax(0,1fr); gap:4px; padding:0 0 12px 38px; }
+.donenote input, .shead input, #bktext{ font:inherit; font-size:16px; color:var(--ink); background:var(--surface); border:1px solid var(--rule); border-radius:9px; padding:9px 12px; width:100%; }
+#bktext{ font-size:13px; }
+.chk.is-have{ opacity:.6; }
+.shoprow{ padding:12px 0; border-top:1px solid var(--rule); }
+.shoprow p{ margin:6px 0 0; }
+.shead{ display:flex; gap:8px; align-items:center; margin-bottom:8px; }
+.shead .btn{ min-height:44px; }
+.sres{ list-style:none; padding:0; margin:0; }
+.sres li{ margin:0; border-top:1px solid var(--rule); }
+.hit{ width:100%; text-align:left; background:none; border:0; padding:11px 2px; cursor:pointer; line-height:1.35; }
+.hit:hover{ background:var(--soft); }
+.hit .chip{ min-width:5.6em; text-align:center; margin-right:6px; }
+
 .chip i{ display:inline-block; width:.8em; height:.8em; border-radius:50%; background:var(--c); border:1px solid var(--rule); margin-right:5px; vertical-align:-1px; }
 .chips{ display:flex; flex-wrap:wrap; gap:5px; margin-top:6px; }
 .chips .chip{ margin:0; }
@@ -247,7 +275,7 @@ details.cat .ctop, details.cat .chook{ font-weight:400; font-size:14px; color:va
 </style>
 </head>
 <body>
-<header class="top"><div class="top-in"><div><p class="brand">Crochet Master Plan</p><p id="sync" class="sync">Saved on this device</p></div><a class="doc" id="doclink" href="#">Full curriculum</a></div></header>
+<header class="top"><div class="top-in"><div><p class="brand">Crochet Master Plan</p><p id="sync" class="sync">Saved on this device</p></div><div class="tools"><button class="btn ghost sbtn" data-act="search" aria-label="Search everything"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><span>Search</span></button><a class="doc" id="doclink" href="#">Curriculum</a></div></div></header>
 <main id="view"></main>
 <div id="sheet" class="sheet" hidden></div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
@@ -1320,9 +1348,11 @@ Object.keys(PPBY).forEach(b => PPBY[b].sort((x, y) => x[1] - y[1]));
 const PP_ORDER = [].concat(PPBY[2], PPBY[1].filter(p => p[3] === 1), PPBY[3].filter(p => p[3] === 1), PPBY[1].filter(p => p[3] !== 1), PPBY[3].filter(p => p[3] !== 1));
 
 /* ---------- state ---------- */
-const SEED_DONE = ["1.0", "1.1", "1.5", "1.6", "1.7"]; // units already covered with the first three toys
+const SEED_HAVE = ["Purple", "Black", "White", "Banana", "Pink", "Easy Peasy pastel", "Easy Peasy purple", "Super Saver White"]; // what you own already
+function seedHave(){ const o = {}; SEED_HAVE.forEach(k => { o[k] = true; }); return o; }
+const SEED_DONE = ["0", "1.0", "1.1", "1.5", "1.6", "1.7"]; // units already covered with the first three toys
 function seedUnits(){ const o = {}; SEED_DONE.forEach(id => { const u = unitById(id); if (u) o[id] = {done: true, checks: u.pass.map(() => true)}; }); return o; }
-function blank(){ return {v: 1, units: seedUnits(), rungs: {}, pp: {}, wb: {}, kit: {}, queue: [], sophie: {ver: "cal", parts: {}, steps: {}}, books: {}, classes: {}, gear: {}, reviews: {}, days: {}}; }
+function blank(){ return {v: 1, units: seedUnits(), rungs: {}, pp: {}, wb: {}, kit: {}, have: seedHave(), notes: {}, queue: [], sophie: {ver: "cal", parts: {}, steps: {}}, books: {}, classes: {}, gear: {}, reviews: {}, days: {}}; }
 function merge(d){
   const s = blank();
   if (d && typeof d === "object") {
@@ -1332,13 +1362,13 @@ function merge(d){
     if (!s.sophie.steps) s.sophie.steps = {};
     if (s.sophie.ver !== "book") s.sophie.ver = "cal";
     if (!Array.isArray(s.queue)) s.queue = [];
-    ["units", "rungs", "pp", "wb", "kit", "books", "classes", "gear", "reviews", "days"].forEach(k => { if (!s[k] || typeof s[k] !== "object" || Array.isArray(s[k])) s[k] = {}; });
+    ["units", "rungs", "pp", "wb", "kit", "have", "notes", "books", "classes", "gear", "reviews", "days"].forEach(k => { if (!s[k] || typeof s[k] !== "object" || Array.isArray(s[k])) s[k] = {}; });
   }
   return s;
 }
 let S = blank();
 try { const t = localStorage.getItem(LS); if (t) S = merge(JSON.parse(t)); } catch (e) {}
-const UI = {calc: {w: "w", l: 5}, tab: "today", seg: {projects: "ami", shelf: "books", yarn: "mine", yf: "all"}, sheet: null, open: {}, gq: ""};
+const UI = {calc: {w: "w", l: 5}, tab: "today", seg: {projects: "ami", shelf: "books", yarn: "shop", yf: "all"}, sheet: null, search: false, sq: "", pendingImport: null, open: {}, gq: ""};
 try { const t = localStorage.getItem(LS + ":ui"); if (t) { const u = JSON.parse(t); if (u && u.tab) UI.tab = u.tab; if (u && u.seg) Object.assign(UI.seg, u.seg); } } catch (e) {}
 function saveUI(){ try { localStorage.setItem(LS + ":ui", JSON.stringify({tab: UI.tab, seg: UI.seg})); } catch (e) {} }
 
@@ -1361,7 +1391,7 @@ async function flush(){
   }
   finally { saving = false; if (again) { again = false; flush(); } }
 }
-function hasData(s){ return s.queue.length || ["units", "rungs", "pp", "wb", "kit", "books", "classes", "gear", "reviews", "days"].some(k => Object.keys(s[k]).length) || Object.keys(s.sophie.parts).length; }
+function hasData(s){ return s.queue.length || ["units", "rungs", "pp", "wb", "kit", "have", "notes", "books", "classes", "gear", "reviews", "days"].some(k => Object.keys(s[k]).length) || Object.keys(s.sophie.parts).length; }
 function mutate(fn){ fn(S); if (mode === "db" && !ready) queued.push(fn); persist(); render(); }
 async function connect(){
   const c = window.claude;
@@ -1477,7 +1507,7 @@ function stitchRow(ci){
 /* ---------- Today ---------- */
 function renderToday(){
   const ci = curIndex();
-  let h = '<section class="hero">' + stitchRow(ci) + '<p class="tally"><strong>' + doneCount() + "</strong> of " + UNITS.length + " units done, about <strong>" + hoursDone() + "</strong> of " + TOTAL_H + " hours</p></section>";
+  let h = '<section class="hero">' + stitchRow(ci) + '<p class="tally"><strong>' + doneCount() + "</strong> of " + UNITS.length + " units done, about <strong>" + hoursDone() + "</strong> of " + TOTAL_H + " hours</p></section>" + overviewCard();
   if (ci < 0) h += '<section class="block"><h2 class="sec">You have finished the path</h2><p>Every unit is done. The project ladders, and the Craft Yarn Council teaching program, are still open to you.</p></section>';
   else {
     const u = UNITS[ci], ph = UPH[u.id];
@@ -1513,7 +1543,7 @@ function reviewCard(){
 }
 function sessionsCard(){
   const w = weekStats(), tot = totalMin(), today = S.days[dayKey(new Date())];
-  return '<section class="block"><h2 class="sec">This week</h2><p class="week"><strong>' + w.n + "</strong> " + (w.n === 1 ? "session" : "sessions") + (w.m ? ", " + fmtMin(w.m) : "") + '<span class="sub">Aim for 4–5 sessions of 30–45 minutes.</span></p><div class="btnrow"><button class="btn ghost" data-act="log" data-m="30">Log 30 min</button><button class="btn ghost" data-act="log" data-m="45">Log 45 min</button><button class="btn ghost" data-act="log" data-m="60">Log 60 min</button></div><p class="sub">' + fmtMin(tot) + " logged in all." + (Array.isArray(today) && today.length ? ' <button class="link" data-act="unlog">Remove today\'s last session</button>' : "") + "</p></section>";
+  return '<section class="block"><h2 class="sec">This week</h2><p class="week"><strong>' + w.n + "</strong> " + (w.n === 1 ? "session" : "sessions") + (w.m ? ", " + fmtMin(w.m) : "") + '<span class="sub">Aim for 4–5 sessions of 30–45 minutes.</span></p>' + streakLine() + '<div class="btnrow"><button class="btn ghost" data-act="log" data-m="30">Log 30 min</button><button class="btn ghost" data-act="log" data-m="45">Log 45 min</button><button class="btn ghost" data-act="log" data-m="60">Log 60 min</button></div><p class="sub">' + fmtMin(tot) + " logged in all. " + esc(paceLine()) + (Array.isArray(today) && today.length ? ' <button class="link" data-act="unlog">Remove today\'s last session</button>' : "") + "</p></section>";
 }
 
 /* ---------- Path ---------- */
@@ -1558,7 +1588,7 @@ function ppSection(){
     const open = UI.open[key] !== undefined ? UI.open[key] : (nxt ? nxt[0] === b : false);
     h += '<details class="ppbook" data-ph="' + key + '"' + (open ? " open" : "") + '><summary><span class="pn">' + bk[1] + '</span><span class="pc">' + d + " of " + items.length + "</span></summary><p class=\"sub ppyarn\">" + ppYarn(b) + "</p>" + items.map(p => {
       const k = PPK(p), isN = k === nk;
-      return '<label class="pp' + (isN ? " is-next" : "") + '"><input type="checkbox" data-act="pp" data-k="' + k + '"' + (S.pp[k] ? " checked" : "") + "><span><b>" + esc(AP.ppName(p[2])) + '</b> <span class="chip lv' + p[3] + '">' + (p[3] === 1 ? "Easy" : "Intermediate") + "</span>" + (isN ? ' <span class="chip cur">Up next</span>' : "") + '<br><span class="sub">Page ' + p[1] + (p[5] ? ", " + esc(p[5]) + " mm eyes" : "") + (p[4] ? ", about " + esc(p[4]) + " in tall" : "") + (p[2] === "Logan Koala" ? ". Use your Hello Cotton DK" : "") + '</span><br><span class="dots" aria-hidden="true">' + p[6].map(c => '<i style="background:' + esc(c[1]) + '"></i>').join("") + '</span><span class="sub cols"> ' + p[6].map(c => esc(c[0])).join(", ") + "</span></span></label>";
+      return '<label class="pp' + (isN ? " is-next" : "") + '"><input type="checkbox" data-act="ppd" data-k="' + k + '"' + (S.pp[k] ? " checked" : "") + "><span><b>" + esc(AP.ppName(p[2])) + '</b> <span class="chip lv' + p[3] + '">' + (p[3] === 1 ? "Easy" : "Intermediate") + "</span>" + (isN ? ' <span class="chip cur">Up next</span>' : "") + '<br><span class="sub">Page ' + p[1] + (p[5] ? ", " + esc(p[5]) + " mm eyes" : "") + (p[4] ? ", about " + esc(p[4]) + " in tall" : "") + (p[2] === "Logan Koala" ? ". Use your Hello Cotton DK" : "") + '</span><br><span class="dots" aria-hidden="true">' + p[6].map(c => '<i style="background:' + esc(c[1]) + '"></i>').join("") + '</span><span class="sub cols"> ' + p[6].map(c => esc(c[0])).join(", ") + "</span></span></label>" + doneNote("pp", k, S.pp[k]);
     }).join("") + "</details>";
   });
   return h + "</section>";
@@ -1634,8 +1664,8 @@ function woobSection(){
     h += '<details class="ppbook" data-ph="' + key + '"' + (open ? " open" : "") + "><summary><span class=\"pn\">" + esc(b.name) + '</span><span class="pc">' + bd + " of " + b.items.length + "</span></summary>" +
       '<p class="sub ppyarn"><b>Buy first:</b> ' + esc(b.buy) + "</p>" + b.items.map(it => {
         const isN = it[0] === nk;
-        return '<label class="pp' + (isN ? " is-next" : "") + '"><input type="checkbox" data-act="wb" data-k="' + esc(it[0]) + '"' + (S.wb[it[0]] ? " checked" : "") + "><span><b>" + esc(AP.FULL[it[0]] || it[0]) + "</b>" + (isN ? ' <span class="chip cur">Up next</span>' : "") +
-          (it[1] ? '<br><span class="sub">' + esc(it[1]) + "</span>" : "") + '<span class="chips">' + it[2].map(chipW).join("") + "</span></span></label>";
+        return '<label class="pp' + (isN ? " is-next" : "") + '"><input type="checkbox" data-act="wbd" data-k="' + esc(it[0]) + '"' + (S.wb[it[0]] ? " checked" : "") + "><span><b>" + esc(AP.FULL[it[0]] || it[0]) + "</b>" + (isN ? ' <span class="chip cur">Up next</span>' : "") +
+          (it[1] ? '<br><span class="sub">' + esc(it[1]) + "</span>" : "") + '<span class="chips">' + it[2].map(chipW).join("") + "</span></span></label>" + doneNote("wb", it[0], S.wb[it[0]]);
       }).join("") + "</details>";
   });
   return h + "</section>";
@@ -1741,8 +1771,173 @@ function storesSection(){
 }
 function renderYarn(){
   const seg = UI.seg.yarn;
-  let h = '<h1 class="page">Yarn and tools</h1>' + segBar("yarn", [["mine", "Your yarn"], ["picks", "All picks"], ["tools", "Tools"], ["stores", "Stores"]], seg);
-  return h + (seg === "picks" ? picksSection() : seg === "tools" ? toolsSection() : seg === "stores" ? storesSection() : mineSection());
+  let h = '<h1 class="page">Yarn and tools</h1>' + segBar("yarn", [["shop", "Shopping"], ["mine", "Your yarn"], ["picks", "All picks"], ["tools", "Tools"], ["stores", "Stores"]], seg);
+  return h + (seg === "picks" ? picksSection() : seg === "tools" ? toolsSection() : seg === "stores" ? storesSection() : seg === "mine" ? mineSection() : shopSection());
+}
+
+/* ---------- saving without a redraw (typing a note) ---------- */
+function quiet(fn){ fn(S); if (mode === "db" && !ready) queued.push(fn); persist(); }
+
+/* ---------- finish dates and notes ---------- */
+function fmtDay(v){
+  if (typeof v !== "string") return "";
+  const p = v.split("-").map(Number);
+  if (p.length !== 3 || p.some(isNaN)) return "";
+  return new Date(p[0], p[1] - 1, p[2]).toLocaleDateString(undefined, {month: "short", day: "numeric", year: "numeric"});
+}
+function doneNote(kind, key, v){
+  if (!v) return "";
+  const nk = kind + ":" + key, id = "note-" + nk.replace(/[^A-Za-z0-9_-]/g, "_"), d = fmtDay(v);
+  return '<div class="donenote"><span class="sub">' + (d ? "Finished " + d : "Finished") + '</span><label class="sr" for="' + id + '">Note</label><input id="' + id + '" type="text" data-note="' + esc(nk) + '" value="' + esc(S.notes[nk] || "") + '" placeholder="Yarn, hook, and what you\'d change next time" autocomplete="off"></div>';
+}
+
+/* ---------- overview and pace ---------- */
+function meter(lbl, d, n, tab, seg, extra){
+  const pct = n ? Math.round(d / n * 100) : 0;
+  return '<button class="meter" data-act="jump" data-tab="' + tab + '"' + (seg ? ' data-seg="' + seg + '"' : "") + '><span class="m-l">' + lbl + '</span><span class="m-n"><b>' + d + "</b> of " + n + '</span><span class="mbar"><i style="--w:' + pct + '%"></i></span>' + (extra ? '<span class="m-x">' + extra + "</span>" : "") + "</button>";
+}
+function overviewCard(){
+  const wa = woobAll(), wd = wa.filter(k => S.wb[k]).length, pd = PP.filter(p => S.pp[PPK(p)]).length;
+  return '<section class="block"><h2 class="sec">At a glance</h2><div class="meters">' +
+    meter("Path units", doneCount(), UNITS.length, "path", "", hoursDone() + " of " + TOTAL_H + " hours") +
+    meter("Woobles", wd, wa.length, "projects", "woobles", wd < wa.length ? "4 batches" : "All made") +
+    meter("Pica Pau", pd, PP.length, "projects", "pp", "3 books") +
+    meter("Sophie's Universe", sophieDone(), sophieN(), "projects", "blanket", "parts") +
+    meter("Gear", D.gear.filter(g => S.gear[g.id]).length, D.gear.length, "shelf", "gear", "bought") +
+    meter("Books", D.books.filter(b => S.books[b[0]] && S.books[b[0]].own).length, D.books.length, "shelf", "books", "owned") +
+    "</div></section>";
+}
+const dayMins = k => Array.isArray(S.days[k]) ? S.days[k] : [];
+function recentMin(days){
+  const cut = new Date(); cut.setHours(0, 0, 0, 0); cut.setDate(cut.getDate() - days + 1);
+  let m = 0;
+  Object.keys(S.days).forEach(k => { const p = k.split("-").map(Number); if (new Date(p[0], p[1] - 1, p[2]) >= cut) m += dayMins(k).reduce((x, y) => x + y, 0); });
+  return m;
+}
+function streak(){
+  const d = new Date(); let n = 0;
+  if (!dayMins(dayKey(d)).length) d.setDate(d.getDate() - 1);
+  while (dayMins(dayKey(d)).length) { n++; d.setDate(d.getDate() - 1); }
+  return n;
+}
+function streakLine(){ const n = streak(); return n > 1 ? '<p class="sub"><b>' + n + "-day streak.</b> Keep it going with a short session.</p>" : ""; }
+function paceLine(){
+  const m = recentMin(28), left = TOTAL_H - hoursDone();
+  if (!m || left <= 0) return "";
+  const perWeek = m / 4 / 60, weeks = left / perWeek;
+  if (weeks > 52 * 15) return "";
+  const end = new Date(); end.setDate(end.getDate() + Math.round(weeks * 7));
+  return "At your pace over the last four weeks (" + (Math.round(perWeek * 10) / 10) + " h a week), you would finish the path around " + end.toLocaleDateString(undefined, {month: "long", year: "numeric"}) + ".";
+}
+
+/* ---------- shopping list ---------- */
+const is247 = k => !/Super Saver|Easy Peasy/.test(k);
+function shopSection(){
+  const ci = curIndex();
+  let h = '<section class="block"><h2 class="sec">Shopping list</h2><p class="sub">Built from what you\'re making next. Tick what you already have and it moves to the bottom. 24/7 Cotton comes in 186 yd skeins.</p>';
+  const nx = nextWoob();
+  if (nx) {
+    const bi = AP.batches.indexOf(nx.b), bs = AP.batches.slice(bi, bi + 2), need = {};
+    bs.forEach(b => b.items.forEach(it => {
+      if (S.wb[it[0]]) return;
+      it[2].forEach(c => { const n = need[c[0]] || (need[c[0]] = {yd: 0, who: []}); n.yd += Number(c[1]) || 0; n.who.push(it[0]); });
+    }));
+    const keys = Object.keys(need).sort((a, b) => (S.have[a] ? 1 : 0) - (S.have[b] ? 1 : 0) || need[b].yd - need[a].yd);
+    const missing = keys.filter(k => !S.have[k]).length;
+    h += '<h3 class="stage">Woobles yarn for ' + bs.map(b => b.name.toLowerCase()).join(" and ") + ' <span class="chip' + (missing ? " wait" : " done") + '">' + (missing ? missing + " to buy" : "All in hand") + "</span></h3>" +
+      '<p class="sub"><b>Buy first:</b> ' + esc(nx.b.buy) + '</p><div class="checks">' + keys.map(k => {
+        const n = need[k], sk = n.yd && is247(k) ? Math.ceil(n.yd / 186) : 0;
+        return '<label class="chk' + (S.have[k] ? " is-have" : "") + '"><input type="checkbox" data-act="have" data-k="' + esc(k) + '"' + (S.have[k] ? " checked" : "") + '><span><span class="chip"><i style="--c:' + (AP.SH[k] || "#999") + '"></i>' + esc(k) + "</span> " +
+          (n.yd ? "<b>" + n.yd + " yd</b>" + (sk ? ' <span class="sub">= ' + sk + " skein" + (sk > 1 ? "s" : "") + "</span>" : "") : '<span class="sub">a small amount</span>') +
+          '<br><span class="sub">For ' + esc(n.who.join(", ")) + "</span></span></label>";
+      }).join("") + "</div>";
+  }
+  const pps = PP_ORDER.filter(p => !S.pp[PPK(p)]).slice(0, 3);
+  if (pps.length) h += '<h3 class="stage">Next Pica Pau animals</h3><p class="sub">Buy only the colors for the next animal; these three are coming up.</p>' + pps.map(p =>
+    '<div class="shoprow"><b>' + esc(AP.ppName(p[2])) + '</b> <span class="sub">Book ' + p[0] + ", page " + p[1] + (p[5] ? ", " + esc(p[5]) + " mm eyes" : "") + '</span><div class="chips">' + p[6].map(c => '<span class="chip"><i style="--c:' + esc(c[1]) + '"></i>' + esc(c[0]) + "</span>").join("") + '</div><p class="sub">' + esc(ppYarn(p[0])) + "</p></div>").join("");
+  const soon = ci < 0 ? [] : D.gear.filter(g => !S.gear[g.id] && UIDX[g.u] !== undefined && UIDX[g.u] >= ci && UIDX[g.u] <= ci + 4);
+  const kit = AP.kit.filter(k => !S.kit[k[0]]);
+  if (soon.length || kit.length) h += '<h3 class="stage">Tools and gear</h3><div class="checks">' + soon.map(g => gearRow(g, ci)).join("") +
+    kit.map(k => '<label class="chk"><input type="checkbox" data-act="kit" data-k="' + k[0] + '"><span><b>' + esc(k[1]) + '</b> <span class="cost">' + esc(k[2]) + '</span><br><span class="sub">' + esc(k[3]) + "</span></span></label>").join("") + "</div>";
+  return h + '<p class="sub">Where to buy: see Stores. Photograph each yarn label so you can rebuy the exact shade and dye lot.</p></section>';
+}
+
+/* ---------- search ---------- */
+const strip = x => String(x || "").replace(/<[^>]+>/g, " ");
+let SIDX = null;
+function searchIndex(){
+  if (SIDX) return SIDX;
+  const r = [], add = (k, t, x, act) => r.push({k, t, s: (t + " " + strip(x)).toLowerCase(), tl: t.toLowerCase(), act});
+  UNITS.forEach(u => add("Unit", label(u) + ": " + u.t, [u.learn, u.need, (u.key || []).join(" "), Array.isArray(u.drill) ? u.drill.join(" ") : u.drill].join(" "), 'data-act="open" data-u="' + esc(u.id) + '"'));
+  AP.batches.forEach(b => b.items.forEach(it => add("Woobles", AP.FULL[it[0]] || it[0], b.name + " " + it[1] + " " + it[2].map(c => c[0]).join(" "), 'data-act="jump" data-tab="projects" data-seg="woobles"')));
+  PP.forEach(p => add("Pica Pau", AP.ppName(p[2]), "book " + p[0] + " " + p[6].map(c => c[0]).join(" "), 'data-act="jump" data-tab="projects" data-seg="pp" data-open="pp' + p[0] + '"'));
+  AP.order.forEach(id => AP.cats[id].picks.forEach(y => add("Yarn", y.n, AP.cats[id].name + " " + y.note, 'data-act="jump" data-tab="yarn" data-seg="picks" data-open="yc-' + id + '"')));
+  D.books.concat(D.collectors).forEach(b => add("Book", b[1], b[2] + " " + b[3], 'data-act="jump" data-tab="shelf" data-seg="books"'));
+  D.classes.forEach(c => add("Class", c[1], c[2] + " " + c[3], 'data-act="jump" data-tab="shelf" data-seg="classes"'));
+  D.gear.forEach(g => add("Gear", g.t, g.d, 'data-act="jump" data-tab="shelf" data-seg="gear"'));
+  D.glossary.forEach(g => add("Glossary", g[0], g[1], 'data-act="jump" data-tab="help" data-open="h-words" data-gq="' + esc(g[0]) + '"'));
+  D.fixes.forEach(f => add("Fix", f[0], f[1], 'data-act="jump" data-tab="help" data-open="h-fixes"'));
+  return SIDX = r;
+}
+function searchResults(){
+  const terms = UI.sq.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) return '<p class="sub">Units, Woobles and Pica Pau patterns, yarns, books, classes, gear, glossary words, and quick fixes. Try "magic ring", "gauge", or "fox".</p>';
+  const hits = searchIndex().filter(x => terms.every(t => x.s.indexOf(t) >= 0))
+    .sort((a, b) => (terms.every(t => b.tl.indexOf(t) >= 0) ? 1 : 0) - (terms.every(t => a.tl.indexOf(t) >= 0) ? 1 : 0));
+  if (!hits.length) return '<p class="sub">Nothing matches. Try a shorter word.</p>';
+  return '<p class="sub">' + hits.length + (hits.length === 1 ? " match" : " matches") + (hits.length > 40 ? ", showing 40" : "") + '</p><ul class="sres">' + hits.slice(0, 40).map(x => '<li><button class="hit" ' + x.act + '><span class="chip">' + x.k + "</span> " + esc(x.t) + "</button></li>").join("") + "</ul>";
+}
+function searchSheet(){
+  return '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="Search"><div class="shead"><label class="sr" for="sq">Search everything</label><input id="sq" type="search" placeholder="Search everything" value="' + esc(UI.sq) + '" autocomplete="off"><button class="btn ghost" data-act="close">Close</button></div><div id="sres">' + searchResults() + "</div></div>";
+}
+function openSearch(){ UI.search = true; UI.sheet = null; render(); }
+function jump(ds){
+  const tab = ds.tab;
+  UI.search = false; UI.sheet = null; UI.tab = tab;
+  if (ds.seg) UI.seg[tab] = ds.seg;
+  if (tab === "yarn") UI.seg.yf = "all";
+  if (ds.open) UI.open[ds.open] = true;
+  if (ds.gq) UI.gq = ds.gq;
+  saveUI(); setHash(); render();
+  const t = ds.open ? document.querySelector('[data-ph="' + ds.open + '"]') : null;
+  try { if (t) t.scrollIntoView({block: "start"}); else window.scrollTo(0, 0); } catch (e) {}
+}
+
+/* ---------- deep links ---------- */
+const TABS = ["today", "path", "projects", "yarn", "shelf", "help"];
+function readHash(){ const h = (location.hash || "").slice(1); if (TABS.indexOf(h) >= 0) UI.tab = h; }
+function setHash(){ try { history.replaceState(null, "", "#" + UI.tab); } catch (e) {} }
+
+/* ---------- backup ---------- */
+function backupHtml(){
+  const p = UI.pendingImport;
+  return "<p>Your progress saves automatically. Keep a backup file too, or use one to move your progress somewhere else.</p>" +
+    '<div class="btnrow"><button class="btn" data-act="export">Save a backup file</button><button class="btn ghost" data-act="import">Restore from a file</button></div>' +
+    '<input id="bkfile" type="file" accept=".json,application/json" hidden>' +
+    (p ? '<div class="review"><p><b>Replace your progress with this backup?</b></p><p class="sub">It has ' + Object.keys(p.units || {}).filter(k => p.units[k] && p.units[k].done).length + " units done, " + Object.keys(p.wb || {}).length + " Woobles, and " + Object.keys(p.pp || {}).length + ' Pica Pau animals. What you have now will be overwritten.</p><div class="btnrow"><button class="btn" data-act="doimport">Replace my progress</button><button class="btn ghost" data-act="cancelimport">Keep what I have</button></div></div>' : "") +
+    '<div id="bkout"></div>';
+}
+let dlP = null;
+async function exportBackup(){
+  const data = JSON.stringify(S, null, 1), name = "crochet-progress-" + dayKey(new Date()) + ".json";
+  try {
+    if (!dlP) dlP = window.claude && typeof window.claude.use === "function" ? window.claude.use("downloads") : Promise.resolve(null);
+    const dl = await dlP;
+    if (dl) { await dl.save({filename: name, data}); toast("Backup saved"); return; }
+  } catch (e) { if (e && e.code === "declined") return; }
+  const box = document.getElementById("bkout");
+  if (box) { box.innerHTML = '<p class="sub">Saving files isn\'t available here. Copy this text into a note instead:</p><label class="sr" for="bktext">Backup text</label><textarea id="bktext" rows="6" readonly></textarea>'; const t = document.getElementById("bktext"); t.value = data; t.focus(); t.select(); }
+  try { await navigator.clipboard.writeText(data); toast("Backup copied"); } catch (e) {}
+}
+function readBackup(file){
+  const fr = new FileReader();
+  fr.onload = () => {
+    let d = null;
+    try { d = JSON.parse(fr.result); } catch (e) {}
+    if (!d || typeof d !== "object" || !d.units) { toast("That file isn't a progress backup"); return; }
+    UI.pendingImport = d; UI.open["h-backup"] = true; render();
+  };
+  fr.readAsText(file);
 }
 
 /* ---------- Help ---------- */
@@ -1769,6 +1964,7 @@ function renderHelp(){
     ["words", "Words you'll meet", words],
     ["knit", "Knitting, later", "<p>Start once crochet feels automatic: a garter-stitch dishcloth, then a scarf.</p><ul><li><a href=\"https://www.purlsoho.com/learn-to-knit-kit.html\"><b>Purl Soho Learn to Knit Kit</b></a> is the closest thing to a Woobles for knitting. Or buy just its pattern and use your own wool.</li><li>Learn continental style. It holds the yarn in your left hand, like crochet.</li></ul>"],
     ["sources", "Sources", "<ul><li>Pattern colors, levels, and hooks: <i>Animal Friends of Pica Pau</i> 1\u20133 and the Woobles PDFs.</li><li>Ratings, votes, and project counts: Ravelry, October 2026.</li><li>Mastery path: the <i>Zero to Master</i> curriculum. Crochet Guild of America Masters programs: <a href=\"https://crochet.org/?p=56213\">crochet.org</a>.</li><li>Designer yarn picks: <a href=\"https://sarahmaker.com/yarn-for-amigurumi/\">Sarah Maker</a>, <a href=\"https://littleworldofwhimsy.com/9-best-yarns-for-amigurumi-with-project-examples/\">Little World of Whimsy</a>, <a href=\"https://www.tinycurl.co/best-cotton-yarn-for-crochet/\">Tiny Curl</a>.</li><li>Prices change. Check store pickup before you drive.</li></ul>"],
+    ["backup", "Back up your progress", backupHtml()],
     ["safety", "Safety", "<p>Never use plastic safety eyes on toys for children under 3; embroider or crochet the eyes instead.</p><p>Pain that keeps coming back is worth a clinician's advice. An ergonomic hook and shorter sessions are the first fixes.</p>"]
   ];
   return '<h1 class="page">Help</h1><p class="lede">The curriculum\'s front matter, plus answers for when you\'re stuck. The <a href="' + D.doc + '">full curriculum</a> has every detail.</p>' + sections.map(s => '<details class="help" data-ph="h-' + s[0] + '"' + (UI.open["h-" + s[0]] ? " open" : "") + "><summary>" + s[1] + '</summary><div class="hb">' + s[2] + "</div></details>").join("");
@@ -1782,11 +1978,11 @@ function setDone(id, v){
   mutate(s => { const x = s.units[id] || (s.units[id] = {}); x.done = v; if (v) x.checks = u.pass.map(() => true); });
   if (v) { const ci = curIndex(); toast(label(u) + " done." + (ci >= 0 ? " Up next: " + label(UNITS[ci]).toLowerCase() + "." : "")); }
 }
-function go(tab){ UI.tab = tab; UI.sheet = null; saveUI(); render(); try { window.scrollTo(0, 0); } catch (e) {} }
+function go(tab){ UI.tab = tab; UI.sheet = null; UI.search = false; saveUI(); setHash(); render(); try { window.scrollTo(0, 0); } catch (e) {} }
 function setFlag(map, key, v){ return s => { if (v) s[map][key] = true; else delete s[map][key]; }; }
 
 document.addEventListener("click", e => {
-  if (e.target && e.target.id === "sheet") { UI.sheet = null; render(); return; }
+  if (e.target && e.target.id === "sheet") { UI.sheet = null; UI.search = false; render(); return; }
   const el = e.target.closest ? e.target.closest("[data-act]") : null;
   if (!el || el.tagName === "INPUT") return;
   const a = el.dataset.act;
@@ -1797,11 +1993,17 @@ document.addEventListener("click", e => {
     else { UI.seg[name] = v; saveUI(); render(); }
   }
   else if (a === "setdone") setDone(el.dataset.u, el.dataset.v === "1");
-  else if (a === "open") { UI.sheet = el.dataset.u; render(); }
-  else if (a === "close") { UI.sheet = null; render(); }
+  else if (a === "open") { UI.search = false; UI.sheet = el.dataset.u; render(); }
+  else if (a === "close") { UI.sheet = null; UI.search = false; render(); }
   else if (a === "log") { const m = Number(el.dataset.m), k = dayKey(new Date()); mutate(s => { const arr = Array.isArray(s.days[k]) ? s.days[k].slice() : []; arr.push(m); s.days[k] = arr; }); toast("Logged " + m + " minutes"); }
   else if (a === "unlog") { const k = dayKey(new Date()); mutate(s => { const arr = Array.isArray(s.days[k]) ? s.days[k].slice() : []; arr.pop(); if (arr.length) s.days[k] = arr; else delete s.days[k]; }); }
   else if (a === "qadd") addQueue();
+  else if (a === "search") openSearch();
+  else if (a === "jump") jump(el.dataset);
+  else if (a === "export") exportBackup();
+  else if (a === "import") { const f = document.getElementById("bkfile"); if (f) f.click(); }
+  else if (a === "doimport") { const d = UI.pendingImport; UI.pendingImport = null; if (d) { mutate(s => { const m = merge(d); Object.keys(m).forEach(k => { s[k] = m[k]; }); }); toast("Backup restored"); } }
+  else if (a === "cancelimport") { UI.pendingImport = null; render(); }
   else if (a === "qdel") { const id = el.dataset.q; mutate(s => { s.queue = s.queue.filter(q => q.id !== id); }); }
 });
 document.addEventListener("change", e => {
@@ -1813,7 +2015,8 @@ document.addEventListener("change", e => {
   else if (a === "gear") mutate(setFlag("gear", el.dataset.g, v));
   else if (a === "rung") mutate(setFlag("rungs", el.dataset.r, v));
   else if (a === "pp") mutate(setFlag("pp", el.dataset.k, v));
-  else if (a === "wb") mutate(setFlag("wb", el.dataset.k, v));
+  else if (a === "wbd" || a === "ppd") { const m = a === "wbd" ? "wb" : "pp", k = el.dataset.k; mutate(s => { if (v) s[m][k] = dayKey(new Date()); else delete s[m][k]; }); }
+  else if (a === "have") mutate(setFlag("have", el.dataset.k, v));
   else if (a === "kit") mutate(setFlag("kit", el.dataset.k, v));
   else if (a === "class") mutate(setFlag("classes", el.dataset.c, v));
   else if (a === "review") mutate(setFlag("reviews", el.dataset.r, v));
@@ -1827,10 +2030,16 @@ document.addEventListener("change", e => {
   if (el && el.id === "cw") { UI.calc.w = el.value; calcOut(); }
   else if (el && el.id === "cl") { UI.calc.l = Number(el.value); calcOut(); }
 });
+document.addEventListener("change", e => {
+  const el = e.target;
+  if (el && el.dataset && el.dataset.note) { const k = el.dataset.note, val = el.value.trim().slice(0, 300); quiet(s => { if (val) s.notes[k] = val; else delete s.notes[k]; }); toast(val ? "Note saved" : "Note removed"); }
+  else if (el && el.id === "bkfile" && el.files && el.files[0]) { readBackup(el.files[0]); el.value = ""; }
+});
 document.addEventListener("toggle", e => { const d = e.target; if (d && d.dataset && d.dataset.ph) UI.open[d.dataset.ph] = d.open; }, true);
-document.addEventListener("input", e => { if (e.target && e.target.id === "gq") { UI.gq = e.target.value; const box = document.getElementById("glist"); if (box) box.innerHTML = glossaryList(); } });
+document.addEventListener("input", e => { if (e.target && e.target.id === "sq") { UI.sq = e.target.value; const box = document.getElementById("sres"); if (box) box.innerHTML = searchResults(); return; } if (e.target && e.target.id === "gq") { UI.gq = e.target.value; const box = document.getElementById("glist"); if (box) box.innerHTML = glossaryList(); } });
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape" && UI.sheet) { UI.sheet = null; render(); }
+  if (e.key === "Escape" && (UI.sheet || UI.search)) { UI.sheet = null; UI.search = false; render(); }
+  if (e.key === "/" && !UI.search && !/INPUT|TEXTAREA|SELECT/.test((e.target && e.target.tagName) || "")) { e.preventDefault(); openSearch(); }
   if (e.key === "Enter" && e.target && ["qname", "qgroup", "qnote"].indexOf(e.target.id) >= 0) { e.preventDefault(); addQueue(); }
 });
 
@@ -1840,10 +2049,12 @@ function render(){
   main.innerHTML = t === "path" ? renderPath() : t === "projects" ? renderProjects() : t === "shelf" ? renderShelf() : t === "yarn" ? renderYarn() : t === "help" ? renderHelp() : renderToday();
   document.querySelectorAll(".nav button").forEach(b => b.setAttribute("aria-current", b.dataset.tab === t ? "page" : "false"));
   const sh = document.getElementById("sheet"), su = UI.sheet ? unitById(UI.sheet) : null;
-  if (su) { sh.hidden = false; sh.innerHTML = '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="' + esc(label(su)) + '"><button class="btn ghost close" data-act="close">Close</button>' + unitCard(su) + "</div>"; document.body.classList.add("noscroll"); }
+  if (UI.search) { sh.hidden = false; sh.innerHTML = searchSheet(); document.body.classList.add("noscroll"); const i = document.getElementById("sq"); if (i) { i.focus(); i.setSelectionRange(i.value.length, i.value.length); } }
+  else if (su) { sh.hidden = false; sh.innerHTML = '<div class="sheet-in" role="dialog" aria-modal="true" aria-label="' + esc(label(su)) + '"><button class="btn ghost close" data-act="close">Close</button>' + unitCard(su) + "</div>"; document.body.classList.add("noscroll"); }
   else { sh.hidden = true; sh.innerHTML = ""; document.body.classList.remove("noscroll"); }
   document.querySelectorAll('a[href^="http"]').forEach(a => { a.target = "_blank"; a.rel = "noopener"; });
 }
+readHash();
 render();
 connect();
 })();
