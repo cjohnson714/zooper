@@ -1,0 +1,214 @@
+{
+  "code": "TOY 100",
+  "title": "Setup and hands",
+  "year": 1,
+  "track": "toy",
+  "required": true,
+  "hours": 6,
+  "credits": 0.1,
+  "hook": "3.5 mm (E-4) for toys; 5.0 mm (H-8) for learning swatches",
+  "yarn": "#4 worsted cotton for toys; smooth light-colored #4 acrylic for swatches",
+  "level": 1,
+  "prereqs": [],
+  "summary": "Get the right kit, set up a chair and a habit that your hands can keep for years, and finish one toy from a beginner kit.",
+  "intro": "This short course gets you ready for a long, enjoyable hobby. You buy a small toy-focused kit, learn to sit and hold the hook so your hands stay comfortable, and finish a first toy with a guided kit. If you've already finished a beginner kit toy, you can test out of unit 1.0 by checking it against the pass list.",
+  "outcomes": [
+    "You can read a yarn label and choose a smooth, light-colored #4 yarn and a hook sized in millimeters for a toy.",
+    "You can set up a practice spot with support, light and a basket, and run a session with warm-up rows and pauses.",
+    "You can name the hand warning signs that mean stop for the day and the ones that mean see a clinician.",
+    "You have a dated 1-minute side-view video of your hands to compare with later.",
+    "You have one finished, stuffed and closed toy."
+  ],
+  "assessment": "Each unit's pass list, checked once in practice and once cold at the start of a later session. Unit 1.0 can be passed by test-out with a toy you already made. The T100.1 hands video is kept and compared again in TOY 190.",
+  "reading": "The Essential Guide to Amigurumi, by June Gilbank (right- and left-handed editions; price not confirmed): the tools and materials section and the start of Amigurumi 101. Optional in this course; it becomes the core text in TOY 101.",
+  "units": [
+    {
+      "id": "0",
+      "origin": "revised",
+      "t": "Your toy kit and setup",
+      "kind": "lesson",
+      "h": 1,
+      "time": "about 1 hour, plus a shopping trip",
+      "prereq_units": [],
+      "why": "The right yarn and hook make your first stitches easy to see and your first toys dense enough that stuffing stays hidden. A short list keeps the cost down.",
+      "need": "The shopping list below. Craft stores, big-box stores with a craft aisle, and online yarn shops carry all of it.",
+      "learn": "Read your first yarn label with the Craft Yarn Council's <a href=\"https://craftyarncouncil.com/node/3113\">How to Read a Yarn Label</a> page (Craft Yarn Council). Then read Nicole Chase's <a href=\"https://thenicolechase.com/blog/amigurumi-hook-size\">Choosing Amigurumi Crochet Hook Size</a> (Nicole Chase), which explains why toys use a smaller hook than the label suggests. Keep the Craft Yarn Council <a href=\"https://craftyarncouncil.com/node/39\">standards and abbreviations</a> page bookmarked; later units use it. Left-handed: reading labels and buying hooks are the same for both hands. The core textbook, June Gilbank's <a href=\"https://www.planetjune.com/amibooke\">The Essential Guide to Amigurumi</a> (PlanetJune; price not confirmed), comes in a separate left-handed edition, so buy the one for your hand if you buy it.",
+      "key": [
+        "Shopping list for TOY 100 and TOY 101: one 3.5 mm (E-4) hook, ideally with a soft ergonomic handle; one 5.0 mm (H-8) hook for learning swatches; one skein of smooth, light-colored #4 (worsted) acrylic for swatches; two or three skeins of smooth #4 cotton in light, solid colors for toys (mercerized cotton such as Lion Brand 24/7 Cotton splits least); 10 or more locking stitch markers; one bag of polyester fiberfill; a blunt yarn needle (a bent tip helps); small sharp scissors; a ruler or tape measure marked in mm; a notebook or binder; your phone camera.",
+        "Optional now: one beginner kit for unit 1.0 (see that unit). Wait on safety eyes until a pattern or kit calls for them.",
+        "The weight number on the label is a skein symbol with a number from 0 to 7. Toys in this course use #4 (worsted or aran).",
+        "Pick light, solid, smooth yarn. Dark, fuzzy, variegated, chenille and plush yarns hide your stitches, so they wait until TOY 230.",
+        "Buy hooks by millimeters. US letters and numbers differ between brands.",
+        "The dye lot is printed on the label. Buy all the skeins for one toy in the same color from the same lot, because lots can differ slightly.",
+        "Pull yarn from the center of a skein or cake. If it comes as a hank (a long twisted loop), wind it into a ball first.",
+        "This course uses US terms. A UK pattern's dc is your sc, UK htr is US hdc, UK tr is US dc, UK ss is US sl st, and UK miss is US skip.",
+        "Shop safely. The real Woobles sites are thewoobles.com and help.thewoobles.com. Look-alike domains ending in .it.com and 'free' patterns of studio-owned characters on unknown sites are scams or copies. A real free pattern has a named designer and a home on the designer's own site, Ravelry or Ribblr."
+      ],
+      "drill": [
+        "Buy the shopping list.",
+        "Photograph the label of your toy yarn. Beside the photo, write its weight number, fiber, length per skein (yards and meters), dye lot, and the hook size the label suggests.",
+        "Write each hook's size in millimeters on a slip of masking tape around its handle if it isn't printed there.",
+        "Put everything in one basket and photograph the basket for your binder.",
+        "Make a free account on Ravelry (ravelry.com). You'll use it from TOY 120 on to see other makers' photos of a pattern before you start it.",
+        "On a page in your binder, write the US term for each of these UK terms: dc, htr, tr, ss, miss."
+      ],
+      "pass": [
+        "Your label notes match the label on all 5 facts (weight number, fiber, length, dye lot, suggested hook)",
+        "Every hook in the basket shows its size in mm",
+        "The basket photo shows all items on the shopping list, each one visible",
+        "Your UK-to-US answers are sc, hdc, dc, sl st and skip (5 of 5)"
+      ],
+      "wrong": [
+        [
+          "The label gives no hook size",
+          "Some labels give only a knitting needle size. Use the yarn's weight number instead; for #4 toy yarn, start at 3.5 mm."
+        ],
+        [
+          "Only fuzzy or dark yarn in the store",
+          "Order online, or buy one ball of light acrylic for swatches now and the cotton later. The swatches in TOY 101 come first anyway."
+        ],
+        [
+          "A 'free pattern' site asks you to install something or log in with another account",
+          "Close it. Use the designers linked in this course, their own sites, Ravelry or Ribblr."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Yarn and hook literacy for toys",
+      "rubric": false,
+      "sources": [
+        "https://craftyarncouncil.com/node/3113",
+        "https://thenicolechase.com/blog/amigurumi-hook-size",
+        "https://craftyarncouncil.com/node/39",
+        "https://www.planetjune.com/amibooke",
+        "https://www.ravelry.com"
+      ]
+    },
+    {
+      "id": "T100.1",
+      "origin": "new",
+      "t": "Hands and habits",
+      "kind": "lesson",
+      "h": 1,
+      "time": "about 1 hour over 2 sessions",
+      "prereq_units": [
+        "0"
+      ],
+      "why": "Toys use small hooks and firm fabric, which ask more of your hands than most crochet. A good chair, a relaxed grip and regular pauses let you enjoy this for years, and a habit spot makes picking it up easy.",
+      "need": "Your basket from unit 0, a chair with a back, a strong lamp, a plain light cloth for your lap (dark if your yarn is light), and your phone.",
+      "learn": "Read Shiny Happy World's <a href=\"https://www.shinyhappyworld.com/2011/07/right-way-to-hold-a-crochet-hook-pencil-knife.html\">The Right Way to Hold a Crochet Hook: Pencil or Knife?</a> (Shiny Happy World). Then watch the first lessons of Tamara Kelly's free Learn to Crochet course at Moogly (<a href=\"https://www.mooglyblog.com/learn-how-to-crochet/\">right-handed</a> or <a href=\"https://mooglyblog.com/how-to-crochet-left-handed\">left-handed</a>) to see the yarn hand at work. Sigoni Macaroni's free <a href=\"https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/\">Learn to Crochet Masterclass</a> (Sigoni Macaroni) is a second video voice; its left-handed photo steps are only in the paid ebook ($25, as of Oct 2026). For hand health background, see the American Academy of Orthopaedic Surgeons' <a href=\"https://orthoinfo.aaos.org/en/diseases--conditions/carpal-tunnel-animation\">carpal tunnel syndrome animation</a> (AAOS OrthoInfo). Left-handed: Moogly's left-handed course films every step left-handed; Shiny Happy World's grip post has no left-handed version, so mirror its photos.",
+      "key": [
+        "Sit in a chair with back support, feet flat on the floor or a footrest, and elbows resting on armrests or a cushion.",
+        "Raise the work toward your eyes with a cushion on your lap instead of bending your neck down to it.",
+        "Use a strong task light. Over 40, or working with dark yarn, add a magnifier or reading glasses.",
+        "Grip: try the pencil grip and the knife grip. Keep the one that leaves your wrist straight, with no bend up, down or sideways. Neither grip is more correct.",
+        "Hold the hook lightly. Firm toy fabric comes from a smaller hook, never from squeezing. You'll test this in T101.2.",
+        "Session template: warm up with 2 or 3 rows or rounds of something you know, and don't judge tension on these. Then focus on the drill for 15 to 25 minutes. Pause for 1 to 2 minutes: open and close your hands, roll your shoulders, look across the room. Then a second focus block, or switch to your toy. End with two lines in your log: what you did and one thing you noticed.",
+        "Keep drill time to about 45 to 60 minutes per sitting. Relaxed toy time can run longer as long as the pauses happen. Two 15-minute sessions in a busy week keep the thread going.",
+        "An if-then plan makes starting easy. Write one sentence: 'When [a cue, like after dinner on weekdays], I crochet at [a place].' Keep the basket with the current drill and toy at that spot.",
+        "It usually takes two to three months before picking up the hook feels automatic. A day off changes nothing.",
+        "Ache or tiredness: stop for the day, check your grip and support, use a softer yarn than cotton for a few sessions, and go down a hook size if you were squeezing for density.",
+        "Red flags, which mean stop crocheting and see a clinician (primary care first, then a hand surgeon or a certified hand therapist): numbness or tingling that stays or wakes you at night; weakness or dropping things; a finger that catches or locks; pain on the thumb side of the wrist; pain at rest; swelling or warmth; or any pain that lasts more than 1 to 2 weeks. Stretches feel good but they aren't a treatment.",
+        "There are no controlled studies of crochet hook designs. This advice follows general hand-tool ergonomics."
+      ],
+      "drill": [
+        "Set up your spot: chair, cushion, light, lap cloth, basket. Photograph it.",
+        "Write your if-then plan on the first page of your binder.",
+        "Using the 5.0 mm hook and acrylic, make a slip knot and a loose chain of about 20 the way Moogly shows it. This is only for the video; unit 1.1 teaches it properly.",
+        "Prop your phone at elbow height to your hook-hand side and record 1 minute of yourself chaining, so the video shows your hands, wrists and forearms from the side. Label it with today's date. Keep it; TOY 190 compares it with a new one.",
+        "Pause the video at three moments. At each one, check whether your forearm and the back of your hand make a straight line. If not, change grip or raise the work and record 1 more minute.",
+        "On another day, run one full session with the template, including both pauses, and write the two log lines."
+      ],
+      "pass": [
+        "The dated 1-minute side-view video is saved where you can find it again",
+        "In at least 2 of 3 paused frames, the back of your hand lines up with your forearm (no visible bend at the wrist)",
+        "Your if-then plan is written in the binder, and the setup photo shows the chair, light and basket",
+        "Your log shows one session with a warm-up, two focus blocks or one block and toy time, and a pause between them",
+        "You can find the red-flag list in your binder (copy it onto the inside cover)"
+      ],
+      "wrong": [
+        [
+          "Neck or shoulders ache after 20 minutes",
+          "Raise the work with a firmer cushion and rest your elbows. Then check the lamp: leaning in to see is a common cause."
+        ],
+        [
+          "Wrist bends in the video",
+          "Try the other grip, or hold the hook a little farther from its tip. Record again next session; one change at a time."
+        ],
+        [
+          "Fingers tired from gripping",
+          "Loosen your hold until the hook could almost slide out. If the fabric gets loose, that's a hook-size question for T101.2."
+        ],
+        [
+          "Sessions keep getting skipped",
+          "Make the plan smaller: one 10-minute session after a cue you already have. Keep the basket set out at the spot."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Comfortable setup, grip and session rhythm",
+      "rubric": false,
+      "sources": [
+        "https://www.shinyhappyworld.com/2011/07/right-way-to-hold-a-crochet-hook-pencil-knife.html",
+        "https://www.mooglyblog.com/learn-how-to-crochet/",
+        "https://mooglyblog.com/how-to-crochet-left-handed",
+        "https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/",
+        "https://orthoinfo.aaos.org/en/diseases--conditions/carpal-tunnel-animation"
+      ]
+    },
+    {
+      "id": "1.0",
+      "origin": "revised",
+      "t": "Your first weekend: a finished toy from a kit",
+      "kind": "project",
+      "h": 4,
+      "time": "3 to 8 hours over a weekend or several evenings",
+      "prereq_units": [
+        "0",
+        "T100.1"
+      ],
+      "why": "A guided kit gives you a finished toy before you study each stitch, so you know where all the drills in TOY 101 lead. Already finished a beginner kit toy? Test out by checking that toy against the pass list below.",
+      "need": "One beginner-level kit. The Woobles Beginner kits come pre-started, with a close-up video for every step (most beginner kits about $25 to $40, as of Oct 2026). No budget for a kit: use the free course in the learn line instead, with your 3.5 mm hook, cotton, markers and fiberfill.",
+      "learn": "Follow your kit's own videos. The Woobles kits (<a href=\"https://thewoobles.com/collections/leveling-up\">level system</a>, The Woobles) have right- and left-handed versions of every video; start at their <a href=\"https://thewoobles.com/pages/quick-start\">quick-start page</a>, and use the <a href=\"https://help.thewoobles.com/\">Woobles help center</a> if something in the kit is missing or confusing. Free alternative: Nicole Chase's <a href=\"https://www.thenicolechase.com/amigurumi-for-beginners\">Learn Amigurumi for Beginners</a> 10-day email course (Nicole Chase), whose first project is a small crayon. Nicole Chase's videos are right-handed; no left-handed version, so mirror the right-handed steps or pair them with The Woobles' free left-handed technique pages.",
+      "key": [
+        "Follow the kit exactly this time. You'll learn the why of each step in TOY 101.",
+        "Keep the marker the kit gives you in the first stitch of each round, and move it up every round.",
+        "Stuff a little at a time, in small teased pieces, until the toy feels firm and springs back when you squeeze it.",
+        "Hide yarn ends by pushing the needle into the toy and out the far side, then trimming close so the end pulls back inside.",
+        "Keep this toy. You'll compare it with your from-scratch Wooble in T101.3."
+      ],
+      "drill": [
+        "Finish the kit toy following its videos.",
+        "Finishing ritual (about 2 minutes): photograph the toy in daylight on a plain background. In the binder, record the yarn, hook, date and kit name, plus one line on what you like most and one thing you'd change.",
+        "Test-out route: if you already have a finished kit toy, do step 2 with that toy and check it against the pass list."
+      ],
+      "pass": [
+        "The toy is finished, stuffed and closed",
+        "Squeezed gently in daylight at arm's length, about 12 in (30 cm), no white stuffing shows between stitches",
+        "No yarn tails show on the outside",
+        "The daylight photo and binder notes are filed"
+      ],
+      "wrong": [
+        [
+          "Stuffing shows when you squeeze",
+          "Kits use a set hook, so add a little less stuffing next time. You'll fix density properly in T101.2."
+        ],
+        [
+          "Lost count in a round",
+          "Count the stitches since the marker and compare with the number the video shows at the end of that round. Pull back to the marker if it doesn't match."
+        ],
+        [
+          "Lumpy shape",
+          "Massage the lumps outward from outside, or pull out a little stuffing with your hook and add it back in smaller pieces."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Making a whole toy with video guidance",
+      "rubric": true,
+      "sources": [
+        "https://thewoobles.com/collections/leveling-up",
+        "https://thewoobles.com/pages/quick-start",
+        "https://help.thewoobles.com/",
+        "https://www.thenicolechase.com/amigurumi-for-beginners"
+      ]
+    }
+  ]
+}

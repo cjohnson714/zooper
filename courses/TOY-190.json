@@ -1,0 +1,92 @@
+{
+  "code": "TOY 190",
+  "title": "First-year review",
+  "year": 1,
+  "track": "toy",
+  "required": true,
+  "hours": 6,
+  "credits": 0.1,
+  "hook": "3.5 mm (or your T101.2 hook)",
+  "yarn": "#4 worsted cotton, one light solid color",
+  "level": 2,
+  "prereqs": [
+    "TOY 120"
+  ],
+  "summary": "A gentle, at-home check that the four basic toy shapes and your hand habits have stuck, with no pattern videos open.",
+  "intro": "This review shows what you can now do from memory. You make the four basic shapes from a short written card, measure them, score one finished toy on the rubric, and compare a new video of your hands with the one you filmed in T100.1. Take it on any days you like. Anything that doesn't pass yet becomes a single note to try again another day.",
+  "outcomes": [
+    "You can make a sphere, a cylinder, an oval and a flattened piece to count from a written card alone.",
+    "You can measure your own work and judge it on the toy rubric.",
+    "You can see how your grip and posture have changed since TOY 100."
+  ],
+  "assessment": "T190.1 passes when every shape meets its checks and the video comparison is done. A shape that doesn't pass yet is made again on a different day after one fix. No time limit.",
+  "reading": "The Essential Guide to Amigurumi (June Gilbank): skim Amigurumi 101 and Stuffing, Assembly and Finishing the week before.",
+  "units": [
+    {
+      "id": "T190.1",
+      "origin": "new",
+      "t": "The toy exam",
+      "kind": "exam",
+      "h": 6,
+      "time": "about 6 hours over 2 or 3 sessions, on any days you choose",
+      "prereq_units": [
+        "T100.1",
+        "3.1",
+        "T120.1",
+        "3.4",
+        "T120.2",
+        "3.2",
+        "T120.4",
+        "T120.5"
+      ],
+      "why": "Making something from memory, after time has passed, is the best test that a skill is yours. This is also a chance to see how far your hands have come.",
+      "need": "Worsted cotton, your hook, 4 stitch markers, Poly-Fil, a ruler, a bent-tip needle, your phone on a stand, your T100.1 video and checklist, the toy rubric, your T120.5 toy.",
+      "learn": "No new material. If a shape won't come back, look at its unit again on another day, then return. For diagnosing: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/amigurumi-troubleshooter/'>Amigurumi Troubleshooter</a> and <a href='https://www.planetjune.com/finish'>The Ultimate Finish</a>. Left-handed: the Ultimate Finish has a left-handed video on the same page; the Troubleshooter has no left-handed version, so mirror the right-handed steps.",
+      "key": [
+        "Work from the card below only. No tutorials or videos open while you crochet.",
+        "Do a 2-round warm-up on a scrap before each shape so your tension settles first.",
+        "Count every round and write the count down, as in every lab.",
+        "Measure with a ruler, in mm.",
+        "A shape that doesn't pass yet tells you what to practice. Fix one thing, and try it on another day."
+      ],
+      "drill": [
+        "Sphere. Rnd 1: 6 sc in a magic ring (6). Rnds 2 to 6: increase 6 per round with staggered increases to 36. Rnds 7 to 12: sc around (36). Rnds 13 to 16: invisible-decrease 6 per round to 12, stuffing before Rnd 16. Rnd 17: dec x6 (6). Ultimate Finish.",
+        "Cylinder. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnds 4 to 15: sc around (18). Stuff. Rnd 16: (sc, dec) x6 (12). Rnd 17: dec x6 (6). Ultimate Finish.",
+        "Oval. Ch 11. Rnd 1: sc in the 2nd ch from hook, sc 8, 3 sc in the last ch; along the other side, sc 8, 2 sc in the first ch (22). Rnd 2: inc, sc 8, inc x3, sc 8, inc x2 (28). Rnd 3: sc, inc, sc 8, (sc, inc) x3, sc 8, (sc, inc) x2 (34). Rnd 4: sc 2, inc, sc 8, (sc 2, inc) x3, sc 8, (sc 2, inc) x2 (40). Slip stitch, fasten off.",
+        "Two flattened pieces. Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnds 4 to 6: sc around (12). Press flat, sc to the fold, sc 6 through both layers (6).",
+        "Score your T120.5 toy on the toy rubric, as if someone else made it.",
+        "Film 1 minute of your hands crocheting sc in the round, from the same angle as your T100.1 video. Play both side by side and tick the T100.1 checklist for each. Count the stitches made in each minute and write both numbers down."
+      ],
+      "pass": [
+        "Every shape's round counts match the card, written down round by round.",
+        "The sphere's height (pole to pole) and width (across the middle) are within 4 mm (5/32 in) of each other, and no stuffing shows when squeezed under a bright lamp.",
+        "The cylinder's width at Rnd 6 and Rnd 14 is within 2 mm (1/16 in).",
+        "The oval lies flat with no gap along the chain line wider than one stitch when held to a window.",
+        "The two flattened pieces match in width within 2 mm (1/16 in), with straight 6-stitch closing edges.",
+        "The T120.5 toy has a rubric score, and the new video ticks at least as many checklist items as the T100.1 video.",
+        "Your card lists the oval's length and width in mm and in, and the sphere's height and width in mm."
+      ],
+      "wrong": [
+        [
+          "The sphere comes out flat-topped or pointed",
+          "The increases or decreases stacked. Look again at staggering in 3.1 on another day, then make one more sphere."
+        ],
+        [
+          "A count is off and you can't find where",
+          "Use the 10-stitch marker trick from 3.2 on the next try."
+        ],
+        [
+          "The video shows an old habit back (a bent wrist, a tight grip)",
+          "Go back to the T100.1 session template for a week, then film again. No other part of the exam needs to be redone."
+        ]
+      ],
+      "tier": null,
+      "new_skill": null,
+      "rubric": true,
+      "sources": [
+        "https://www.planetjune.com/blog/amigurumi-troubleshooter/",
+        "https://www.planetjune.com/finish"
+      ]
+    }
+  ]
+}

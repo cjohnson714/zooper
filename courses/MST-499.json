@@ -1,0 +1,26 @@
+{
+ "code": "MST 499",
+ "title": "Master honors: CGOA Advanced and a graded sweater",
+ "year": null,
+ "track": "elective",
+ "required": false,
+ "hours": 140,
+ "credits": 3.1,
+ "hook": "As the workbook and your design direct",
+ "yarn": "As the workbook and your design direct",
+ "level": 4,
+ "prereqs": [
+  "FND 290",
+  "GAR 410",
+  "DES 430"
+ ],
+ "summary": "The CGOA Advanced Stitches and Techniques review, an original graded sweater and a finished portfolio.",
+ "intro": "Optional elective. It is not part of the required path, and nothing required waits on it. This is the honors capstone for crocheters who want the general master standard as well as the toy major. The toy major's own capstone is TOY 490. Before mailing the advanced portfolio, have an instructor review your ten weakest swatches.",
+ "outcomes": [
+  "You can complete the CGOA Advanced Stitches and Techniques workbook to its nine standards.",
+  "You can design, grade, test and publish an original sweater whose sample matches its schematic within 1/2 in (12 mm).",
+  "You can assemble a portfolio that shows every technique with a tagged sample."
+ ],
+ "assessment": "Passes when the advanced portfolio is mailed, the sweater pattern is published after testing, and the portfolio binder is complete. CGOA's result is recorded when it arrives.",
+ "units_from_old_phase": "cap"
+}

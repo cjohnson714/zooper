@@ -1,0 +1,555 @@
+{
+  "code": "TOY 120",
+  "title": "Toys from parts",
+  "year": 1,
+  "track": "toy",
+  "required": true,
+  "hours": 60,
+  "credits": 1.3,
+  "hook": "3.5 mm (or the hook your T101.2 density lab chose)",
+  "yarn": "#4 worsted cotton (Lion Brand 24/7 Cotton or similar), smooth and solid-colored",
+  "level": 2,
+  "prereqs": [
+    "TOY 101"
+  ],
+  "summary": "You make each basic toy part (cylinder, oval, cone, flat piece), join them into a figure with a face, add color and safe eyes, then follow two kit patterns and one free designer pattern.",
+  "intro": "Almost every toy is a few simple shapes sewn together. In this course you make each shape on purpose, put the shapes together, and learn the safety habits that let you give a toy to a child. The last two units are whole toys from real patterns, so everything gets used at once. Work at your own pace. A lighter week is still progress.",
+  "outcomes": [
+    "You can crochet a cylinder, an oval, a cone and a flattened piece to an exact stitch count.",
+    "You can stuff a piece in a sensible order to an even firmness, and leave open limbs ready to sew.",
+    "You can pin and join open parts to closed parts with seams that hold and don't show from 30 cm (12 in).",
+    "You can embroider a simple child-safe face and fit safety eyes before a piece is closed.",
+    "You can change color in the round with a hidden join, and choose between carrying and cutting a color.",
+    "You can run a home tug test on a finished toy at 15 lbf (6.8 kg) and decide who the toy suits.",
+    "You can follow a full written amigurumi pattern from a designer, round by round, with every count checked."
+  ],
+  "assessment": "Each lab passes on its own observable checks. The three toys (two Woobles in 3.2 and one designer pattern in T120.5) are scored on the shared toy rubric. The course is complete when every pass list is ticked. A check that doesn't pass yet gets a note and one fix on the next piece. TOY 190 then retests the four basic shapes cold.",
+  "reading": "The Essential Guide to Amigurumi (June Gilbank): the Changing Colour part with T120.3, and the Stuffing, Assembly and Finishing part with T120.1, 3.3 and T120.4. Skim Amigurumi 101 again before 3.2.",
+  "units": [
+    {
+      "id": "T120.1",
+      "origin": "new",
+      "t": "Cylinders, open limbs and stuffing order",
+      "kind": "lab",
+      "h": 6,
+      "time": "about 6 hours over 3 or 4 sessions",
+      "prereq_units": [
+        "1.7",
+        "T101.1",
+        "3.1",
+        "T101.2"
+      ],
+      "why": "Arms, legs, necks, bodies and tails are all cylinders. Most lumpy toys come from stuffing in clumps or in the wrong order, so you practice both here on pieces small enough to finish in one sitting.",
+      "need": "Worsted cotton in one light color, your 3.5 mm hook (or your T101.2 hook), 4 stitch markers, Poly-Fil, a chopstick or the blunt end of a pen for stuffing, a ruler, a bent-tip needle.",
+      "learn": "Free: Nicole Chase, <a href='https://www.thenicolechase.com/amigurumi-for-beginners'>Learn Amigurumi for Beginners</a> (a free 10-day email course; its first project, the crayon, is a plain cylinder) and her <a href='https://www.thenicolechase.com/blog/crochet-in-the-round'>Crocheting in the Round</a>. The Woobles, <a href='https://thewoobles.com/stuff-amigurumi'>How to stuff amigurumi</a>. June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/?p=22910'>How to Fix Uneven Stuffing: the Pinch-and-Push Method</a>. For why no increases makes a tube: Kati of Hooked by Kati, <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>. Left-handed: The Woobles, <a href='https://thewoobles.com/pages/how-to-stuff-amigurumi-for-lefties'>How to stuff amigurumi for lefties</a> and <a href='https://thewoobles.com/pages/how-to-use-stitch-markers-left-handed-crochet'>stitch markers for lefties</a>. Nicole Chase, Hooked by Kati and the pinch-and-push page have no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "A cylinder is a flat circle followed by rounds with no increases. The circle sets the width. The plain rounds set the length.",
+        "Move your marker up and count every round. On a plain round the count stays the same.",
+        "Tease stuffing into thin, fluffy wisps before it goes in. Pinch-and-push can move stuffing around, but it can't undo a clump.",
+        "Stuffing order: fill the far end first, while you can still reach it. On a piece that closes, stuff when 12 stitches remain, then top up through the last small gap.",
+        "An open limb is stuffed firmly at the bottom and lightly in the top 1 cm (3/8 in), so the opening flattens neatly for sewing.",
+        "Leave a 30 cm (12 in) tail on any piece you will sew on later."
+      ],
+      "drill": [
+        "Closed cylinder. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnds 4 to 15: sc around (18), 12 rounds. Stuff firmly from the bottom up. Rnd 16: (sc, dec) x6 (12). Top up the stuffing. Rnd 17: dec x6 (6). Close with the Ultimate Finish.",
+        "Measure the cylinder's width at Rnd 6 and at Rnd 14. Write both numbers on a card.",
+        "Two open limbs. Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnds 3 to 10: sc around (9), 8 rounds. Fasten off with a 30 cm (12 in) tail.",
+        "Stuff each limb firmly in the bottom two thirds and lightly in the top 1 cm (3/8 in). Leave it open. Keep both limbs; they become arms in unit 3.3.",
+        "Squeeze test: under a bright lamp, gently squeeze each piece between thumb and finger and look for white stuffing between stitches."
+      ],
+      "pass": [
+        "Your card shows 6, 12, 18 and then 18 on every plain round of the cylinder, and 6, 9 and then 9 on every plain round of each limb.",
+        "The cylinder's width at Rnd 6 and at Rnd 14 is within 2 mm (1/16 in), so the sides are straight.",
+        "The two limbs are the same length within 2 mm (1/16 in), measured from the tip to the open edge.",
+        "No stuffing shows in the squeeze test, and the cylinder rolls along a table with no visible lumps."
+      ],
+      "wrong": [
+        [
+          "The cylinder flares wider toward the top",
+          "Your grip relaxes as you go. Check the count first. If it's right, crochet 2 warm-up rounds on a scrap before the next piece and keep the same hold the whole time."
+        ],
+        [
+          "Lumps or dents in the cylinder",
+          "The stuffing went in as clumps. On the next piece, fluff it into wisps first and add small amounts. Use pinch-and-push for small dents."
+        ],
+        [
+          "The limb opening won't lie flat for sewing",
+          "Too much stuffing at the top. Pull out the top wisp so the last 1 cm (3/8 in) is soft."
+        ],
+        [
+          "The count drifts to 17 or 19 on plain rounds",
+          "The first or last stitch of a round was skipped or doubled. Clip the marker into the first stitch of each round, never into the gap between stitches."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Cylinders, open limbs and stuffing order",
+      "rubric": false,
+      "sources": [
+        "https://www.thenicolechase.com/amigurumi-for-beginners",
+        "https://www.thenicolechase.com/blog/crochet-in-the-round",
+        "https://thewoobles.com/stuff-amigurumi",
+        "https://thewoobles.com/pages/how-to-stuff-amigurumi-for-lefties",
+        "https://thewoobles.com/pages/how-to-use-stitch-markers-left-handed-crochet",
+        "https://www.planetjune.com/blog/?p=22910",
+        "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/"
+      ]
+    },
+    {
+      "id": "3.4",
+      "origin": "revised",
+      "t": "Ovals",
+      "kind": "lab",
+      "h": 4,
+      "time": "about 4 hours over 2 or 3 sessions",
+      "prereq_units": [
+        "1.1",
+        "1.7",
+        "T120.1"
+      ],
+      "why": "Feet, muzzles, beaks, capes and many bodies start as ovals worked around both sides of a chain. Many designer patterns use this, so you learn it before you meet it.",
+      "need": "Worsted cotton, your 3.5 mm hook, 2 stitch markers, Poly-Fil, a ruler.",
+      "learn": "Free: The Loopy Lamb, <a href='https://theloopylamb.com/how-to-crochet-on-both-sides-of-a-foundation-chain-tutorial/'>How to Crochet on Both Sides of a Foundation Chain</a> (photos, video and a mini sample pattern). For the shape logic: Kati of Hooked by Kati, <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>. Left-handed: no left-handed version of either; mirror the right-handed steps, so your work travels left to right along the chain.",
+      "key": [
+        "An oval is a chain with stitches worked along one side, around the end, and back along the other side. Increases go only at the two curved ends.",
+        "Rnd 1 on a chain of 11 has 22 stitches: 1 + 8 along the first side, 3 in the last chain, 8 back along the other side, 2 more in the first chain you used.",
+        "Each later round adds 6 stitches: 3 at each end. The straight sides stay the same length.",
+        "Mark the first stitch of each round, and if it helps, clip a second marker at the far end so you can see where the increases go.",
+        "Gaps along the chain line come from working into a single loose loop. Work into the loop plus the back bump, and keep the chain itself a little loose."
+      ],
+      "drill": [
+        "Flat oval. Ch 11. Rnd 1: sc in the 2nd ch from hook, sc 8, 3 sc in the last ch; working along the other side of the chain, sc 8, 2 sc in the first ch you worked (22). Rnd 2: inc, sc 8, inc x3, sc 8, inc x2 (28). Rnd 3: sc, inc, sc 8, (sc, inc) x3, sc 8, (sc, inc) x2 (34). Rnd 4: sc 2, inc, sc 8, (sc 2, inc) x3, sc 8, (sc 2, inc) x2 (40). Finish with a slip stitch and fasten off.",
+        "Lay the oval on a table. Measure its length and width and write them on your card.",
+        "Two oval feet. Ch 7. Rnd 1: sc in the 2nd ch from hook, sc 4, 3 sc in the last ch; along the other side, sc 4, 2 sc in the first ch (14). Rnd 2: inc, sc 4, inc x3, sc 4, inc x2 (20). Rnds 3 to 6: sc around (20), 4 rounds. Stuff lightly, leave open, fasten off with a 30 cm (12 in) tail.",
+        "Hold each piece up to a window and look along the chain line for gaps."
+      ],
+      "pass": [
+        "The flat oval's round counts are 22, 28, 34 and 40, marked on your card.",
+        "The flat oval lies flat on a table with no cupping and no ruffles.",
+        "Held up to a window, no gap along the chain line is wider than one stitch.",
+        "The two feet are the same length within 2 mm (1/16 in).",
+        "Your card lists the flat oval's length and width in mm and in, and the oval is longer than it is wide."
+      ],
+      "wrong": [
+        [
+          "The oval curls like a banana",
+          "The chain was tight. Make the next chain more loosely, or chain with a hook one size larger and switch back for Rnd 1."
+        ],
+        [
+          "Holes along the middle line",
+          "Work into one loop plus the back bump of each chain. Keep the chain a little loose."
+        ],
+        [
+          "The ends come out pointed",
+          "The increases stack in the same spot every round. Follow the (sc, inc) and (sc 2, inc) groups exactly so they move along."
+        ],
+        [
+          "The count is off by 1 at an end",
+          "The extra stitches at the turn are easy to lose. Count the end stitches alone before you count the whole round."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Ovals worked around both sides of a chain",
+      "rubric": false,
+      "sources": [
+        "https://theloopylamb.com/how-to-crochet-on-both-sides-of-a-foundation-chain-tutorial/",
+        "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/"
+      ]
+    },
+    {
+      "id": "T120.2",
+      "origin": "new",
+      "t": "Cones and flat pieces",
+      "kind": "lab",
+      "h": 6,
+      "time": "about 6 hours over 3 sessions",
+      "prereq_units": [
+        "1.7",
+        "3.1",
+        "T120.1"
+      ],
+      "why": "Cones make horns, beaks, carrots, tails and pointed ears. Flat and flattened pieces make most ears, wings, fins and patches. Seeing how the increase rate sets the shape is the first step toward reading any pattern by eye.",
+      "need": "Worsted cotton in two colors, your 3.5 mm hook, 3 stitch markers, a ruler, a bent-tip needle.",
+      "learn": "Free: Wendi Gratz (Shiny Happy World), <a href='https://shinyhappyworld.com/?p=3206'>Creating Cone Shapes in Amigurumi</a>. June Gilbank (PlanetJune), the Flattened Pieces tutorial in her <a href='https://www.planetjune.com/help'>help index</a>, and <a href='https://www.planetjune.com/blog/amigurumi-help/invisible-finish-for-open-edges-in-amigurumi/'>Invisible Finish for Open Edges</a>. Kati of Hooked by Kati, <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>. Left-handed: the PlanetJune help index marks the tutorials that have left-handed versions. Shiny Happy World and Hooked by Kati have no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "A flat circle adds 6 stitches every round. Add fewer, or add them only every other round, and the piece grows into a cone.",
+        "The slower you increase, the longer and narrower the cone.",
+        "A flattened piece is a small tube pressed flat and closed by working sc through both layers. Its edge count is half the round count.",
+        "A flat circle used as a patch ends with the invisible finish, so the edge has no bump.",
+        "Most ears are left unstuffed. They sit flatter and are easier to sew on."
+      ],
+      "drill": [
+        "Cone A (slow). Rnd 1: 6 sc in a magic ring (6). Rnd 2: sc around (6). Rnd 3: (sc, inc) x3 (9). Rnd 4: sc around (9). Rnd 5: (sc 2, inc) x3 (12). Rnd 6: sc around (12). Rnd 7: (sc 3, inc) x3 (15). Rnd 8: sc around (15). Rnd 9: (sc 4, inc) x3 (18). Rnd 10: sc around (18). Fasten off.",
+        "Cone B (faster). Rnd 1: 6 sc in a magic ring (6). Rnd 2: sc around (6). Rnd 3: inc x6 (12). Rnd 4: sc around (12). Rnd 5: (sc, inc) x6 (18). Rnd 6: sc around (18). Rnd 7: (sc 2, inc) x6 (24). Rnd 8: sc around (24). Fasten off.",
+        "Stuff both cones lightly. Measure each one's height and its width across the open end. Divide height by width and write the number for each.",
+        "Two flattened ears. Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnds 4 to 6: sc around (12), 3 rounds. Do not stuff. Press flat. If your hook isn't at a folded side, work sc to the fold (these extra stitches aren't counted). Sc 6 through both layers to close (6). Fasten off with a 30 cm (12 in) tail. Keep both ears for unit 3.3.",
+        "One flat patch. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Close with the invisible finish for open edges."
+      ],
+      "pass": [
+        "Your card shows the counts for both cones (6, 6, 9, 9, 12, 12, 15, 15, 18, 18 and 6, 6, 12, 12, 18, 18, 24, 24), both ears (6, 9, 12, 12, 12, 12, then 6 across) and the patch (6, 12, 18).",
+        "Cone A's height-to-width number is larger than cone B's.",
+        "The two ears match in width within 2 mm (1/16 in), and each closing edge is straight with 6 stitches.",
+        "The patch lies flat, and from 30 cm (12 in) you can't see where its last round ends."
+      ],
+      "wrong": [
+        [
+          "The cone twists into a spiral",
+          "Stacked increases make a swirl. Move the increase spot each time. For example, work cone A's Rnd 9 as sc 2, (inc, sc 4) x2, inc, sc 2 (18)."
+        ],
+        [
+          "The flattened ear closes crooked",
+          "The fold wasn't at the side. Work sc to the fold before you start the 6 closing stitches."
+        ],
+        [
+          "A bump or step at the patch edge",
+          "That's the slip-stitch join. Use the invisible finish on the next patch."
+        ],
+        [
+          "The cone cups at the tip",
+          "Your first round is loose. Pull the magic ring tight and make Rnd 2 with firm, even tension."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Cones, flattened pieces and the invisible finish",
+      "rubric": false,
+      "sources": [
+        "https://shinyhappyworld.com/?p=3206",
+        "https://www.planetjune.com/help",
+        "https://www.planetjune.com/blog/amigurumi-help/invisible-finish-for-open-edges-in-amigurumi/",
+        "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/"
+      ]
+    },
+    {
+      "id": "3.3",
+      "origin": "revised",
+      "t": "Joining parts and simple faces",
+      "kind": "project",
+      "h": 8,
+      "time": "about 8 hours over 3 or 4 sessions",
+      "prereq_units": [
+        "3.1",
+        "T120.1",
+        "T120.2"
+      ],
+      "why": "Joining is where a pile of parts becomes a character. Even attachments and a level face shape how a toy looks more than perfect stitches do.",
+      "need": "Your two open limbs from T120.1 and two flattened ears from T120.2, more worsted cotton in the same color, black or dark brown yarn for the face, a bent-tip needle, straight pins, Poly-Fil, a ruler.",
+      "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/join'>Joining Amigurumi: the Seamless Join</a> and the <a href='https://www.planetjune.com/basicjoin'>Basic Joining Method</a>, then <a href='https://www.planetjune.com/tinyeyes'>Tiny Yarn Eyes</a>. Kati of Hooked by Kati, <a href='https://www.hookedbykati.com/no-more-crooked-ami-parts/'>No More Crooked Ami Parts</a>. Nicole Chase, <a href='https://www.thenicolechase.com/blog/embroider-amigurumi'>Embroidering on Amigurumi</a> for the mouth. Left-handed: Tiny Yarn Eyes has left-handed and right-handed videos. The Basic Joining Method is filmed left-handed, so right-handers flip the images. The other pages have no confirmed left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Pin every part before you sew. Look from the front, the side and above, then fix the pins before the first stitch.",
+        "Place parts by counting. Count rounds up from the bottom and stitches around from the center front, and make both sides match.",
+        "Pick the side with the round-start jog as the back of the toy.",
+        "Open-to-closed join: one stitch under a stitch on the open rim, then one stitch into the body right beside it, all the way around. Pull each stitch snug so the seam disappears.",
+        "Flat pieces are whipstitched along their closing edge.",
+        "Before you finish, stuff the neck of the body firmly. A soft neck makes a floppy head.",
+        "Yarn eyes and an embroidered mouth have no hard parts, so they suit toys for babies and pets once the tug test in T120.4 is passed."
+      ],
+      "drill": [
+        "Head: make the 3.1 sphere. Rnds 1 to 6 increase to 36, Rnds 7 to 12 sc around (36), Rnd 13: (sc 4, dec) x6 (30), Rnd 14: (sc 3, dec) x6 (24), Rnd 15: (sc 2, dec) x6 (18), stuff, Rnd 16: (sc, dec) x6 (12), Rnd 17: dec x6 (6), Ultimate Finish.",
+        "Body. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: (sc 4, inc) x6 (36). Rnds 7 to 16: sc around (36), 10 rounds. Rnd 17: (sc 4, dec) x6 (30). Rnd 18: (sc 3, dec) x6 (24). Fasten off with a 50 cm (20 in) tail. Stuff firmly, filling the neck well.",
+        "Face first, while the head is easy to handle. Mark the center front of Rnd 9 of the head. Make two tiny yarn eyes on Rnd 9 with 6 stitches between their centers. Embroider a small V mouth 2 rounds below, centered between the eyes.",
+        "Pin the body's 24-stitch neck to the bottom of the head, centered on the closing point. Check from the front and the side. Join with the seamless join.",
+        "Pin the arms (your two T120.1 limbs) with their tops on Rnd 15 of the body, 18 stitches apart, on the left and right sides. Flatten each opening and join it with the seamless join.",
+        "Pin the ears (your two T120.2 pieces) on Rnd 4 of the head, with 6 stitches between their inner ends. Whipstitch along each closing edge.",
+        "Weave every tail into the body and trim it so no end shows."
+      ],
+      "pass": [
+        "Held by the body and shaken 5 times, the head doesn't flop or tilt.",
+        "Measured with a ruler from the top center of the head, both eyes sit at the same height within 2 mm (1/16 in).",
+        "Both arms start on Rnd 15 (count it) and hang at the same height within 2 mm (1/16 in).",
+        "In a photo taken from 30 cm (12 in), you can't see the yarn of any seam."
+      ],
+      "wrong": [
+        [
+          "The head tilts or nods",
+          "The neck is underfilled or the head was pinned off center. On the next figure, stuff the neck until it's firm and pin the head straight before sewing. On this one, add a second round of the join stitches pulled snug."
+        ],
+        [
+          "The eyes look uneven",
+          "They were placed by eye. Count rounds from the top and stitches from the center front every time."
+        ],
+        [
+          "The seam shows as a ridge",
+          "The stitches were loose or too far apart. Make each stitch small and pull it snug."
+        ],
+        [
+          "One arm sits lower",
+          "It was pinned on a different round. Count rounds from the base before you pin."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Joining open parts to a closed body, with a pinned, counted layout",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/join",
+        "https://www.planetjune.com/basicjoin",
+        "https://www.planetjune.com/tinyeyes",
+        "https://www.hookedbykati.com/no-more-crooked-ami-parts/",
+        "https://www.thenicolechase.com/blog/embroider-amigurumi"
+      ]
+    },
+    {
+      "id": "T120.3",
+      "origin": "new",
+      "t": "Color changes in the round",
+      "kind": "lab",
+      "h": 5,
+      "time": "about 5 hours over 2 or 3 sessions",
+      "prereq_units": [
+        "3.1",
+        "T120.1"
+      ],
+      "why": "Stripes, bellies, beaks and boots all need a color change. In a spiral each change leaves a small step called the jog. Learning to hide it now means your first striped toy looks clean.",
+      "need": "Worsted cotton in two contrasting colors (A and B), your 3.5 mm hook, 4 stitch markers, Poly-Fil, a bent-tip needle.",
+      "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/color'>Changing Colour, Perfect Stripes</a> and <a href='https://www.planetjune.com/managingcolours'>Managing Colours</a>. Kati of Hooked by Kati, <a href='https://www.hookedbykati.com/?p=522'>Super Simple Jogless Color Change</a> (video). Left-handed: PlanetJune's colour-change tutorial comes in right- and left-handed versions; Managing Colours is a video and photo guide. Hooked by Kati has no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "To change color, work the last stitch before the change until 2 loops are on the hook, then finish it with the new color.",
+        "A spiral never closes, so a stripe edge steps up where the round starts. A jogless method hides that step.",
+        "Carry a color inside the piece when it comes back within a few rounds. Cut it when it doesn't come back, or when the carried strand would show through a light color.",
+        "Tie cut tails together inside with a square knot before you stuff, then trim to 2 cm (3/4 in).",
+        "Keep the carried strand loose. A tight strand puckers the fabric."
+      ],
+      "drill": [
+        "Striped ball (carry both colors). In A: Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: (sc 4, inc) x6 (36).",
+        "Rnds 7 and 8 in B (36). Change into Rnd 7 with the plain method and leave the jog showing.",
+        "Rnds 9 and 10 in A (36). Change into Rnd 9 with PlanetJune's Perfect Stripes method.",
+        "Rnds 11 and 12 in B (36). Change into Rnd 11 with Hooked by Kati's jogless method.",
+        "Rnds 13 to 17 in A: change with the method you liked best, then (sc 4, dec) x6 (30), (sc 3, dec) x6 (24), (sc 2, dec) x6 (18), stuff, (sc, dec) x6 (12), dec x6 (6). Ultimate Finish.",
+        "Cut test. An open limb with a cut change. In A: Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnds 3 and 4: sc around (9). Change to B and cut A. Rnds 5 to 10 in B: sc around (9). Tie the A and B tails inside with a square knot. Fasten off."
+      ],
+      "pass": [
+        "Your card shows 6, 12, 18, 24, 30, 36, then 36 for Rnds 7 to 12, then 30, 24, 18, 12, 6 on the ball, and 6, 9, then 9 on the limb.",
+        "From 30 cm (12 in), another person can find the plain change on Rnd 7 right away but can't point to where Rnd 9 or Rnd 11 starts within 5 seconds.",
+        "Squeezed under a bright lamp, no carried strand shows through the fabric.",
+        "Inside the cut-test limb the knot holds when you tug both tails, and no tail end pokes out between stitches.",
+        "The three stripes on Rnds 7 to 12 are the same height within 2 mm (1/16 in)."
+      ],
+      "wrong": [
+        [
+          "A dot of the old color in the first stitch",
+          "The change was made in the wrong stitch. Finish the last stitch before the change with the new color."
+        ],
+        [
+          "The fabric puckers where a color was carried",
+          "The carried strand was pulled tight. Let it lie slack inside before the next stitch."
+        ],
+        [
+          "The stripe still steps up",
+          "Look again at the jogless video and do just that one step. Try it on the next stripe; one fix at a time."
+        ],
+        [
+          "A dark carried strand shows through light yarn",
+          "Cut and tie that color instead of carrying it."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Color changes in the round, jogless stripes, carry vs cut",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/color",
+        "https://www.planetjune.com/managingcolours",
+        "https://www.hookedbykati.com/?p=522"
+      ]
+    },
+    {
+      "id": "T120.4",
+      "origin": "new",
+      "t": "Safe eyes and the home tug test",
+      "kind": "lab",
+      "h": 4,
+      "time": "about 4 hours over 2 sessions",
+      "prereq_units": [
+        "3.1",
+        "3.3"
+      ],
+      "why": "A toy you give away gets chewed, pulled and swung by one limb. Knowing who can have safety eyes, fitting them so they stay, and testing your seams at home lets you give toys with confidence.",
+      "need": "Worsted cotton, your 3.5 mm hook, a pair of safety eyes from your supplies, black yarn or felt for a child-safe pair, your 3.3 figure, a digital luggage scale (any kind that reads pounds or kilograms), a strip of fabric or a doubled length of yarn for a sling, a ruler.",
+      "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/eyeoptions'>Eye Options</a>, <a href='https://www.planetjune.com/eyes'>Positioning Eyes</a> and <a href='https://www.planetjune.com/crocheteyes'>Crocheted Eyes</a>. The Woobles, <a href='https://thewoobles.com/use-safety-eyes'>How to use safety eyes</a>. Kim Guzman, <a href='https://crochetkim.com/attach-safety-eyes/'>How to Attach Safety Eyes to Your Amigurumi</a>. Wendi Gratz (Shiny Happy World), <a href='https://www.shinyhappyworld.com/2013/03/felt-eyes-baby-safe-crochet-amigurumi-how-to.html'>baby-safe felt eyes</a>. Interweave, <a href='https://www.interweave.com/article/crochet/crocheted-toys-construction-safety/'>Crocheted Toys: Construction &amp; Safety</a>. For pellets later: The Loopy Lamb, <a href='https://theloopylamb.com/how-to-use-poly-pellets-in-amigurumi/'>How to use poly pellets in amigurumi</a>. Left-handed: The Woobles kit videos come in left-handed versions. The pages above have no confirmed left-handed version; mirror the right-handed steps.",
+      "key": [
+        "For a child under 3, or a home with a pet that chews, use no safety eyes, buttons, beads or pellets. Use embroidered, felt or crocheted eyes instead.",
+        "Safety eyes go in before the piece is closed, while you can still reach inside. Push the post between two stitches, never through a stitch, and press the washer on, flat side toward the fabric, until it sits tight against the inside.",
+        "Check the placement from the front and the side before the washer goes on. A seated washer is very hard to remove.",
+        "Pellets go only inside a sealed pouch, such as a knotted piece of nylon stocking, and never loose in a toy. You will use them in TOY 220.",
+        "Home tug targets come from the US toy rules. A reported ASTM F963 seam test uses 10 lbf (4.5 kg) for toys for ages 0 to 18 months and 15 lbf (6.8 kg) for ages 19 months to 8 years, and federal rule 16 CFR 1500.52 (toys for ages over 18 months up to 36 months) tests stuffed-toy seams at 15 lb (6.8 kg), applied within 5 seconds and held 10 more. Use 15 lbf for every gift.",
+        "A home tug test is a check on your own work. It isn't certification, and it isn't enough for selling toys; that is covered in the optional BUS 380 course."
+      ],
+      "drill": [
+        "Eye test head. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnds 6 to 10: sc around (30), 5 rounds.",
+        "Mark the center front of Rnd 8. Push the two eye posts in on Rnd 8 with 5 stitches between them. Check from the front and side, then fit the washers.",
+        "Rnd 11: (sc 3, dec) x6 (24). Rnd 12: (sc 2, dec) x6 (18). Stuff. Rnd 13: (sc, dec) x6 (12). Rnd 14: dec x6 (6). Ultimate Finish.",
+        "Make a second head with the same counts. Give it child-safe eyes on Rnd 8, 5 stitches apart: embroidered, felt or crocheted. Write \"no hard parts\" on a tag for it.",
+        "Eye check on the first head: grip each eye and twist it a half turn each way 5 times, then pull it straight out firmly for 10 seconds.",
+        "Tug test on your 3.3 figure. Loop the sling around one arm close to its seam. Hold the body, hook the luggage scale to the sling and pull steadily to 15 lbf (6.8 kg) over about 5 seconds. Hold for 10 seconds. Repeat for the other arm, each ear and the head."
+      ],
+      "pass": [
+        "The safety eyes sit on Rnd 8 at the same height within 2 mm (1/16 in), with 5 stitches between them.",
+        "After the twist and pull, neither safety eye has moved, and no gap shows between the eye and the fabric.",
+        "The child-safe head has no hard parts and is tagged.",
+        "Every part of the 3.3 figure holds 15 lbf (6.8 kg) for 10 seconds with no broken yarn and no gap in a seam wider than 1 mm (1/32 in)."
+      ],
+      "wrong": [
+        [
+          "The eye went through a stitch and the fabric is stretched",
+          "If the washer isn't on yet, take the eye out and push it into the gap between stitches. If it is, leave this head as a practice piece and place the next one between stitches."
+        ],
+        [
+          "The eyes are crooked once the head is stuffed",
+          "They were placed before you checked from the side. On the next head, pin both, stuff lightly, and look from three angles before fitting the washers."
+        ],
+        [
+          "A seam opened during the tug test",
+          "Re-sew that part with small stitches into the body every stitch, then test it again. Repair is fine; that's what the test is for."
+        ],
+        [
+          "The luggage scale is hard to hook on",
+          "Use a soft fabric strip as a sling so it pulls on the whole limb, not one stitch."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Safety eyes, child-safe eye choices and a home tug test",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/eyeoptions",
+        "https://www.planetjune.com/eyes",
+        "https://www.planetjune.com/crocheteyes",
+        "https://thewoobles.com/use-safety-eyes",
+        "https://crochetkim.com/attach-safety-eyes/",
+        "https://www.shinyhappyworld.com/2013/03/felt-eyes-baby-safe-crochet-amigurumi-how-to.html",
+        "https://www.interweave.com/article/crochet/crocheted-toys-construction-safety/",
+        "https://theloopylamb.com/how-to-use-poly-pellets-in-amigurumi/",
+        "https://store.astm.org/f0963-23.html",
+        "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-C/part-1500/section-1500.52"
+      ]
+    },
+    {
+      "id": "3.2",
+      "origin": "revised",
+      "t": "Following patterns: Woobles Beginner+ then Intermediate",
+      "kind": "project",
+      "h": 15,
+      "time": "about 15 hours: 5 to 7 for the Beginner+ toy, 8 to 10 for the Intermediate toy, over 2 to 4 weeks",
+      "prereq_units": [
+        "1.2",
+        "T101.1",
+        "T120.1",
+        "3.4",
+        "T120.2",
+        "3.3",
+        "T120.3",
+        "T120.4"
+      ],
+      "why": "Kit videos show every stitch, so they are the gentlest way to practice following a real pattern from start to finish. Stepping up one level at a time adds a single new idea per toy.",
+      "need": "One Beginner+ Woobles kit and one Intermediate Woobles kit, your own hook if a kit doesn't include one, safety eyes or a child-safe alternative from T120.4, stitch markers, a pencil and a printed or written round-by-round tally card. Kits cost about $25 to $40 each (as of Oct 2026). A batch you have already planned counts here: any Beginner+ kit in it can be the first toy and any Intermediate kit the second.",
+      "learn": "The kit's own step-by-step videos, which come in right- and left-handed versions. Background: The Woobles <a href='https://thewoobles.com/collections/leveling-up'>level system</a> (Beginner, Beginner+ adds color changes or irregular shapes, Intermediate adds more advanced stitches; there is no Advanced level, as of Oct 2026), the <a href='https://help.thewoobles.com/'>Woobles help center</a> for kit questions, Stephanie Lau (All About Ami), <a href='https://www.allaboutami.com/howtoreadamigurumipatterns/'>How to Read Amigurumi Patterns</a>, and June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/amigurumi-troubleshooter/'>Amigurumi Troubleshooter</a>. Without kits: Justine Tiu (The Woobles), <a href='https://insighteditions.com/products/crochet-amigurumi-for-every-occasion'>Crochet Amigurumi for Every Occasion</a> ($24.99 list, as of Oct 2026), or two patterns from Nicole Chase's <a href='https://www.thenicolechase.com/ideas/free-easy-amigurumi-patterns'>40+ Free Easy Amigurumi Crochet Patterns</a>. Left-handed: every Woobles kit video has a left-handed version. All About Ami, the Troubleshooter and the Nicole Chase patterns have no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Read the whole pattern once before you start. Mark every part to make, every color change and every point where something is added before closing.",
+        "Write the round number and stitch count on your tally card as you finish each round. If the count is off, fix it in that round.",
+        "Beginner+ adds one new thing (a color change or an irregular shape). Intermediate adds new stitches such as taller stitches (taught in unit 1.2); the kit videos show each one.",
+        "The Woobles book is organized around occasions (birthdays, showers and so on). If you use it, read each pattern through and pick one that adds one thing you haven't done, then a second that adds one more.",
+        "Beginner kits make good comfort projects between units. They build speed. They don't count as the step up here.",
+        "Before closing any piece, check if eyes or a face go in first."
+      ],
+      "drill": [
+        "Toy 1 (Beginner+). Read the pattern, write the parts list on your tally card, and make the toy with the videos. Note the one new thing it taught.",
+        "Score toy 1 on the toy rubric. Write one thing to do better on toy 2.",
+        "Toy 2 (Intermediate). Same steps. Before each new stitch, watch that video section once without crocheting, then crochet along.",
+        "Measure both toys: total height, and the width of each matching pair of parts.",
+        "Photograph each toy straight on next to its product photo shown at about the same height on a screen. Measure head width and total height on both images with a ruler and compare the head-to-height ratios."
+      ],
+      "pass": [
+        "Your tally cards show a stitch count beside every round of both toys.",
+        "Matching parts (legs, ears, arms) are the same size within 2 mm (1/16 in).",
+        "Each toy's head-to-height ratio is within 10% of its product photo.",
+        "Both toys are scored on the toy rubric, with one improvement goal written for the next toy."
+      ],
+      "wrong": [
+        [
+          "Lost your place in a long round",
+          "Clip a second marker every 10 stitches on long rounds, and tick each one off on the card."
+        ],
+        [
+          "A part comes out larger than the photo",
+          "Your tension is looser than the designer's. Check the T101.2 notes and try the next part on the smaller hook."
+        ],
+        [
+          "A video step goes too fast",
+          "Slow the video to half speed or pause after each stitch. Watching once before crocheting helps."
+        ],
+        [
+          "The pattern seems to have an error",
+          "Check the Woobles help center or the book's errata, then write the fix on your card."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Following a full pattern across a level step (Beginner+ then Intermediate)",
+      "rubric": true,
+      "sources": [
+        "https://thewoobles.com/collections/leveling-up",
+        "https://help.thewoobles.com/",
+        "https://insighteditions.com/products/crochet-amigurumi-for-every-occasion",
+        "https://www.allaboutami.com/howtoreadamigurumipatterns/",
+        "https://www.planetjune.com/blog/amigurumi-troubleshooter/",
+        "https://www.thenicolechase.com/ideas/free-easy-amigurumi-patterns"
+      ]
+    },
+    {
+      "id": "T120.5",
+      "origin": "new",
+      "t": "A first free multi-part animal from a designer",
+      "kind": "project",
+      "h": 12,
+      "time": "about 12 hours over 2 to 4 weeks",
+      "prereq_units": [
+        "3.2",
+        "3.3",
+        "T120.3",
+        "T120.4"
+      ],
+      "why": "A designer's pattern doesn't come pre-started or with every yarn chosen for you. This is your first toy where you pick the yarn, hook and colors, read the abbreviations section yourself, and plan the assembly.",
+      "need": "A free pattern (see Learn), worsted cotton in the colors you choose, your 3.5 mm hook, safety eyes or a child-safe alternative, stitch markers, pins, Poly-Fil, a tally card, a ruler, a luggage scale.",
+      "learn": "Free first choice: Jess Huff, <a href='https://jesshuff.com/videos/sheep-1-ears/'>Sage the Sheep crochet-along</a>. Every pattern on <a href='https://jesshuff.com'>jesshuff.com</a> is free, professionally edited and tested, and designed for low sewing. Other good choices: one pattern from Nicole Chase's <a href='https://www.thenicolechase.com/ideas/free-easy-amigurumi-patterns'>40+ Free Easy Amigurumi Crochet Patterns</a>. If you choose Sage here, pick a different designer for T150.4 next year. Checking a free pattern before you start: it has a named designer, lives on the designer's own site or a <a href='https://www.ravelry.com'>Ravelry</a> listing, shows maker photos, and states its terms. Left-handed: no left-handed version of these patterns or videos; mirror the right-handed steps.",
+      "key": [
+        "Read the abbreviations and notes first. Designers vary on how they write a round, and the notes tell you how this one does it.",
+        "Choose the hook by your T101.2 density lab, not only by the label. A pattern's hook is a starting point.",
+        "Make all the parts, pin everything, look from three angles, then sew.",
+        "Score the toy on the rubric and write one change for next time. Don't remake this one; put the change into your next toy.",
+        "If the toy goes to a child, decide on eyes using T120.4 first, then run the tug test before you wrap it."
+      ],
+      "drill": [
+        "Check the pattern: designer named, own site or listing, maker photos, terms. Write them on the tally card.",
+        "Write the parts list and a color plan on the card.",
+        "Make each part, writing the stitch count beside every round.",
+        "Pin, check from the front, side and above, and assemble.",
+        "Run the tug test at 15 lbf (6.8 kg) on every attached part.",
+        "Fill in a notes card: yarn, hook, finished height in mm and in, hours spent, one change for next time."
+      ],
+      "pass": [
+        "Every round of every part has a stitch count on your card.",
+        "Matching parts are the same size within 2 mm (1/16 in).",
+        "Every attached part holds 15 lbf (6.8 kg) for 10 seconds.",
+        "The toy is scored on the toy rubric and the notes card is complete."
+      ],
+      "wrong": [
+        [
+          "The pattern uses a stitch you don't know",
+          "Check the pattern's own tutorial links first. If the stitch is taught in a later unit, choose a different pattern for now."
+        ],
+        [
+          "The finished toy is much bigger or smaller than the designer's",
+          "Your yarn or hook differs. Record it on the notes card; it's useful data for TOY 230 scaling."
+        ],
+        [
+          "Parts look right alone but wrong together",
+          "Placement drifted. Re-pin by counting rounds and stitches, and compare with the designer's photos from the same angle."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Following a designer's full written pattern with your own yarn, hook and color choices",
+      "rubric": true,
+      "sources": [
+        "https://jesshuff.com/videos/sheep-1-ears/",
+        "https://jesshuff.com",
+        "https://www.thenicolechase.com/ideas/free-easy-amigurumi-patterns",
+        "https://www.ravelry.com"
+      ]
+    }
+  ]
+}

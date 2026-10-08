@@ -1,0 +1,33 @@
+{
+ "code": "LAC 330",
+ "title": "Motifs, thread, filet and lace",
+ "year": null,
+ "track": "elective",
+ "required": false,
+ "hours": 73,
+ "credits": 1.6,
+ "hook": "1.5 to 1.75 mm steel hooks; 3.5 mm for the shawl",
+ "yarn": "Size 10 crochet thread; #2 fine yarn for the shawl",
+ "level": 3,
+ "prereqs": [
+  "FND 210"
+ ],
+ "summary": "Geometric motifs joined as you go, fine thread on steel hooks, filet charts, Japanese diagrams and a blocked lace shawl.",
+ "intro": "Optional elective. It is not part of the required path, and nothing required waits on it. It is the elective most worth taking for the heirloom blanket studio: units 6.2 (join-as-you-go motifs) and 6.6 (blocking lace hard to size) build the precision Sophie's Universe rewards, and 6.5 (Japanese diagrams) helps with Japanese amigurumi books. Open work shows every uneven stitch, so this is where precision becomes habit.",
+ "outcomes": [
+  "You can work even stitches in size 10 thread on a steel hook.",
+  "You can join hexagon motifs as you go so they meet at their points with no gaps.",
+  "You can work a doily from a diagram that blocks flat to its stated diameter within 1/2 in (12 mm).",
+  "You can work a filet picture block for block from a chart.",
+  "You can work swatches from Japanese symbol diagrams that match their photos.",
+  "You can block a lace shawl to its published size within 2 in (5 cm)."
+ ],
+ "assessment": "Each unit passes on its pass list. The shawl (6.6) is the course project, measured after blocking.",
+ "units_from_old_phase": "p6",
+ "pass_fixes": {
+  "6.5": [
+   "Each swatch matches its diagram's photo",
+   "Given a key with the symbol names covered, you label every symbol you used and check it against the key: no errors"
+  ]
+ }
+}

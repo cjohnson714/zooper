@@ -17,12 +17,19 @@ capabilities (`db`, `user`, `downloads`, `sample`).
 - Prefers more information to less, as long as the main toy path isn't cluttered with
   information that isn't relevant to it.
 
-## Structure
+## Structure (rebuilt October 2026 as "The Amigurumi Major")
 
-- Required: Toymaker core (FND 100, FND 101, TOY 201) → Fundamentals (FND 202, FND 290).
-- Dream project: the heirloom blanket ladder. Recommends LAC 330 (units 6.2 and 6.6 gate it).
-- Optional: LAC 330, CLR 310, TUN 320, GAR 410, HER 420, DES 430, MST 499.
-- Unit ids keep their original curriculum numbers (saved progress is keyed by them). Never renumber.
+- A four-year toymaking major, about 944 required hours (3 to 4 years at 4 to 6 h a week). Courses live in
+  `courses/*.json` (source of truth for content); `research/LIBRARY.json` is the verified resource library.
+- Year 1 TOY 100, 101, 120, 190 · Year 2 TOY 150, 210, 220, 230, 290 · Year 3 TOY 310, 320, 330 · Year 4 TOY 410, 420, 490.
+- Required minor: Fundamentals FND 110, 210, 290 (CGOA Fundamentals review). Required studio: BLK 250 (heirloom blanket).
+- Optional: TOY 340, BUS 380, TCH 395, and electives LAC 330, CLR 310, TUN 320, GAR 410, HER 420, DES 430, MST 499.
+- Unit ids keep their original curriculum numbers where a unit existed (1.1, 3.1 ...); new units are Tnnn.x and B1..B11.
+  Never renumber: saved progress is keyed by unit id.
+- Rebuild the page from `courses/` with a build script (the pipeline lived in the session scratchpad: it reads the
+  courses and LIBRARY.json, swaps them into `crochet-master-plan.html`, and applies the design system).
+- Design: Young Serif display, Atkinson Hyperlegible Next body, Maple Mono for counts and pattern notation.
+  The home screen draws progress as a crochet magic ring (one round per year, one stitch per required unit).
 
 ## What the learner already has
 
@@ -35,8 +42,6 @@ capabilities (`db`, `user`, `downloads`, `sample`).
 
 ## Open ideas, not yet built
 
-- Toy-design course units (writing round tables, posable armatures, face placement) to replace
-  garment grading for a toy designer — needs real, verified resources before adding.
 - Skill tags on every project so the app can suggest the next toy that adds one new skill.
 - Pattern companion: parse a pattern into rounds and check stitch counts against the counter.
 - Yarn stash with yardage, subtracted from the shopping list.
@@ -46,3 +51,12 @@ capabilities (`db`, `user`, `downloads`, `sample`).
 
 - Verify outside facts (prices, programs, patterns) before adding them; date anything that goes stale.
 - Test in a headless browser at phone width, light and dark, before publishing.
+
+## Known limits of the October 2026 research
+
+- WebFetch was blocked, so facts come from search snippets. Items marked verified were confirmed by a second
+  agent's search; none were opened as pages. Re-check prices and links in a normal browser before relying on them.
+- r/Amigurumi and r/CrochetHelp wikis could not be read; check them for a beginner page worth crediting.
+- Open questions: whether Edward's Menagerie: The New Collection uses US or UK terms; the Sophie's Universe book's
+  part and round counts; 2026 prices of The Essential Guide to Amigurumi and Hooked by Kati courses.
+- Hour estimates for toys are guesses until the learner logs real project times.

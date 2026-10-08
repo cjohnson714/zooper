@@ -1,0 +1,505 @@
+{
+ "code": "TOY 220",
+ "title": "Bases, surface and texture",
+ "year": 2,
+ "track": "toy",
+ "required": true,
+ "hours": 31,
+ "credits": 0.7,
+ "hook": "3.5 mm (or your T101.2 house hook); 4 mm for surface slip stitch",
+ "yarn": "#4 worsted cotton (Lion Brand 24/7 Cotton or similar) in two or three colors, plus one skein of #4 worsted acrylic or wool for brushing",
+ "level": 3,
+ "prereqs": [
+  "TOY 190"
+ ],
+ "summary": "You make toys that stand up, then add texture on and in the fabric: loop work, surface crochet, fur, brushing, and stitches that pop out.",
+ "intro": "So far your toys have been smooth and mostly lying down. This course gives them flat bases, weight where it helps, and surfaces worth touching. Each lab is short and ends with something you keep. Two toys come out of it: a weighted penguin that stands on its own and a brushed chick. Work at your own pace. A lighter week is still progress.",
+ "outcomes": [
+  "You can use a back-loop-only round to turn a crisp corner, and leave free loops to build on later.",
+  "You can plan a container from measurements and keep its walls straight.",
+  "You can make a toy stand with a flat base, a stiff insert and a sealed pellet pouch, and say who the toy suits.",
+  "You can surface slip stitch straight lines and build a skirt or spine from them.",
+  "You can crochet even loop-stitch fur and place it on the outside of a toy.",
+  "You can brush a toy into a soft halo without losing its shape.",
+  "You can add popcorns, bobbles, puffs and spike stitches to a toy and keep the stitch count."
+ ],
+ "assessment": "Each lab passes on its own observable checks. The penguin (T220.2) and the brushed chick (T220.5) are scored on the shared toy rubric. If a check doesn't pass yet, fix one thing and try again. After three tries in one sitting, stop for the day.",
+ "reading": "The Essential Guide to Amigurumi (June Gilbank): the sections on stuffing and finishing, and on customizing patterns. Reread your T120.4 safety notes before T220.2.",
+ "units": [
+  {
+   "id": "T220.1",
+   "origin": "new",
+   "t": "Front and back loops in the round, and flat bases",
+   "kind": "lab",
+   "h": 4,
+   "time": "4 to 6 hours over 2 or 3 sessions",
+   "prereq_units": [
+    "1.3",
+    "1.4",
+    "1.7",
+    "T101.2",
+    "3.4",
+    "T120.1",
+    "T120.2",
+    "T120.3"
+   ],
+   "why": "One round in the back loops turns a flat circle into a crisp base, and the loops it leaves free are where skirts, collars and hair get added later. Feet, shoes, hats and standing toys all start here.",
+   "need": "Worsted cotton in two colors, your house hook, 4 stitch markers, a ruler, Poly-Fil, an index card for counts.",
+   "learn": "No verified toy-specific tutorial on loop work in the round was found, so this unit teaches it directly. Review unit 1.3 for which loop is which, and June Gilbank's (PlanetJune) <a href='https://www.planetjune.com/rightside'>Which Is the Right Side?</a> for how a stitch looks from each side (right- and left-handed video on the same page). For later use: Stitches n Scraps, <a href='https://stitchesnscraps.com/tutorial-amigurumi-doll-hair/'>Adding Hair to an Amigurumi Doll</a>, a look ahead at how hair gets added to a doll. Left-handed: PlanetJune's left-handed video; the Stitches n Scraps page has no left-handed version, so mirror the right-handed steps.",
+   "key": [
+    "Back loop only (BLO) in the round: insert the hook under the far loop only. The near (front) loops stay unworked as a ridge on the outside, and the fabric turns a sharp corner away from you.",
+    "That corner is how a flat base becomes a wall. Work the base flat, then one BLO round, then plain rounds.",
+    "Front loop only (FLO) in the round leaves the back loops free on the inside of the piece. Patterns use it to attach something from the inside later.",
+    "Free front loops left by a BLO round in the middle of a wall are a ready-made row of loops for a skirt, collar or frill.",
+    "A loop-only round still has the same stitch count. Count it like any other round.",
+    "A base that cups was crocheted too tight or with too few increases. A base that ruffles has too many. Check it lies flat before the corner round."
+   ],
+   "drill": [
+    "Cup A (crisp base). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: (sc 4, inc) x6 (36). Rnd 7: BLO sc around (36). Rnds 8 and 9: sc around (36). Rnd 10: BLO sc around (36). Rnds 11 and 12: sc around (36). Invisible finish.",
+    "Cup B (no corner). The same counts, but work Rnd 7 and Rnd 10 in both loops.",
+    "Frill on Cup A. Join the second color in any free front loop of Rnd 9 (left by the BLO Rnd 10). Ch 1, 2 sc in each free front loop around (72), slip stitch to the first sc. Fasten off.",
+    "Flat oval sole. Ch 7. Rnd 1: sc in the 2nd ch from hook, sc 4, 3 sc in the last ch; along the other side, sc 4, 2 sc in the first ch (14). Rnd 2: inc, sc 4, inc x3, sc 4, inc x2 (20). Rnd 3: BLO sc around (20). Rnds 4 to 6: sc around (20). Fasten off.",
+    "Stand Cup A and Cup B side by side and photograph them from the side at table height.",
+    "Lay a ruler across the bottom of Cup A. Measure the widest gap under it. Measure Cup A's width at Rnd 8 and at Rnd 12."
+   ],
+   "pass": [
+    "Your card shows 6, 12, 18, 24, 30, 36 and then 36 on every round of both cups, 72 on the frill, and 14, 20, 20, 20, 20, 20 on the sole.",
+    "The gap under the ruler across Cup A's base is 2 mm (1/16 in) or less.",
+    "Cup A's width at Rnd 8 and at Rnd 12 is the same within 2 mm (1/16 in).",
+    "In the side photo, Cup A has a sharp corner with a visible ridge at Rnd 7 and Cup B has a rounded one.",
+    "The frill goes all the way around with no gap and no skipped loop."
+   ],
+   "wrong": [
+    [
+     "The base domes up in the middle",
+     "Your increases are tight or the base has too few stitches for your tension. Try yarn-under sc (T101.2) on the base, or go up half a hook size for the base rounds only."
+    ],
+    [
+     "The BLO round looks the same as the others",
+     "The hook went under both loops. Tilt the piece so you can see the V on top, and go under the far leg only."
+    ],
+    [
+     "The frill is lumpy or has gaps",
+     "Some free loops were skipped. Turn the cup so Rnd 9 faces you and work every loop in order."
+    ],
+    [
+     "The walls flare outward",
+     "The plain rounds are looser than the base. Keep the same hold on the hook for the whole piece."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Back and front loop rounds in the round, flat bases and free-loop foundations",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/rightside",
+    "https://stitchesnscraps.com/tutorial-amigurumi-doll-hair/"
+   ]
+  },
+  {
+   "id": "3.5",
+   "origin": "revised",
+   "t": "Base-and-wall lab: a basket by measurement",
+   "kind": "lab",
+   "h": 5,
+   "time": "5 to 7 hours over 3 sessions",
+   "prereq_units": [
+    "T220.1",
+    "T120.2",
+    "1.9"
+   ],
+   "why": "A basket is a big, honest test of a flat base and a straight wall. It also teaches you to work to a measurement instead of a count, which is what designers do. It makes a good bed or carrier for your toys.",
+   "need": "Lion Brand 24/7 Cotton or similar worsted cotton (about one 100 g skein; weigh as you go), your house hook, 4 stitch markers, a ruler, a soft tape measure or a length of string, a kitchen scale.",
+   "learn": "No new lesson. A wall rises when you stop increasing, and one BLO round (T220.1) gives it a crisp fold. Gauge (unit 1.9) helps you predict size. Left-handed: no left-handed resource needed; the steps are the same in either hand.",
+   "key": [
+    "The base grows by 6 stitches a round. Round R of the base has 6 x R stitches.",
+    "Measure the base's diameter at the end of each round from Rnd 6 on. You'll see roughly how many mm each round adds in your yarn, which is useful data for designing later.",
+    "Once a base gets big, stacked increases can turn it slightly hexagonal. That's fine here. If it bothers you, shift where the increases fall by 1 stitch each round. TOY 230 covers this properly.",
+    "Walls need no increases. If the rim grows or shrinks, your tension is changing.",
+    "Handle slot: a chain over skipped stitches, then the same number of sc into the chain space on the next round, so the count stays the same.",
+    "Weigh the finished basket. Lion Brand 24/7 Cotton is 186 yd per 100 g, about 1.86 yd per gram, so grams x 1.86 gives the yardage you used."
+   ],
+   "drill": [
+    "Base. Start like Cup A in T220.1 and keep increasing 6 per round: Rnd R is (sc R minus 2, inc) x6 (6 x R). From Rnd 6 on, measure the diameter after each round and write it down. Stop at the first round where the diameter is 12 cm (4 3/4 in) or more. Call that round's stitch count S.",
+    "Lay the base flat and check it with a ruler before going on.",
+    "Corner. Next round: BLO sc around (S).",
+    "Walls. Sc around (S) until the wall measures 8 cm (3 1/8 in) from the BLO ridge to the top. Count and write the number of wall rounds.",
+    "Handle slots, on the next round: sc (S/2 minus 6), ch 6, skip 6, sc (S/2 minus 6), ch 6, skip 6 (S). For example, with S = 72: sc 30, ch 6, skip 6, sc 30, ch 6, skip 6 (72).",
+    "Next round: sc in each sc and 6 sc in each ch-6 space (S).",
+    "Last round: sc around (S). Invisible finish. Weave in the ends.",
+    "Measure the outside circumference at the base corner and at the rim with a tape or string. Weigh the basket and work out the yardage."
+   ],
+   "pass": [
+    "The basket stands up empty on a table.",
+    "The rim's circumference is within 12 mm (1/2 in) of the circumference at the base corner.",
+    "The gap under a ruler laid across the base is 2 mm (1/16 in) or less.",
+    "The two handle slots are opposite each other: S/2 stitches apart, counted.",
+    "Your card shows the count and diameter of every base round, the number of wall rounds, the weight in grams and the yardage."
+   ],
+   "wrong": [
+    [
+     "The base ruffles like a lettuce leaf",
+     "Too many stitches for its size, usually from loose increases. Pull back to the last flat round and work the next round with your usual tension."
+    ],
+    [
+     "The walls lean out",
+     "Your tension relaxed on the walls. Check the count first. Then do 2 warm-up rounds on a scrap before each session."
+    ],
+    [
+     "The basket slumps when empty",
+     "Cotton on a large hook is too soft. Make the next one with a hook one size smaller or with two strands held together."
+    ],
+    [
+     "A handle slot is off center",
+     "Count from the round's start marker for both slots and check S/2 between them before chaining."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Working a base and walls to measurements, and handle slots",
+   "rubric": false,
+   "sources": []
+  },
+  {
+   "id": "T220.2",
+   "origin": "new",
+   "t": "Standing and weighted toys: a penguin that stands",
+   "kind": "project",
+   "h": 5,
+   "time": "5 to 7 hours over 3 sessions",
+   "prereq_units": [
+    "T220.1",
+    "3.1",
+    "3.3",
+    "T120.2",
+    "T120.4",
+    "T210.5"
+   ],
+   "why": "A toy that stands on a shelf looks finished. A flat base, a stiff insert and a little weight low down do most of the work, and you learn when weight is safe to use.",
+   "need": "Worsted cotton in black or gray, white and orange, your house hook, Poly-Fil, a sheet of plastic canvas (from a craft store), Poly-Fil Poly Pellets, a knee-high nylon stocking, a kitchen scale, a pair of 8 or 9 mm safety eyes, scissors, a ruler, a hardcover book, your T120.4 luggage scale and sling, the toy rubric.",
+   "learn": "Free: Little World of Whimsy, <a href='https://littleworldofwhimsy.com/how-to-make-amigurumi-stand-up-easy-hacks/'>How to Make Amigurumi Stand Up (Easy Hacks!)</a>. The Loopy Lamb, <a href='https://theloopylamb.com/how-to-use-poly-pellets-in-amigurumi/'>How to use poly pellets in amigurumi</a>. Wendi Gratz (Shiny Happy World), <a href='https://www.shinyhappyworld.com/2012/12/how-to-use-poly-pellets-in-amigurumi.html'>How to use poly pellets in amigurumi</a>. 5 Little Monsters, <a href='https://www.5littlemonsters.com/2017/07/how-to-make-weighted-bases-for-crochet.html'>How to Make Weighted Bases for Crochet Projects</a>. The pellets: Poly-Fil, <a href='https://www.superiorthreads.com/poly-fil-poly-pellets-weighted-stuffing-beads-24oz-bag/p/N9293'>Poly Pellets</a>. Left-handed: no left-handed version of these pages; mirror the right-handed steps.",
+   "key": [
+    "A toy stands when its center of mass sits low and over a flat base. A wide base, weight at the bottom and a light top all help.",
+    "A stiff insert keeps the base flat. Cut plastic canvas into a circle 5 mm (3/16 in) smaller across than the base, trim it smooth so no corner can poke through, and drop it in flat on the base.",
+    "Pellets go only in a sealed pouch, never loose. Fill a piece of nylon stocking, knot it twice, trim the end to 1 cm (3/8 in), and put it inside a second stocking layer, knotted too. Most tutorials agree on a closed pouch.",
+    "Shape the pouch into a flat disc so the weight spreads across the base.",
+    "No pellets and no plastic inserts in toys for children under 3 or for pets that chew. Tag weighted toys \"ages 3 and up, contains pellets\".",
+    "Stuff above the pouch firmly so it can't shift upward."
+   ],
+   "drill": [
+    "Body. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: (sc 4, inc) x6 (36). Measure the base's diameter. Rnd 7: BLO sc around (36). Rnds 8 and 9: sc around (36).",
+    "Insert. Cut a plastic canvas circle 5 mm (3/16 in) smaller across than the base you measured. Trim its edge smooth. Drop it in, flat on the base.",
+    "Rnds 10 to 17: sc around (36), 8 rounds. Rnd 18: (sc 4, dec) x6 (30). Rnds 19 to 22: sc around (30), 4 rounds.",
+    "Pouch. Weigh about 30 g (1 oz) of pellets. Pour them into a 15 cm (6 in) piece of stocking, knot it twice, trim, and put it in a second layer, knotted. Flatten it into a disc and push it down onto the insert.",
+    "Eyes. Fit the safety eyes on Rnd 20 with 5 stitches between the posts, centered on the front. Stuff the body firmly above the pouch.",
+    "Rnd 23: (sc 3, dec) x6 (24). Rnd 24: (sc 2, dec) x6 (18). Top up the stuffing. Rnd 25: (sc, dec) x6 (12). Rnd 26: dec x6 (6). Ultimate Finish.",
+    "Belly (white). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Invisible finish. Sew it flat to the front between Rnd 9 and Rnd 17.",
+    "Beak (orange). Rnd 1: 4 sc in a magic ring (4). Rnd 2: (sc, inc) x2 (6). Fasten off with a 30 cm (12 in) tail. Sew it on Rnd 21, centered between the eyes, unstuffed.",
+    "Wings (make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnds 4 to 9: sc around (12), 6 rounds. Flatten unstuffed and sc 6 across through both layers (6). Sew one to each side with the top edge on Rnd 17, 18 stitches apart.",
+    "Tests. Stand it on a table for 60 seconds. Stand it on a hardcover book, then lift one end of the book 2 cm (3/4 in). Push the top of the head 2 cm (3/4 in) sideways and let go, 5 times. Tug each wing and the beak at 15 lbf (6.8 kg) for 10 seconds (T120.4).",
+    "Score it on the toy rubric. Tag it."
+   ],
+   "pass": [
+    "It stands on a table for 60 seconds without tipping.",
+    "It stays standing on the book with one end raised 2 cm (3/4 in).",
+    "After the sideways push, it rocks back upright 5 times out of 5.",
+    "The gap under a ruler laid across the base is 2 mm (1/16 in) or less, and no edge of the insert can be felt poking through.",
+    "Both wings and the beak hold 15 lbf (6.8 kg) for 10 seconds with no gap wider than 1 mm (1/32 in).",
+    "It is tagged \"ages 3 and up, contains pellets\" and scored on the toy rubric."
+   ],
+   "wrong": [
+    [
+     "It still tips forward",
+     "The head end is heavy or the belly side is stuffed more than the back. Make the next one with less stuffing in the top third, or add 10 g (1/3 oz) more pellets."
+    ],
+    [
+     "The base rocks on a table",
+     "The insert isn't flat or the pouch is a lump in the middle. Flatten the pouch into a disc that covers the base."
+    ],
+    [
+     "You can feel the insert's edge",
+     "It was cut too big or has a corner. On the next one, cut 5 mm (3/16 in) smaller and round the edge with scissors."
+    ],
+    [
+     "The base bulges below the BLO ridge",
+     "Too much stuffing went under the insert. Put the insert in before any stuffing and push it flat."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "A stiff base insert with a sealed pellet pouch",
+   "rubric": true,
+   "sources": [
+    "https://littleworldofwhimsy.com/how-to-make-amigurumi-stand-up-easy-hacks/",
+    "https://theloopylamb.com/how-to-use-poly-pellets-in-amigurumi/",
+    "https://www.shinyhappyworld.com/2012/12/how-to-use-poly-pellets-in-amigurumi.html",
+    "https://www.5littlemonsters.com/2017/07/how-to-make-weighted-bases-for-crochet.html",
+    "https://www.superiorthreads.com/poly-fil-poly-pellets-weighted-stuffing-beads-24oz-bag/p/N9293"
+   ]
+  },
+  {
+   "id": "T220.3",
+   "origin": "new",
+   "t": "Surface crochet",
+   "kind": "lab",
+   "h": 3,
+   "time": "3 to 4 hours over 2 sessions",
+   "prereq_units": [
+    "1.4",
+    "1.7",
+    "T120.3",
+    "T220.1"
+   ],
+   "why": "Slip stitches worked on the outside of a piece draw clean lines like belts and stripes. They also give you a row of loops to crochet a skirt, a mane or a dinosaur spine into, which saves sewing.",
+   "need": "Worsted cotton in two colors, your house hook and a 4 mm hook (a Woobles hook works), 4 stitch markers, a ruler.",
+   "learn": "Free: Cuddly Stitches Craft, <a href='https://www.cuddlystitchescraft.com/surface-crochet-amigurumi-right'>How to Surface Crochet Slip Stitches on Amigurumi</a>. Supergurumi, <a href='https://www.supergurumi.com/crochet-surface-slip-stitches'>Crochet Surface Slip Stitches</a>. Jimmy Beans Wool, <a href='https://jimmybeanswool.com/blogs/tutorials/crocheted-surface-slip-stitches-crochet-tutorial'>Crocheted Surface Slip Stitches</a>. Left-handed: no left-handed version was confirmed (searched Oct 2026); mirror the right-handed steps.",
+   "key": [
+    "Hold the working yarn inside the piece and the hook outside. Insert the hook down into the fabric, catch the yarn, and pull a loop up through the fabric and through the loop on the hook. That is one surface slip stitch.",
+    "Do it before stuffing, while you can reach inside. Surface work on an open piece is much easier.",
+    "Use a hook one size larger than your house hook, and keep the loops relaxed. Tight surface stitches pucker the fabric.",
+    "One surface slip stitch per stitch across a round, and one per round going up a column.",
+    "The tops of surface slip stitches form a chain-like line of loops. Work into those loops to build skirts, manes or spikes."
+   ],
+   "drill": [
+    "Tube. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnds 5 to 16: sc around (24), 12 rounds. Fasten off. Don't stuff.",
+    "Belt. With the second color and the 4 mm hook, make 24 surface slip stitches around the tube between Rnd 8 and Rnd 9, one per stitch. Join the last to the first with a needle and hide the ends inside.",
+    "Line. Make 12 surface slip stitches straight up one column, from Rnd 3 to Rnd 14, one per round. Fasten off inside.",
+    "Skirt from the belt. Join the second color in any belt slip stitch. Using your house hook, work 1 sc into the chain-like loop of each belt slip stitch (24). Next round: (sc, inc) x12 (36). Next round: sc around (36). Fasten off.",
+    "Spine from the line. Join in the bottom slip stitch of the line and sl st in it. Then *ch 3, sc in the 2nd ch from hook, sc in the next ch, skip the next line stitch, sl st in the next line stitch*; repeat 5 times (5 spikes). Sl st in the last line stitch. Fasten off.",
+    "Measure the tube's circumference at the belt and at Rnd 6 with a string."
+   ],
+   "pass": [
+    "The belt has 24 surface slip stitches (count them), and the circumference at the belt is within 3 mm (1/8 in) of the circumference at Rnd 6, so it doesn't pucker.",
+    "A ruler laid along the vertical line shows it drifts no more than 1 stitch sideways over its 12 rounds.",
+    "Your card shows the skirt counts 24, 36 and 36.",
+    "The 5 spikes are the same height within 2 mm (1/16 in)."
+   ],
+   "wrong": [
+    [
+     "The belt pulls the tube in",
+     "The slip stitches were tight. Go up a hook size and lift each loop a little taller before pulling the next one through."
+    ],
+    [
+     "The line wanders off the column",
+     "Spiral columns lean slightly. Put a marker at the bottom and the top of the column first, and aim for it."
+    ],
+    [
+     "The yarn keeps tangling inside",
+     "Let the working yarn hang from the open end of the tube, not wound around your finger inside."
+    ],
+    [
+     "Spikes lean different ways",
+     "Some went into different loops of the line. Work each one into the same part of the line stitch."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Surface slip stitch lines and building onto them",
+   "rubric": false,
+   "sources": [
+    "https://www.cuddlystitchescraft.com/surface-crochet-amigurumi-right",
+    "https://www.supergurumi.com/crochet-surface-slip-stitches",
+    "https://jimmybeanswool.com/blogs/tutorials/crocheted-surface-slip-stitches-crochet-tutorial"
+   ]
+  },
+  {
+   "id": "T220.4",
+   "origin": "new",
+   "t": "Loop-stitch fur: a lion mane",
+   "kind": "lab",
+   "h": 5,
+   "time": "5 to 7 hours over 3 sessions",
+   "prereq_units": [
+    "1.1",
+    "1.7",
+    "T120.2",
+    "T210.5",
+    "T220.1"
+   ],
+   "why": "Manes, beards, tails and shaggy fur all use the loop stitch. Even loops make a toy look finished, and knowing which side they land on saves a lot of ripping back.",
+   "need": "Worsted cotton in gold and a mane color (rust, brown or orange), your house hook, Poly-Fil, a strip of stiff card 2 cm (3/4 in) wide, a pair of 8 or 9 mm safety eyes or felt for eyes, black yarn, a bent-tip needle, a ruler, your T210 recipe cards.",
+   "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/?p=3702'>How to Crochet the Loop Stitch</a>. Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/loop-stitch-video/'>Loop Stitch Video Tutorial</a> (the page also links the brushing video). Paid, optional: Hooked by Kati, <a href='https://hookedbykati.com/everything'>Fur, Feathers, and Fringe</a> (12 fur and feather samples; price not confirmed as of Oct 2026). Left-handed: no left-handed version was confirmed for these pages; mirror the right-handed steps. In either hand, the loops form on the side of the fabric facing away from you.",
+   "key": [
+    "Loop stitch: insert the hook, wrap the yarn around your finger or a card held at the back of the work to make a loop, catch both strands of that wrap with the hook and pull them through the stitch, then yarn over and pull through both loops. The loop stays at the back of the fabric.",
+    "Loops land on the side away from you. On a flat piece that's the back, so you turn it over. In the round, working right side out, the loops would land inside the toy.",
+    "To put fur on the outside of a round piece, either make the fur as a separate piece and sew it on loop side out, or work the piece inside out (wrong side facing you).",
+    "Wrapping around a card of fixed width gives every loop the same length.",
+    "If loops pull out too easily, catch both strands of the loop with the hook before pulling through. A tug from the back then won't lengthen them.",
+    "Cut loops shed fibers. For a baby's toy, leave loops uncut and short."
+   ],
+   "drill": [
+    "Flat swatch. Ch 16. Row 1: sc in the 2nd ch from hook and in each ch across (15). Ch 1, turn. Row 2: loop st across (15). Ch 1, turn. Row 3: sc across (15). Ch 1, turn. Row 4: loop st across (15). Ch 1, turn. Row 5: sc across (15). Ch 1, turn. Row 6: loop st across (15). Fasten off. All the loops are on the same side.",
+    "Measure 10 loops from the fabric to the tip.",
+    "Pull 5 loops firmly from the loop side with a fingertip and measure them again.",
+    "Head. Make a 30-stitch ball pal (T210.5 counts) in gold, with eyes on Rnd 9, 5 stitches apart (safety eyes before closing, or felt after). Embroider a nose and mouth.",
+    "Mane (mane color). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: (loop st 4, 2 loop st in next st) x6 (36). Rnd 7: (loop st 5, 2 loop st in next st) x6 (42). Rnd 8: (loop st 6, 2 loop st in next st) x6 (48). Fasten off with a 50 cm (20 in) tail.",
+    "Turn the mane so the loop side faces forward. Center the back of the head on it and sew the plain center to the back of the head, so the loops ring the face.",
+    "Ears (gold, make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Sew them cupped on top of the head where the mane begins."
+   ],
+   "pass": [
+    "The swatch has 15 stitches in every row and loops on one side only.",
+    "All 10 measured loops are within 3 mm (1/8 in) of each other in length.",
+    "After the fingertip pull, none of the 5 loops is more than 5 mm (3/16 in) longer than before.",
+    "Your card shows mane counts 6, 12, 18, 24, 30, 36, 42 and 48.",
+    "From the front, the visible ring of mane is the same width on the left and right of the face within 5 mm (3/16 in)."
+   ],
+   "wrong": [
+    [
+     "The loops are on the wrong side",
+     "The side facing you was the wrong one. On a flat or disc piece, turn it over. On a tube, work it inside out next time."
+    ],
+    [
+     "Loops are all different lengths",
+     "Use the card every time and keep the yarn snug around it before you pull through."
+    ],
+    [
+     "Loops pull out long from the back",
+     "Catch both strands of the loop with the hook next time. On this piece, tug each long loop back from the front."
+    ],
+    [
+     "The mane cups forward over the face",
+     "Too few increases for the loops' bulk. Add one more increase round, or sew the mane on a little farther back."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Even loop-stitch fur and placing it on the outside",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/blog/?p=3702",
+    "https://www.hookedbykati.com/loop-stitch-video/",
+    "https://hookedbykati.com/everything"
+   ]
+  },
+  {
+   "id": "T220.5",
+   "origin": "new",
+   "t": "A brushed toy: a fluffy chick",
+   "kind": "project",
+   "h": 5,
+   "time": "5 to 7 hours over 3 sessions",
+   "prereq_units": [
+    "3.1",
+    "T120.2",
+    "T120.4",
+    "T210.5"
+   ],
+   "why": "Brushing turns a stitched toy into a soft, fuzzy one without changing the pattern. It's an easy change that people notice right away.",
+   "need": "One skein of #4 worsted acrylic or wool in yellow (cotton gives very little fluff), a little orange worsted, your house hook (or the hook that gives dense fabric in this yarn), Poly-Fil, a pet slicker brush (from a pet store), a pair of 8 or 9 mm safety eyes or black felt, a lint roller, a ruler, your T210.5 ball pal for comparison, the toy rubric.",
+   "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/brushed'>Brushed Amigurumi</a> and <a href='https://www.planetjune.com/blog/amigurumi-help/fuzzy-to-brushed-crochet'>Fuzzy to Brushed Crochet</a>. Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/loop-stitch-video/'>Loop Stitch Video Tutorial</a> (the page links her brushing video). Left-handed: brushing is the same in either hand; the crochet uses only skills you already have.",
+   "key": [
+    "Brush each piece before you sew it on, with short strokes in one direction, and brush lightly over the seams afterward. About 10 to 20 strokes per area is a good start.",
+    "Test on a swatch of the same yarn first. Yarns brush differently, and you can't unbrush.",
+    "Hold the piece firmly and brush away from your hand. The slicker brush's pins are sharp.",
+    "Keep fluff off the eyes. Cover each eye with a fingertip while brushing near it, or sew felt eyes on after brushing.",
+    "Leave small details like the beak unbrushed so they stay crisp against the fluff.",
+    "Brushed toys shed a little at first. Roll them with a lint roller before giving them. Skip brushed toys for babies and toddlers who put toys in their mouths."
+   ],
+   "drill": [
+    "Swatch. Ch 16. Row 1: sc in the 2nd ch from hook and in each ch across (15). Rows 2 to 12: ch 1, turn, sc across (15). Mark off three zones across it. Leave zone 1 alone, brush zone 2 with 10 strokes and zone 3 with 20. Photograph it with the zones labeled.",
+    "Body (yellow). Make a 30-stitch ball pal (T210.5 counts). Fit safety eyes on Rnd 9 with 5 stitches between before you close, or plan felt eyes for after brushing.",
+    "Wings (yellow, make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnds 4 to 6: sc around (12), 3 rounds. Flatten unstuffed and sc 6 across through both layers (6). Fasten off with a 30 cm (12 in) tail.",
+    "Beak (orange). Rnd 1: 4 sc in a magic ring (4). Rnd 2: (sc, inc) x2 (6). Fasten off with a 30 cm (12 in) tail.",
+    "Brush the body with the number of strokes you liked on the swatch, area by area, covering each eye as you go. Brush both wings the same way. Don't brush the beak.",
+    "If using felt eyes, sew them on now on Rnd 9, 5 stitches apart, with catchlights.",
+    "Sew the beak on Rnd 10, centered between the eyes. Sew a wing to each side with its top on Rnd 8, 15 stitches apart.",
+    "Tug each wing and the beak at 15 lbf (6.8 kg) for 10 seconds (T120.4).",
+    "Photograph the chick next to your unbrushed T210.5 ball pal from 30 cm (12 in). Score it on the toy rubric."
+   ],
+   "pass": [
+    "Your swatch photo shows three labeled zones, with more halo in zone 3 than zone 2 and more in zone 2 than zone 1.",
+    "In the side-by-side photo taken from 30 cm (12 in), another person can pick out single stitches on the unbrushed ball pal but not on the chick's body, and both eyes and the beak are clear of fluff.",
+    "Both wings were brushed with the same number of strokes and look the same in the photo.",
+    "Both wings and the beak hold 15 lbf (6.8 kg) for 10 seconds with no gap wider than 1 mm (1/32 in).",
+    "The chick is scored on the toy rubric."
+   ],
+   "wrong": [
+    [
+     "The yarn barely fluffs",
+     "It's probably cotton or a tightly plied yarn. Test a different acrylic or wool on a swatch before the next toy."
+    ],
+    [
+     "The surface looks torn or thin in spots",
+     "Too many strokes or too much pressure in one place. Use lighter strokes and count them."
+    ],
+    [
+     "Fluff covers the eyes",
+     "Pick it away with a pin. Next time cover the eyes as you brush, or add felt eyes after."
+    ],
+    [
+     "The shape went lumpy after brushing",
+     "The brush pulled the stuffing. Hold the piece firmly and use pinch-and-push to even it out."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Brushing a toy into a halo",
+   "rubric": true,
+   "sources": [
+    "https://www.planetjune.com/brushed",
+    "https://www.planetjune.com/blog/amigurumi-help/fuzzy-to-brushed-crochet",
+    "https://www.hookedbykati.com/loop-stitch-video/"
+   ]
+  },
+  {
+   "id": "T220.6",
+   "origin": "new",
+   "t": "Bobbles, puffs, popcorns and spikes on toys",
+   "kind": "lab",
+   "h": 4,
+   "time": "4 to 5 hours over 2 or 3 sessions",
+   "prereq_units": [
+    "1.2",
+    "T120.2",
+    "T120.3",
+    "T220.1"
+   ],
+   "why": "Toes, paw pads, nostrils, spots and scales are often a single stitch that pops out. Knowing which of these stitches pops toward you in the round saves a lot of frustration.",
+   "need": "Worsted cotton in two colors, your house hook, 4 stitch markers, Poly-Fil, a ruler, an index card for counts.",
+   "learn": "No verified free tutorial for these stitches worked in the round on toys was found, so this unit teaches them directly. Unit 2.5 (FND 210) covers the same stitches in flat rows, and unit 1.2 covers the double crochet they are built from. This unit teaches them in the round, so you can do either first. For a toy example of shaped stitches on an animal: Cuddly Stitches Craft, <a href='https://www.cuddlystitchescraft.com/animal-nostrils-amigurumi'>How to Crochet Animal Nostrils for Amigurumi</a>. Paid, optional: Hooked by Kati, <a href='https://hookedbykati.com/everything'>Fur, Feathers, and Fringe</a> (spike and fur variations; price not confirmed as of Oct 2026). Left-handed: no left-handed version of these pages; mirror the right-handed steps.",
+   "key": [
+    "Each of these stitches counts as one stitch. The round count doesn't change.",
+    "Popcorn: 4 dc in one stitch, take the hook out, insert it front to back into the top of the first dc, catch the dropped loop and pull it through. In the round, with the right side facing you, a popcorn pops out toward you, onto the outside of the toy.",
+    "Bobble: (yarn over, insert, pull up a loop, yarn over, pull through 2) 4 times in one stitch, then yarn over and pull through all 5 loops. A bobble pops away from you, so in the round it goes into the toy. Push it out from inside with a fingertip before stuffing.",
+    "Puff: (yarn over, insert, pull up a loop to about 1 cm (3/8 in)) 3 times in one stitch, yarn over, pull through all 7 loops, ch 1 to lock. The ch 1 isn't counted; skip it on the next round.",
+    "Spike sc: insert the hook into the stitch 2 rounds below, pull up a long loop to the height of the current round, then finish as a sc. Skip the stitch it covers. Spikes show best in a contrast color.",
+    "Popcorns suit toes and nostrils. Puffs suit soft paw pads. Spikes suit fur and feather patterns."
+   ],
+   "drill": [
+    "Sampler tube. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnds 5 to 7: sc around (24), 3 rounds.",
+    "Rnd 8 (contrast color): (sc 3, spike sc into Rnd 6) x6 (24). Change back to the main color.",
+    "Rnd 9: sc around (24).",
+    "Rnd 10: (sc 3, popcorn) x6 (24). Rnd 11: sc around (24), 1 sc in the top of each popcorn.",
+    "Rnd 12: (sc 3, bobble) x6 (24). Rnd 13: sc around (24). Push each bobble out from inside.",
+    "Rnd 14: (sc 3, puff) x6 (24). Rnd 15: sc around (24), skipping each puff's ch 1. Fasten off. Write the count for every round.",
+    "Toed foot. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (popcorn, sc) x3, sc 6 (12). Rnds 4 to 7: sc around (12), 4 rounds. Stuff lightly. Fasten off with a 30 cm (12 in) tail and keep it for a future toy.",
+    "Measure how far each popcorn and each bobble stands out from the surface."
+   ],
+   "pass": [
+    "Your card shows 24 on every round from Rnd 4 to Rnd 15, and 6, 12, 12, 12, 12, 12, 12 on the foot.",
+    "All 6 spikes reach Rnd 6, and their lengths match within 2 mm (1/16 in).",
+    "All 6 popcorns and all 6 bobbles stand out at least 3 mm (1/8 in) from the outside of the tube.",
+    "The three toes on the foot are the same width within 2 mm (1/16 in)."
+   ],
+   "wrong": [
+    [
+     "A bobble sank into the tube",
+     "That's normal for bobbles in the round. Push it out from inside. If it won't stay, use a popcorn there next time."
+    ],
+    [
+     "The count is 25 or 30 after a puff round",
+     "The ch 1 that locks each puff was counted. Skip it on the next round."
+    ],
+    [
+     "Spikes pucker the fabric",
+     "The long loop was too short. Pull it up to the full height of the current round before finishing the sc."
+    ],
+    [
+     "Popcorns look flat",
+     "The dropped loop wasn't pulled through snugly. Tug it firmly so the dc close together."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Popcorns, bobbles, puffs and spike stitches in the round",
+   "rubric": false,
+   "sources": [
+    "https://www.cuddlystitchescraft.com/animal-nostrils-amigurumi",
+    "https://hookedbykati.com/everything"
+   ]
+  }
+ ]
+}

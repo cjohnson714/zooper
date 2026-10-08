@@ -1,0 +1,799 @@
+{
+ "code": "FND 210",
+ "title": "Core techniques",
+ "year": 2,
+ "track": "fund",
+ "required": true,
+ "hours": 104,
+ "credits": 2.3,
+ "hook": "5.0 mm (4.0 mm for DK in 2.9; 4.5 and 5.0 mm for the sampler blanket)",
+ "yarn": "#4 smooth acrylic; DK for 2.9; Red Heart With Love for 2.16",
+ "level": 2,
+ "prereqs": [
+  "FND 110"
+ ],
+ "summary": "Every stitch-placement, joining and finishing skill the CGOA Fundamentals review tests, plus textures, charts and UK terms, ending in a nine-square sampler blanket.",
+ "intro": "This is the core of the fundamentals minor, worked at about one session in three beside the toy courses. It covers the techniques that make work look finished (joins, seams, borders, ends, blocking) along with textured stitches, charts, UK terms and yarn choice. The sampler blanket at the end puts them together and trains you to hit a size, which the heirloom blanket needs.",
+ "outcomes": [
+  "You can start rows with foundation stitches, start colors with standing stitches and close rounds with an invisible join another person can't find at 1 m (3 ft).",
+  "You can work post stitches, third-loop hdc, spikes, extended and linked stitches, puffs, bobbles, popcorns, clusters, bullions and cables to count.",
+  "You can calculate a starting chain from a multiple and draw and follow a symbol chart that someone else can work from.",
+  "You can follow a UK-terms pattern without rewriting it.",
+  "You can seam, border, weave in and block to a measured size, and record before-and-after measurements.",
+  "You can find a hidden counting error and fix it without cutting yarn, and choose a yarn by fiber, WPI and yardage.",
+  "You can make nine squares that block to 11 in (28 cm) within 6 mm (1/4 in) and join them into a flat blanket."
+ ],
+ "assessment": "Each unit passes when its pass list is met once in practice and once cold, at the start of a later session. The sampler blanket (2.16) is the course project.",
+ "reading": "Everyday Crochet, by June Gilbank, for stitch close-ups. Optional companion: Dora Ohrenstein's The Crocheter's Skill-Building Workshop. Keep the Craft Yarn Council standards pages open for abbreviations and symbols.",
+ "units": [
+  {
+   "id": "2.1",
+   "origin": "revised",
+   "t": "Foundation stitches, standing stitches and the invisible join",
+   "kind": "lesson",
+   "h": 5,
+   "time": "about 5 hours over 3 sessions",
+   "prereq_units": [
+    "1.2",
+    "1.4",
+    "1.7"
+   ],
+   "why": "Stretchy starting edges, clean color starts and joins you cannot find are what make doll clothes, blanket squares and bases look professional. Sophie's Universe uses all three.",
+   "need": "5.0 mm hook, #4 acrylic in two colors, yarn needle.",
+   "learn": "Oombawka Design's <a href=\"https://oombawkadesigncrochet.com/crochet-stitches/\">stitch guide</a> (Rhondda Mol): foundation single, half double and double crochet, and Standing Single, Half Double and Double Crochet. Invisible join: Stitches 'n Scraps' <a href=\"https://stitchesnscraps.com/invisible-join-for-crocheting-in-the-round/\">Invisible Join for Crocheting in the Round</a> or Oombawka's <a href=\"https://oombawkadesigncrochet.com/2014/09/invisible-join-technique.html\">invisible join technique</a>. No left-handed version of the invisible join; mirror the right-handed steps (the needle goes under both loops of the first stitch, then back down into the last stitch).",
+   "key": [
+    "A foundation stitch makes the chain and the first row at once. Each new stitch grows from a small chain at the base of the one before. The edge stretches like the fabric above it, which a plain chain does not.",
+    "A standing stitch starts new yarn with a loop already on the hook, so there is no bulky slip-stitch join.",
+    "Invisible join: finish the round's last stitch, cut the yarn leaving 6 in (15 cm), pull the tail out of the stitch, thread it, go under both loops of the round's first real stitch (skipping any turning chain), then back down through the center of the last stitch. Snug it to the size of one stitch.",
+    "The invisible join makes a stitch top. Don't add an extra stitch on the next round."
+   ],
+   "drill": [
+    "Three strips of 20 stitches: fsc, fhdc, fdc. Work 3 rows of sc on each.",
+    "Join circle A: magic ring, ch 3 (counts as dc), 11 dc in the ring (12). Slip stitch to the top of the ch 3. Round 2: ch 3, dc in the same st, 2 dc in each st around (24). Slip stitch to join.",
+    "Join circle B: the same, but start round 2 with a standing dc and a dc in the same st, 2 dc in each st around (24), and close each round with the invisible join.",
+    "From now on in this course, start every new color with a standing stitch."
+   ],
+   "pass": [
+    "Each strip has 20 stitches in every row and lies flat",
+    "Stretch each strip: the foundation edge stretches to within 1 cm (3/8 in) of the top edge's stretched length",
+    "Both circles have 24 stitch tops in round 2",
+    "Shown circle B at 1 m (3 ft), another person cannot point to the join within 10 seconds"
+   ],
+   "wrong": [
+    [
+     "You can't find where the next foundation stitch goes",
+     "It's the little chain at the base of the stitch you just made. Watch that moment in the video at half speed."
+    ],
+    [
+     "The strip twists",
+     "You're picking up different strands from stitch to stitch. Use the same two strands every time."
+    ],
+    [
+     "The invisible join makes a big knot",
+     "You pulled too hard. Snug it to the size of one stitch top."
+    ],
+    [
+     "Round 2 has 25 stitches",
+     "You worked a stitch into the join as well as every real stitch. The join sits on a stitch that already counts, so start the next round in the next real stitch."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Foundation, standing stitches and the invisible join",
+   "rubric": false,
+   "sources": [
+    "https://oombawkadesigncrochet.com/crochet-stitches/",
+    "https://stitchesnscraps.com/invisible-join-for-crocheting-in-the-round/",
+    "https://oombawkadesigncrochet.com/2014/09/invisible-join-technique.html"
+   ]
+  },
+  {
+   "id": "2.2",
+   "origin": "revised",
+   "t": "Joining yarn without knots",
+   "kind": "lesson",
+   "h": 2,
+   "time": "about 2 hours in 1 or 2 sessions",
+   "prereq_units": [
+    "1.4"
+   ],
+   "why": "A knot can work loose or poke through a toy. A good join holds and disappears.",
+   "need": "Five small balls in different colors, a yarn needle. For the spit splice, 100% wool not labeled superwash.",
+   "learn": "I Like Crochet's <a href=\"https://www.ilikecrochet.com/crochet-tips-and-tutorials/russian-joining\">Russian join</a>; Wendi Gratz's <a href=\"https://www.shinyhappyworld.com/2014/07/3-ways-to-join-yarn-without-tying-a-knot.html\">3 ways to join yarn without a knot</a> (Shiny Happy World: Russian join, double-up join, spit splice). No left-handed version; mirror the right-handed steps (only the needle hand changes).",
+   "key": [
+    "A Russian join threads each tail back through its own yarn so the two loops interlock. It works on almost any fiber.",
+    "A spit splice felts two wool ends together with moisture and friction, so it works only on wool that can felt.",
+    "The double-up join works a stitch or two with both yarns held together. Fast, but slightly thicker there.",
+    "The joined spot is a little thicker. In a toy, place it where it will be hidden or on the back."
+   ],
+   "drill": "Russian-join five colors into one ball (4 joins) and work a 15-stitch dc swatch from it. Spit-splice two wool ends and pull-test them.",
+   "pass": [
+    "Photographed from 1 m (3 ft), another person finds no more than 1 of the 4 joins in 30 seconds",
+    "Pull each join firmly between your hands for 5 seconds: none slides or opens"
+   ],
+   "wrong": [
+    [
+     "A join slides apart",
+     "Thread at least 2 in (5 cm) of each tail back through itself."
+    ],
+    [
+     "The spit splice won't hold",
+     "The yarn is superwash or not wool. Use a Russian join instead."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Knotless joins",
+   "rubric": false,
+   "sources": [
+    "https://www.ilikecrochet.com/crochet-tips-and-tutorials/russian-joining",
+    "https://www.shinyhappyworld.com/2014/07/3-ways-to-join-yarn-without-tying-a-knot.html"
+   ]
+  },
+  {
+   "id": "2.3",
+   "origin": "revised",
+   "t": "Stitch locations: posts, third loop, spikes",
+   "kind": "lesson",
+   "h": 6,
+   "time": "about 6 hours over 4 sessions",
+   "prereq_units": [
+    "1.2"
+   ],
+   "why": "Post stitches and spikes appear in Sophie's Universe and on toy surfaces. The third loop gives a knit look for doll clothes.",
+   "need": "5.0 mm hook, #4 acrylic in 2 colors.",
+   "learn": "Post stitches: Tamara Kelly's <a href=\"https://www.mooglyblog.com/post-stitches-raisedrelief/\">Post Stitches</a> (Moogly); left-handed: her <a href=\"https://www.mooglyblog.com/how-to-crochet-left-handed/\">left-handed course</a>. Third loop: <a href=\"https://stitchesnscraps.com/tutorial-3rd-loop-hdc/\">Working into the 3rd Loop of Half Double Crochet</a> (Stitches 'n Scraps; rows and rounds). Spikes: A Crocheted Simplicity's <a href=\"https://www.acrochetedsimplicity.com/how-to-crochet-spike-stitch-step-by-step-tutorial/\">Spike Stitch</a> (Jess Coppom). The third-loop and spike pages have no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "A post stitch goes around the body of the stitch below instead of into its top. Front post (FP) pushes the stitch toward you; back post (BP) pushes it away. Alternating them makes ribbing.",
+    "On wrong-side rows the columns flip. Work BP around stitches that were FP on the right side, and FP around the others.",
+    "The hdc's third loop is the horizontal bar just below the top V, on the back. Working into it pushes the V forward so the fabric looks knitted.",
+    "A spike is an ordinary stitch worked into a row below. Pull its loop up to the current row's height before finishing it."
+   ],
+   "drill": [
+    "(a) Ribbing: ch 22, dc in the 4th ch from the hook and across (20). Rows 2 to 10: ch 2 (does not count), (FPdc, BPdc) 10 times (20).",
+    "(b) Third loop: ch 22, hdc in the 3rd ch from the hook and across (20). Rows 2 to 10: ch 2, hdc in the third loop of each st (20).",
+    "(c) Spikes: ch 21, sc in the 2nd ch and across (20). Work 4 rows of sc. In a contrast color, work a row of (sc, spike 1 row down, sc, spike 2 rows down, sc, spike 3 rows down, sc, sc) twice, then sc to the end (20). Work 2 plain rows."
+   ],
+   "pass": [
+    "Every row of all three swatches has 20 stitches",
+    "Lay a ruler along one raised rib column: it stays within 3 mm (1/8 in) of straight over all 10 rows",
+    "The third-loop swatch shows a raised V row on the front of every row (photo)",
+    "The spike swatch lies flat: no ripple higher than 3 mm (1/8 in) along the spike row"
+   ],
+   "wrong": [
+    [
+     "Ribbing turns into a flat jumble",
+     "You lost track of which columns are raised. Keep a marker in one raised column and move it up each row."
+    ],
+    [
+     "Spikes pucker",
+     "Pull each spike's loop up to the current row's height before finishing it."
+    ],
+    [
+     "The ribbing gains a stitch",
+     "The ch 2 doesn't count. Start with the first post stitch and end with the last."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Post stitches, third loop and spikes",
+   "rubric": false,
+   "sources": [
+    "https://www.mooglyblog.com/post-stitches-raisedrelief/",
+    "https://www.mooglyblog.com/how-to-crochet-left-handed/",
+    "https://stitchesnscraps.com/tutorial-3rd-loop-hdc/",
+    "https://www.acrochetedsimplicity.com/how-to-crochet-spike-stitch-step-by-step-tutorial/"
+   ]
+  },
+  {
+   "id": "2.4",
+   "origin": "revised",
+   "t": "Extended and linked stitches",
+   "kind": "lesson",
+   "h": 3,
+   "time": "about 3 hours over 2 sessions",
+   "prereq_units": [
+    "1.2"
+   ],
+   "why": "Linked stitches make gap-free fabric for doll clothes and bags. Extended stitches soften edges.",
+   "need": "5.0 mm hook, #4 acrylic.",
+   "learn": "Extended single crochet in Oombawka Design's <a href=\"https://oombawkadesigncrochet.com/crochet-stitches/\">stitch guide</a>; Stitches 'n Scraps' <a href=\"https://stitchesnscraps.com/tutorial-linked-double-crochet-ldc/\">Linked Double Crochet</a>. No left-handed versions; mirror the right-handed steps. Extended hdc is taught in the key ideas below.",
+   "key": [
+    "An extended stitch adds one extra step (yarn over, pull through one loop) before finishing, so it's taller and softer.",
+    "esc: insert, yarn over, pull up a loop, yarn over, pull through 1 loop, yarn over, pull through 2.",
+    "ehdc: yarn over, insert, yarn over, pull up a loop (3 loops), yarn over, pull through 1 loop, yarn over, pull through all 3.",
+    "A linked stitch swaps its first yarn over for a loop pulled up through the horizontal bar halfway down the previous stitch. This ties neighbors together with no gaps. Row 1 of a linked swatch is plain dc, because there is no bar to link to yet."
+   ],
+   "drill": "Three swatches, 15 stitches by 8 rows: esc, ehdc, ldc. Work row 1 of the ldc swatch in plain dc. Note on each tag what counts as the first stitch.",
+   "pass": [
+    "Every row of all three swatches has 15 stitches",
+    "Held up to a window, the ldc swatch shows no gaps between stitches",
+    "Measure the first 8 rows of your 1.2 hdc swatch and your ehdc swatch flat, in mm, and record both. The ehdc swatch is the taller of the two"
+   ],
+   "wrong": [
+    [
+     "Linked rows lean or bunch",
+     "You're linking into the wrong bar. Use the horizontal bar halfway up the previous stitch."
+    ],
+    [
+     "The first ldc of a row leaves a gap",
+     "Link the first stitch into the turning chain, as the tutorial shows."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Extended and linked stitches",
+   "rubric": false,
+   "sources": [
+    "https://oombawkadesigncrochet.com/crochet-stitches/",
+    "https://stitchesnscraps.com/tutorial-linked-double-crochet-ldc/"
+   ]
+  },
+  {
+   "id": "2.5",
+   "origin": "revised",
+   "t": "Puffs, bobbles, popcorns, clusters and bullions",
+   "kind": "lesson",
+   "h": 7,
+   "time": "about 7 hours over 4 or 5 sessions",
+   "prereq_units": [
+    "1.2",
+    "2.3"
+   ],
+   "why": "These bumps and groups make toy texture (T220.6), Sophie's Mandala and many blanket squares.",
+   "need": "5.0 mm hook, #4 acrylic in a light solid color, a spare knitting needle or second hook for bullions.",
+   "learn": "Bella Coco's <a href=\"https://blog.bellacococrochet.com/puff-bobble-and-popcorn-stitches/\">Puff, Bobble and Popcorn Stitches</a> (Sarah-Jayne Fragola; switch to US terms; right- and left-handed videos). Clusters: Oombawka Design's <a href=\"https://oombawkadesigncrochet.com/dc2tog-and-dc3tog-crochet-tutorial/\">Dc2tog and dc3tog</a> and Dedri Uys's <a href=\"https://lookatwhatimade.net/crafts/yarn/crochet/crochet-tutorials/crochet-cluster-stitch-dc3tog/\">Cluster Stitch (dc3tog)</a> (Look At What I Made); left-handed photos: Crochet Spot's <a href=\"https://www.crochetspot.com/?p=6294\">V-Clusters and Clustered Chevrons</a> (hover the photos). Bullions: Crochet Spot's <a href=\"https://www.crochetspot.com/?p=8760\">Bullion Stitch</a> (Robin Beers; hover the photos for left-handed views).",
+   "key": [
+    "Puff: several loops pulled up in one stitch, then one pull through all of them. Soft and airy; it uses the least yarn.",
+    "Bobble: several dc started in one stitch, each stopped before its last step, then closed together. Round and firm.",
+    "Popcorn: several complete stitches in one stitch, then the first and last joined with the hook so the group folds out. Insert the hook front to back into the first stitch and it pops toward you; back to front and it pops away. On wrong-side rows, go back to front so it pops to the right side.",
+    "Cluster: several partial stitches worked into different stitches (dc3tog over 3 stitches) or into one stitch, closed together. Over 3 stitches it removes 2 stitches, so patterns add ch 2 after it to keep the count.",
+    "Bullion: many loose wraps around the hook, then one loop pulled through all of them, leaving a coiled bar."
+   ],
+   "drill": [
+    "Ch 16, sc in the 2nd ch and across (15). Work 2 rows sc.",
+    "Bump rows, each followed by 2 plain sc rows: puffs, bobbles, popcorns (right side), popcorns (wrong side). On each bump row: sc 1, (bump, sc 1) 7 times (15: 8 sc and 7 bumps).",
+    "Cluster rows: work 1 row of 15 dc (ch 3 counts as dc). Next row: ch 3 (counts as dc), (dc3tog over next 3 sts, ch 2) 4 times, dc in the last 2 sts (15 counting each ch as a stitch). Next row: ch 3, dc in each cluster, ch and st across (15).",
+    "Bullion row (worked on a plain sc row of 15): ch 3 (counts as dc), then 7-wrap bullions in every other stitch with a dc between them, ending on a dc (15: the ch 3, 7 bullions and 7 dc)."
+   ],
+   "pass": [
+    "Every row counts 15 (bumps and clusters count as 1 stitch; each ch counts as 1 in the cluster row)",
+    "Bump sort: photograph each bump row (6 photos, tags hidden). Someone shuffles them; you name puff, bobble, popcorn, cluster and bullion with no errors (the two popcorn rows count as one answer)",
+    "Seen from the right side, all 7 popcorns on both popcorn rows face the right side, including the row worked from the wrong side (photo)",
+    "All 7 bullion coils measure within 2 mm of each other in length"
+   ],
+   "wrong": [
+    [
+     "The bullion won't pull through",
+     "Wrap loosely on the shaft, start with 5 to 7 wraps, and point the hook slightly down as you pull. Or wrap over a second hook held alongside."
+    ],
+    [
+     "Bobbles sink into the fabric",
+     "Push each one to the right side as you finish it."
+    ],
+    [
+     "The cluster row narrows",
+     "You left out the ch 2 after a cluster. Count each ch as a stitch."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Puffs, bobbles, popcorns, clusters and bullions",
+   "rubric": false,
+   "sources": [
+    "https://blog.bellacococrochet.com/puff-bobble-and-popcorn-stitches/",
+    "https://oombawkadesigncrochet.com/dc2tog-and-dc3tog-crochet-tutorial/",
+    "https://lookatwhatimade.net/crafts/yarn/crochet/crochet-tutorials/crochet-cluster-stitch-dc3tog/",
+    "https://www.crochetspot.com/?p=6294",
+    "https://www.crochetspot.com/?p=8760"
+   ]
+  },
+  {
+   "id": "2.6",
+   "origin": "revised",
+   "t": "Stitch patterns and multiples",
+   "kind": "lab",
+   "h": 5,
+   "time": "about 5 hours over 3 sessions",
+   "prereq_units": [
+    "1.5",
+    "1.9",
+    "2.3"
+   ],
+   "why": "Every blanket square and stitch dictionary pattern starts with a multiple. Getting the chain right first time saves a lot of ripping.",
+   "need": "5.0 mm hook, #4 acrylic, markers.",
+   "learn": "Four stitch patterns from Oombawka Design's <a href=\"https://oombawkadesigncrochet.com/crochet-stitches/\">stitch guide</a>: Single Crochet V Stitch, Crossed Double Crochet, Larksfoot and Alpine. The page states each pattern's multiple. No left-handed versions; mirror the right-handed steps. The multiple math is taught below.",
+   "key": [
+    "\"Multiple of 3 + 2\" means chain any number divisible by 3, then add 2. For example, 3 x 6 + 2 = 20. The extra stitches cover the edges and the turning chain.",
+    "Make every swatch at least two full repeats wide so you can see the pattern.",
+    "Some patterns give the multiple for the starting chain; others give it for the first row of stitches. Read which one."
+   ],
+   "drill": "A 6 in (15 cm) wide swatch of each of the four patterns, 6 in tall. Work out each starting chain from its multiple and your 1.9 gauge, and write the math on the tag before you start.",
+   "pass": [
+    "Every swatch starts and ends each row on a full repeat with straight edges (within 3 mm, 1/8 in, of a ruler)",
+    "Each swatch measures 6 in (15 cm) wide within 1/2 in (12 mm)",
+    "Each tag shows the chain math, and the chain you made matches it (clip a marker every 10 ch and count)"
+   ],
+   "wrong": [
+    [
+     "A row ends partway through a repeat",
+     "The chain count was off. Clip a marker every 10 chains so the count is easy to check."
+    ],
+    [
+     "The swatch is much narrower than planned",
+     "Stitch patterns often have a different gauge from plain dc. Swatch 2 repeats, measure, then plan the width."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Working stitch patterns from a multiple",
+   "rubric": false,
+   "sources": [
+    "https://oombawkadesigncrochet.com/crochet-stitches/"
+   ]
+  },
+  {
+   "id": "2.7",
+   "origin": "revised",
+   "t": "Cables",
+   "kind": "lesson",
+   "h": 4,
+   "time": "about 4 hours over 2 or 3 sessions",
+   "prereq_units": [
+    "2.3"
+   ],
+   "why": "Cables teach you to move stitches out of order and to keep the count while doing it. They show up on doll sweaters and blanket squares.",
+   "need": "5.0 mm hook, a solid light #4 yarn (cables need crisp stitch definition).",
+   "learn": "Jessie Rayot's <a href=\"https://jessieathome.com/stitchopedia-post-stitch-crochet-cables/\">Post Stitch Crochet Cables</a> (Jessie At Home): left- and right-leaning cables over 2 and 4 stitches, with photos, video and a charted practice piece. No left-handed version; mirror the right-handed steps. Your finished crosses will be mirror images of the photos, which is correct.",
+   "key": [
+    "Crochet cables are post stitches worked out of order: skip a few stitches, work post stitches around the ones ahead, then go back and work around the skipped ones, crossing in front of them or at the back of them.",
+    "Crossing in front makes one lean; crossing at the back makes the other.",
+    "For crosses of 2 or more stitches, taller post stitches (often treble) reach past the row in between.",
+    "Every post stitch on a cable row replaces the stitch it covers, so the count never changes."
+   ],
+   "drill": [
+    "Ch 18, dc in the 4th ch from the hook and across (16 dc, counting the skipped 3 ch as the first dc). Row 2: ch 2 (does not count), dc in each st across (16).",
+    "Cable rows are rows 3, 7 and 11. Each is: ch 2, dc in the next 4 sts, a 2-stitch right-leaning cross, dc in the next 4 sts, a 2-stitch left-leaning cross, dc in the last 4 sts (4 + 2 + 4 + 2 + 4 = 16). Make the crosses as the tutorial's 2-stitch cables show.",
+    "All other rows up to row 12: ch 2, dc in each st across (16).",
+    "Then work the tutorial's own 4-stitch cable practice if you want more."
+   ],
+   "pass": [
+    "Each cross leans the same way as the matching cross in the tutorial's finished-swatch photo (a mirror image is correct if you mirrored every step)",
+    "The stitch count is 16 on every row",
+    "The swatch's width at a cable row is within 12 mm (1/2 in) of its width at a plain row"
+   ],
+   "wrong": [
+    [
+     "The stitch count changes on cable rows",
+     "For every post stitch you make, skip the stitch it covers on the current row. Count after every cable row."
+    ],
+    [
+     "The fabric pulls in hard at the cables",
+     "Use a taller post stitch for the longer reach, and keep the post loops loose."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Post-stitch cables",
+   "rubric": false,
+   "sources": [
+    "https://jessieathome.com/stitchopedia-post-stitch-crochet-cables/"
+   ]
+  },
+  {
+   "id": "2.8",
+   "origin": "revised",
+   "t": "Symbol charts",
+   "kind": "lesson",
+   "h": 4,
+   "time": "about 4 hours over 2 or 3 sessions",
+   "prereq_units": [
+    "1.5",
+    "1.8"
+   ],
+   "why": "Charts cross languages. Japanese amigurumi books, Sophie's Universe and most doily and blanket patterns rely on them.",
+   "need": "Graph or plain paper, a pencil, the 4-round granny square from 1.8.",
+   "learn": "Yarnspirations' <a href=\"https://www.yarnspirations.com/how-to-read-crochet-diagrams.html\">How to Read Crochet Diagrams</a>; keep the Craft Yarn Council's <a href=\"https://www.craftyarncouncil.com/standards/crochet-chart-symbols\">chart symbols</a> open. Left-handed: Yarnspirations' <a href=\"https://yarnspirations.com/ultimate-guide-to-left-handed-crochet.html\">Ultimate Guide to Left-Handed Crochet</a> explains mirroring patterns; the chart directions are in the key ideas below.",
+   "key": [
+    "Each symbol is one stitch seen from the right side. The short dashes across a stitch's post show its yarn overs: one for dc, two for tr.",
+    "Row charts: right-handers read row 1 from right to left, row 2 from left to right, and keep alternating. Left-handers read the opposite way.",
+    "Round charts start in the center. Right-handers work counterclockwise; left-handers work clockwise. The finished piece is a mirror image, which rarely matters.",
+    "Before each round, trace it with a finger and count its symbols."
+   ],
+   "drill": "Draw, by hand, the chart for a 4-round classic granny square in CYC symbols, then work a new square from your chart only.",
+   "pass": [
+    "Your chart shows 48 dc in round 4 and 4 corner spaces in every round",
+    "Someone else works a correct square from your chart alone (post it to r/CrochetHelp if no one nearby crochets): 48 dc in round 4, corners square"
+   ],
+   "wrong": [
+    [
+     "Your count is off",
+     "A symbol was hidden beside a taller one. Trace each row or round with a finger and count its symbols before you start it."
+    ],
+    [
+     "Your square spirals sideways",
+     "You started the round in a different spot from the chart. Mark the chart's start point and match it."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Reading and drawing symbol charts",
+   "rubric": false,
+   "sources": [
+    "https://www.yarnspirations.com/how-to-read-crochet-diagrams.html",
+    "https://www.craftyarncouncil.com/standards/crochet-chart-symbols",
+    "https://yarnspirations.com/ultimate-guide-to-left-handed-crochet.html"
+   ]
+  },
+  {
+   "id": "2.9",
+   "origin": "revised",
+   "t": "UK terms",
+   "kind": "project",
+   "h": 3,
+   "time": "about 3 hours over 2 sessions",
+   "prereq_units": [
+    "1.8"
+   ],
+   "why": "Many of the best patterns (Attic24, Sophie's Universe, Edward's Menagerie) are written in UK terms. The toy track has a short version in T150.3; this unit makes it automatic for flat work.",
+   "need": "#3 DK acrylic (Stylecraft Special DK or similar) in 3 to 5 colors, 4.0 mm hook.",
+   "learn": "The Craft Yarn Council's <a href=\"https://craftyarncouncil.com/node/39\">abbreviation standards</a> (US and UK term notes). Project: Lucy's <a href=\"https://attic24.co.uk/posts/granny-bunting-triangles\">Granny Bunting Triangles</a> (Attic24), in UK terms. No left-handed version; mirror the right-handed photos.",
+   "key": [
+    "UK names are one step taller: UK double crochet = US single crochet, UK half treble = US half double, UK treble = US double, UK double treble = US treble.",
+    "Chain and slip stitch are the same in both.",
+    "A pattern that ever says \"sc\" is in US terms. If it says \"dc\" and never \"sc\", check the front matter: it is probably UK.",
+    "Read the UK name and work the US stitch one size down. Don't rewrite the pattern."
+   ],
+   "drill": "Make five bunting triangles from the UK pattern without rewriting it into US terms.",
+   "pass": [
+    "Each side of each triangle measures about 7 in (18 cm), within 1/2 in (12 mm), in DK on a 4.0 mm hook (the pattern's stated size, as of Oct 2026)",
+    "All five match each other within 6 mm (1/4 in) per side",
+    "Each triangle's stitch groups match the pattern photo round for round"
+   ],
+   "wrong": [
+    [
+     "Your triangles are much bigger than the photo",
+     "You read the UK names as US stitches. Check each name against the conversion."
+    ],
+    [
+     "The points curl",
+     "Lay each triangle flat, mist it with water and pin it to shape until dry. The full blocking lab is 2.13."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "UK pattern terms",
+   "rubric": false,
+   "sources": [
+    "https://craftyarncouncil.com/node/39",
+    "https://attic24.co.uk/posts/granny-bunting-triangles"
+   ]
+  },
+  {
+   "id": "2.10",
+   "origin": "revised",
+   "t": "Seams",
+   "kind": "lesson",
+   "h": 4,
+   "time": "about 4 hours over 2 sessions",
+   "prereq_units": [
+    "1.8"
+   ],
+   "why": "Blankets, bags and doll clothes are joined pieces. The seam decides whether they look handmade or well made.",
+   "need": "A yarn needle, matching yarn, clips, and the four granny squares from 1.8.",
+   "learn": "TL Yarn Crafts' <a href=\"https://tlycblog.com/beginner-crochet-seaming-video-tutorial/\">4 Easy Crochet Seaming Techniques</a> (Toni Lipsey): whip stitch, mattress stitch, single crochet seam, flat slip stitch seam. No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Line pieces up stitch for stitch and clip them together before you start.",
+    "Mattress stitch is sewn from the right side and is nearly invisible. Whip stitch is fast but shows a little.",
+    "The slip stitch and single crochet seams are crocheted. Single crochet is the sturdiest and makes a ridge.",
+    "Seam tension should match the fabric. Too tight puckers, too loose gaps."
+   ],
+   "drill": "Join the four squares into a 2 x 2 block using all four seams, one per join.",
+   "pass": [
+    "Shown the block at 1 m (3 ft), another person cannot point to the mattress seam within 10 seconds",
+    "Each seam is within 6 mm (1/4 in) of the length of the square edge beside it (no pucker, no stretch)",
+    "The block lies flat on a table"
+   ],
+   "wrong": [
+    [
+     "A seam puckers",
+     "The seaming yarn is too tight. Every few inches, stretch the seam lengthwise so it matches the fabric."
+    ],
+    [
+     "Squares are offset at the end",
+     "You skipped a stitch on one side. Clip the corners and the middle before you start."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Four seams",
+   "rubric": false,
+   "sources": [
+    "https://tlycblog.com/beginner-crochet-seaming-video-tutorial/"
+   ]
+  },
+  {
+   "id": "2.11",
+   "origin": "revised",
+   "t": "Edges and borders",
+   "kind": "lesson",
+   "h": 4,
+   "time": "about 4 hours over 2 or 3 sessions",
+   "prereq_units": [
+    "1.2",
+    "1.9"
+   ],
+   "why": "A border is the frame on every blanket, including Sophie's Universe. Getting the count right is what keeps it flat.",
+   "need": "5.0 mm hook, #4 acrylic, two 6 in (15 cm) dc squares (make them first), markers.",
+   "learn": "Jessie Rayot's <a href=\"https://www.jessieathome.com/how-to-crochet-along-edge-tutorial/\">How to Crochet Along Edge</a> (Jessie At Home; works out stitch counts from a sample; right- and left-handed videos). Reverse single crochet (crab stitch) in Oombawka Design's <a href=\"https://oombawkadesigncrochet.com/crochet-stitches/\">stitch guide</a>; no left-handed version of crab stitch, so mirror the right-handed steps.",
+   "key": [
+    "A common starting ratio along row ends: 1 sc per sc row, 2 sc per dc row, 3 sc per tr row.",
+    "Work 3 sc into each corner stitch so the corner turns flat.",
+    "More reliable than any ratio: count how many sc fit in 4 in (10 cm) of border sample, then calculate each side.",
+    "Crab stitch is sc worked backward. It makes a twisted, rope-like edge."
+   ],
+   "drill": [
+    "Make two 6 in (15 cm) dc squares.",
+    "Square 1: count your sc per 4 in on a short test edge, calculate each side, and write it on the tag. Work the sc border with 3 sc in each corner, then a round of crab stitch.",
+    "Square 2: the same sc border, then a picot edging (the common picot is ch 3, sl st in the 3rd ch from the hook; always use a pattern's own definition)."
+   ],
+   "pass": [
+    "Each border lies flat with square corners: no ruffle or cup higher than 3 mm (1/8 in)",
+    "Each side's count is within one stitch of your calculation",
+    "Both squares' diagonals match within 6 mm (1/4 in)"
+   ],
+   "wrong": [
+    [
+     "The border ruffles",
+     "Too many stitches. Recount your sample and remove 1 in every 10."
+    ],
+    [
+     "It pulls in or cups",
+     "Too few stitches. Add 1 in every 10."
+    ],
+    [
+     "Crab stitch twists the wrong way",
+     "Work from left to right (right to left if you are left-handed) without turning, and insert the hook front to back into the next stitch."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Calculated borders and edgings",
+   "rubric": false,
+   "sources": [
+    "https://www.jessieathome.com/how-to-crochet-along-edge-tutorial/",
+    "https://oombawkadesigncrochet.com/crochet-stitches/"
+   ]
+  },
+  {
+   "id": "2.12",
+   "origin": "revised",
+   "t": "Weaving in ends, five ways",
+   "kind": "lab",
+   "h": 2,
+   "time": "about 2 hours plus a wash",
+   "prereq_units": [
+    "1.4",
+    "2.2",
+    "2.10"
+   ],
+   "why": "Ends that stay put are what let a blanket or toy survive washing and play.",
+   "need": "A yarn needle, #4 acrylic in 2 colors, access to a washing machine.",
+   "learn": "Creative Crochet Corner's <a href=\"https://www.creativecrochetcorner.com/post/how-to-weave-in-ends-securely\">How to Weave in Ends Securely</a> (slip under two strands, split the third, then reverse). No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Change direction at least twice and split the yarn's plies on the last pass, so the tail grips instead of sliding.",
+    "Crocheting over a tail hides it as you go. Work 6 to 8 stitches over it, then trim.",
+    "In a seam, run the tail through the seam itself, where it is hidden in both directions."
+   ],
+   "drill": "Two 20-stitch sc swatches of 10 rows each, joined along one edge with a single crochet seam from 2.10. Five ends, five methods, labeled on the tag: the needle weave from 1.4, the slip-two-split-one weave, crocheting over the tail, hiding the seam yarn's tail inside the seam, and a Russian join that leaves no end.",
+   "pass": [
+    "After a machine wash and dry on the yarn label's setting, no end has worked loose or shows on the right side",
+    "Stretch test after washing: no tail pops out"
+   ],
+   "wrong": [
+    [
+     "A tail pokes through after washing",
+     "Trim it after washing, not before; the yarn relaxes and draws back."
+    ],
+    [
+     "A crocheted-over tail shows as a ridge",
+     "Use a tail the same color as the stitches and work only 6 to 8 stitches over it."
+    ],
+    [
+     "The seam tail pops out",
+     "Run it through the seam in two directions before you trim it."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Five ways to secure ends",
+   "rubric": false,
+   "sources": [
+    "https://www.creativecrochetcorner.com/post/how-to-weave-in-ends-securely"
+   ]
+  },
+  {
+   "id": "2.13",
+   "origin": "revised",
+   "t": "Blocking, five ways",
+   "kind": "lab",
+   "h": 4,
+   "time": "about 4 hours, plus drying time",
+   "prereq_units": [
+    "1.9",
+    "2.6"
+   ],
+   "why": "Blocking sets the size of every blanket square and every Sophie's Universe round. Knowing what each method does to each fiber saves projects.",
+   "need": "Blocking mats or a folded towel, rust-proof pins, a spray bottle, a steam iron or steamer, a ruler, some acrylic and some wool or cotton.",
+   "learn": "A Crocheted Simplicity's <a href=\"https://acrochetedsimplicity.com/how-to-block-acrylic-yarn-wet-spray-steam-blocking\">How to Block Acrylic Yarn</a> (Jess Coppom): wet, spray, steam and permanently killing acrylic. No left-handed version needed; blocking is the same for both hands.",
+   "key": [
+    "Natural fibers relax in water and dry into the shape you pin. Acrylic barely responds to water but softens with steam.",
+    "Heavy steam held on acrylic kills it: the drape becomes permanently softer and flatter. Hover the iron; never press.",
+    "Pin to exact measurements and let the piece dry completely before unpinning.",
+    "Never block a stuffed toy with heat. Steam can melt safety-eye backs and flatten fur."
+   ],
+   "drill": [
+    "Make six identical lacy swatches in acrylic, about 6 in (15 cm) square (any open stitch pattern from 2.6).",
+    "Measure each to the nearest mm and record it.",
+    "Before you block, write which method you expect to change the swatch most.",
+    "Block them: an unblocked control, pinned dry, spray, wet, steam, and killed acrylic. Pin each to 6.5 in (16.5 cm) square.",
+    "After 24 hours dry and unpinned, measure again and record."
+   ],
+   "pass": [
+    "Your record has before and after width and height for all six swatches, to the nearest mm",
+    "The steam-blocked and killed swatches each stay within 3 mm (1/8 in) of 6.5 in (16.5 cm) after 24 hours unpinned",
+    "Your written prediction and the measured result are both on the record, side by side"
+   ],
+   "wrong": [
+    [
+     "The swatch springs back after unpinning",
+     "It wasn't fully dry, or it's acrylic that needs steam."
+    ],
+    [
+     "Stitches look shiny and flat",
+     "Too much heat, and that change is permanent. Use it only on purpose."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Choosing and using a blocking method",
+   "rubric": false,
+   "sources": [
+    "https://acrochetedsimplicity.com/how-to-block-acrylic-yarn-wet-spray-steam-blocking"
+   ]
+  },
+  {
+   "id": "2.14",
+   "origin": "revised",
+   "t": "Fixing mistakes",
+   "kind": "lab",
+   "h": 2,
+   "time": "about 2 hours in 1 or 2 sessions",
+   "prereq_units": [
+    "1.2"
+   ],
+   "why": "Every crocheter rips back. Doing it calmly, without losing the loop or the count, keeps a mistake to five minutes.",
+   "need": "5.0 mm hook, #4 acrylic, locking markers, a friend or family member for one step.",
+   "learn": "Sigoni Macaroni's free <a href=\"https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/\">Learn to Crochet Masterclass</a> (straight edges and fixing mistakes; it has both left-handed and right-handed versions). For a stuck piece, post a photo to <a href=\"https://www.reddit.com/r/CrochetHelp/\">r/CrochetHelp</a>.",
+   "key": [
+    "Count every row. To rip back, pull the yarn until you reach the error, then put the live loop straight back on the hook.",
+    "You never need to cut yarn to fix a mistake.",
+    "Clip a marker into the live loop whenever you stop, so it can't unravel.",
+    "A piece that grows usually has an extra stitch at an edge. A piece that shrinks usually misses the last stitch."
+   ],
+   "drill": [
+    "Make a 20-stitch dc swatch, 12 rows. Without telling you which, a helper picks 2 rows and you work a stitch extra or a stitch short on those rows only when they say \"now\" (or roll a die to pick the rows yourself and cover the note).",
+    "A day later, find both errors by counting, rip back to the first one and rework."
+   ],
+   "pass": [
+    "You find both error rows by counting, within 10 minutes",
+    "The reworked swatch has 20 stitches in every row and straight edges (within 3 mm, 1/8 in, of a ruler)",
+    "The marker was on the live loop every time you stopped, and the loop never unraveled"
+   ],
+   "wrong": [
+    [
+     "The loop keeps slipping down while you rip",
+     "Rip slowly the last two stitches, and catch the loop with the hook before it drops."
+    ],
+    [
+     "After ripping you have a twisted loop",
+     "Turn it so the front leg is toward you, like every other loop on the hook."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Finding and fixing errors without cutting",
+   "rubric": false,
+   "sources": [
+    "https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/",
+    "https://www.reddit.com/r/CrochetHelp/"
+   ]
+  },
+  {
+   "id": "2.15",
+   "origin": "revised",
+   "t": "Yarn and fiber literacy",
+   "kind": "lab",
+   "h": 4,
+   "time": "about 4 hours plus washes",
+   "prereq_units": [
+    "1.9"
+   ],
+   "why": "Choosing a yarn for a toy, a baby blanket or a substitute in a pattern depends on fiber, weight and yardage.",
+   "need": "One small skein each of worsted wool, cotton, acrylic and a blend. A ruler and a pencil.",
+   "learn": "The Craft Yarn Council's <a href=\"https://craftyarncouncil.com/standards/how-measure-wraps-inch-wpi\">Wraps Per Inch</a> chart and <a href=\"https://craftyarncouncil.com/node/39\">standards pages</a>; <a href=\"https://www.yarnsub.com/\">YarnSub</a>, a database of about 13,000 yarns run by Wendy Peterson (as of Oct 2026). Book: Clara Parkes, <i>The Knitter's Book of Yarn</i> (paid; optional). No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Wool is warm and springy and can felt unless it's labeled superwash. Cotton is strong and crisp but has no stretch. Acrylic is cheap and machine-washable but changes little when wet-blocked.",
+    "Wraps per inch (WPI) identifies unlabeled yarn: wrap it around a ruler or pencil without overlapping, count the strands in 1 in, and compare with the CYC chart (#4 medium is about 9 to 12 WPI).",
+    "Skeins needed = total yards the pattern needs divided by yards per skein, rounded up. Lion Brand 24/7 Cotton has 186 yd (170 m) per 100 g skein.",
+    "For toys, smooth cotton and acrylic show stitches best. Fuzzy yarn hides them."
+   ],
+   "drill": [
+    "Make one sc swatch of each fiber on the same hook, 20 stitches wide and worked until square. Measure each to the nearest mm.",
+    "Wash each per its label, dry it flat, and measure again. Record size change, drape (does it fold over a pencil?), stitch definition and fuzz.",
+    "Measure each yarn's WPI and record it.",
+    "Find three substitutes on YarnSub for one pattern's yarn and work out how many skeins of each you need."
+   ],
+   "pass": [
+    "Your record shows each swatch's width and height before and after washing, to the nearest mm, with the percent change",
+    "Each WPI result falls in the CYC range for the weight printed on that yarn's label",
+    "Your skein counts are correct when someone else repeats the division (total yards / yards per skein, rounded up)"
+   ],
+   "wrong": [
+    [
+     "WPI is far off the label",
+     "You wrapped too tight or with gaps. Wrap snug, side by side, and measure in two places."
+    ],
+    [
+     "The wool swatch shrank a lot",
+     "It felted. That is information: keep it out of toys meant for washing."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Fiber, WPI and yardage",
+   "rubric": false,
+   "sources": [
+    "https://craftyarncouncil.com/standards/how-measure-wraps-inch-wpi",
+    "https://craftyarncouncil.com/node/39",
+    "https://www.yarnsub.com/"
+   ]
+  },
+  {
+   "id": "2.16",
+   "origin": "revised",
+   "t": "Course project: stitch sampler blanket",
+   "kind": "project",
+   "h": 45,
+   "time": "about 45 hours over 2 to 4 months at a gentle pace",
+   "prereq_units": [
+    "2.1",
+    "2.3",
+    "2.5",
+    "2.6",
+    "2.8",
+    "2.10",
+    "2.11",
+    "2.12",
+    "2.13"
+   ],
+   "why": "Nine squares put every core technique into one blanket and train you to hit a size again and again, which the heirloom blanket needs.",
+   "need": "Red Heart With Love (2 skeins of a main color and 1 skein each of 4 complementary colors), 4.5 and 5.0 mm hooks, blocking gear.",
+   "learn": "Marly Bird's free <a href=\"https://marlybird.com/blog/crochet-stitch-sampler-baby-blanket-cal-details/\">Crochet Stitch Sampler Baby Blanket</a> crochet-along (Red Heart With Love): nine squares, each a different stitch pattern, with written and chart instructions and videos, plus a border page. The pattern tells you to change hook size to reach the size you want, and this unit sets that size at 11 in (28 cm). Each square's page is free; a compiled PDF is sold separately (as of Oct 2026). Read each square first; any stitch not taught in units 2.1 to 2.7 gets a short practice swatch before the square. No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Work every square from its chart first; check the written instructions only afterward.",
+    "Change hooks square by square to hit 11 in (28 cm). Write the hook on each square's tag.",
+    "Block each square before joining.",
+    "One square a week is a good pace. A lighter week is still progress."
+   ],
+   "drill": "Make the nine squares, block each to 11 in (28 cm), seam them with a method from 2.10, and work the border.",
+   "pass": [
+    "All nine squares block to 11 in (28 cm) within 6 mm (1/4 in) on every side",
+    "Seams lie flat: each seam is within 6 mm (1/4 in) of the square edges beside it",
+    "The border lies flat: no ruffle or cup higher than 6 mm (1/4 in)",
+    "Stretch test: no ends show anywhere"
+   ],
+   "wrong": [
+    [
+     "One square is much smaller",
+     "Remake it a hook size up, or add a round of sc before blocking if the pattern allows."
+    ],
+    [
+     "The border ruffles at the corners",
+     "Too many corner stitches. Use 3 sc in each corner stitch."
+    ]
+   ],
+   "tier": "big",
+   "new_skill": "Charts, multiples and blocking to size across one project",
+   "rubric": false,
+   "sources": [
+    "https://marlybird.com/blog/crochet-stitch-sampler-baby-blanket-cal-details/"
+   ]
+  }
+ ]
+}

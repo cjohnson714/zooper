@@ -1,0 +1,272 @@
+{
+ "code": "BUS 380",
+ "title": "Selling toys and patterns",
+ "year": 4,
+ "track": "elective",
+ "required": false,
+ "hours": 24,
+ "credits": 0.5,
+ "hook": "none needed",
+ "yarn": "none needed",
+ "level": 3,
+ "prereqs": [
+  "TOY 420"
+ ],
+ "summary": "An optional, US-specific course on what you may sell, the rules for selling toys, pricing, honest listings and launching one paid pattern.",
+ "intro": "This course is only for you if you want to sell. Its advice for a hobby-scale maker is to sell patterns rather than children's toys, and it shows why with the actual rules. Every legal and price fact here is dated (as of Oct 2026) and is general information, not legal or tax advice. T380.1 and T380.2 can be read any time after TOY 120.",
+ "outcomes": [
+  "You can read a designer's terms and know what you may sell.",
+  "You can list what US federal rules and Ohio's stuffed-toy rules ask of a toy seller.",
+  "You can cost a toy and a pattern, including platform fees.",
+  "You can write a listing that answers a buyer's questions and launch one paid pattern."
+ ],
+ "assessment": "Each unit passes on its written sheet or live listing. Nothing here is graded on sales.",
+ "reading": "No textbook chapter. Read the primary sources linked in T380.2 before deciding to sell toys.",
+ "units": [
+  {
+   "id": "T380.1",
+   "origin": "new",
+   "t": "Patterns or toys: what you can sell",
+   "kind": "lesson",
+   "h": 3,
+   "time": "about 3 hours over 1 or 2 sessions",
+   "prereq_units": [
+    "T120.4"
+   ],
+   "why": "Selling patterns and selling toys are different businesses. A pattern is written for an adult maker. A toy for a child is a regulated children's product. Knowing which one you are doing, and what you may sell from other designers' patterns, comes first.",
+   "need": "A list of five toys you've made with each pattern's link, and a notebook.",
+   "learn": "This is general information for a US maker, gathered as of Oct 2026. It is not legal or tax advice. Rules change; check the linked primary sources before you sell. Free: Plagiarism Today, <a href='https://www.plagiarismtoday.com/2014/10/08/copyright-in-knitting-and-crocheting/'>Copyright in Knitting and Crocheting</a> (2014; the doctrine it explains is unchanged). June Gilbank, <a href='https://www.planetjune.com/terms'>PlanetJune terms of use</a>, a fair model license. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "In US copyright, a pattern's method generally is not protected, but its text, charts, diagrams and photos are. Never copy another designer's pattern text or photos.",
+    "Selling toys you made from someone's pattern is often allowed by the designer's terms, usually with credit and your own photos. Honor each designer's terms even where enforceability is unclear.",
+    "Toys or patterns of characters owned by a studio infringe whether sold or given away.",
+    "Reverse-engineering a living designer's distinctive toy into your own pattern is plagiarism even if the counts differ.",
+    "At hobby scale, selling patterns carries far less legal weight than selling toys for children. That is a judgment from this course's research, not a legal ruling."
+   ],
+   "drill": [
+    "For each of five toys you've made, find the designer's terms. Copy the exact line about selling finished items.",
+    "Mark each toy: may sell with credit, may not sell, or terms unclear.",
+    "Write one sentence deciding what you will sell first: patterns, toys for adults or display, or toys for children."
+   ],
+   "pass": [
+    "Your table lists five toys, each with the designer's selling line quoted and a link.",
+    "Each toy is marked with one of the three categories.",
+    "Your decision sentence is written."
+   ],
+   "wrong": [
+    [
+     "A designer's terms can't be found",
+     "Treat it as 'may not sell' and ask the designer by message. Log the reply."
+    ],
+    [
+     "You want to sell a toy based on a TV character",
+     "Don't. Design an original creature in the same mood instead."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Reading pattern terms and basic US copyright for crochet",
+   "rubric": false,
+   "sources": [
+    "https://www.plagiarismtoday.com/2014/10/08/copyright-in-knitting-and-crocheting/",
+    "https://www.planetjune.com/terms"
+   ]
+  },
+  {
+   "id": "T380.2",
+   "origin": "new",
+   "t": "If you sell toys: US rules and Ohio's label law",
+   "kind": "lesson",
+   "h": 5,
+   "time": "about 4 to 6 hours over 2 sessions",
+   "prereq_units": [
+    "T380.1",
+    "T120.4"
+   ],
+   "why": "Handmade toys for children 12 and under are not exempt from US toy law. Labeling a plush 'not a toy' or 'decorative' doesn't settle the question, because plush is judged as a whole. Knowing the rules lets you decide calmly whether selling toys is worth it for you.",
+   "need": "A notebook, a toy you might sell, and access to the linked pages.",
+   "learn": "This is general information for a US maker, gathered as of Oct 2026. It is not legal or tax advice. Rules change; check the linked primary sources before you sell. Primary sources: US Consumer Product Safety Commission, <a href='https://www.cpsc.gov/smallbatch'>Small Batch Manufacturers program</a>; ASTM International, <a href='https://store.astm.org/f0963-23.html'>ASTM F963-23 toy safety standard</a> (paid). Plain-language guide: Craftybase, <a href='https://craftybase.com/blog/cpsc-compliance-and-your-handmade-shop'>CPSC compliance and your handmade shop</a>. Ohio: <a href='https://codes.ohio.gov/ohio-administrative-code/chapter-4101:6-1'>Ohio Administrative Code chapter 4101:6-1</a> (bedding and stuffed toys; the rule's five-year review date was 16 Sept 2026, so check for amendments). Selling abroad: UK government, <a href='https://www.gov.uk/government/publications/toys-safety-regulations-2011/toys-safety-regulations-2011-great-britain'>Toys (Safety) Regulations 2011 guidance</a>; Intertek, <a href='https://www.intertek.com/products-retail/insight-bulletins/2025/1504-eu-published-the-regulation-on-the-safety-of-toys/'>summary of EU Regulation 2025/2509</a>. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "US, as of Oct 2026: a toy for ages 12 and under needs a Children's Product Certificate (kept on file, not filed), a permanent tracking label (maker, city and state, date, batch number) and compliance with ASTM F963-23, mandatory for toys made on or after 20 April 2024.",
+    "Small Batch Manufacturer registration is yearly, at SaferProducts.gov. It covers makers with prior-year gross revenue of $1,480,296 or less and no more than 7,500 units of the product (as of Oct 2026; check cpsc.gov/smallbatch for the current figures). It relieves third-party testing only for 'Group B' rules. 'Group A' tests, including small parts and lead in paint or coatings, always go to a CPSC-accepted lab. The tracking label is never waived.",
+    "Textiles, including dyed natural fibers, are listed in 16 CFR 1500.91(d)(7) as not exceeding lead limits. Safety eyes, buttons and other hard parts are not textiles.",
+    "Ohio, as of Oct 2026: the administrative code requires anyone who makes stuffed toys for sale in Ohio to register with the Division of Industrial Compliance, report every twelve months with a fee of four cents per toy, and attach a label with the registered name and address or license number, an 'All new material' statement and the filling. The rule text seen exempts only items for your own use. Bills HB 873 and SB 448 (2025 to 2026) propose changes; their status was not confirmed. Ask the Division before you sell.",
+    "Selling to the EU or UK is a separate business step: an EU responsible person on EU listings, and in Great Britain the maker's name and address, a batch number and a CE or UKCA mark."
+   ],
+   "drill": [
+    "Draft a tracking label for one toy: your name, city and state, date, batch number.",
+    "Draft an Ohio stuffed-toy label: name and address or license number, 'All new material', and the filling (for example, polyester fiber).",
+    "List each part of the toy and mark it textile or hard part. For each hard part, write which Group A test applies, using the Craftybase and CPSC pages.",
+    "Write one sentence: will you sell toys for children, toys for adults and display only, or no toys? Note what it would cost you to do the first."
+   ],
+   "pass": [
+    "Your tracking label shows all four fields.",
+    "Your Ohio label shows the three required items.",
+    "Your parts list marks every part, and each hard part names its test or says 'replace with embroidery'.",
+    "Your decision sentence is written."
+   ],
+   "wrong": [
+    [
+     "The rules feel overwhelming",
+     "That is a fair reading. Selling patterns (T380.5) avoids them, and toys for adult collectors carry fewer duties. Decide with the facts, not pressure."
+    ],
+    [
+     "You find conflicting advice in seller forums",
+     "Forums are peer advice. Check each claim against the CPSC page and log the source."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Reading US and Ohio toy-selling rules and drafting the required labels",
+   "rubric": false,
+   "sources": [
+    "https://www.cpsc.gov/smallbatch",
+    "https://store.astm.org/f0963-23.html",
+    "https://craftybase.com/blog/cpsc-compliance-and-your-handmade-shop",
+    "https://codes.ohio.gov/ohio-administrative-code/chapter-4101:6-1",
+    "https://www.gov.uk/government/publications/toys-safety-regulations-2011/toys-safety-regulations-2011-great-britain",
+    "https://www.intertek.com/products-retail/insight-bulletins/2025/1504-eu-published-the-regulation-on-the-safety-of-toys/"
+   ]
+  },
+  {
+   "id": "T380.3",
+   "origin": "new",
+   "t": "Pricing and platforms",
+   "kind": "lab",
+   "h": 4,
+   "time": "about 3 to 5 hours over 2 sessions",
+   "prereq_units": [
+    "T380.1"
+   ],
+   "why": "A price that ignores your hours or the platform's cut quietly turns a hobby into unpaid work. Doing the arithmetic once lets you choose a price you're happy with, or decide to keep making for gifts.",
+   "need": "Your hours log for one toy and one pattern, your yarn receipts, a calculator.",
+   "learn": "This is general information for a US maker, gathered as of Oct 2026. It is not legal or tax advice. Rules change; check the linked primary sources before you sell. Etsy fees, from Craftybase's <a href='https://craftybase.com/blog/the-complete-guide-to-etsy-fees'>complete guide to Etsy fees</a> (US, as of Oct 2026; confirm on Etsy's own fee page): $0.20 per listing, a 6.5% transaction fee on item price plus shipping, and payment processing of 3% plus $0.25. Ravelry's selling fees are not confirmed here; read the current table in your Ravelry designer account. Pattern Design Circle, <a href='https://payhip.com/PatternDesignCircle/blog/pattern-design-circle-blog/where-to-sell-knitting-patterns-online-a-summary-of-online-platforms-for-selling-knitting-patterns'>where to sell patterns online</a>, compares Etsy, Ravelry, Payhip, Ribblr and others, but its authors say fees have changed since it was written. Use each platform's own fee page. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Pattern worked example on Etsy at $6.00: listing $0.20 + transaction 6.5% x 6.00 = $0.39 + processing 3% x 6.00 = $0.18 + $0.25. Fees = $1.02. You keep $4.98.",
+    "Toy cost = yarn + stuffing + eyes + label + fees + your hours x an hourly rate you choose.",
+    "Yarn cost by weight: grams used x (skein price / skein grams). For 24/7 Cotton, 60 g of a 100 g skein is 60% of the skein price.",
+    "A toy that took 6 hours at $15 an hour carries $90 of labor before materials. Many makers find toys rarely pay for their hours. Patterns can, because one write-up sells many times.",
+    "Price is your choice. Write down the rate you used so you can change it on purpose."
+   ],
+   "drill": [
+    "Weigh one finished toy's yarn by part, total it, and price it from your receipts.",
+    "Compute the toy's full cost at your chosen hourly rate. Show the arithmetic.",
+    "Compute what you keep from a $6.00 pattern on Etsy and on one other platform, using that platform's current published fees, dated."
+   ],
+   "pass": [
+    "Your toy cost sheet shows grams, materials, hours, rate and total, with the arithmetic visible.",
+    "Your pattern sheet shows the fee lines for two platforms, each dated, and the amount you keep."
+   ],
+   "wrong": [
+    [
+     "The toy price looks impossible",
+     "That is common and useful to know. Consider selling the pattern instead, or keep toys for gifts."
+    ],
+    [
+     "Fee numbers differ between sources",
+     "Use the platform's own fee page and date it. Third-party guides go out of date."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Costing a toy and a pattern, including platform fees",
+   "rubric": false,
+   "sources": [
+    "https://craftybase.com/blog/the-complete-guide-to-etsy-fees",
+    "https://payhip.com/PatternDesignCircle/blog/pattern-design-circle-blog/where-to-sell-knitting-patterns-online-a-summary-of-online-platforms-for-selling-knitting-patterns"
+   ]
+  },
+  {
+   "id": "T380.4",
+   "origin": "new",
+   "t": "An honest listing",
+   "kind": "lab",
+   "h": 4,
+   "time": "about 3 to 5 hours over 2 sessions",
+   "prereq_units": [
+    "T380.3",
+    "T420.4"
+   ],
+   "why": "A good listing answers a buyer's questions before they ask, and sets an honest expectation about size, materials, age grade and care.",
+   "need": "One toy or one pattern, your photo setup from T420.4, your cost sheet from T380.3, a second person.",
+   "learn": "Photos: Sweet Softies, <a href='https://www.sweetsofties.com/2026/07/essential-crochet-photography-tips-for-showcasing-your-handmade-work.html'>Essential Crochet Photography Tips</a> (July 2026), and Daisy Cottage Designs, <a href='https://daisycottagedesigns.net/crochet-photography-tips'>Crochet Photography Tips</a>. Listing copy has no verified tutorial in this library, so this unit teaches it in its own words. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Lead photo: the item alone, in daylight, on a plain background, at eye level. Add one photo with a ruler or a common object for scale.",
+    "For a toy, state height in cm and inches, fiber, filling, eye type, the age grade, care, and your tracking details if it is for children.",
+    "For a pattern, state the skill level and the skills used, yarn weight and yardage, hook, finished size, terms format (US), pages, and your terms of use.",
+    "Write plainly. No claim you can't back, such as 'baby safe', unless you have done what T380.2 describes."
+   ],
+   "drill": [
+    "Shoot 5 photos: lead, scale, back, detail, and in use.",
+    "Write the listing title in under 140 characters and a description with every field from the key points.",
+    "Give the draft to a second person. Ask them 5 questions: size, materials, age, care, what the buyer may do with it. They answer from the listing alone."
+   ],
+   "pass": [
+    "The second person answers all 5 questions correctly from the listing alone.",
+    "The lead photo shows the item in daylight on a plain background, and one photo shows scale."
+   ],
+   "wrong": [
+    [
+     "Colors look wrong in photos",
+     "Shoot by a window, never with flash, and turn off any filter."
+    ],
+    [
+     "The reader misses a detail",
+     "Move that detail into the first two lines of the description."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Writing a complete, honest product listing",
+   "rubric": false,
+   "sources": [
+    "https://www.sweetsofties.com/2026/07/essential-crochet-photography-tips-for-showcasing-your-handmade-work.html",
+    "https://daisycottagedesigns.net/crochet-photography-tips"
+   ]
+  },
+  {
+   "id": "T380.5",
+   "origin": "new",
+   "t": "Launch one paid pattern",
+   "kind": "project",
+   "h": 8,
+   "time": "about 6 to 10 hours over 2 to 4 weeks",
+   "prereq_units": [
+    "T380.4",
+    "T420.5"
+   ],
+   "why": "Selling one tested pattern end to end teaches the whole cycle at low risk: pricing, listing, delivering files, answering a question and fixing an error.",
+   "need": "One tested, tech-edited toy pattern (your T490.1 pattern or another original that passed T420.3), your listing from T380.4, a platform account.",
+   "learn": "This is general information for a US maker, gathered as of Oct 2026. It is not legal or tax advice. Rules change; check the linked primary sources before you sell. Publishing: Ribblr's <a href='https://ribblr.com/learn/crochet-row-counter'>interactive patterns</a> or Ravelry; terms model: <a href='https://www.planetjune.com/terms'>PlanetJune terms of use</a>. Taxes: income from sales is reportable, and marketplaces collect sales tax in many states; selling from your own site may make that your task. Ask a tax professional about your situation. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Put a version number and date on the PDF's first page. Keep an errata line on the listing.",
+    "Answer pattern questions within a few days, in plain words, and log each one. Three of the same question means the pattern line needs rewriting.",
+    "Keep a simple sales record: date, platform, price, fees, amount kept.",
+    "A launch with few sales is still a working shop. Each pattern you add makes the next one easier to find."
+   ],
+   "drill": [
+    "Choose the price from your T380.3 sheet. List the pattern on one platform with your T380.4 copy.",
+    "Buy or download your own listing once to check the file arrives and opens.",
+    "Set up the sales record and a question log.",
+    "After 30 days, read the question log and release version 1.1 if any line needs a fix."
+   ],
+   "pass": [
+    "The pattern is live, and your own test download opens with the version and date on page 1.",
+    "Your sales record and question log exist with at least one dated entry each (a test purchase counts)."
+   ],
+   "wrong": [
+    [
+     "The file won't download for a buyer",
+     "Send it by message right away, then check the platform's file settings with a test purchase."
+    ],
+    [
+     "A buyer finds an error",
+     "Thank them, fix it, release a new version, and add an errata line with the date."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Running a pattern sale end to end",
+   "rubric": false,
+   "sources": [
+    "https://ribblr.com/learn/crochet-row-counter",
+    "https://www.planetjune.com/terms"
+   ]
+  }
+ ]
+}

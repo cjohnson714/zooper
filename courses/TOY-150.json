@@ -1,0 +1,354 @@
+{
+  "code": "TOY 150",
+  "title": "Designer survey",
+  "year": 2,
+  "track": "toy",
+  "required": true,
+  "hours": 60,
+  "credits": 1.3,
+  "hook": "3.5 mm for worsted (or your T101.2 house hook); 2.75 mm if you work Pica Pau in its finer cotton",
+  "yarn": "#4 worsted cotton (Lion Brand 24/7 Cotton or similar) for most toys; the yarn each book's front matter names where you want to match the designer's size",
+  "level": 2,
+  "prereqs": [
+    "TOY 190"
+  ],
+  "summary": "You make one toy from each of four designers who build toys in different ways, then make one of them again with a single named improvement.",
+  "intro": "Every designer has habits: how they start a piece, how they join parts, how much they sew, how they write a round. Meeting several of them now, before you design anything yourself, gives you a range of methods to borrow from later. You make a PlanetJune piece, a Pica Pau animal, an Edward's Menagerie animal and a free toy from one more designer, then repeat one with a single goal. Take the toys in any order after T150.1, and keep a Comfort project going between them if you like.",
+  "outcomes": [
+    "You can read a designer's front matter or notes and write down how that designer writes rounds, repeats, color changes and assembly.",
+    "You can follow four different pattern-writing styles to an exact count.",
+    "You can translate a UK-terms toy pattern into US terms without rewriting it first.",
+    "You can name, for each designer, one construction habit you'd like to keep for your own toys.",
+    "You can make a toy a second time with one named goal and show the change with a measurement and a photo."
+  ],
+  "assessment": "Each toy is scored on the shared toy rubric (8 lines, 0 to 2 each; a toy passes at 12 of 16 with no 0 for Safety) and passes its unit's checks. T150.3's terms card is passed once in practice and once cold at the start of a later session. T150.5 passes when the named goal shows a measured change. A check that doesn't pass yet gets one note and one fix on the next piece; finished toys are kept as they are.",
+  "reading": "The Essential Guide to Amigurumi (June Gilbank): reread Amigurumi 101 before T150.1 and the Stuffing, Assembly and Finishing part before T150.2. Each book in this course is also its own reading: the front matter of Animal Friends of Pica Pau 2 (the pages before the first pattern on p. 44) and the opening technique pages of Edward's Menagerie: The New Collection.",
+  "units": [
+    {
+      "id": "T150.1",
+      "origin": "new",
+      "t": "PlanetJune: a free pattern to her finishing standard",
+      "kind": "project",
+      "h": 8,
+      "time": "about 8 hours over 2 to 3 weeks",
+      "prereq_units": [
+        "T190.1",
+        "3.1",
+        "3.3",
+        "T120.2"
+      ],
+      "why": "June Gilbank (PlanetJune) writes the most precise technique tutorials in amigurumi, and her patterns link to them. Working one of her patterns exactly as written shows you what a high finishing standard looks like up close, on a toy small enough to finish in a weekend.",
+      "need": "Worsted cotton in the colors the pattern lists, your house hook, 2 stitch markers, Poly-Fil, a bent-tip needle, a ruler, your phone, and the free pattern open on screen or printed for personal use.",
+      "learn": "Free first choice: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/shop/amigurumi-apples-donationware-crochet-pattern-p-132.html'>Amigurumi Apples</a>, then <a href='https://www.planetjune.com/pears'>Amigurumi Pears</a>. Both are donationware: free to read online, with a printable PDF if you donate. The shop lists the apple at about 6.5 cm (2.5 in) tall in worsted on a 3.5 mm (E) hook, with a $2 minimum donation for the PDF (as of Oct 2026). Her FAQ <a href='https://www.planetjune.com/faq/about-planetjune-crochet-patterns/im-a-beginner-which-patterns-are-most-suitable-for-me/'>I'm a beginner: which patterns are most suitable for me?</a> points to her other beginner patterns; any free one it lists can replace the pears. No paid option is needed for this unit. Technique pages the patterns rely on: <a href='https://www.planetjune.com/invdec'>Invisible Decrease</a> and <a href='https://www.planetjune.com/finish'>The Ultimate Finish</a>. Left-handed: both technique pages have left-handed videos on the same page. The patterns themselves have no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "PlanetJune patterns use only single crochet with increases and decreases for most designs. The difference is in the finish: invisible decreases, an Ultimate Finish closure, tails buried across the piece.",
+        "Click every technique link in the pattern before you start, even for techniques you know. Note any step she does differently from how you learned it, and do it her way this time.",
+        "Photograph her pattern photo and your piece from the same angle. Comparing them side by side is how you see shape differences you can't feel.",
+        "Your size may differ from hers if your tension or yarn differs. Record it; it isn't a fault.",
+        "The new skill is matching a named designer's finishing standard on purpose and checking it against her photos."
+      ],
+      "drill": [
+        "Read the whole Apples pattern once. List every technique link on your tally card and tick each one as you review it.",
+        "Make one apple, writing the stitch count beside every round.",
+        "Measure its height in mm and compare with the listed 6.5 cm (2.5 in). Write the difference.",
+        "Photograph it beside her pattern photo, same angle, on a plain background.",
+        "Make one pear (or the alternative free pattern you chose) the same way. Before you start it, write one thing from the apple photo comparison to improve.",
+        "Finishing ritual: a daylight photo of both pieces, a binder label (yarn, hook, date, pattern, designer) and one line on what you'd keep from her method."
+      ],
+      "pass": [
+        "Every round of both pieces has a written stitch count that matches the pattern.",
+        "Held at 30 cm (12 in) in daylight, neither closure shows a hole or a pucker larger than one stitch.",
+        "No tails are visible, and gently squeezing shows no stuffing between stitches.",
+        "The apple's height is recorded in mm and in, with the difference from 6.5 cm (2.5 in) written down.",
+        "The side-by-side photos are in your binder, with one improvement named and tried on the second piece.",
+        "Both pieces are scored on the toy rubric."
+      ],
+      "wrong": [
+        [
+          "The closing round puckers into a dimple you didn't want",
+          "Stuff a little more before the last round, then pull the Ultimate Finish tail gently in stages. Use it on the next piece; keep this one."
+        ],
+        [
+          "Your apple is much taller or shorter than 6.5 cm (2.5 in)",
+          "Your yarn or tension differs. Note it. If the fabric shows stuffing, go down 0.25 to 0.5 mm on the next piece."
+        ],
+        [
+          "Her invisible decrease looks different from yours",
+          "Rewatch her video once without crocheting, then do 6 decreases on a scrap round before the real one."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Working to one designer's finishing standard and checking the result against her photos",
+      "rubric": true,
+      "sources": [
+        "https://www.planetjune.com/shop/amigurumi-apples-donationware-crochet-pattern-p-132.html",
+        "https://www.planetjune.com/pears",
+        "https://www.planetjune.com/faq/about-planetjune-crochet-patterns/im-a-beginner-which-patterns-are-most-suitable-for-me/",
+        "https://www.planetjune.com/invdec",
+        "https://www.planetjune.com/finish"
+      ]
+    },
+    {
+      "id": "T150.2",
+      "origin": "new",
+      "t": "Pica Pau: read the front matter, then one animal",
+      "kind": "project",
+      "h": 16,
+      "time": "about 16 hours over 3 to 5 weeks: 2 hours of reading, then 12 to 14 hours on the animal",
+      "prereq_units": [
+        "T150.1",
+        "1.2",
+        "1.5",
+        "3.3",
+        "3.4",
+        "T120.2",
+        "T120.3",
+        "T120.4"
+      ],
+      "why": "Yan Schenkel's Pica Pau animals are tall, colorful characters with many parts, many color changes and small eyes on long bodies. Her books explain her methods in the pages before the patterns. Reading those first means the patterns read as instructions you already understand.",
+      "need": "Animal Friends of Pica Pau 2 by Yan Schenkel (Meteoor Books, 2020), which you own. The yarn and hook its front matter names, or your worsted cotton and house hook. Use the yarn and hook the book names; if it names a 2.75 mm hook, your Clover Amour 2.75 mm matches. Stitch markers, Poly-Fil, pins, a bent-tip needle, the eyes the pattern lists or a child-safe alternative from T120.4, a ruler, a luggage scale, a tally card.",
+      "learn": "The book itself: read every page before the first pattern on p. 44. For other makers' versions of each animal, <a href='https://amigurumi.com'>Amigurumi.com</a> (run by the same publisher, Meteoor Books) shows finished toys you can compare with. Technique backup if a step stumps you: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/color'>colour tutorials</a> and <a href='https://www.planetjune.com/join'>Joining Amigurumi</a>. Left-handed: the PlanetJune colour tutorials have left-handed versions. Joining Amigurumi and the book have no left-handed version; mirror the right-handed steps and photos.",
+      "key": [
+        "Read the front matter like a manual. On one index card, write how she writes rounds and repeats, how she marks color changes, which joining method she uses, how she describes stuffing, the yarn and hook she names, and any technique she shows with photos.",
+        "Pick an animal marked easy from the start of the patterns. In your plan, Logan Koala (p. 44, 8.5 in or 216 mm tall, 10 mm eyes) and Darwin Turtle (p. 50, 9.5 in or 241 mm, 10 mm eyes) are both marked easy.",
+        "If the animal uses a stitch other than sc, check it against FND 110 (unit 1.2 teaches hdc and dc) before you start.",
+        "Worsted cotton on your house hook makes a bigger toy than the book's height. That's fine; record both heights.",
+        "Pica Pau toys have many parts. Make paired parts back to back and label each with a pin or a scrap of paper.",
+        "This is one animal. T330.4 later builds a curated set of Pica Pau toys, chosen by the skill each one adds."
+      ],
+      "drill": [
+        "Session 1 to 2 (about 2 hours): read every page before p. 44. Fill in the index card described above. Write one sentence on how her round notation differs from the Woobles and PlanetJune patterns you've made.",
+        "Choose one easy animal. On the tally card, list every part, its color and its last-round count.",
+        "Make each part, writing the stitch count beside every round. Make pairs back to back.",
+        "Pin all parts, photograph from the front, side and above, compare with the book photo, then sew.",
+        "If the toy goes to a child, run the tug test: 15 lbf (6.8 kg) for 10 seconds on every attached part.",
+        "Measure the finished height in mm and in, and write it beside the book's height. Finishing ritual: daylight photo, binder label, one line on a Pica Pau habit you'd keep."
+      ],
+      "pass": [
+        "The front-matter card is complete, with all six items filled in.",
+        "Every round of every part has a written count matching the pattern.",
+        "Paired parts (arms, legs, ears) match within 2 mm (about 1/16 in) in length and width.",
+        "Every color change sits on the same line of stitches, with no step larger than one stitch visible from 30 cm (12 in).",
+        "If it's a gift for a child, every attached part held 15 lbf (6.8 kg) for 10 seconds.",
+        "The toy is scored on the toy rubric, and its height is recorded beside the book's."
+      ],
+      "wrong": [
+        [
+          "The pattern writes repeats in a way you don't recognize",
+          "Check your front-matter card first; the book's opening pages explain her notation. Write one round out longhand, stitch by stitch, and count it."
+        ],
+        [
+          "Color changes leave a jagged step",
+          "Use the jogless method from T120.3 on the next part. Keep the finished parts as they are."
+        ],
+        [
+          "The toy leans or won't stand",
+          "Pica Pau bodies are tall. Stuff the base firmly first and in small pieces, then the rest. T220.2 teaches weighted bases for the next one."
+        ],
+        [
+          "Parts look right alone but wrong together",
+          "Re-pin by counting rounds and stitches from a landmark, and compare from the same angle as the book photo."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Learning a designer's conventions from a book's front matter before following her pattern",
+      "rubric": true,
+      "sources": [
+        "https://amigurumi.com",
+        "https://www.planetjune.com/color",
+        "https://www.planetjune.com/join"
+      ]
+    },
+    {
+      "id": "T150.3",
+      "origin": "new",
+      "t": "Edward's Menagerie: UK terms and one body plan",
+      "kind": "project",
+      "h": 14,
+      "time": "about 14 hours over 3 to 4 weeks: 1 hour on terms, then 12 to 13 hours on the animal",
+      "prereq_units": [
+        "T150.1",
+        "1.5",
+        "3.3",
+        "3.4",
+        "T120.2",
+        "T120.4"
+      ],
+      "why": "Kerry Lord (TOFT) writes each Edward's Menagerie animal as one pattern you can make in four sizes by changing yarn and hook. Seeing one body plan reused across many animals is a lesson in construction you'll use when you design. Many toy designers are British, so reading UK terms comfortably opens up their patterns too.",
+      "need": "Edward's Menagerie: The New Collection by Kerry Lord (David & Charles, 2024; ISBN 9781911624905). Borrow first: ask your library whether it lends the ebook through Hoopla (availability varies by library; price not confirmed, as of Oct 2026). Yarn and hook for the size you choose, stitch markers, Poly-Fil, pins, a bent-tip needle, embroidery thread or yarn for the face, a ruler, a luggage scale, an index card.",
+      "learn": "Book: Kerry Lord, <a href='https://trade.searchpress.com/_uploads/_information-sheets/9781911624905%20Edwards%20Menagerie%20The%20New%20Collection.pdf'>Edward's Menagerie: The New Collection</a> (publisher's information sheet). It has about 50 animals in difficulty order and a QR-linked video for each animal and technique. Whether it is written in US or UK terms is unconfirmed (as of Oct 2026); check its abbreviations page before you start. Prefer it over the 2014 original, which it replaces; if you only find the original, the terms hour still applies. Terms: Craft Yarn Council, <a href='https://craftyarncouncil.com/node/39'>Crochet Abbreviations</a>, which includes a US and UK term comparison. Left-handed: no left-handed version of the book or the CYC page was found, and whether the QR videos have one is unconfirmed; mirror the right-handed steps.",
+      "key": [
+        "UK stitch names sit one step taller than US names. UK dc = US sc. UK htr = US hdc. UK tr = US dc. UK dtr = US tr. UK ss = US sl st.",
+        "Other UK words: tension = gauge, miss = skip, yoh (yarn over hook) = yo. Chain and fasten off are the same.",
+        "Quick test for any toy pattern: if it ever says sc, it's in US terms. A toy worked almost entirely in dc is almost certainly in UK terms, since US toy patterns rarely use dc for the main fabric.",
+        "Read UK terms as they are. Don't rewrite the pattern first; keep the conversion card beside it.",
+        "Do the terms hour even if your copy turns out to be in US terms. You'll meet UK toy patterns elsewhere, and FND 210 unit 2.9 builds on it later.",
+        "Pick an animal from the first part of the book, since the patterns run in difficulty order. Choose the size that matches yarn you own; aran is a UK yarn-weight name close to US worsted, so check the yarn label."
+      ],
+      "drill": [
+        "Terms hour. Write a conversion card (the six stitch names and three other words from Key). Then translate these 12 UK lines into US terms on paper without looking at the card: (1) Rnd 1: 6 dc into a magic ring (6). (2) Rnd 2: 2 dc in each st (12). (3) Rnd 3: (1 dc, 2 dc in next st) x6 (18). (4) Rnd 4: dc2tog x9 (9). (5) 1 htr in each of next 3 sts. (6) Miss 1 st, 5 tr in next st. (7) ss into first st. (8) Tension: 20 dc and 22 rows to 10 cm. (9) yoh and pull through. (10) 1 dtr in next st. (11) Work in back loop only. (12) Fasten off.",
+        "Answer key, covered until you finish: (1) 6 sc in a magic ring (6). (2) inc in each st, or 2 sc in each st (12). (3) (sc, inc) x6 (18). (4) sc2tog (dec) x9 (9). (5) hdc in each of next 3 sts. (6) skip 1 st, 5 dc in next st. (7) sl st into first st. (8) Gauge: 20 sc and 22 rows to 10 cm (4 in). (9) yo and pull through. (10) tr in next st. (11) Same in both: back loop only. (12) Same in both: fasten off.",
+        "Next session, after warm-up rounds, translate the 12 lines again cold.",
+        "Find the book's abbreviations page and write on your card which terms it uses.",
+        "Choose one animal and one size. Watch its QR video once without crocheting.",
+        "Make each part, writing the count beside every round. Embroider the face as the pattern describes.",
+        "Measure the finished height in mm and in. Write one sentence on which parts of this animal's body plan you'd expect to see in the next animal in the book.",
+        "If it's a gift for a child, run the tug test at 15 lbf (6.8 kg) for 10 seconds on every attached part. Finishing ritual: daylight photo, binder label, one line on a Kerry Lord habit you'd keep."
+      ],
+      "pass": [
+        "The 12-line translation is 12 of 12 correct in practice, and 12 of 12 again cold in a later session.",
+        "Your card records whether the book uses US or UK terms, with the page number where it says so.",
+        "Every round of every part has a written count that matches the pattern.",
+        "Paired parts match within 2 mm (about 1/16 in).",
+        "The embroidered features are level within 2 mm, measured from the nearest round.",
+        "The toy is scored on the toy rubric, with its yarn, hook, size and height recorded."
+      ],
+      "wrong": [
+        [
+          "Your piece comes out much taller and looser than the photo",
+          "You read a UK dc as a US dc. Check the card: UK dc is US sc. Start that part again from the last correct round."
+        ],
+        [
+          "You mix up UK tr and US tr",
+          "Say the US name aloud as you work each stitch for one round. Retest the 12-line card next session."
+        ],
+        [
+          "The size you chose doesn't match your yarn",
+          "Note the yarn and hook you used and the height you got. TOY 230 uses this data for scaling."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Reading a toy pattern in UK crochet terms (if your copy is in US terms, the new skill is one body plan made in a chosen size)",
+      "rubric": true,
+      "sources": [
+        "https://trade.searchpress.com/_uploads/_information-sheets/9781911624905%20Edwards%20Menagerie%20The%20New%20Collection.pdf",
+        "https://craftyarncouncil.com/node/39",
+        "https://books.apple.com/ca/book/edwards-menagerie-new-edition/id6497334840"
+      ]
+    },
+    {
+      "id": "T150.4",
+      "origin": "new",
+      "t": "A free low-sew toy from another designer",
+      "kind": "project",
+      "h": 12,
+      "time": "about 12 hours over 2 to 4 weeks",
+      "prereq_units": [
+        "T150.1",
+        "1.2",
+        "3.3",
+        "3.4",
+        "T120.4",
+        "T120.5"
+      ],
+      "why": "Some designers join parts as they crochet so there is little or no sewing at the end. Trying one of these shows you a fourth way to build a toy, and joins made in the stitches often hold better than sewn ones.",
+      "need": "One free pattern (see Learn) from a designer you haven't used yet in this major, worsted cotton, your house hook, stitch markers, Poly-Fil, pins, a bent-tip needle, safety eyes or a child-safe alternative, a ruler, a luggage scale, a tally card.",
+      "learn": "Free first choice: Jess Huff, <a href='https://jesshuff.com'>jesshuff.com</a>. Every pattern there is free, professionally edited and tested, and designed for low sewing, and many have crochet-along videos. If you made Sage the Sheep in T120.5, pick a different Jess Huff animal here, or use another designer. Her <a href='https://jesshuff.com/videos/chain-start-amigurumi-tutorial/'>Chain Start Amigurumi Tutorial</a> covers the oval start several of her patterns use. Other choices: one pattern from Nicole Chase's <a href='https://www.thenicolechase.com/ideas/free-easy-amigurumi-patterns'>40+ Free Easy Amigurumi Crochet Patterns</a>, or a simple doll such as Sweet Softies' <a href='https://www.sweetsofties.com/2022/04/little-lucy.html'>Little Lucy</a>, free on her blog (magic ring, sc, increases and decreases only, about 3 in or 76 mm tall; a paid PDF also exists, as of Oct 2026). Left-handed: no left-handed version of these patterns or videos; mirror the right-handed steps.",
+      "key": [
+        "Before you start, find every point where the pattern joins one part to another while crocheting. Mark them on your tally card.",
+        "Where a part is worked into another, count the stitches you join through. They're as important as the round counts.",
+        "Stuff each section before the opening gets small, since you can't reach it after the next part is joined.",
+        "If you pick a doll, choose one built from sc rounds and simple parts. Dolls with legs joined into the torso come in TOY 310.",
+        "Check a free pattern before you start: a named designer, the designer's own site or a Ravelry listing, maker photos, stated terms."
+      ],
+      "drill": [
+        "Check the pattern (designer, site or listing, maker photos, terms) and write it on the tally card.",
+        "List every part and every joined-as-you-go step, with the stitch count at each join.",
+        "Make the toy, writing the count beside every round and every join.",
+        "Count the hand-sewn seams on the finished toy and write the number beside the number in your T120.5 toy.",
+        "Run the tug test at 15 lbf (6.8 kg) for 10 seconds on every attached part, joined or sewn.",
+        "Finishing ritual: daylight photo, binder label, one line on whether you'd use joined-as-you-go in your own designs and where."
+      ],
+      "pass": [
+        "Every round and every join has a written count that matches the pattern.",
+        "Every attached part holds 15 lbf (6.8 kg) for 10 seconds.",
+        "At each crocheted join, no gap wider than one stitch shows when the toy is held to a window or lamp.",
+        "Paired parts match within 2 mm (about 1/16 in).",
+        "The toy is scored on the toy rubric, with the seam count recorded."
+      ],
+      "wrong": [
+        [
+          "A joined part sits crooked",
+          "Count the stitches from a landmark (the round start or the center front) before the join. Place a marker at the first join stitch on the next toy."
+        ],
+        [
+          "You can't reach inside to stuff a section",
+          "Stuff each section before you join the next part. Use a chopstick for the far end. On this toy, add small tufts through the gap between stitches."
+        ],
+        [
+          "A crocheted join shows a hole at its start or end",
+          "Close it with a few stitches of the tail through both pieces, then hide the tail inside."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Joining parts while crocheting (low-sew construction)",
+      "rubric": true,
+      "sources": [
+        "https://jesshuff.com",
+        "https://jesshuff.com/videos/chain-start-amigurumi-tutorial/",
+        "https://www.thenicolechase.com/ideas/free-easy-amigurumi-patterns",
+        "https://www.sweetsofties.com/2022/04/little-lucy.html"
+      ]
+    },
+    {
+      "id": "T150.5",
+      "origin": "new",
+      "t": "Make it twice",
+      "kind": "project",
+      "h": 10,
+      "time": "about 10 hours over 2 to 3 weeks",
+      "prereq_units": [
+        "T150.1",
+        "T150.2",
+        "T150.3",
+        "T150.4"
+      ],
+      "why": "Making the same toy again with one goal is the most direct way to improve. Everything else stays the same, so the change you see comes from the one thing you worked on.",
+      "need": "The pattern, yarn and hook from one of T150.1 to T150.4 (pick the one you'd most like to make again; a smaller toy is fine), the first toy, its rubric score, a ruler, your phone, and the same plain background you used for the first photo.",
+      "learn": "No new tutorial. Reread the unit and tutorials for your chosen goal: for example, June Gilbank (PlanetJune), <a href='https://www.planetjune.com/invdec'>Invisible Decrease</a>, <a href='https://www.planetjune.com/finish'>The Ultimate Finish</a> or <a href='https://www.planetjune.com/join'>Joining Amigurumi</a>, and her <a href='https://www.planetjune.com/blog/amigurumi-troubleshooter/'>Amigurumi Troubleshooter</a> to name the cause. Left-handed: Invisible Decrease and The Ultimate Finish have left-handed videos on the same page. Joining Amigurumi and the Troubleshooter have no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Choose one goal only, from the lowest line of your first toy's rubric. Write it as something you can measure: eyes level within 1 mm (1/32 in), no seam visible from 30 cm (12 in), arms matching within 1 mm (1/32 in), a closure with no visible hole.",
+        "Measure the first toy for that goal before you start, and write the number down.",
+        "Change nothing else: same yarn, hook, colors and pattern.",
+        "Keep the first toy as it is. It's your before photo."
+      ],
+      "drill": [
+        "Pick the toy and the goal. Write the goal and the first toy's measurement at the top of the tally card.",
+        "Make the toy again, writing every round's count.",
+        "At the step your goal applies to, slow down: pin, measure and check before anything is fixed in place.",
+        "Measure the second toy for the same goal.",
+        "Photograph both toys side by side, same angle, same light, same background.",
+        "Score the second toy on the rubric and write both scores in your binder."
+      ],
+      "pass": [
+        "The goal is written as a measurement, with numbers for both toys.",
+        "The second toy's number is better than the first's on that goal.",
+        "One side-by-side photo of both toys is in your binder.",
+        "The second toy is scored on the toy rubric, with the line you worked on at least 1 point higher than before."
+      ],
+      "wrong": [
+        [
+          "The second toy improved on your goal but slipped somewhere else",
+          "That's common when attention goes to one thing. Note the slip as the goal for your next toy."
+        ],
+        [
+          "No measurable change",
+          "Check the goal is something you can see in a number. If it is, the next toy gets one small change in method (a pin, a marker, a stop to measure) at that exact step."
+        ],
+        [
+          "You'd like to fix several things at once",
+          "Write the others down for later toys. One goal keeps the comparison clear."
+        ]
+      ],
+      "tier": "comfort",
+      "new_skill": null,
+      "rubric": true,
+      "sources": [
+        "https://www.planetjune.com/invdec",
+        "https://www.planetjune.com/finish",
+        "https://www.planetjune.com/join",
+        "https://www.planetjune.com/blog/amigurumi-troubleshooter/"
+      ]
+    }
+  ]
+}

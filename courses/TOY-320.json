@@ -1,0 +1,262 @@
+{
+  "code": "TOY 320",
+  "title": "Structure: joints and wire",
+  "year": 3,
+  "track": "toy",
+  "required": true,
+  "hours": 30,
+  "credits": 0.7,
+  "hook": "3.5 mm (or your T101.2 house hook)",
+  "yarn": "#4 worsted cotton (Lion Brand 24/7 Cotton or similar), two or three colors",
+  "level": 3,
+  "prereqs": [
+    "TOY 290"
+  ],
+  "summary": "You make toys whose arms and legs turn and pose: thread joints, button joints, plastic disc joints and a bendable wire frame.",
+  "intro": "Up to now every limb you've attached stays where you sewed it. This course adds movement in three steps, from no hardware to hardware to wire, and each step ends with a small finished toy. Everything made here is a display toy or a toy for older children. Wire, buttons and disc joints never go to babies or toddlers, and each unit says who its toy suits. Take it one joint at a time. A lighter week is still progress.",
+  "outcomes": [
+    "You can thread-joint a pair of limbs to a closed body so they turn and hold a position.",
+    "You can button-joint a pair of legs so a toy sits on its own.",
+    "You can choose a plastic disc joint by size, fit it before closing the pieces, and lock it.",
+    "You can measure, cut, finish and pad an aluminum wire frame so no end can be felt through the fabric.",
+    "You can say which joint suits which toy and who that toy is safe for, and label it."
+  ],
+  "assessment": "Each unit passes on its own observable checks, and each unit's toy is scored on the shared toy rubric. If a check doesn't pass yet, fix one thing and try again. After three tries in one sitting, stop for the day.",
+  "reading": "The Essential Guide to Amigurumi (June Gilbank): reread the stuffing and assembly chapters before T320.1. No textbook chapter in this major covers joints or wire, so the unit tutorials are your reading for this course. Reread your T120.4 safety notes before each unit.",
+  "units": [
+    {
+      "id": "T320.1",
+      "origin": "new",
+      "t": "Thread and button joints: a jointed test bear",
+      "kind": "project",
+      "h": 10,
+      "time": "about 10 hours over 4 or 5 sessions",
+      "prereq_units": [
+        "3.1",
+        "T120.1",
+        "3.3",
+        "T120.4",
+        "T210.2"
+      ],
+      "why": "Thread joints are the gentlest way to make limbs move: no hardware, just strong thread pulled through limb, body and limb. Buttons on the outside spread the pull and make a firmer joint that lets a toy sit. Every later joint uses the same idea of a pair of limbs held to the body by one line of tension.",
+      "need": "Worsted cotton in a main color and a contrast for the muzzle, your house hook, Poly-Fil, a pair of 8 mm safety eyes, a long doll needle at least 12.5 cm (5 in) long (18 cm or 7 in is easier), strong thread (upholstery or topstitch thread, or unwaxed dental floss), two matching 2-hole or 4-hole buttons 15 mm (5/8 in) across, pins, a bent-tip needle, a ruler, your T120.4 luggage scale and sling, a timer, the toy rubric.",
+      "learn": "Free: The Friendly Red Fox, <a href='https://www.thefriendlyredfox.com/?p=81955'>Creating Moving Arms and Legs with Yarn</a> (the yarn-through joint). Funky Friends Factory, <a href='https://funkyfriendsfactory.com/blog/button-jointing-for-beginners'>Button Jointing for Beginners</a>, written for sewn toys; the method is the same on crochet. Kristi Tullus, <a href='https://kristitullus.com/pages/learning-corner'>Learning Corner</a>, free photo tutorials from a designer of jointed bears. Paid, only if you want a full jointed pattern after this unit: Kristi Tullus, <a href='https://www.lovecrochet.com/us/classic-teddy-bear-crochet-pattern-by-kristi-tullus'>Classic Teddy Bear</a> (four-way jointed with plastic joints or buttons and thread; price not confirmed, as of Oct 2026). Left-handed: no left-handed version of these pages; mirror the right-handed steps.",
+      "key": [
+        "A thread joint is a loop of strong thread that runs through one limb, across the body and through the other limb, several times. The tighter you pull it, the stiffer the joint.",
+        "Both limbs of a pair go on with one thread, at the same round on each side. Measure from a landmark (the neck round) so they match.",
+        "Thread enters and leaves the limbs 1 stitch apart, never through the same hole. Coming back through the same hole lets the thread slip out of the fabric.",
+        "A button joint adds a button on the outside of each limb. The thread runs through the button holes, so the pull spreads over the button and the joint can be pulled tighter.",
+        "Buttons are a choking hazard. A button-jointed toy is for display or for children 3 and up, and a thread-only toy still gets the tug test before it goes to a child.",
+        "Tie off inside the body. Pull the knot through the fabric into the stuffing and bury the tails across the body, as you did for embroidery in T210.2."
+      ],
+      "drill": [
+        "Head and body, one piece. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnds 6 to 11: sc around (30), 6 rounds.",
+        "Eyes. Fit 8 mm safety eyes between Rnds 6 and 7, 5 stitches apart, centered on the front, opposite the start of the round, so the jog sits at the back. Lock them now.",
+        "Neck. Rnd 12: (sc 3, dec) x6 (24). Rnd 13: (sc 2, dec) x6 (18). Stuff the head firmly.",
+        "Body. Rnd 14: (sc 2, inc) x6 (24). Rnd 15: (sc 3, inc) x6 (30). Rnd 16: (sc 4, inc) x6 (36). Rnds 17 to 26: sc around (36), 10 rounds.",
+        "Close. Rnd 27: (sc 4, dec) x6 (30). Rnd 28: (sc 3, dec) x6 (24). Rnd 29: (sc 2, dec) x6 (18). Stuff firmly. Rnd 30: (sc, dec) x6 (12). Rnd 31: dec x6 (6). Ultimate Finish.",
+        "Ears (make 2): Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnds 3 and 4: sc around (12). Flatten unstuffed and sc 6 through both layers (6). Muzzle: Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnd 4: sc around (12). Sew the ears over Rnds 3 to 5 of the head, 10 stitches apart. Stuff the muzzle lightly and sew it over Rnds 8 to 11, centered under the eyes. Embroider a nose (T210.2).",
+        "Arms (make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnds 4 to 10: sc around (12), 7 rounds. Stuff, firmer at the bottom. Rnd 11: (sc 2, dec) x3 (9). Rnd 12: (sc, dec) x3 (6). Ultimate Finish and bury the tail.",
+        "Legs (make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc 3, inc) x3 (15). Rnds 4 to 12: sc around (15), 9 rounds. Stuff firmly. Rnd 13: (sc 3, dec) x3 (12). Rnd 14: (sc 2, dec) x3 (9). Rnd 15: (sc, dec) x3 (6). Ultimate Finish and bury the tail.",
+        "Mark the joint points. On the body, pin Rnd 18 for the arms and Rnd 25 for the legs, each pair exactly opposite. Count 18 stitches from one pin to the other around the front, then 18 around the back. On each arm, pin Rnd 10 on the inner side. On each leg, pin Rnd 12 on the inner side.",
+        "Thread-joint the arms. Cut 1.5 m (60 in) of strong thread, thread the needle and pull the ends even so the thread is doubled (75 cm or 30 in long). Go in through the outer side of arm 1 at Rnd 10, out its inner side, into the body at the arm pin, straight across and out the far arm pin, through arm 2 from inner to outer side. Come back 1 stitch over, through arm 2, body and arm 1. That is one pass. Make 4 passes, pulling snug after each one, then tie off inside the body and bury the ends.",
+        "Button-joint the legs. Same path at the leg pins with a fresh 1.5 m (60 in) of thread, but start by threading through one hole of a button on the outside of leg 1, and on the far side pass through a button on the outside of leg 2 before coming back through its other hole. Make 4 passes. Pull until the legs press firmly against the body, then tie off under one button and bury the ends.",
+        "Tests. Turn each arm a full circle. Raise each arm straight out from the body, let go and time 30 seconds. Seat the bear on a table with the legs forward and time 60 seconds. Tug each limb at 15 lbf (6.8 kg) for 10 seconds (T120.4). Measure the gap between each limb and the body at the joint.",
+        "Tag it 'ages 3 and up, button joints' and score it on the toy rubric."
+      ],
+      "pass": [
+        "Every round of every piece has a written count matching the pattern above.",
+        "Each arm turns a full 360 degrees and, raised straight out and released, its tip drops 20 mm (3/4 in) or less in 30 seconds.",
+        "The bear sits on a table with its legs forward for 60 seconds without tipping.",
+        "At each joint the gap between limb and body is 2 mm (1/16 in) or less.",
+        "Both arms sit on Rnd 18 and both legs on Rnd 25, and each pair matches in height within 2 mm (1/16 in) when measured from the table.",
+        "Each limb holds 15 lbf (6.8 kg) for 10 seconds with no thread breaking and no gap opening wider than 1 mm (1/32 in) in the fabric.",
+        "It is tagged and scored on the toy rubric."
+      ],
+      "wrong": [
+        [
+          "The limbs flop and won't hold a pose",
+          "The thread is too loose. Add 2 more passes and pull each one tighter before you tie off."
+        ],
+        [
+          "One limb sits higher than the other",
+          "The joint points weren't opposite. On the next one, count stitches both ways around the body before you pin, and check the round number on both sides."
+        ],
+        [
+          "The thread pulled out through the fabric",
+          "The thread came back through the same hole. Re-thread that pass 1 stitch over so a stitch sits between the in and out points."
+        ],
+        [
+          "A dent shows where the thread goes in",
+          "That's normal for a thread joint and gets less with firmer stuffing. Stuff the next body a little firmer around the joint rounds."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Thread joints and button joints",
+      "rubric": true,
+      "sources": [
+        "https://www.thefriendlyredfox.com/?p=81955",
+        "https://funkyfriendsfactory.com/blog/button-jointing-for-beginners",
+        "https://kristitullus.com/pages/learning-corner",
+        "https://www.lovecrochet.com/us/classic-teddy-bear-crochet-pattern-by-kristi-tullus",
+        "https://www.planetjune.com/finish"
+      ]
+    },
+    {
+      "id": "T320.2",
+      "origin": "new",
+      "t": "Disc joints: a bear with plastic joints",
+      "kind": "project",
+      "h": 10,
+      "time": "about 10 hours over 4 or 5 sessions",
+      "prereq_units": [
+        "T320.1",
+        "T120.4"
+      ],
+      "why": "Plastic disc joints are what teddy bears use. They turn smoothly, hold firmly and leave no thread on the outside. They lock like safety eyes, so the order of work matters: the joint goes in before the pieces are closed, and you can't take it out again.",
+      "need": "The same yarn, hook and eyes as T320.1, Poly-Fil, four plastic doll or teddy joints 15 mm (5/8 in) across (each set is a disc with a shank, a flat washer and a lock washer; sold by size online, supplier and price not verified as of Oct 2026), a sharp pencil or knitting needle to part stitches, an empty thread spool or a joint tool to press the lock washers, pins, a ruler, your luggage scale and sling, the toy rubric. Optional cotter-pin variant: cotter pins, wooden or hardboard discs, metal washers and small round-nose pliers.",
+      "learn": "Free: The Friendly Red Fox, <a href='https://www.thefriendlyredfox.com/?p=81959'>Cotter Pin Joints for Amigurumi</a>, for the metal-pin version, with the parts list and when to choose it. Kristi Tullus, <a href='https://kristitullus.com/pages/learning-corner'>Learning Corner</a>, for jointed-toy assembly photos. No verified free tutorial shows plastic disc joints in crochet step by step, so this unit teaches them in its own words below. Paid: Kristi Tullus, <a href='https://www.lovecrochet.com/us/classic-teddy-bear-crochet-pattern-by-kristi-tullus'>Classic Teddy Bear</a>, a full pattern written for plastic joints (price not confirmed, as of Oct 2026). Left-handed: no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "A plastic joint has three parts. The disc with its shank goes inside the limb, the shank pokes out through the limb and into the body, and the flat washer and lock washer go on the shank inside the body.",
+        "Choose the size by the limb. A disc no wider than half the limb's flattened width leaves room for stuffing around it. For the limbs below, 15 mm (5/8 in) suits all four. In worsted cotton a 15-stitch arm flattens to about 30 mm (1 1/8 in) and an 18-stitch leg to about 36 mm (1 3/8 in). Measure your own limb at the joint round before you buy more.",
+        "The shank passes between stitches. Part the stitches with a pencil point; never cut the yarn.",
+        "Fit the joint before you close the limb, and before you close the body. Work order: limb to its joint round, joint in, stuff, close; then body open at the bottom, joints through, washers locked, stuff, close.",
+        "Pin first, lock last. Lock washers don't come off, so pin every limb on and check the pose before you press a washer down.",
+        "Press the lock washer down until it stops, using a spool over the shank and your full weight. A loose washer makes a wobbly limb.",
+        "Hard joints are a choking hazard if they come out. Tag the bear 'ages 3 and up' and run the tug test."
+      ],
+      "drill": [
+        "Head and body, one piece. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnds 6 to 11: sc around (30), 6 rounds.",
+        "Eyes. Fit 8 mm safety eyes between Rnds 6 and 7, 5 stitches apart, centered on the front, opposite the start of the round, so the jog sits at the back. Lock them now.",
+        "Neck. Rnd 12: (sc 3, dec) x6 (24). Rnd 13: (sc 2, dec) x6 (18). Stuff the head firmly.",
+        "Body. Rnd 14: (sc 2, inc) x6 (24). Rnd 15: (sc 3, inc) x6 (30). Rnd 16: (sc 4, inc) x6 (36). Rnds 17 to 26: sc around (36), 10 rounds. Leave the bottom open and don't fasten off; put a locking marker in the live loop.",
+        "Arms (make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnd 4: (sc 3, inc) x3 (15). Rnds 5 to 12: sc around (15), 8 rounds. Flatten the open arm and measure its width in mm; half of it should be 15 mm (5/8 in) or more. Push a 15 mm disc inside so its shank comes out between stitches of Rnd 11 on the inner side. Stuff around it. Rnd 13: (sc 3, dec) x3 (12). Rnd 14: (sc 2, dec) x3 (9). Rnd 15: (sc, dec) x3 (6). Ultimate Finish.",
+        "Legs (make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnds 4 to 14: sc around (18), 11 rounds. Flatten the open leg and measure its width in mm; half of it should be 15 mm (5/8 in) or more. Push a 15 mm disc inside so its shank comes out between stitches of Rnd 12 on the inner side. Stuff around it, firm at the foot. Rnd 15: (sc, dec) x6 (12). Rnd 16: dec x6 (6). Ultimate Finish.",
+        "Card. Write each limb's flattened width in mm, half of that width, and the 15 mm disc size beside it. The disc should be the smaller or equal number.",
+        "Mark and pin. Pin the arm points on Rnd 18 and the leg points on Rnd 23, each pair opposite (18 stitches apart both ways around). Push each shank through its body point and hold it with a pin through the stitches beside it. Look from the front and side. Move anything that looks uneven now.",
+        "Lock. Reach in through the open bottom. On each shank, slide the flat washer, then the lock washer, and press with the spool until it stops. Check each limb turns.",
+        "Stuff the body firmly around the joints. Then Rnd 27: (sc 4, dec) x6 (30). Rnd 28: (sc 3, dec) x6 (24). Rnd 29: (sc 2, dec) x6 (18). Top up the stuffing. Rnd 30: (sc, dec) x6 (12). Rnd 31: dec x6 (6). Ultimate Finish.",
+        "Ears (make 2): Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnds 3 and 4: sc around (12). Flatten unstuffed and sc 6 through both layers (6). Muzzle: Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnd 4: sc around (12). Sew the ears over Rnds 3 to 5 of the head, 10 stitches apart. Stuff the muzzle lightly and sew it over Rnds 8 to 11, centered under the eyes. Embroider a nose (T210.2).",
+        "Tests. Turn each limb a full circle. Pull each limb straight away from the body with your fingers and measure the gap. Seat the bear with legs forward for 60 seconds. Tug each limb at 15 lbf (6.8 kg) for 10 seconds.",
+        "Optional variant. Make one more leg and joint it to a scrap stuffed ball with a cotter pin, following The Friendly Red Fox. Note which joint you'd choose for a head.",
+        "Photograph this bear beside the T320.1 bear. Tag it 'ages 3 and up, plastic joints' and score it on the toy rubric."
+      ],
+      "pass": [
+        "Every round of every piece has a written count matching the pattern above.",
+        "Each 15 mm (5/8 in) disc is no wider than half the flattened width of its limb, with both numbers written on your card.",
+        "Each limb turns a full 360 degrees with no catch.",
+        "Pulled away from the body by hand, no limb opens a gap wider than 3 mm (1/8 in).",
+        "The bear sits with its legs forward for 60 seconds without tipping.",
+        "No disc edge can be seen as a ridge through the limb fabric from 30 cm (12 in) in daylight.",
+        "Each limb holds 15 lbf (6.8 kg) for 10 seconds with no joint shifting.",
+        "It is tagged and scored on the toy rubric."
+      ],
+      "wrong": [
+        [
+          "A limb wobbles or droops",
+          "The lock washer isn't all the way down. On the next bear, press harder with the spool, and check that the stuffing under the washer isn't holding it up."
+        ],
+        [
+          "The shank tore a hole",
+          "The stitches were cut or stretched too far. Part them with a pencil point and work the shank through slowly. On this bear, sew a few stitches around the shank to close the gap."
+        ],
+        [
+          "The disc shows as a hard ridge",
+          "The disc is too big for the limb. Use the next size down, or make the next limb with one more increase round."
+        ],
+        [
+          "The limbs sit too far forward or back",
+          "The pins moved before locking. Count the stitches both ways around before you lock, every time."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Plastic disc joints, fitted before closing and locked",
+      "rubric": true,
+      "sources": [
+        "https://www.thefriendlyredfox.com/?p=81959",
+        "https://kristitullus.com/pages/learning-corner",
+        "https://www.lovecrochet.com/us/classic-teddy-bear-crochet-pattern-by-kristi-tullus",
+        "https://www.planetjune.com/finish"
+      ]
+    },
+    {
+      "id": "T320.3",
+      "origin": "new",
+      "t": "Wire armatures: a posable bunny",
+      "kind": "project",
+      "h": 10,
+      "time": "about 10 hours over 4 or 5 sessions",
+      "prereq_units": [
+        "T320.1",
+        "T120.1",
+        "3.3",
+        "T120.4"
+      ],
+      "why": "A wire frame lets a toy hold a pose: arms up, a wave, legs crossed. It changes how a display toy tells a story. Wire is also the least forgiving thing you'll put in a toy, so you learn to finish every end so it can never poke out.",
+      "need": "Worsted cotton in one main color and a scrap for the inner ears, your house hook, Poly-Fil, a pair of 6 mm safety eyes or black yarn for embroidered eyes, aluminum armature wire 1.5 to 2 mm thick (about 14 to 12 gauge), wire cutters, round-nose pliers, a roll of medical or athletic tape, a thin layer of batting or two chenille stems (pipe cleaners), a ruler, a protractor, a pom-pom maker for the tail, a timer, the toy rubric.",
+      "learn": "Free: Ella's Crocheted Toys, <a href='http://ellacrochetedtoys.blogspot.com/2017/09/tutorial-wire-frame-for-your-amigurumi.html'>Tutorial: Wire Frame for Your Amigurumi</a> (2017, aluminum wire; the method hasn't changed). Nerdigurumi, <a href='https://www.youtube.com/watch?v=LBBfZZj5cp8'>How to Wire Amigurumi Crochet Doll Parts</a> (video, copper electrical wire). For a reality check from other makers, the Ribblr community thread <a href='https://meet.ribblr.com/t/poseable-amigurumi/566945'>Poseable amigurumi</a>. Left-handed: no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Wire is for display toys only. Never give a wired toy to a baby, a toddler or a pet. Label it 'display only, contains wire'.",
+        "Aluminum armature wire bends easily by hand and holds a pose. It also weakens each time it bends in the same spot, so pose gently and avoid sharp kinks.",
+        "Every cut end gets folded back into a closed loop with round-nose pliers, then wrapped in tape. A loop can't poke through fabric; a cut end can.",
+        "Each wire end stops 10 mm (3/8 in) short of the limb tip. The last rounds are stuffing only, so the tip feels soft.",
+        "Pad the wire. A layer of batting or a chenille stem wrapped round it, taped down, keeps the wire from rubbing the yarn and fills the limb.",
+        "Measure your own pieces before you cut. Your gauge sets the lengths, so the worked examples below are a guide. In worsted cotton an arm of 16 rounds is about 55 mm (2 1/8 in) long."
+      ],
+      "drill": [
+        "Head and body, one piece. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnds 5 to 9: sc around (24), 5 rounds. Fit the eyes between Rnds 6 and 7, 4 stitches apart (or embroider them later). Rnd 10: (sc 2, dec) x6 (18). Rnd 11: (sc, dec) x6 (12). Stuff the head firmly. Rnd 12: (sc, inc) x6 (18). Rnd 13: (sc 2, inc) x6 (24). Rnds 14 to 22: sc around (24), 9 rounds. Leave open with a marker in the live loop.",
+        "Arms (make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc 2, inc) x2 (8). Rnds 3 to 16: sc around (8), 14 rounds. Fasten off with a 30 cm (12 in) tail. Leave open and unstuffed.",
+        "Legs (make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc 2, inc) x2 (8). Rnd 3: (sc 3, inc) x2 (10). Rnds 4 to 18: sc around (10), 15 rounds. Fasten off with a 30 cm (12 in) tail. Leave open and unstuffed.",
+        "Ears (make 2). Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc 2, inc) x2 (8). Rnds 3 to 8: sc around (8), 6 rounds. Flatten unstuffed and sc 4 through both layers (4). Sew them on Rnds 2 and 3, 6 stitches apart.",
+        "Measure. Lay an arm flat and measure its length A in mm. Do the same for a leg, L. Stuff the body lightly and measure its width W across Rnd 15 and across Rnd 21. Write all four numbers down.",
+        "Cut the arm bar. Length = A + W + A, minus 20 mm (10 mm short of each tip), plus 40 mm (20 mm for each end loop). Worked example: A = 55, W = 30 gives 55 + 30 + 55 - 20 + 40 = 160 mm (6 1/4 in).",
+        "Cut the leg bar the same way with L and the Rnd 21 width. Worked example: L = 65, W = 30 gives 65 + 30 + 65 - 20 + 40 = 180 mm (7 1/8 in).",
+        "Fit the arm bar. Part the stitches on one side of Rnd 15 with a pencil point. Push the straight wire through, across the inside of the body and out at the opposite stitch of Rnd 15 (12 stitches round either way). Center it so equal lengths stick out each side.",
+        "Fit the leg bar through Rnd 21 the same way. Center it, then bend each side down 90 degrees where it leaves the body, so the legs hang down.",
+        "Finish the ends. With round-nose pliers, fold the last 20 mm of each end back into a closed loop about 5 mm (3/16 in) across and squeeze it shut. Wrap each loop in tape until no metal shows.",
+        "Pad. Wrap a thin strip of batting, or a chenille stem, around each wire from the body out to the loop, and tape it down. The padded wire should slide into its limb with a little resistance.",
+        "Slide each arm and leg over its wire. Check the loop sits 10 mm (3/8 in) inside the tip, and add a small wisp of stuffing in the tip if it doesn't. Sew each limb's open edge to the body around the wire with its tail.",
+        "Stuff the body firmly around the wires, filling the space between the two bars. Rnd 23: (sc 2, dec) x6 (18). Rnd 24: (sc, dec) x6 (12). Top up the stuffing. Rnd 25: dec x6 (6). Ultimate Finish.",
+        "Make a 2.5 cm (1 in) pom-pom with your pom-pom maker and sew it on as the tail.",
+        "Tests. Bend each arm to 90 degrees at its midpoint, check it with the protractor, and time 60 seconds. Pose the bunny 5 different ways, then bend each limb back and forth 20 times. Ask someone else to squeeze each limb tip with their eyes closed and say whether they feel anything hard. Seat the bunny with legs forward for 60 seconds.",
+        "Tag it 'display only, contains wire' and score it on the toy rubric."
+      ],
+      "pass": [
+        "Every round of every piece has a written count matching the pattern above.",
+        "Your card shows A, L and both widths, and the two wire lengths worked out from them.",
+        "Each arm bent to 90 degrees holds within 10 degrees of that angle for 60 seconds.",
+        "After 5 poses and 20 bends per limb, no wire or tape shows through the fabric.",
+        "Another person squeezing each limb tip with eyes closed feels no hard end, 4 tips out of 4.",
+        "The bunny sits with its legs forward for 60 seconds without tipping.",
+        "It is tagged 'display only, contains wire' and scored on the toy rubric."
+      ],
+      "wrong": [
+        [
+          "A wire end pokes through a tip",
+          "The wire was too long or the loop slipped. Pull the limb back, trim and refold the loop, retape it, and leave 10 mm (3/8 in) of stuffing in the tip."
+        ],
+        [
+          "The limb won't hold a pose",
+          "The wire is too thin for the limb's weight, or the padding is loose. Use the thicker wire on the next one, and tape the padding firmly."
+        ],
+        [
+          "The wire snapped after posing",
+          "Aluminum tires where it bends sharply again and again. Make the next frame with gentle curves, and pose at the middle of a limb, not right at the body."
+        ],
+        [
+          "The body twists around the wires",
+          "There isn't enough stuffing between the bars. Stuff the next body in small pieces, packing the space between the two wires first."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "A measured, padded wire armature with safe ends",
+      "rubric": true,
+      "sources": [
+        "http://ellacrochetedtoys.blogspot.com/2017/09/tutorial-wire-frame-for-your-amigurumi.html",
+        "https://www.youtube.com/watch?v=LBBfZZj5cp8",
+        "https://meet.ribblr.com/t/poseable-amigurumi/566945",
+        "https://www.planetjune.com/finish"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+ "code": "TOY 490",
+ "title": "Capstone: a small collection",
+ "year": 4,
+ "track": "toy",
+ "required": true,
+ "hours": 60,
+ "credits": 1.3,
+ "hook": "your house hooks for your chosen toy yarn",
+ "yarn": "your chosen toy yarn in a planned palette (24/7 Cotton or what your scale table favors)",
+ "level": 4,
+ "prereqs": [
+  "TOY 410",
+  "TOY 420"
+ ],
+ "summary": "Three related original toys, one taken all the way through testing, tech editing and free publication, then a portfolio and a public review.",
+ "intro": "No toy credential exists, so the capstone is the real thing: a pattern strangers can follow. You design three related originals, take one through testers and an outside tech edit, and publish it free. Then you build a portfolio from your first kit to now, and ask for outside eyes to set your next goal.",
+ "outcomes": [
+  "You can design a set of toys that share a theme and a construction idea.",
+  "You can run a public pattern test and act on every tester question.",
+  "You can publish a versioned pattern with clear terms and credits.",
+  "You can present your work and turn critique into one next goal."
+ ],
+ "assessment": "T490.1 passes on rubric scores for all three toys, a matching second copy, three finished tester toys, resolved tech-edit notes and a public, versioned pattern. T490.2 passes on a complete portfolio and logged outside comments. The Amigurumi.com contest entry is optional and not scored.",
+ "reading": "The Essential Guide to Amigurumi (June Gilbank), Part 3, Designing Amigurumi, reread start to finish before Stage 1.",
+ "units": [
+  {
+   "id": "T490.1",
+   "origin": "new",
+   "t": "A small collection",
+   "kind": "project",
+   "h": 50,
+   "time": "about 40 to 60 hours over 3 to 6 months",
+   "prereq_units": [
+    "3.6",
+    "T120.4",
+    "T410.6",
+    "T410.7",
+    "T420.1",
+    "T420.2",
+    "T420.3",
+    "T420.4",
+    "T420.5"
+   ],
+   "why": "Three related originals show a style, where a single toy can be luck. Taking one of them all the way through testing, tech editing and publishing is the honest equivalent of a degree project, because no toy credential exists.",
+   "need": "Your style sheet (T420.1), self tech-edit checklist and count spreadsheet (T420.2), toy yarn in your chosen palette, hooks, Poly-Fil, eyes or embroidery thread, a ruler, a kitchen scale in grams, a phone camera with your photo setup (T420.4), the toy rubric, a Ravelry or Ribblr account.",
+   "learn": "Free: Elise Rose, <a href='https://eliserosecrochet.com/how-to-become-an-amigurumi-designer-in-8-easy-steps/'>How to Become an Amigurumi Designer in 8 Easy Steps</a>, for the whole path in one post. Testers: <a href='https://www.reddit.com/r/PatternTesting/'>r/PatternTesting</a> (Reddit). Publishing: Ribblr's <a href='https://ribblr.com/learn/crochet-row-counter'>interactive patterns</a> or a free Ravelry pattern page. Terms of use model: June Gilbank, <a href='https://www.planetjune.com/terms'>PlanetJune terms of use</a>. Photos: Sweet Softies, <a href='https://www.sweetsofties.com/2026/07/essential-crochet-photography-tips-for-showcasing-your-handmade-work.html'>Essential Crochet Photography Tips</a> (July 2026). Paid, only if you want a trained editor's eye: The Tech Editor Hub, <a href='https://www.thetecheditorhub.com/learn-to-tech-edit-crochet'>Learn to Tech Edit Crochet</a> (seven weeks; price not seen as of Oct 2026), or hire one tech edit for this pattern (rates vary; ask for a quote). Textbook: June Gilbank, <a href='https://www.planetjune.com/amibook'>The Essential Guide to Amigurumi</a>, Part 3. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "A collection shares a theme and one construction idea, such as three woodland animals on the same body, or three sea creatures with the same fin method.",
+    "Design all three on paper first, then make them one at a time. Reuse your best part between them where it fits.",
+    "Only one of the three goes through the full pipeline. The other two are finished toys with written round tables.",
+    "Testing: recruit at least 3 testers, ideally including one left-handed maker and one at the lowest skill level you list. Ask each for photos, measurements and every question they had.",
+    "Tech edit: run your T420.2 self-edit first, then one outside edit, either paid or swapped with another designer.",
+    "Publish free with a version number and a dated errata line. Credit any designer whose technique you adapted."
+   ],
+   "drill": [
+    "Stage 1, plan (about 4 h): write the theme, the shared construction idea, and a front and side sketch at actual size for all three toys, each broken into parts with counts.",
+    "Stage 2, make (about 25 h): make toy 1, writing the round table as you go. Score it on the rubric. Then toy 2, then toy 3, each with its own round table.",
+    "Stage 3, pick one (about 1 h): choose the toy whose pattern is clearest. Make a second copy from your written pattern alone and compare each part within 3 mm.",
+    "Stage 4, write and self-edit (about 8 h): full pattern to your style sheet, yardage by weight (grams x your yarn's yards per gram, plus 15%), abbreviations, a safety note, terms of use. Recompute every count in your spreadsheet.",
+    "Stage 5, test (about 6 h of your time over 3 to 6 weeks): post a tester call with skill level, yarn, timeline and what you need back. Collect every question and photo.",
+    "Stage 6, revise and edit (about 4 h): fix every line a tester asked about. Send it for one outside tech edit. Apply the edits.",
+    "Stage 7, publish (about 2 h): publish free as version 1.0 with your own photos, the test credits and an errata line."
+   ],
+   "pass": [
+    "All three toys score 12 or more of 16 on the toy rubric, with no 0 for Safety.",
+    "Your second copy of the chosen toy matches the first within 3 mm (1/8 in) on every part.",
+    "At least 3 testers finish the toy, and at least 2 of their finished toys are within 10% of your stated height in their photos with a ruler.",
+    "Every tester question has a matching change in the revision notes, and the outside edit's notes are all resolved or answered.",
+    "The pattern is public with a version number, a date and an errata line."
+   ],
+   "wrong": [
+    [
+     "Testers' toys come out very different sizes",
+     "Your gauge note is unclear. State the finished height with the yarn and hook you used, and tell testers to go down a hook size if stuffing shows."
+    ],
+    [
+     "Testers stop answering",
+     "Common. Recruit one or two more than you need, and give a clear end date."
+    ],
+    [
+     "The third toy doesn't feel like the other two",
+     "Bring back the shared construction idea or the palette. Make the next version closer; keep this one as its own toy."
+    ]
+   ],
+   "tier": "big",
+   "new_skill": "Running one original from design through public testing, an outside tech edit and publishing",
+   "rubric": true,
+   "sources": [
+    "https://eliserosecrochet.com/how-to-become-an-amigurumi-designer-in-8-easy-steps/",
+    "https://www.reddit.com/r/PatternTesting/",
+    "https://ribblr.com/learn/crochet-row-counter",
+    "https://www.planetjune.com/terms",
+    "https://www.sweetsofties.com/2026/07/essential-crochet-photography-tips-for-showcasing-your-handmade-work.html",
+    "https://www.thetecheditorhub.com/learn-to-tech-edit-crochet",
+    "https://www.planetjune.com/amibook"
+   ]
+  },
+  {
+   "id": "T490.2",
+   "origin": "new",
+   "t": "Portfolio and public review",
+   "kind": "review",
+   "h": 10,
+   "time": "about 8 to 12 hours over 2 to 4 weeks",
+   "prereq_units": [
+    "T490.1",
+    "T420.4"
+   ],
+   "why": "A portfolio shows how far you have come, from your first kit to your own published pattern. Outside eyes then give you one clear next goal. The major ends with a direction for your next toy.",
+   "need": "Photos of your toys from across the major (your first toys Felix, Mort and Pierre, and your T190.1 and T290.1 pieces), your rubric scores and hours logs, your T490.1 collection, a free page or document to hold the portfolio.",
+   "learn": "Optional contest: <a href='https://www.amigurumi.com/designcontest/'>Amigurumi.com annual design contest</a> (the 2025 theme was Rainbows with more than 7,500 voters; no 2026 theme was seen as of Oct 2026). For honest critique, post in r/Amigurumi or r/CrochetHelp using the app's Ask template. Photos: Daisy Cottage Designs, <a href='https://daisycottagedesigns.net/crochet-photography-tips'>Crochet Photography Tips</a>. Splurge, clearly optional, if you want to keep designing with a cohort: Garnknuten, <a href='https://garnknuten.com/en-us/pages/amigurumi-design-lab'>Amigurumi Design LAB</a> (about $289 as of Oct 2026; opens once a year). Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Pick 10 to 12 toys. Show the range: a first toy, a multi-part toy, a face study, a texture toy, a doll, a structured toy, a remix, and the collection.",
+    "Pair one of your first toys with one recent toy of a similar shape. The pair tells the story without words.",
+    "Give each toy one line: its name, pattern or 'original', the skill it added, and its rubric score.",
+    "Ask about the toy: 'What one change would make this toy read better from across a room?'",
+    "Contest entries follow the contest's own rules for that year. Read them before you design for it."
+   ],
+   "drill": [
+    "Photograph each chosen toy in your standard setup: same backdrop, light and angle.",
+    "Build the portfolio page: the toys in order, one line each, the first-and-recent pair, your total logged hours, and your rubric scores plotted over time.",
+    "Post the collection and the published pattern link in one community, with the Ask template and one specific question.",
+    "Log every reply. After a week, choose one change for your next design and write it as one sentence.",
+    "Optional: when the Amigurumi.com contest opens, enter one collection toy that fits its theme."
+   ],
+   "pass": [
+    "The portfolio holds 10 or more toys, each with a photo, a one-line note and a rubric score.",
+    "It includes at least one first-and-recent pair of similar shapes.",
+    "You logged at least 3 outside comments and wrote one next-design goal from them."
+   ],
+   "wrong": [
+    [
+     "No one replies to the post",
+     "Post once more at a different time of day with one clear question and a daylight photo. A reply count is not a measure of the toy."
+    ],
+    [
+     "Critique stings",
+     "Read it, wait a day, then pull out the one actionable line. Ignore anything about you rather than the toy."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Presenting a body of work and turning outside critique into one goal",
+   "rubric": false,
+   "sources": [
+    "https://www.amigurumi.com/designcontest/",
+    "https://daisycottagedesigns.net/crochet-photography-tips",
+    "https://garnknuten.com/en-us/pages/amigurumi-design-lab"
+   ]
+  }
+ ]
+}

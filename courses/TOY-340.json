@@ -1,0 +1,169 @@
+{
+  "code": "TOY 340",
+  "title": "Honors: realistic and micro",
+  "year": 3,
+  "track": "toy",
+  "required": false,
+  "hours": 40,
+  "credits": 0.9,
+  "hook": "3.5 mm for T340.1; steel hooks 1.4 mm and 0.9 mm for T340.2",
+  "yarn": "#4 worsted cotton or the realistic pattern's yarn; #20 and #30 cotton crochet thread for micro",
+  "level": 4,
+  "prereqs": [
+    "TOY 290"
+  ],
+  "summary": "Two optional honors units: sculpting a toy to look like a real animal, and crocheting toys small enough to sit on a fingertip.",
+  "intro": "This course is optional. Nothing later in the major depends on it, and you can take either unit alone, in any year after TOY 290. It's here because realistic sculpting and micro crochet are two of the most admired toy skills, and both make you look harder at every stitch. Take it when it sounds like fun.",
+  "outcomes": [
+    "You can measure a real animal's proportions from photos and check a toy against them.",
+    "You can use needle sculpting, eye placement and surface color to move a toy toward realism.",
+    "You can crochet with cotton thread on steel hooks and predict the size of a mini or micro toy.",
+    "You can finish a micro toy with embroidered features and label it for display."
+  ],
+  "assessment": "Each unit passes on its own observable checks, and each unit's toy is scored on the shared toy rubric. Optional: no other course requires it. If a check doesn't pass yet, fix one thing and try again. After three tries in one sitting, stop for the day.",
+  "reading": "The Essential Guide to Amigurumi (June Gilbank): the finishing chapters on eyes and needle sculpting for T340.1, and the section on scale and gauge for T340.2. Your T230.3 scale table.",
+  "units": [
+    {
+      "id": "T340.1",
+      "origin": "new",
+      "t": "Realistic animal sculpting",
+      "kind": "project",
+      "h": 25,
+      "time": "about 25 hours over 6 to 8 weeks",
+      "prereq_units": [
+        "T150.1",
+        "T210.1",
+        "T210.3",
+        "T210.4",
+        "T230.2"
+      ],
+      "why": "Realistic toys come from looking closely at a real animal and matching its proportions, then using shaping and finishing to say the rest. It trains your eye harder than any cute toy, and the habit of checking a toy against references carries into every design you make later.",
+      "need": "A realistic pattern you choose (see Learn), its yarn or your worsted cotton, your house hook, Poly-Fil, eyes in the size the pattern lists, a long doll needle and strong thread for sculpting, soft pastels or blush and a small brush for shading (T210.4), six clear photos of the real animal, a printer or a tablet, a ruler, the toy rubric.",
+      "learn": "Patterns: June Gilbank (PlanetJune) designs realistic animals; see her <a href='https://www.planetjune.com/shop/horse-amigurumi-crochet-pattern-p-299.html'>realistic Horse</a> in the PlanetJune shop (also on <a href='https://www.ravelry.com/patterns/library/horse-23'>Ravelry</a>) (paid; prices not confirmed, as of Oct 2026), and her <a href='https://www.planetjune.com/faq/about-planetjune-crochet-patterns/im-a-beginner-which-patterns-are-most-suitable-for-me/'>pattern-level FAQ</a> to pick a level. In print: Megan Kreiner's Baby Beasts to Crochet, sculpted creatures from a feature-film animator, with wire instructions in every pattern (no link checked; try your library first). Free technique: June Gilbank, <a href='https://www.planetjune.com/blog/tutorials/needlesculpting'>Needlesculpting</a> and <a href='https://www.planetjune.com/eyeoptions'>Eye Options and Positioning Eyes</a>. Paid textbook: June Gilbank, <a href='https://www.planetjune.com/amibooke'>The Essential Guide to Amigurumi</a>, in right- and left-handed editions. Left-handed: the free pages have no left-handed version; mirror the right-handed steps, or use the left-handed edition of the Essential Guide.",
+      "key": [
+        "Realism is proportion first. A toy with the right head-to-body ratio and eye position reads as the animal even before any detail.",
+        "Measure from photos. On a side photo, take the body length as 100 and write the head length, leg length and the eye's distance from the nose tip as numbers out of 100.",
+        "Eyes say the most. Many prey animals (horses, rabbits) have eyes on the sides of the head; many predators (cats, owls) have eyes facing forward. Check your animal's photos and pin before you fit.",
+        "Shaping does the big forms, needle sculpting refines them: eye sockets, a muzzle line, the dip at the back of a shoulder.",
+        "Surface color adds shading where crochet can't. Brush pastels lightly into the hollows and build up slowly.",
+        "Follow the pattern as written first. Your changes come after you've compared the toy with the photos."
+      ],
+      "drill": [
+        "Choose the animal and pattern. Collect six photos: side, front, top, three-quarter, a close-up of the eye, and the animal standing.",
+        "Print the side photo with the body (chest to rump) 100 mm (4 in) long. Mark five landmarks: eye center, ear base, nose tip, front of the shoulder, back of the hip. Write each landmark's distance from the nose tip in mm.",
+        "Make the toy as written, writing the count beside every round of every part. Pin all parts before sewing and compare with the photos from the same angles.",
+        "Photograph the finished toy from the side at the same angle. Print it with the body 100 mm (4 in) long. Measure the same five landmarks.",
+        "Sculpting pass. With the doll needle, sculpt the eye sockets and any muzzle line the photos show, as in T210.3. Brush shading into the hollows. Photograph again and re-measure.",
+        "Silhouette test. Photograph the toy side-on against a plain light wall, turn it black and white, and raise the contrast until it's nearly a silhouette. Show it to three people with no hint and ask what animal it is.",
+        "Write three changes you'd make to the next one. Score it on the toy rubric."
+      ],
+      "pass": [
+        "Every round of every part has a written count matching the pattern.",
+        "On the 100 mm (4 in) prints, at least 4 of the 5 landmarks on the toy sit within 5 mm (3/16 in) of the same landmark on the photo.",
+        "Three people with no hint name the animal from the silhouette photo, 3 out of 3.",
+        "Your before-and-after sculpting photos are filed together, with the three changes for next time written beside them.",
+        "It is scored on the toy rubric."
+      ],
+      "wrong": [
+        [
+          "The toy looks cute instead of real",
+          "The head is probably too big or the eyes too large. Compare your landmark numbers, and make the next one with the head part one round shorter or smaller eyes."
+        ],
+        [
+          "Sculpting pulls the face lopsided",
+          "Sculpt both sides with the same number of passes and the same tension, checking in a mirror after each pass."
+        ],
+        [
+          "Shading looks like dirt",
+          "Too much pastel at once. Start lighter, use a dry brush, and stop when you can just see it from 1 m (3 ft)."
+        ],
+        [
+          "People name the wrong animal",
+          "Look at which landmark is furthest off on your print. That one part is usually the cause."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Matching a toy to a real animal's measured proportions",
+      "rubric": true,
+      "sources": [
+        "https://www.planetjune.com/shop/horse-amigurumi-crochet-pattern-p-299.html",
+        "https://www.ravelry.com/patterns/library/horse-23",
+        "https://www.planetjune.com/faq/about-planetjune-crochet-patterns/im-a-beginner-which-patterns-are-most-suitable-for-me/",
+        "https://www.planetjune.com/blog/tutorials/needlesculpting",
+        "https://www.planetjune.com/eyeoptions",
+        "https://www.planetjune.com/amibooke"
+      ]
+    },
+    {
+      "id": "T340.2",
+      "origin": "new",
+      "t": "Micro amigurumi",
+      "kind": "project",
+      "h": 15,
+      "time": "about 15 hours over 6 to 10 short sessions of 20 to 30 minutes",
+      "prereq_units": [
+        "3.1",
+        "T230.3",
+        "T230.4",
+        "T210.2",
+        "T100.1"
+      ],
+      "why": "Micro toys are tiny, thread-sized amigurumi. Working at that scale shows exactly how even your tension is, and finishing something the size of a fingertip is a real pleasure. It builds on your minis in T230.4 with finer thread and steel hooks.",
+      "need": "Cotton crochet thread size 20 and size 30 in a light main color, plus black embroidery floss or sewing thread, steel hooks 1.4 mm and 0.9 mm, a fine sharp needle, a few wisps of Poly-Fil, a toothpick for stuffing, a locking stitch marker or a short strand of contrast thread, a magnifier lamp or reading glasses, a bright light, small sharp scissors, a ruler with mm marks, your T230.3 scale table, the toy rubric.",
+      "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/scaling'>Scaling Amigurumi</a>, the micro and mini rows of her table (micro: #30 thread on 0.9 mm, about 0.3x; mini: #20 thread on 1.4 mm, about 0.4x), and her <a href='https://www.planetjune.com/tinyeyes'>Tiny Yarn Eyes</a>. Paid, or free to borrow: Steffi Glaves, <a href='https://boffinsbookshop.com.au/books/9781446309704/100-micro-amigurumi-crochet-patterns-and-charts-for-tiny-amigurumi'>100 Micro Amigurumi</a> (David & Charles, 2023; price not confirmed, as of Oct 2026; on Hoopla through some US libraries). Left-handed: no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Thread size runs backward: size 30 is finer than size 20. Steel hooks run the same way in US numbers, so buy by mm.",
+        "Use a fixed stitch count you can check by eye. Mark the first stitch of every round with a contrast thread, which is easier to see than a marker at this size.",
+        "Stuff with tiny wisps pushed in with a toothpick, a little at a time. Over-stuffing splits stitches.",
+        "Embroider the features. Safety eyes don't come this small; French knots or a few straight stitches in one strand of floss do the job (T210.2).",
+        "Rest your eyes and hands. Work 20 to 30 minutes, then look across the room for a minute. Follow your T100.1 pain rules.",
+        "Micro toys are choking size. Label each one 'display only, keep away from children and pets'."
+      ],
+      "drill": [
+        "Test ball. Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnds 4 to 6: sc around (18), 3 rounds. Rnd 7: (sc, dec) x6 (12). Stuff. Rnd 8: dec x6 (6). Ultimate Finish.",
+        "Make the test ball three times: in your worsted on your house hook, in #20 thread on 1.4 mm, and in #30 thread on 0.9 mm. Measure each ball's diameter three ways in mm and average.",
+        "Divide each thread ball's average by the worsted ball's. Write both ratios to two decimals in your scale table beside PlanetJune's 0.4 and 0.3.",
+        "Micro bear, in #30 on 0.9 mm. Head and body: work the test ball through Rnd 6. Embroider the eyes now, while the ball is open: two French knots in one strand of black floss between Rnds 4 and 5, 3 stitches apart. Then Rnd 7, stuff, Rnd 8 and the Ultimate Finish.",
+        "Ears (make 2): Rnd 1: 5 sc in a magic ring (5). Fasten off, leaving a 10 cm (4 in) tail, and pull the ring closed into a cup. Sew them over Rnds 2 and 3, 6 stitches apart.",
+        "Muzzle: Rnd 1: 6 sc in a magic ring (6). Fasten off, leaving a 10 cm (4 in) tail. Sew it flat over Rnds 5 and 6 under the eyes, and add a nose with 2 straight stitches.",
+        "Measure the bear's height in mm. Photograph it on a fingertip or beside a coin.",
+        "Tag it 'display only, keep away from children and pets' and score it on the toy rubric."
+      ],
+      "pass": [
+        "Three test balls, each with written counts 6, 12, 18, 18, 18, 18, 12, 6.",
+        "Your scale table shows the #20 and #30 ratios to two decimals, and each is within 15% of PlanetJune's factor or your log names a reason.",
+        "The micro bear stands 15 mm (5/8 in) tall or less.",
+        "Both eyes sit between the same two rounds and the ears sit on the same rounds, checked in a close-up photo.",
+        "Under the magnifier, no stuffing shows between stitches.",
+        "It is tagged 'display only' and scored on the toy rubric."
+      ],
+      "wrong": [
+        [
+          "You can't see where the round starts",
+          "Use a contrast thread as the marker and move it up every round. Work under a bright light with a plain dark cloth on your lap."
+        ],
+        [
+          "The thread splits as you work",
+          "The hook is snagging plies. Insert the hook more slowly, and try a hook with a smoother head if splitting continues."
+        ],
+        [
+          "Your eyes or hand ache",
+          "Stop for the day. Shorter sessions with breaks work better at this scale."
+        ],
+        [
+          "The ball comes out lumpy",
+          "Too much stuffing at once. Use smaller wisps, and pinch-and-push them into place before closing."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Crocheting with cotton thread on steel hooks at micro scale",
+      "rubric": true,
+      "sources": [
+        "https://www.planetjune.com/scaling",
+        "https://www.planetjune.com/tinyeyes",
+        "https://boffinsbookshop.com.au/books/9781446309704/100-micro-amigurumi-crochet-patterns-and-charts-for-tiny-amigurumi",
+        "https://www.planetjune.com/finish"
+      ]
+    }
+  ]
+}

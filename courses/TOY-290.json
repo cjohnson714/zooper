@@ -1,0 +1,99 @@
+{
+  "code": "TOY 290",
+  "title": "Second-year review",
+  "year": 2,
+  "track": "toy",
+  "required": true,
+  "hours": 6,
+  "credits": 0.1,
+  "hook": "your house hook",
+  "yarn": "whatever the two retested checks call for",
+  "level": 2,
+  "prereqs": [
+    "TOY 150",
+    "TOY 210",
+    "TOY 220",
+    "TOY 230"
+  ],
+  "summary": "You gather three Year 2 toys into a portfolio, score them on the rubric, redo two older pass checks cold, and can ask an experienced maker to look at your work.",
+  "intro": "This review is a look back at your second year. You photograph and score three toys, set them beside your first-year toy, and redo two checks you passed months ago to see what has stuck. An outside opinion is optional. Do it on any days you choose; anything that doesn't pass yet becomes one note for Year 3.",
+  "outcomes": [
+    "You can photograph and record a toy so another person can judge it from the page.",
+    "You can score your own toys on the rubric and compare them with your first-year work line by line.",
+    "You can pass two older checks cold, months after you learned them."
+  ],
+  "assessment": "T290.1 passes when the three portfolio pages are complete and scored, both cold checks pass (each retried once on another day if needed), and the comparison with your T120.5 toy is written. The expert check is optional and never part of passing.",
+  "reading": "Skim your own binder for Year 2 the week before. The Essential Guide to Amigurumi (June Gilbank): no new reading.",
+  "units": [
+    {
+      "id": "T290.1",
+      "origin": "new",
+      "t": "Portfolio review",
+      "kind": "review",
+      "h": 6,
+      "time": "about 6 hours over 2 or 3 sessions, on any days you choose",
+      "prereq_units": [
+        "T190.1",
+        "T120.4",
+        "T120.5",
+        "T150.5",
+        "T210.4",
+        "T220.6",
+        "T230.4"
+      ],
+      "why": "A year of toys is easy to forget one at a time. Seeing three side by side, scored the same way, shows what improved and what to work on next. Redoing old checks cold shows which skills are yours for good.",
+      "need": "Three finished Year 2 toys, your T120.5 toy and its rubric score, the toy rubric, your binder, a ruler, a luggage scale, your phone on a stand, a plain light background by a window, and the materials for the two checks you choose to redo.",
+      "learn": "No new material. For photos: Sweet Softies, <a href='https://www.sweetsofties.com/2026/07/essential-crochet-photography-tips-for-showcasing-your-handmade-work.html'>Essential Crochet Photography Tips</a> (window side light, no flash, white board, camera at the toy's eye level). For the optional expert check, a community such as the <a href='https://www.reddit.com/r/crochet/'>r/crochet</a> subreddit or r/Amigurumi, a local crochet guild, or a teacher at a local yarn shop. Left-handed: the photo guide has no left-handed version and needs none; for the cold checks, use the left-handed links in each check's original unit.",
+      "key": [
+        "Choose three toys from different Year 2 courses: one from TOY 150, and two that use a skill from TOY 210, TOY 220 or TOY 230 (a face, a base or texture, or shaping and scale).",
+        "Score each toy as if someone else made it. Each rubric line is 0 (not yet), 1 (close) or 2 (yes). A toy passes at 12 of 16 with no 0 for Safety.",
+        "Pick the two cold checks from Year 2 units you passed at least 3 months ago, from two different courses. If you're unsure which, use the T150.3 terms card as one of them.",
+        "A cold check means warm-up rounds first, then the check with no tutorial open.",
+        "A check that doesn't pass yet becomes one note for Year 3. Try it again once, on another day, after one fix.",
+        "The expert check is optional. If you ask, ask about one thing (for example, the face on toy 2), and write down what they say."
+      ],
+      "drill": [
+        "Photograph each of the three toys from the front, side and back, with a ruler in one frame, on the same background and light.",
+        "Make one portfolio page per toy: pattern and designer, yarn, hook, height in mm and in, hours spent (your best estimate), rubric score line by line, one thing you're proud of, one thing to change.",
+        "Run the tug test at 15 lbf (6.8 kg) for 10 seconds on every attached part of any toy that has gone or will go to a child.",
+        "Set your T120.5 toy beside the three. For each rubric line, write its T120.5 score and the best of the three new scores.",
+        "Session 2: warm up with 2 or 3 rounds, then redo cold check 1 exactly as its unit's pass list says. Record the result.",
+        "Session 3 (or later in session 2): warm up again, then redo cold check 2. Record the result.",
+        "Optional: show one toy to an experienced maker and ask about one rubric line. Write their answer on that toy's page.",
+        "Write three lines at the end: the rubric line that improved most since T120.5, the line to work on in Year 3, and one toy you'd like to make again."
+      ],
+      "pass": [
+        "Three portfolio pages are complete, each with three photos and all eight rubric lines scored.",
+        "At least two of the three toys score 12 of 16 or more, and none scores 0 for Safety.",
+        "Any toy given to a child held 15 lbf (6.8 kg) for 10 seconds on every attached part.",
+        "Both cold checks pass on their original pass lists, on the first try or on one retry another day.",
+        "The line-by-line comparison with your T120.5 toy and the three closing lines are written in your binder."
+      ],
+      "wrong": [
+        [
+          "A toy scores below 12",
+          "Keep it in the portfolio as it is. Its lowest line becomes the Make it twice goal for a Year 3 toy."
+        ],
+        [
+          "A cold check doesn't pass",
+          "Reread that unit's If it goes wrong list, change one thing, and retry once on another day. After that, it's a Year 3 note."
+        ],
+        [
+          "The photos look flat or yellow",
+          "Move the toy closer to the window, turn off room lights, and add a white board on the shadow side."
+        ],
+        [
+          "The expert's feedback stings",
+          "Write down only the part you can measure, and use that. Everything else can wait."
+        ]
+      ],
+      "tier": null,
+      "new_skill": null,
+      "rubric": true,
+      "sources": [
+        "https://www.sweetsofties.com/2026/07/essential-crochet-photography-tips-for-showcasing-your-handmade-work.html",
+        "https://www.reddit.com/r/crochet/"
+      ]
+    }
+  ]
+}

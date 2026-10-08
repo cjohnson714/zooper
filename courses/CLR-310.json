@@ -1,0 +1,32 @@
+{
+ "code": "CLR 310",
+ "title": "Colorwork",
+ "year": null,
+ "track": "elective",
+ "required": false,
+ "hours": 63,
+ "credits": 1.4,
+ "hook": "4.0 to 5.0 mm",
+ "yarn": "#4 acrylic or cotton in several colors",
+ "level": 3,
+ "prereqs": [
+  "FND 210"
+ ],
+ "summary": "Tapestry, corner-to-corner graphs with bobbins, mosaic and planned pooling, ending in a tapestry tote of your own design.",
+ "intro": "Optional elective. It is not part of the required path, and nothing required waits on it. It covers the four main ways crochet makes pictures with color. Toy-specific color work (stripes in the round, tapestry and intarsia in the round) is already in TOY 120 and TOY 310; take this course for flat colorwork and charted design. Chart first, swatch second, and deal with tails as you go.",
+ "outcomes": [
+  "You can work a tapestry motif that matches its chart with the carried color hidden at arm's length.",
+  "You can work a C2C graph with bobbins so every tile matches the graph and no carried strand shows.",
+  "You can work overlay and inset mosaic from a chart.",
+  "You can plan pooling to get 20 rows of unbroken argyle.",
+  "You can chart and make an original tapestry tote whose motif repeats meet at the round start."
+ ],
+ "assessment": "Each unit passes on its pass list. The tapestry tote (4.5) is the course project.",
+ "units_from_old_phase": "p4",
+ "pass_fixes": {
+  "4.3": [
+   "Every dropped-down stitch lands exactly where the chart says",
+   "You work one 20-stitch overlay swatch and one inset swatch from the same chart, and both match the chart stitch for stitch"
+  ]
+ }
+}

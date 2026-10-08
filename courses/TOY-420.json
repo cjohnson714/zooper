@@ -1,0 +1,330 @@
+{
+ "code": "TOY 420",
+ "title": "Pattern craft",
+ "year": 4,
+ "track": "toy",
+ "required": true,
+ "hours": 35,
+ "credits": 0.8,
+ "hook": "your house hook (3.5 mm for worsted cotton), for the toy gauge disc",
+ "yarn": "the yarn from your 3.6 toy, for the gauge disc",
+ "level": 4,
+ "prereqs": [
+  "TOY 410"
+ ],
+ "summary": "You turn your first original toy into a pattern other people can follow: written to a style sheet, checked in a spreadsheet, tested by other makers, photographed and published free.",
+ "intro": "In TOY 410 you wrote a pattern that works for you. Here you make it work for anyone. You set a style sheet, weigh your yardage, check every count with a spreadsheet, run a small test with real makers, photograph the toy and its assembly, and publish it free with a version number and an errata list. Testing takes a few weeks of waiting, so the course fits around other work.",
+ "outcomes": [
+  "You can write a toy pattern to a one-page style sheet, with weighed yardage, a toy gauge and a skills list.",
+  "You can check every round of a pattern with Used and Made sums in a spreadsheet and run a pre-tech-edit checklist.",
+  "You can write a tester call, run a test with 3 to 5 makers and keep an errata log.",
+  "You can photograph a toy and its assembly steps so they read at thumbnail size.",
+  "You can publish a free pattern with a version number, an errata list and fair terms of use."
+ ],
+ "assessment": "Each unit passes on its own checks. The course's central checks are T420.2's spreadsheet with every row TRUE and T420.3's test with at least 3 finished testers and every question resolved. T420.5's stranger's-project check may stay open and is checked again in TOY 490. A check that doesn't pass yet gets one note and one change. After three tries in one sitting, stop for the day.",
+ "reading": "The Essential Guide to Amigurumi (June Gilbank), Part 3, Designing Amigurumi: reread its sections on writing patterns before T420.1. Free reading: the Craft Yarn Council standards, Vashti Braha's About Crochet Skill Levels, the Sycamore Studio Pre-Tech Editing Checklist, the Stitches n Scraps How a Pattern Happens series, and Plagiarism Today's Copyright in Knitting and Crocheting (all linked in the units). Optional: Pitachan's Design Your Own Amigurumi (2024).",
+ "units": [
+  {
+   "id": "T420.1",
+   "origin": "new",
+   "t": "Write-up and style sheet",
+   "kind": "lesson",
+   "h": 10,
+   "time": "about 10 hours over 4 or 5 sessions",
+   "prereq_units": [
+    "3.6",
+    "T410.6",
+    "T410.7",
+    "T310.5",
+    "1.5"
+   ],
+   "why": "Your 3.6 draft works for you. A pattern for other people needs the same choices made the same way on every page, and the materials, sizes and skills stated up front. A style sheet makes those choices once, so you never have to make them again.",
+   "need": "Your 3.6 V-final draft with its T410.6 color plan and T410.7 structure section, both toys, a kitchen scale (0.1 g if you have one; 1 g works if you weigh each color's parts together), a word processor or Google Docs, a ruler.",
+   "learn": "Free: Craft Yarn Council, <a href='https://craftyarncouncil.com/node/39'>Standards and Guidelines</a> (abbreviations, chart symbols) and <a href='https://craftyarncouncil.com/standards/project-levels'>Project Skill Levels</a>. Vashti Braha, <a href='https://www.designingvashti.com/learn/about-crochet-skill-levels/'>About Crochet Skill Levels</a>, on why a pattern should also list its skills. Tiny Curl, <a href='https://www.tinycurl.co/how-to-design-amigurumi-crochet-pattern/'>How to Design Your Own Amigurumi Crochet Pattern</a>. Paid, optional: Pitachan, <a href='https://www.amazon.com/Design-Your-Own-Amigurumi-Pitachan/dp/B0CWY21YLN'>Design Your Own Amigurumi</a> (price not confirmed), which includes pattern writing. Left-handed: no left-handed version; mirror the right-handed steps (these are reading, so there is nothing to mirror). In your own pattern, add one line telling left-handed makers that the pattern works as written and that their spiral will drift the other way.",
+   "key": [
+    "A style sheet is one page of decisions. Readers notice inconsistency more than any single choice.",
+    "Toy readers expect: an abbreviations key before Rnd 1, one line per round, the count in parentheses at the end of each round, continuous spiral rounds unless stated, and where each round starts.",
+    "Yardage comes from weight. Weigh each color's parts, then multiply. Lion Brand 24/7 Cotton is 186 yd per 100 g, so 1.86 yd per gram (1.70 m per gram). Add a 15% margin for other people's tension (a house rule, not an industry standard) and round up.",
+    "Example: 23 g of main color x 1.86 = 42.8 yd; x 1.15 = 49.2; write 50 yd (46 m).",
+    "Give a CYC skill level and, under it, the specific skills the pattern uses, so a maker can tell what's new for them.",
+    "Toy gauge is a size check taken from your own disc, written like 'Rnds 1 to 6 make a disc about 60 mm (2 3/8 in) across'.",
+    "Placements need landmarks: round and stitch numbers from the round start or the center front."
+   ],
+   "drill": [
+    "Write your style sheet, one line each: (1) US terms and CYC abbreviations, with a key before Rnd 1. (2) 'Rnd 1:' labels, one round per line. (3) Count in parentheses at the end, '(30)'. (4) Repeats as '(sc 3, inc) x6'. (5) Ranges as 'Rnds 8 to 13: sc 30 (30)'. (6) Spiral unless stated; round start at center back. (7) Metric first, imperial in parentheses. (8) Colors by role (MC, CC1) with shade names in materials. (9) Each part opens with its name, color and how many to make. (10) Stuffing notes at the round where you stuff. (11) Placements as round and stitch numbers from a named landmark. (12) Safety note and terms of use at the end.",
+    "Weigh each part of your final toy and work out yardage per color with the formula. Show the arithmetic.",
+    "Measure finished size (height, and width at the widest point) in cm and in.",
+    "Make a 6-round disc in your pattern yarn and hook and write its diameter as the toy gauge.",
+    "Rewrite the 3.6 pattern to the style sheet, in this order: title and version, photo placeholder, finished size, skill level and skills list, materials with yardage, toy gauge, abbreviations, notes (including the left-handed line), parts, assembly, face, structure, safety note, terms of use placeholder, credits.",
+    "Give the pattern and the style sheet to a second reader (a friend, a crochet group member, or yourself after a week away). They tick each of the 12 lines against every part and circle any miss.",
+    "Fix every circled miss."
+   ],
+   "pass": [
+    "The style sheet has all 12 lines.",
+    "The materials list gives yardage per color in yd and m, with the weight and arithmetic on your worksheet.",
+    "The pattern has every section in the drill's list.",
+    "After your fixes, the second reader's check finds zero misses against the style sheet.",
+    "Passed cold: a week later, rewrite one part's rounds from your round table into the style without looking at the style sheet, and it has zero misses."
+   ],
+   "wrong": [
+    [
+     "The second reader circles a lot of misses",
+     "That's normal for a first write-up. Fix them one style line at a time across the whole pattern, rather than part by part."
+    ],
+    [
+     "Your scale only reads whole grams",
+     "Weigh all parts of one color together, and use a single number per color."
+    ],
+    [
+     "You can't pick a CYC level",
+     "Pick the level of the hardest technique in the pattern and list every skill under it. The list matters more than the label."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Writing a toy pattern to a consistent style sheet with weighed yardage",
+   "rubric": false,
+   "sources": [
+    "https://craftyarncouncil.com/node/39",
+    "https://craftyarncouncil.com/standards/project-levels",
+    "https://www.designingvashti.com/learn/about-crochet-skill-levels/",
+    "https://www.tinycurl.co/how-to-design-amigurumi-crochet-pattern/",
+    "https://www.amazon.com/Design-Your-Own-Amigurumi-Pitachan/dp/B0CWY21YLN"
+   ]
+  },
+  {
+   "id": "T420.2",
+   "origin": "new",
+   "t": "Self tech edit",
+   "kind": "lab",
+   "h": 6,
+   "time": "about 6 hours over 3 sessions",
+   "prereq_units": [
+    "T420.1",
+    "T410.1"
+   ],
+   "why": "Testers and editors are generous with their time. Catching your own count errors and gaps first means their notes go to the things only a fresh pair of eyes can see.",
+   "need": "Your T420.1 pattern, a spreadsheet (Google Sheets or Excel), a printer or a tablet for the checklist, and a helper for the seeded-error test.",
+   "learn": "Free: Sycamore Studio, <a href='https://www.sycamorestudio.co.uk/_files/ugd/04f797_436068395f164f2a93dac08dbcda02bd.pdf'>Pre-Tech Editing Checklist</a> (PDF; many lines are written for garments, so mark those not applicable). Pattern Design Circle, <a href='https://payhip.com/PatternDesignCircle/blog/pattern-design-circle-blog/the-knit-crochet-designer-s-guide-to-tech-editing'>The Knit and Crochet Designer's Guide to Tech Editing</a>. Paid, optional, only if you'd like to learn editing itself: The Tech Editor Hub, <a href='https://www.thetecheditorhub.com/learn-to-tech-edit-crochet'>Learn to Tech Edit Crochet</a> (seven weeks of recorded lessons with real patterns; price not seen, as of Oct 2026). Left-handed: no left-handed version; mirror the right-handed steps (these are reading, so there is nothing to mirror).",
+   "key": [
+    "A count check needs two numbers per round. Used: stitches worked into (sc = 1, inc = 1, dec = 2, sk = 1). Made: stitches the round ends with (sc = 1, inc = 2, dec = 1, sk = 0).",
+    "For a repeat '(sc a, inc) x r': Used = (a + 1) x r, Made = (a + 2) x r. For '(sc a, dec) x r': Used = (a + 2) x r, Made = (a + 1) x r.",
+    "Example: 'Rnd 13: sc 4, dec, (sc 9, dec) x2, sc 5 (30)'. Used = 4 + 2 + 22 + 5 = 33, which is Rnd 12's count. Made = 4 + 1 + 20 + 5 = 30, which is the stated count.",
+    "A spreadsheet does the comparing. Columns: Part, Round, Instructions, Stated count, Used, Made, and a check that Used equals the previous round's stated count and Made equals this round's.",
+    "Counts are half of it. The checklist catches the rest: missing materials, unstated hook size, terms used before they're defined, steps out of order, photos that don't match the text.",
+    "Read once for counts, once for sense, on different days."
+   ],
+   "drill": [
+    "Set up the sheet. Columns A to G: Part, Rnd, Instructions, Stated, Used, Made, Check. In G, for row 3, use =AND(E3=D2, F3=D3) (adjust for the first round of each part, which only checks Made).",
+    "Enter every round of every part. Ranges ('Rnds 8 to 13') get one row each. Fill in Used and Made by hand from the instructions.",
+    "Fix every FALSE. Each fix goes into the pattern and the version log.",
+    "Print the Sycamore checklist. Work through it against the pattern and mark each line done, fixed, or not applicable with a reason.",
+    "Seeded-error test: give a copy of the pattern to a helper and ask them to change exactly three things (two counts or instructions and one material or placement). Without knowing which, find them with the sheet and the checklist.",
+    "On another day, read the pattern once start to finish as a maker would, and note anything that makes you pause."
+   ],
+   "pass": [
+    "The spreadsheet shows TRUE on every row of every part.",
+    "Every checklist line is marked done, fixed, or not applicable with a reason.",
+    "You find all three seeded errors.",
+    "The pattern's version log lists every fix with the date."
+   ],
+   "wrong": [
+    [
+     "Many rows show FALSE but the toy came out right",
+     "You probably crocheted it right and typed it wrong. Fix the text to match the round table, which is the record of what you actually did."
+    ],
+    [
+     "The formula flags every first round",
+     "A part's first round has no previous round. Leave Used blank and check only Made for that row."
+    ],
+    [
+     "You miss one of the seeded errors",
+     "Ask the helper which one, then add a check that would have caught it (a column, or a checklist line) and run the whole pattern through it again."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Checking every count of a pattern in a spreadsheet and running a pre-tech-edit checklist",
+   "rubric": false,
+   "sources": [
+    "https://www.sycamorestudio.co.uk/_files/ugd/04f797_436068395f164f2a93dac08dbcda02bd.pdf",
+    "https://payhip.com/PatternDesignCircle/blog/pattern-design-circle-blog/the-knit-crochet-designer-s-guide-to-tech-editing",
+    "https://www.thetecheditorhub.com/learn-to-tech-edit-crochet"
+   ]
+  },
+  {
+   "id": "T420.3",
+   "origin": "new",
+   "t": "Testing with other makers",
+   "kind": "project",
+   "h": 8,
+   "time": "about 8 hours of your time spread over 4 to 6 weeks while testers work",
+   "prereq_units": [
+    "T420.2"
+   ],
+   "why": "There is no credential for toy design. A pattern that strangers finish without unanswered questions, in their own yarn and hands, is the honest proof that it works.",
+   "need": "Your tech-edited pattern as a PDF marked 'test version', photos of your toy, a Ravelry account, a feedback form (Google Forms or a one-page document), and a spreadsheet for the errata log.",
+   "learn": "Free: Stitches n Scraps, <a href='https://stitchesnscraps.com/how-a-pattern-happens/'>How a Pattern Happens</a> (a series on making a pattern; Testing is one installment). Where to find testers: the Testing Pool group on <a href='https://www.ravelry.com'>Ravelry</a> (search groups for 'Testing Pool'; designers post calls, testers reply), and <a href='https://www.reddit.com/r/PatternTesting/'>r/PatternTesting</a> (exists; recent activity not confirmed, as of Oct 2026). Lauren Espy's <a href='https://www.sweetsofties.com/'>Sweet Softies</a> has run amigurumi pattern tests (2025), so her site is a good place to see how a toy designer presents a pattern. Left-handed: no left-handed version; mirror the right-handed steps (these are reading, so there is nothing to mirror). Recruiting a left-handed tester is part of the drill.",
+   "key": [
+    "A tester call says: the toy and a photo, skill level and skills list, yarn weight and hook, finished size, an honest time estimate (your own hours x 1.5), the deadline (4 weeks is kind), what you ask for, what testers get (the final pattern free and credit), and where to ask questions.",
+    "Ask for 3 to 5 testers, including someone at Advanced Beginner level (one toy pattern finished), a left-hander, and at least two people using yarn different from yours.",
+    "Testers usually work exactly as written. That's the point: a question means the page needs a change.",
+    "One form for everyone: unclear lines (part and round), counts that didn't match, time taken, finished height and width, and front and side photos with a ruler.",
+    "Every question goes into the errata log with a resolution: a change to the pattern, or a note on why it stays.",
+    "People drop out of tests for ordinary life reasons. Ask 5 to finish with 3, and thank everyone."
+   ],
+   "drill": [
+    "Write the tester call and post it in the Testing Pool group (and r/PatternTesting if you like). Recruit 3 to 5 testers to the mix above.",
+    "Send the test PDF and the form. Answer questions within a few days, logging each one.",
+    "Keep the errata log: date, tester, part and round, problem, change made, version.",
+    "When forms come in, compute each tester's height-to-width ratio from their measurements and compare it with yours.",
+    "Make every change, update the version (1.0-test to 1.1), and send the updated pattern to testers with your thanks."
+   ],
+   "pass": [
+    "At least 3 testers finish.",
+    "Every question in the errata log has a resolution entry.",
+    "Every finished tester's toy has a height-to-width ratio within 10% of yours (for a ratio of 1.40, between 1.26 and 1.54).",
+    "One tester is left-handed or one used a different yarn weight, and their notes are in the log."
+   ],
+   "wrong": [
+    [
+     "Fewer than 3 testers finish",
+     "That's common. Run a second small call later for the remaining places; the first testers' notes still count."
+    ],
+    [
+     "One tester's toy is far out of proportion",
+     "Look at their photos for the round where it diverges. If two testers diverge at the same place, the pattern needs a change there; if one does, ask about their tension and hook."
+    ],
+    [
+     "Many questions cluster in assembly",
+     "Assembly needs photos. T420.4 is next; add step photos there and send the testers the updated section."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Running a pattern test with an errata log",
+   "rubric": false,
+   "sources": [
+    "https://stitchesnscraps.com/how-a-pattern-happens/",
+    "https://www.ravelry.com",
+    "https://www.reddit.com/r/PatternTesting/",
+    "https://www.sweetsofties.com/"
+   ]
+  },
+  {
+   "id": "T420.4",
+   "origin": "new",
+   "t": "Toy photography",
+   "kind": "lab",
+   "h": 5,
+   "time": "about 5 hours over 2 or 3 sessions, in daylight",
+   "prereq_units": [
+    "T420.1"
+   ],
+   "why": "Makers follow pictures at the assembly stage, and a cover photo is how anyone finds your pattern. A phone, a window and two white boards are all it takes.",
+   "need": "Your phone, a window with indirect daylight, two white foam boards (or a white sheet of poster board and a white foam board), white paper for a backdrop, a stack of books or a small tripod, a ruler, your toy and its parts, pins.",
+   "learn": "Free: Lauren Espy (Sweet Softies), <a href='https://www.sweetsofties.com/2026/07/essential-crochet-photography-tips-for-showcasing-your-handmade-work.html'>Essential Crochet Photography Tips for Showcasing Your Handmade Work</a> (July 2026); Daisy Cottage Designs, <a href='https://daisycottagedesigns.net/crochet-photography-tips'>Crochet Photography: My Favorite Tips and Tricks</a>; Sarah-Jayne Fragola (Bella Coco), <a href='https://blog.bellacococrochet.com/how-to-photograph-your-crochet-projects'>How to Photograph Your Crochet Projects</a>. Left-handed: no left-handed version; mirror the right-handed steps (these are reading, so there is nothing to mirror).",
+   "key": [
+    "Light from the side or over your shoulder, from a window, never flash.",
+    "A white backdrop curving up at the back of the toy, and a white board 15 to 30 cm (6 to 12 in) from the toy opposite the window to fill the shadows.",
+    "Lens at the toy's eye level. Move closer instead of zooming. Tap to focus on the eyes.",
+    "Same setup for every shot, so the pattern looks like one piece of work.",
+    "Edit only crop, straighten and brightness.",
+    "Assembly photos show pins in place before sewing, with a caption naming the round and stitch."
+   ],
+   "drill": [
+    "Set up by the window: backdrop, bounce board, toy at eye level on a stack of books, phone on books or a tripod.",
+    "Shoot the cover (three-quarter view, eye level), front, side, back, a scale shot with a ruler or your hand, and a flat-lay of all parts.",
+    "Shoot 4 to 8 assembly steps with pins in place. Write a caption for each with the round and stitch.",
+    "Make a 200 px wide copy of the cover photo.",
+    "Put the photos into the pattern at the right places."
+   ],
+   "pass": [
+    "Thumbnail test: shown the 200 px cover, three people each name what the toy is and point to both eyes.",
+    "Every assembly photo has a caption with a round and stitch number, and every attached part in the pattern has a photo.",
+    "Open the cover photo in a color-picker app or your phone's editor: the backdrop reads at least 235 of 255 in each of red, green and blue, with the three values within 10 of each other."
+   ],
+   "wrong": [
+    [
+     "The backdrop looks gray",
+     "Brighten only until the backdrop is white; or move the toy closer to the window and the bounce board closer to the toy."
+    ],
+    [
+     "The face is lost in the thumbnail",
+     "Shoot closer, with the face filling more of the frame, and keep the eyes on the upper third line."
+    ],
+    [
+     "Shadows look harsh",
+     "The light is direct sun. Shoot on a cloudy day or hang a white sheet over the window."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Photographing a toy and its assembly steps for a pattern",
+   "rubric": false,
+   "sources": [
+    "https://www.sweetsofties.com/2026/07/essential-crochet-photography-tips-for-showcasing-your-handmade-work.html",
+    "https://daisycottagedesigns.net/crochet-photography-tips",
+    "https://blog.bellacococrochet.com/how-to-photograph-your-crochet-projects"
+   ]
+  },
+  {
+   "id": "T420.5",
+   "origin": "new",
+   "t": "Publishing free: versions, errata and licensing etiquette",
+   "kind": "project",
+   "h": 6,
+   "time": "about 6 hours over 2 sessions, then a few minutes a month",
+   "prereq_units": [
+    "T420.3",
+    "T420.4"
+   ],
+   "why": "Free first gives you real feedback without the weight of a business. Clear versions, an errata list and fair terms make the pattern trustworthy, and they are the habits a later paid pattern would need.",
+   "need": "Your tested pattern with photos, a Ravelry account, optionally a Ribblr account, and a place for an errata list (the Ravelry pattern page, or a page on your own site or blog).",
+   "learn": "Free: <a href='https://www.ravelry.com'>Ravelry</a> (designers can list free patterns on their own pattern page); optionally <a href='https://ribblr.com/learn/crochet-row-counter'>Ribblr</a> (interactive patterns with row and repeat counters and US/UK term switching). For licensing: Plagiarism Today, <a href='https://www.plagiarismtoday.com/2014/10/08/copyright-in-knitting-and-crocheting/'>Copyright in Knitting and Crocheting</a> (2014, US, not legal advice); June Gilbank (PlanetJune), <a href='https://www.planetjune.com/terms'>pattern terms of use</a> as a model of a clear, fair policy. Optional showcase: the <a href='https://www.amigurumi.com/designcontest/'>Amigurumi.com design contest</a> (optional; entry terms and the 2026 theme not confirmed, as of Oct 2026). Left-handed: no left-handed version; mirror the right-handed steps (these are reading, so there is nothing to mirror).",
+   "key": [
+    "Version numbers: 1.0 at publication, 1.1 for each errata fix, 2.0 for a rewrite. Put the version and date in the footer of every page.",
+    "An errata list sits where makers will look for it (the pattern page), with the date, the version, and the corrected text. A changelog at the end of the PDF repeats it.",
+    "In the US, a pattern's text, charts and photos are protected; the method itself generally isn't. That's a summary, not legal advice.",
+    "Your terms say what people may do: make and keep, gift, sell finished toys or not (and with what credit), and no sharing of the PDF. PlanetJune's terms are a good model to read before writing your own.",
+    "Etiquette: publish only original characters, never a studio-owned one. Don't reverse-engineer a living designer's toy into your own pattern, even with different counts. Credit any design reading or technique you learned from a named designer.",
+    "Answer questions kindly and log them. Questions that repeat become errata or a new note in the pattern."
+   ],
+   "drill": [
+    "Write your terms of use (5 to 8 short lines) and add them to the pattern.",
+    "Add the version and date to every page footer and a changelog page at the end.",
+    "Create the Ravelry pattern page: photos, finished size, yarn, hook, skill level, skills list, and the free download. Add an errata section to the page, even if it's empty.",
+    "Optionally, publish on Ribblr as well.",
+    "Share the pattern in two places that welcome free patterns (for example a Ravelry group you take part in, and r/Amigurumi), following each place's rules.",
+    "Set a monthly reminder to check questions and projects, and keep the questions log going."
+   ],
+   "pass": [
+    "The pattern is live and free, with a version number and date on every page.",
+    "An errata section exists on the pattern page and a changelog in the PDF.",
+    "The pattern includes your terms of use and credits.",
+    "The pattern is shared in two places, with links recorded in your binder.",
+    "Within 3 months, at least one project by someone you don't know is linked to the pattern. If none is yet, this check stays open and is checked again in TOY 490; the other checks still pass."
+   ],
+   "wrong": [
+    [
+     "Someone reports an error the day after you publish",
+     "That's what errata are for. Thank them, fix it, publish 1.1, and add the line to the errata list."
+    ],
+    [
+     "No one makes it in the first months",
+     "Free toy patterns often take time to find makers. Share it once more with a new photo, or enter it in a seasonal challenge, and leave it there."
+    ],
+    [
+     "You find a copy of your PDF posted somewhere without permission",
+     "Ask the poster politely to replace it with a link to your page. Keep a dated note of what you asked."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Publishing a pattern with versioning, an errata list and terms of use",
+   "rubric": false,
+   "sources": [
+    "https://www.ravelry.com",
+    "https://ribblr.com/learn/crochet-row-counter",
+    "https://www.plagiarismtoday.com/2014/10/08/copyright-in-knitting-and-crocheting/",
+    "https://www.planetjune.com/terms",
+    "https://www.amigurumi.com/designcontest/"
+   ]
+  }
+ ]
+}

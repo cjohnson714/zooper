@@ -1,0 +1,379 @@
+{
+ "code": "TOY 210",
+ "title": "Faces and character",
+ "year": 2,
+ "track": "toy",
+ "required": true,
+ "hours": 25,
+ "credits": 0.6,
+ "hook": "3.5 mm (or your T101.2 house hook); 2.75 mm for small crocheted eyes",
+ "yarn": "#4 worsted cotton (Lion Brand 24/7 Cotton or similar) in a light skin or fur color, plus black, white and pink yarn or six-strand embroidery floss for features",
+ "level": 3,
+ "prereqs": [
+  "TOY 190"
+ ],
+ "summary": "You learn where a face goes and why, then embroider, sculpt and color faces until you can give a toy the expression you planned.",
+ "intro": "A toy's face is the first thing anyone looks at, and small changes make a big difference. One stitch of eye spacing can turn sweet into startled. In this course you test placement on spare heads, learn embroidery and needle sculpting, try every child-safe eye, and finish with three small characters that each show a different face. You can run it alongside TOY 150. Test heads are practice pieces, so use them freely.",
+ "outcomes": [
+  "You can test eye height, spacing and size with removable eyes, photograph the options the same way, and choose a layout with reasons you measured.",
+  "You can embroider mouths, noses, eyelids and eyebrows with both ends hidden inside the toy.",
+  "You can change an expression on purpose so that other people name it correctly.",
+  "You can needle-sculpt eye sockets and toes that match side to side.",
+  "You can make crocheted, felt and embroidered eyes with matching catchlights, and add blush evenly.",
+  "You can write a face recipe card (rounds, spacing, sizes, methods) and reuse it."
+ ],
+ "assessment": "Each lab passes on its own observable checks. T210.5 produces three small toys scored on the shared toy rubric, and their expressions are checked by three other people. If a check doesn't pass yet, fix one thing and try again. After three tries in one sitting, stop for the day and come back to it fresh.",
+ "reading": "The Essential Guide to Amigurumi (June Gilbank): the sections on eyes, faces and finishing. Keep your TOY 120 notes on safety eyes (T120.4) close by.",
+ "units": [
+  {
+   "id": "T210.1",
+   "origin": "new",
+   "t": "Face study lab: eye placement and spacing",
+   "kind": "lab",
+   "h": 4,
+   "time": "4 to 6 hours over 2 or 3 sessions",
+   "prereq_units": [
+    "1.6",
+    "1.7",
+    "T101.1",
+    "3.1",
+    "3.3",
+    "T120.4"
+   ],
+   "why": "Where the eyes sit decides who the toy is. Testing layouts on a spare head, before anything is fixed, lets you choose the face instead of finding out after the washers are on.",
+   "need": "Worsted cotton in one light color, your house hook, Poly-Fil, a pair of 8 or 9 mm safety eyes (a second size if you have one), 4 stitch markers, a few pins with round colored heads, a ruler, an index card, a phone on a stand or propped on books, a window or lamp for even light.",
+   "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/eyes'>Positioning Amigurumi Eyes</a> and <a href='https://www.planetjune.com/eyeoptions'>Eye Options</a>. Kim Guzman, <a href='https://crochetkim.com/attach-safety-eyes/'>How to Attach Safety Eyes to Your Amigurumi</a> (for how to fit eyes for real, before the piece is closed). Sweet Softies, <a href='https://www.sweetsofties.com/2022/02/amigurumi-face-shaping.html'>Amigurumi Face Shaping</a> as a preview of what T210.3 adds. Left-handed: The Woobles, <a href='https://thewoobles.com/use-safety-eyes'>How to use safety eyes</a> (right- and left-handed versions). The PlanetJune and Sweet Softies pages have no left-handed version; mirror the right-handed steps. Placement itself is the same in either hand.",
+   "key": [
+    "Test before you fix. A safety eye pushed between two stitches without its washer often holds in a firmly stuffed head and pulls out again, so you can try many layouts. Press the post in only as far as it goes by hand.",
+    "Mark the center front of the face with a marker. Put the round-start jog at the back.",
+    "Spacing rule from PlanetJune: put the eye centers at least half the face's width apart. On a 36-stitch head the width across the front is about 11 stitches, so the centers need to be about 6 stitches apart, which is 5 stitches between the posts. Measure it to check.",
+    "Lower, wider-set and larger eyes read as younger and cuter. Eyes too close together read as cross-eyed or worried.",
+    "Proportion is a style choice. Small eyes on a tall body look very different from big eyes on a big head. Neither is wrong.",
+    "Photograph every option the same way: same distance, same light, camera at the toy's eye level. Otherwise you are comparing photos, not faces."
+   ],
+   "drill": [
+    "Test head (36 stitches). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: (sc 4, inc) x6 (36). Rnds 7 to 12: sc around (36), 6 rounds. Rnd 13: (sc 4, dec) x6 (30). Rnd 14: (sc 3, dec) x6 (24). Rnd 15: (sc 2, dec) x6 (18). Stuff firmly. Rnd 16: (sc, dec) x6 (12). Rnd 17: dec x6 (6). Ultimate Finish. Make two of these.",
+    "On each head, clip a marker into the center front stitch of Rnd 10. Turn the head so the jog is at the back.",
+    "Head 1, the grid. Push the two eye posts in (no washers) at each of these 9 layouts: on Rnd 8, Rnd 10 and Rnd 12, each with 4, 6 and then 8 stitches between the posts, centered on the marker.",
+    "Photograph each layout from 30 cm (12 in), camera level with the eyes, with an index card in the shot that says the layout (for example \"R10 / 6\"). That is 9 photos.",
+    "Measure the head's width straight across the front with a ruler, in mm. Halve it. Then, for the Rnd 10 layouts, measure center to center between the eyes at 4, 6 and 8 stitches. Write which spacings meet the half-width rule (halve the width, then compare).",
+    "Head 2, nose height. Set the eyes at Rnd 10 with 6 stitches between. Pin a round-headed pin as a nose at the center front of Rnd 11, then Rnd 12, then Rnd 13. Photograph all three the same way.",
+    "If you have a second eye size, set it at Rnd 10 with 6 stitches between and photograph it next to the first size.",
+    "Put the 9 grid photos on one screen or print. Show them to three people, one at a time, and ask: Which looks youngest? Which looks odd or cross-eyed? Which would you pick for a baby's toy? Tally the answers on your card.",
+    "Write a face recipe card for a 36-stitch head: eye round, stitches between, eye size, nose round. Add one line on why, using your measurements and the tally."
+   ],
+   "pass": [
+    "You have 9 labeled grid photos and 3 nose photos, and the head is the same width in every photo within 5 mm (3/16 in) on screen, so they were taken the same way.",
+    "Your card shows the head width in mm, half of it, and the measured center-to-center distance at 4, 6 and 8 stitches between. Expect 4 to fall short of half the width and 6 and 8 to meet it. If yours differ, write down your numbers.",
+    "Three people's answers are tallied for all three questions.",
+    "Your chosen layout's eye centers are at least half the head width apart, checked with the ruler."
+   ],
+   "wrong": [
+    [
+     "The eyes keep falling out of the head",
+     "The head is stuffed too softly. Add stuffing until the post is gripped, or push the post in at a slight downward angle."
+    ],
+    [
+     "Every photo looks a bit different in size or color",
+     "The phone moved. Mark the phone's spot and the head's spot with tape, and use the same lamp for every photo."
+    ],
+    [
+     "Your three people all disagree",
+     "That's useful data. Note it, then pick the layout that met the spacing rule and got at least one vote for youngest."
+    ],
+    [
+     "The eyes look uneven even at the same round",
+     "The spiral climbs, so a round sits slightly higher at its end. Count stitches from the marker on both sides and check the height with the ruler."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Testing face layouts with removable eyes and comparing them with measurements and consistent photos",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/eyes",
+    "https://www.planetjune.com/eyeoptions",
+    "https://crochetkim.com/attach-safety-eyes/",
+    "https://www.sweetsofties.com/2022/02/amigurumi-face-shaping.html",
+    "https://thewoobles.com/use-safety-eyes"
+   ]
+  },
+  {
+   "id": "T210.2",
+   "origin": "new",
+   "t": "Face embroidery: mouths, noses, eyelids and eyebrows",
+   "kind": "lab",
+   "h": 5,
+   "time": "5 to 7 hours over 3 or 4 sessions",
+   "prereq_units": [
+    "T210.1",
+    "T120.2",
+    "3.3"
+   ],
+   "why": "Embroidery is the safest way to give a toy a face and the easiest way to change its mood. A few straight stitches above an eye can make the same toy happy, sleepy or cross.",
+   "need": "Worsted cotton in a light color, your house hook, Poly-Fil, black and pink yarn or six-strand embroidery floss (use all 6 strands), a sharp doll needle 7.5 to 12.5 cm (3 to 5 in) long, a bent-tip needle, pins, small scissors, your two T210.1 heads and the safety eyes, a ruler, your phone.",
+   "learn": "Free: Nicole Chase, <a href='https://www.thenicolechase.com/blog/embroider-amigurumi'>Embroidering on Amigurumi</a> (the page includes an eyelid video). Jennifer Olivarez (Cut Out + Keep), <a href='https://www.cutoutandkeep.net/projects/amigurumi-faces-using-safety-eyes-and-simple-embroidery'>Faces for Amigurumi Part 1: Safety Eyes and Simple Embroidery</a> and <a href='https://cutoutandkeep.net/projects/how-to-add-faces-to-your-amigurumi-part-3-sleepy-face'>Part 3: Sleepy Face</a>. Stephanie Lau (All About Ami), <a href='https://www.allaboutami.com/amigurumiforbeginners/'>Amigurumi for Beginners</a>, for French-knot eyes and the upside-down V eye. Left-handed: no left-handed version of these embroidery pages; mirror the right-handed steps. Hand sewing works the same in either hand once you pick a direction.",
+   "key": [
+    "Start hidden. Come in from a spot that will be covered or unseen, such as the back of the head, the bottom, or under an ear, and leave a 10 cm (4 in) tail there.",
+    "Finish hidden. Go back into the head and come out far away, pull gently so the end slips inside, and trim close. For extra hold, tie the two tails together at the start spot and tug the knot through into the stuffing.",
+    "Straight stitch makes lines (mouths, brows, lashes). Backstitch makes curves (smiles, closed eyes). Satin stitch fills shapes (noses, eyes). A French knot makes a dot.",
+    "Go between stitches, never through the middle of the yarn. Splitting the yarn makes features wander.",
+    "Count to place. Each feature on the left sits on the same round and the same number of stitches from the center as its partner on the right.",
+    "Eyelid position changes the mood. Test three positions (set back, directly above, set forward) in the drill and note which one reads sleepy, happy or cross to you and to your three viewers.",
+    "Fix one thing and try again. After three tries in one sitting, stop for the day."
+   ],
+   "drill": [
+    "Small head (24 stitches). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnds 5 to 9: sc around (24), 5 rounds. Rnd 10: (sc 2, dec) x6 (18). Rnd 11: (sc, dec) x6 (12). Stuff firmly. Rnd 12: dec x6 (6). Ultimate Finish. Make four of these. Clip a marker into the center front stitch of Rnd 7 on each, with the jog at the back.",
+    "Anchor practice. On the back of one small head, start and finish a short straight stitch 5 times using the hidden start and hidden finish. Tug each end; nothing should come loose.",
+    "Head A, happy. French-knot eyes (wrap 2 times) on Rnd 7 with 4 stitches between them, centered on the marker. A smile on Rnd 9: a curve of 3 backstitches centered under the eyes, its two ends half a round higher than its middle. A nose: a small satin-stitch triangle on Rnd 8, centered, 5 stitches from wide to narrow.",
+    "Head B, sleepy. Closed eyes on Rnd 7, 4 stitches apart: each a downward curve of 2 backstitches spanning 2 stitches. A small mouth: one straight stitch over 1 stitch on Rnd 9.",
+    "Head C, cross. French-knot eyes on Rnd 7, 4 stitches apart. Eyebrows: one straight stitch above each eye, from its outer end on Rnd 5 slanting down to its inner end on Rnd 6. A flat mouth: one straight stitch over 2 stitches on Rnd 9.",
+    "Head D, surprised. Bigger French-knot eyes (wrap 3 times) on Rnd 7, 4 stitches apart. Raised brows: a short curve of 2 backstitches on Rnd 4 above each eye. An O mouth: 4 short backstitches around one stitch on Rnd 9.",
+    "Eyelids. On a T210.1 head, push the safety eyes in (no washers) on Rnd 10 with 6 stitches between. Embroider a straight-stitch eyelid over the top of each eye, set back from the eye by 1 stitch; photograph; snip it out. Repeat with the lid directly above, then set forward. Three labeled photos.",
+    "Line up heads A to D and photograph them together. Show the photo to three people, one at a time, with the words happy, sleepy, cross and surprised written in a shuffled order, and ask them to match each head to a word."
+   ],
+   "pass": [
+    "Each of the three people matches at least 3 of the 4 heads correctly.",
+    "On every head, the left and right features sit on the same round and the same number of stitches from the center (count them).",
+    "The center of each mouth is within 2 mm (1/16 in) of the midpoint between the eyes, measured with a ruler.",
+    "No knot or tail shows on any head, and a fingernail tug on each feature doesn't loosen it.",
+    "You have three labeled eyelid photos (back, above, forward)."
+   ],
+   "wrong": [
+    [
+     "The mouth sits off center",
+     "Mark the midpoint between the eyes with a pin before the first stitch, and count stitches out from it on both sides."
+    ],
+    [
+     "A French knot pulled through to the inside",
+     "Go back in one strand of yarn away from where you came out, never into the same hole. Add a wrap if the knot is still too small."
+    ],
+    [
+     "Lines look wobbly or the yarn twists",
+     "Let the needle hang and untwist every few stitches, and keep each stitch the length of one crochet stitch or less."
+    ],
+    [
+     "The face pulls in and dimples",
+     "Embroidery stitches were pulled too tight. Pull just until the yarn lies flat on the surface."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Face embroidery with hidden ends: straight, back and satin stitch, French knots, eyelids and brows",
+   "rubric": false,
+   "sources": [
+    "https://www.thenicolechase.com/blog/embroider-amigurumi",
+    "https://www.cutoutandkeep.net/projects/amigurumi-faces-using-safety-eyes-and-simple-embroidery",
+    "https://cutoutandkeep.net/projects/how-to-add-faces-to-your-amigurumi-part-3-sleepy-face",
+    "https://www.allaboutami.com/amigurumiforbeginners/"
+   ]
+  },
+  {
+   "id": "T210.3",
+   "origin": "new",
+   "t": "Needle sculpting",
+   "kind": "lab",
+   "h": 4,
+   "time": "4 to 5 hours over 2 or 3 sessions",
+   "prereq_units": [
+    "T210.1",
+    "T210.2",
+    "T120.2",
+    "T120.4",
+    "3.1"
+   ],
+   "why": "Pulling a strand of yarn through a stuffed piece draws the fabric in. That gives eye sockets, cheeks and toes, and it can rescue a shape that came out flat.",
+   "need": "Worsted cotton in one light color, your house hook, Poly-Fil, a pair of 8 or 9 mm safety eyes with washers, a sharp doll needle 12.5 cm (5 in) long, 60 cm (24 in) lengths of matching yarn, your T210.1 face recipe card, a ruler, your phone.",
+   "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/tutorials/needlesculpting'>Amigurumi Finishing Technique: Needlesculpting</a>. Stitches n Scraps, <a href='https://stitchesnscraps.com/tutorial-needle-sculpting-amigurumi-doll-face/'>Needle Sculpting an Amigurumi Doll Face</a>. Sweet Softies, <a href='https://www.sweetsofties.com/2022/02/amigurumi-face-shaping.html'>Amigurumi Face Shaping</a>. Left-handed: no left-handed version of these pages; mirror the right-handed steps.",
+   "key": [
+    "Sculpting yarn goes in and out at points that will be hidden or that sit right where you want a dent. The yarn between them, pulled snug, makes the dent.",
+    "Use matching yarn, so a pass that shows on the surface disappears into the fabric.",
+    "Pull slowly and watch the face from the front. Stop as soon as the dent looks right. Both sides get the same number of passes.",
+    "Firm stuffing gives a clean dent. Soft stuffing gives a crease that drifts.",
+    "Tie the two tails in a double knot where you started, tug the knot inside, and bury both tails before trimming.",
+    "Sculpting can drag safety eyes. Check eye height again afterward."
+   ],
+   "drill": [
+    "Test head (36 stitches). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: (sc 4, inc) x6 (36). Rnds 7 to 12: sc around (36), 6 rounds. Rnd 13: (sc 4, dec) x6 (30). Rnd 14: (sc 3, dec) x6 (24). Rnd 15: (sc 2, dec) x6 (18). Before stuffing, fit the safety eyes on Rnd 10 with 6 stitches between the posts (or your recipe card's layout), washers on. Stuff firmly. Rnd 16: (sc, dec) x6 (12). Rnd 17: dec x6 (6). Ultimate Finish.",
+    "Photograph the head from the front and from the side at 30 cm (12 in) before sculpting.",
+    "Left eye socket. Thread the doll needle with 60 cm (24 in) of matching yarn. Go in at the bottom center (where you closed the head) and leave a 10 cm (4 in) tail. Come out on Rnd 10, 1 stitch from the inner edge of the left eye, on the nose side. Go back in 1 strand over and come out at the bottom, 1 stitch from the tail.",
+    "Pull both tails slowly until a small dent forms beside the eye. Repeat the same pass once more, through the same holes. Tie a double knot at the bottom, tug it inside, bury both tails and trim.",
+    "Right eye socket: the same, mirrored, with the same number of passes and the same pull.",
+    "Photograph the head again from the same two spots.",
+    "Toes. Make a foot: Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnds 3 to 6: sc around (12), 4 rounds. Stuff firmly. Rnd 7: dec x6 (6). Ultimate Finish.",
+    "Hold the foot with the magic ring as the toe end. Count 6 stitches across the top of Rnd 2 and mark the gaps after stitch 2 and after stitch 4. Thread 40 cm (16 in) of matching yarn, go in at the closed (ankle) end, come out at the first mark at the toe end, wrap the yarn over the tip and back in at the closed end. Pull snug. Repeat at the second mark. Knot, tug inside, bury and trim."
+   ],
+   "pass": [
+    "In the before and after photos, both sockets show a dent, and the sculpt points are 1 stitch from each eye on the same round (count them).",
+    "After sculpting, both eyes still sit at the same height within 2 mm (1/16 in), checked with a ruler from the top center of the head.",
+    "No sculpting yarn shows in a photo taken from 30 cm (12 in).",
+    "The three toes are the same width within 2 mm (1/16 in)."
+   ],
+   "wrong": [
+    [
+     "One socket is deeper than the other",
+     "The pulls weren't equal. On the next head, count passes and pull each side while watching both in a mirror. Here, add one gentle pass to the shallow side."
+    ],
+    [
+     "The dent slides away when you let go",
+     "The knot came loose before it was tied, or the stuffing is soft. Hold the tension with a finger while you tie, and stuff firmer next time."
+    ],
+    [
+     "Yarn shows as a line across the face",
+     "The needle came out and went in too far apart. Keep the exit and entry 1 strand apart."
+    ],
+    [
+     "An eye tipped after sculpting",
+     "The pass went too close to the washer. Come out 1 full stitch away from the eye next time."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Needle sculpting eye sockets and toes",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/blog/tutorials/needlesculpting",
+    "https://stitchesnscraps.com/tutorial-needle-sculpting-amigurumi-doll-face/",
+    "https://www.sweetsofties.com/2022/02/amigurumi-face-shaping.html"
+   ]
+  },
+  {
+   "id": "T210.4",
+   "origin": "new",
+   "t": "Felt, crocheted and embroidered eyes, blush and surface color",
+   "kind": "lab",
+   "h": 5,
+   "time": "5 to 7 hours over 3 sessions",
+   "prereq_units": [
+    "T210.2",
+    "T120.2",
+    "T120.4"
+   ],
+   "why": "Toys for babies, toddlers and chewing pets need eyes with no hard parts. These three methods give you a full set of child-safe faces, and a catchlight and a little blush make them look alive.",
+   "need": "Worsted cotton in a light color, your house hook and your 2.75 mm hook, Poly-Fil, black and white felt, black and white sewing thread, a sharp sewing needle, a doll needle, black and white worsted or embroidery floss, small sharp scissors, a ruler, something round to trace (measure it), powder blush or a soft chalk pastel, cotton swabs, a scrap swatch of your toy yarn for testing color.",
+   "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/crocheteyes'>Crocheted Eyes</a>, <a href='https://www.planetjune.com/tinyeyes'>Tiny Yarn Eyes</a> and <a href='https://www.planetjune.com/eyeoptions'>Eye Options</a>. Wendi Gratz (Shiny Happy World), <a href='https://www.shinyhappyworld.com/2013/03/felt-eyes-baby-safe-crochet-amigurumi-how-to.html'>How to add adorable felt eyes to your amigurumi</a>. Jennifer Olivarez (Cut Out + Keep), <a href='https://cutoutandkeep.net/projects/how-to-add-faces-to-your-amigurumi-part-4-crochet-eyes-and-eyelids'>Faces for Amigurumi Part 4: Crochet Eyes and Eyelids</a>. Mari-Liis Lille (Lilleliis), <a href='https://www.lilleliis.com/how-to-blush-doll-cheeks-tutorial/'>How to Blush Doll Cheeks</a>, and Sweet Softies, <a href='https://www.sweetsofties.com/2017/07/adding-blush-to-amigurumi.html'>Adding Blush to Amigurumi</a>. Left-handed: no left-handed version of these pages; crochet the small eye circles with the magic ring you already use, and mirror the sewing steps.",
+   "key": [
+    "A catchlight is a tiny white stitch on each pupil. Put it on the same side of both eyes, as if one light is shining on the face.",
+    "Crocheted eyes: a tiny circle on a smaller hook, sewn on with its own tail around every edge stitch.",
+    "Felt eyes: cut cleanly, then sew all the way around the edge with small stitches about 2 mm (1/16 in) apart so no edge can be lifted or chewed off.",
+    "Embroidered eyes: satin stitches laid side by side in one direction to fill a small oval.",
+    "Blush: test on a swatch first. Pick up a little powder with a dry swab, tap off the extra, and dab in small circles. Build three light layers instead of one heavy one. Blush fades with handling; touch it up later if you like. Blush is a cosmetic powder, so skip it on toys for babies or for pets that chew.",
+    "All three eye types here have no hard parts. Tag those heads child-safe."
+   ],
+   "drill": [
+    "Small head (24 stitches). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnds 5 to 9: sc around (24), 5 rounds. Rnd 10: (sc 2, dec) x6 (18). Rnd 11: (sc, dec) x6 (12). Stuff firmly. Rnd 12: dec x6 (6). Ultimate Finish. Make three of these. Mark the center front of Rnd 7 on each.",
+    "Head 1, crocheted eyes. With black yarn and the 2.75 mm hook: Rnd 1: 6 sc in a magic ring (6). Close the ring tight and finish with an invisible finish. Make two. Sew one to Rnd 7 on each side of center with 4 stitches between their centers, catching every edge stitch. Add a white catchlight: one straight stitch at the upper left of each eye.",
+    "Head 2, felt eyes. Cut two black felt circles 8 mm (5/16 in) across. Pin them on Rnd 7 with 4 stitches between centers. Sew around each edge with black thread, stitches about 2 mm (1/16 in) apart. Add a white catchlight at the upper left of each.",
+    "Head 3, embroidered eyes. On Rnd 7, 4 stitches apart, fill an oval 1 round tall and 1 stitch wide with 4 or 5 black satin stitches side by side. Add a white catchlight at the upper left of each.",
+    "Give each head a small mouth from T210.2 so you can see the whole face.",
+    "Blush test: on your swatch, try one, two and three light layers side by side. Then blush the cheeks of head 2: a circle about 10 mm (3/8 in) across, one round below each eye and one stitch outward.",
+    "Photograph the three heads together from 30 cm (12 in). Tag all three \"no hard parts\"."
+   ],
+   "pass": [
+    "Each pair of eyes matches in diameter within 1 mm (1/32 in), measured with a ruler.",
+    "Running a fingernail around each felt eye lifts no edge.",
+    "In the photo, every catchlight sits on the same side of its eye.",
+    "Both blush circles are the same width within 3 mm (1/8 in), and no fuzz or uneven patch shows in the photo from 30 cm (12 in).",
+    "All three heads are tagged as having no hard parts."
+   ],
+   "wrong": [
+    [
+     "The felt circles are jagged",
+     "Cut slowly with small sharp scissors, turning the felt, not the scissors. Trace around something round first."
+    ],
+    [
+     "The crocheted eye has a hole in the middle",
+     "The ring wasn't pulled tight. Pull the tail firmly before the invisible finish, and sew the tail through the center once."
+    ],
+    [
+     "The blush is blotchy",
+     "Too much powder on the swab. Tap it off on a tissue first, and build up in layers."
+    ],
+    [
+     "The catchlights point different ways",
+     "Decide on one light direction before you start, and mark it on your card."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Crocheted, felt and embroidered eyes with catchlights, and blush",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/crocheteyes",
+    "https://www.planetjune.com/tinyeyes",
+    "https://www.planetjune.com/eyeoptions",
+    "https://www.shinyhappyworld.com/2013/03/felt-eyes-baby-safe-crochet-amigurumi-how-to.html",
+    "https://cutoutandkeep.net/projects/how-to-add-faces-to-your-amigurumi-part-4-crochet-eyes-and-eyelids",
+    "https://www.lilleliis.com/how-to-blush-doll-cheeks-tutorial/",
+    "https://www.sweetsofties.com/2017/07/adding-blush-to-amigurumi.html"
+   ]
+  },
+  {
+   "id": "T210.5",
+   "origin": "new",
+   "t": "Three characters: ball pals with three faces",
+   "kind": "project",
+   "h": 7,
+   "time": "7 to 10 hours over 4 sessions, about 2 to 3 hours per toy",
+   "prereq_units": [
+    "T210.1",
+    "T210.2",
+    "T210.3",
+    "T210.4",
+    "3.1",
+    "3.3",
+    "T120.2",
+    "T120.4"
+   ],
+   "why": "Using everything on three toys at once shows how much the face alone decides the character. The recipe cards you keep become your face library for every toy after this.",
+   "need": "Worsted cotton in three toy colors, your house hook and 2.75 mm hook, Poly-Fil, one pair of 8 or 9 mm safety eyes, black and white felt, black, white and pink yarn or floss, blush, a doll needle, a bent-tip needle, your T120.4 luggage scale and sling, your recipe cards, the toy rubric.",
+   "learn": "No new technique. Look back at T210.1 to T210.4 as needed. If a ball comes out lumpy, use June Gilbank's (PlanetJune) <a href='https://www.planetjune.com/blog/amigurumi-troubleshooter/'>Amigurumi Troubleshooter</a> and <a href='https://www.planetjune.com/finish'>The Ultimate Finish</a>. Left-handed: the Ultimate Finish page has a left-handed video; the Troubleshooter has no left-handed version, so mirror the right-handed steps.",
+   "key": [
+    "One body, three characters. Only the face and ears change.",
+    "Plan each face on a recipe card first: eye method, eye round, stitches between, mouth, extras.",
+    "Fit safety eyes before you close a ball. Felt, crocheted and embroidered eyes go on after.",
+    "On a 30-stitch ball the width across the front is about 9 to 10 stitches, so the eye centers need to be about 5 stitches apart (4 between). 5 stitches between the posts gives a little room. Measure to check.",
+    "This is a comfort project. Choose characters you like."
+   ],
+   "drill": [
+    "Ball pal (make three). Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnds 6 to 11: sc around (30), 6 rounds. Rnd 12: (sc 3, dec) x6 (24). Rnd 13: (sc 2, dec) x6 (18). Rnd 14: (sc, dec) x6 (12). Rnd 15: dec x6 (6). Ultimate Finish.",
+    "Ears, pick one style per pal. Round ears: Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Fasten off with a 30 cm (12 in) tail; sew cupped. Pointed ears: the T120.2 cone through its Rnd 6 (12), unstuffed, flattened. Long ears: Rnd 1: 6 sc in a magic ring (6). Rnd 2: (sc, inc) x3 (9). Rnds 3 to 10: sc around (9), 8 rounds; flatten unstuffed and sew the opening flat.",
+    "Pal 1 (ages 3 and up). Fit safety eyes on Rnd 9 with 5 stitches between the posts before Rnd 12. Close. Embroider eyelids set directly above the eyes (happy), a mouth, and blush.",
+    "Pal 2 (child-safe). Close the ball. Sew on 8 mm (5/16 in) felt eyes on Rnd 9, 5 stitches between centers, with catchlights. Embroider a mouth and nose. Tag it \"no hard parts\".",
+    "Pal 3 (child-safe). Close the ball. Needle-sculpt two shallow sockets on Rnd 9, 5 stitches apart. Sew crocheted eyes into the sockets with catchlights. Pick an expression from T210.2 and embroider it. Tag it \"no hard parts\".",
+    "Pin the ears, check from the front and the side, then sew them on with the open-to-closed join from 3.3 or a whipstitch.",
+    "Tug test (T120.4): each ear at 15 lbf (6.8 kg) for 10 seconds.",
+    "Photograph the three pals together from 30 cm (12 in). Show the photo to three people and ask each to describe each pal in one word. Write the words down.",
+    "Score each pal on the toy rubric. Fill in a recipe card for each."
+   ],
+   "pass": [
+    "Each pal's eyes sit on the same round within 2 mm (1/16 in) of each other in height, with the planned number of stitches between them.",
+    "Every ear holds 15 lbf (6.8 kg) for 10 seconds with no gap wider than 1 mm (1/32 in).",
+    "Pals 2 and 3 have no hard parts and are tagged.",
+    "Three people's one-word descriptions are written down, and at least two of the three people use three different words for the three pals.",
+    "All three pals are scored on the toy rubric, and three recipe cards are filled in."
+   ],
+   "wrong": [
+    [
+     "Two pals look the same",
+     "The faces were too similar. Change one big thing on the next one: eye size, eye height or eyelid position."
+    ],
+    [
+     "Felt or crocheted eyes look stuck on top",
+     "Sculpt a shallow socket first or sew the edge stitches snugger so the eye sits into the fabric."
+    ],
+    [
+     "The ears lean or point different ways",
+     "Pin both ears, then look from above before sewing. Count stitches from the center on each side."
+    ],
+    [
+     "A ball is lumpy",
+     "Fluff the stuffing into wisps and use pinch-and-push. Make the next one with this fixed; this pal is still a finished toy."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "None (combines T210.1 to T210.4)",
+   "rubric": true,
+   "sources": [
+    "https://www.planetjune.com/blog/amigurumi-troubleshooter/",
+    "https://www.planetjune.com/finish"
+   ]
+  }
+ ]
+}

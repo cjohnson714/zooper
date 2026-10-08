@@ -1,0 +1,369 @@
+{
+ "code": "TOY 310",
+ "title": "Dolls and dressing",
+ "year": 3,
+ "track": "toy",
+ "required": true,
+ "hours": 50,
+ "credits": 1.1,
+ "hook": "your house hook (3.5 mm for worsted cotton); the hook your clothing swatch chooses in T310.3",
+ "yarn": "#4 worsted cotton (Lion Brand 24/7 Cotton) in a skin tone, a hair color, two clothing colors and two contrast colors for colorwork",
+ "level": 3,
+ "prereqs": [
+  "TOY 290"
+ ],
+ "summary": "You build a doll from legs up, give it hair two ways, fit it with removable clothes, draw pictures into a toy with color, and learn to read the charts Japanese amigurumi books use.",
+ "intro": "A doll asks for everything you've learned so far plus proportion: legs joined into a body, a neck that holds the head, clothes that fit a body you measured. You make one base doll in T310.1 and keep working on it through hair and clothes, so by T310.3 you have a dressed doll you designed the fit for. T310.4 and T310.5 open two more doors: color pictures worked into a toy, and the charted patterns of the Japanese amigurumi tradition.",
+ "outcomes": [
+  "You can join two legs into one body round and close the gap neatly.",
+  "You can make a head and neck that stay upright without a support.",
+  "You can add doll hair by rooting strands and by crocheting into a wig cap's free loops.",
+  "You can measure a toy and crochet removable clothes to fit it, using your own gauge.",
+  "You can work a small picture into a toy with tapestry crochet or floats inside, and measure the spiral's drift.",
+  "You can read a Japanese amigurumi round table and symbol chart and turn them into US round notation."
+ ],
+ "assessment": "Each unit passes on its own checks. The doll is scored on the shared toy rubric in T310.1 and again with hair in T310.2 (8 lines, 0 to 2 each; a toy passes at 12 of 16 with no 0 for Safety). The clothes pass on fit measurements. A check that doesn't pass yet gets one note and one change on the next piece. After three tries in one sitting, stop for the day. Finished pieces are kept as they are.",
+ "reading": "The Essential Guide to Amigurumi (June Gilbank): reread the Stuffing, Assembly and Finishing part before T310.1 and the Changing Colour part before T310.4. Before T310.5, reread your notes from FND unit 2.8 (symbol charts).",
+ "units": [
+  {
+   "id": "T310.1",
+   "origin": "new",
+   "t": "Doll construction: the base doll",
+   "kind": "project",
+   "h": 14,
+   "time": "about 14 hours over 2 to 3 weeks",
+   "prereq_units": [
+    "T290.1",
+    "T230.1",
+    "3.3",
+    "T120.4",
+    "T210.1",
+    "T210.2"
+   ],
+   "why": "A doll's body is the frame for hair, clothes and later joints and wire. Building it from legs up, with the head worked straight on from the neck, gives you a sturdy base you understand stitch by stitch, so you can fit clothes to it and change it later.",
+   "need": "Worsted cotton in a skin tone (less than one skein), a small amount in a shoe color and a body or outfit color, your house hook, 6 stitch markers, Poly-Fil, a bent-tip needle, eyes chosen from your T210 face study (embroidery floss or safety eyes; embroidered for a child under 3), a ruler with mm, a luggage scale and your tally card.",
+   "learn": "This unit gives its own pattern for the base doll (below). For joining the legs: Jenny and Teddy, <a href='https://www.jennyandteddy.com/how-to-joining-legs-amigurumi-dolls/'>How to Join Legs for Amigurumi Dolls</a>, and Crochet 365 Knit Too, <a href='https://www.crochet365knittoo.com/joining-amigurumi-limbs-an-easy-technique/'>Joining Amigurumi Limbs: An Easy Technique</a>. Paid, if you'd like a whole class on doll bodies: Olga Bortniak, <a href='https://www.skillshare.com/en/classes/crochet-your-unique-character-basic-amigurumi-dolls-body/10712619'>Crochet Your Unique Character: Basic Amigurumi Doll's Body</a> (Skillshare subscription; price not confirmed, as of Oct 2026). Left-handed: no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Legs first: make two, fasten off the first, and keep the second on the hook. A chain between them becomes the crotch, and the next round goes around both legs and both sides of the chain.",
+    "Before joining, turn both legs so their round starts face the inside of the legs. Then the jogs hide between the legs, and the feet point the same way.",
+    "Stuff each leg firmly before joining. Keep stuffing the body every few rounds; the neck needs the firmest stuffing of all.",
+    "Working the head straight on from the neck makes a doll that holds its head up without sewing or a support. A sewn-on head on a narrow neck tends to wobble.",
+    "The 3-chain crotch leaves a small gap. Close it from outside with the leg tail before stuffing the body.",
+    "Height in 24/7 Cotton on 3.5 mm comes out around 14 to 18 cm (5.5 to 7 in). That is an estimate; your own height is what you record and fit clothes to."
+   ],
+   "drill": [
+    "Legs (make 2). In the shoe color: Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnds 3 to 4: sc 12 (12). Change to skin or outfit color. Rnd 5: (sc 2, dec) x3 (9). Rnds 6 to 12: sc 9 (9). Stuff firmly. Fasten off the first leg with a 20 cm (8 in) tail. Keep the second on the hook.",
+    "Join, Rnd 13: ch 3 from leg 2. Sc into the inner stitch of leg 1, sc 8 more around leg 1, sc 3 along the chain, sc 9 around leg 2, sc 3 along the other side of the chain (24). Place the round-start marker in the first sc on leg 1. Close the crotch gap with leg 1's tail.",
+    "Body: Rnds 14 to 17: sc 24 (24). Rnd 18: (sc 6, dec) x3 (21). Rnds 19 to 20: sc 21 (21). Rnd 21: (sc 5, dec) x3 (18). Rnds 22 to 23: sc 18 (18). Rnd 24: (sc 4, dec) x3 (15). Rnd 25: sc 15 (15). Rnd 26: (sc 3, dec) x3 (12). Rnd 27: sc 12 (12), the neck. Stuff the body and neck very firmly.",
+    "Head, worked on from the neck in skin color: Rnd 28: (sc, inc) x6 (18). Rnd 29: sc, inc, (sc 2, inc) x5, sc (24). Rnd 30: (sc 3, inc) x6 (30). Rnd 31: sc 2, inc, (sc 4, inc) x5, sc 2 (36). Rnd 32: (sc 5, inc) x6 (42). Rnds 33 to 41: sc 42 (42). Rnd 42: (sc 5, dec) x6 (36). Rnd 43: sc 2, dec, (sc 4, dec) x5, sc 2 (30).",
+    "Face: before Rnd 44, place the eyes on the rounds and spacing your T210.1 study chose (a common start is Rnd 36, 6 stitches apart, centered over the front of the legs). Embroider or fit them now while you can reach inside. Stuff the head as you go.",
+    "Close the head: Rnd 44: (sc 3, dec) x6 (24). Rnd 45: sc, dec, (sc 2, dec) x5, sc (18). Rnd 46: (sc, dec) x6 (12). Rnd 47: dec x6 (6). Ultimate Finish.",
+    "Arms (make 2). In skin color: Rnd 1: magic ring, 6 sc (6). Rnd 2: (sc, inc) x3 (9). Rnds 3 to 5: sc 9 (9). Rnd 6: dec, sc 7 (8). Rnds 7 to 16: sc 8 (8). Stuff the hand lightly and the arm more lightly. Flatten the top and sc 4 through both layers. Fasten off with a 25 cm (10 in) tail.",
+    "Pin the arms to the sides at Rnds 25 to 26, check them from the front and the back, and sew them on.",
+    "Add any mouth or blush from TOY 210. Measure the doll's height, the two legs' lengths and the two arms' lengths in mm.",
+    "Finishing ritual: daylight photo front and side, binder label (yarn, hook, date, 'base doll, TOY 310'), and one line on what you'd change in the proportions for your own doll later."
+   ],
+   "pass": [
+    "Your tally card has a count for every round of every part, matching the pattern above.",
+    "The two legs match in length within 2 mm (1/16 in), and so do the two arms.",
+    "Held by the body with the doll lying flat on its back across your palm, the head stays in line with the body and droops no more than 1 cm (3/8 in) after 5 seconds.",
+    "No gap at the crotch shows light through it at 30 cm (12 in) in daylight.",
+    "Each arm holds 15 lbf (6.8 kg) for 10 seconds on the luggage scale with no gap in the seam wider than 1 mm (1/32 in). This is a home target, not certification. Safety eyes pass the T120.4 twist and pull.",
+    "The doll is scored on the toy rubric."
+   ],
+   "wrong": [
+    [
+     "The feet point in different directions",
+     "The legs were joined with their round starts on different sides. On the next doll, line up both round starts on the inside before Rnd 13. This doll can wear trousers or a long skirt."
+    ],
+    [
+     "The head wobbles or tips",
+     "The neck needs more stuffing. Push small bits up through the head opening before Rnd 44 on the next one; on this one, a few stitches from the back of the head into the body steady it."
+    ],
+    [
+     "Rnd 13's count comes out at 23 or 25",
+     "One chain stitch was skipped or worked twice. Count 9 on each leg and 3 on each side of the chain, and mark the chain's ends before you start the round."
+    ],
+    [
+     "The body leans slightly",
+     "The spiral drifts about one stitch every five rounds. Leave it; clothes hide it, and on your own designs you can stagger the decreases."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Doll construction: legs joined into one body and a head worked on from the neck",
+   "rubric": true,
+   "sources": [
+    "https://www.jennyandteddy.com/how-to-joining-legs-amigurumi-dolls/",
+    "https://www.crochet365knittoo.com/joining-amigurumi-limbs-an-easy-technique/",
+    "https://www.skillshare.com/en/classes/crochet-your-unique-character-basic-amigurumi-dolls-body/10712619"
+   ]
+  },
+  {
+   "id": "T310.2",
+   "origin": "new",
+   "t": "Doll hair: rooted strands and a curly wig cap",
+   "kind": "lab",
+   "h": 10,
+   "time": "about 10 hours over 4 to 6 sessions",
+   "prereq_units": [
+    "T310.1",
+    "T220.1",
+    "T230.1"
+   ],
+   "why": "Hair carries much of a doll's character, and it is where many dolls look homemade. Two methods give you a range: rooted strands for long, loose hair, and a crocheted wig cap with curls that can't pull loose, which is the better choice for a young child's doll.",
+   "need": "Your base doll; worsted cotton in skin tone and in a hair color (about one skein of hair color for both methods); your house hook and a hook about 0.5 mm smaller for rooting (3.0 mm, or your 2.75 mm); stitch markers; Poly-Fil; a sharp needle; a ruler with mm; a piece of card 15 cm (6 in) wide for cutting strands; sharp scissors; a luggage scale.",
+   "learn": "Free first choice: Stitches n Scraps, <a href='https://stitchesnscraps.com/tutorial-amigurumi-doll-hair/'>Adding Hair to an Amigurumi Doll</a> (rooting strands, including into front loops left by a back-loop round). Then Sweet Softies, <a href='https://www.sweetsofties.com/2021/05/amigurumi-hair.html'>Amigurumi Hair</a>, and Wendi Gratz (Shiny Happy World), <a href='https://www.shinyhappyworld.com/2013/01/how-to-add-yarn-hair-to-amigurumi-tutorial.html'>How to Add Yarn Hair to Amigurumi</a>. Paid, if you'd like a full course on doll hair and accessories: Leire Villar (Ameskeria), <a href='https://www.domestika.org/en/courses/2079-amigurumi-design-clothing-hair-and-accessories'>Amigurumi Design: Clothing, Hair and Accessories</a> on Domestika (intermediate, English audio; price not confirmed, as of Oct 2026). Left-handed: no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Rooting: fold a strand in half, push the hook under a stitch from top to bottom, catch the fold and pull a loop through, then pull both ends through the loop and snug it. One strand per stitch along the hairline; every other stitch is enough farther up.",
+    "Wind strands around a card to cut them all the same length. A 30 cm (12 in) strand gives 15 cm (6 in) hair once folded.",
+    "Rooted strands can be pulled loose. For a child under 3, use the wig cap method, and sew its edge on firmly.",
+    "A wig cap is a crocheted hemisphere the size of the head, sewn on. Working its rounds in back loops only leaves the front loops free, and you can crochet curls or root strands into them.",
+    "Make the cap in the hair color so any gaps between curls read as hair.",
+    "Trim long hair last, with the doll held upright, and in small snips."
+   ],
+   "drill": [
+    "Practice head: make the 42-stitch sphere from T230.1 in skin color and stuff it firmly. It can become a second doll later.",
+    "Cut 108 strands of 30 cm (12 in), about 32 m (35 yd) in all, wound on the card.",
+    "Root the practice head. On Rnd 12, one strand in each stitch across the sides and back, leaving the front 12 stitches bare for the face (30 strands). Then one strand in every other stitch on Rnd 10 (21), Rnd 8 (21), Rnd 6 (18), Rnd 4 (12) and Rnd 2 (6). That's 108.",
+    "Wig cap for the base doll, in the hair color, working Rnds 2 to 10 in back loops only: Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: sc, inc, (sc 2, inc) x5, sc (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: sc 2, inc, (sc 4, inc) x5, sc 2 (36). Rnd 7: (sc 5, inc) x6 (42). Rnds 8 to 10: sc 42 (42). The cap's edge then sits about 3 rounds above the eyes you placed on Rnd 36 of the doll's head.",
+    "Back flap, in both loops: try the cap on, mark the center front, and move to the first of the 21 stitches opposite it. Row 1: sc 21, ch 1, turn. Rows 2 to 3: sc 21, ch 1, turn (21). Fasten off with a 60 cm (24 in) tail.",
+    "Curls in the free front loops of Rnds 5, 7 and 9. Join with a sl st in a front loop. Repeat around each of those rounds: ch 9, 2 sc in the 2nd ch from the hook and in each ch across (16 sc), sl st in the same front loop, sl st in the next front loop. That is 15 curls on Rnd 5 (30 loops) and 21 on each of Rnds 7 and 9 (42 loops): 57 curls.",
+    "Pin the cap on the doll and sew its edge to the head with the tail, one stitch into every cap stitch and every row end of the flap.",
+    "Trim the practice head's hair to an even length or a style you like. Score the doll on the toy rubric with its hair."
+   ],
+   "pass": [
+    "The practice head has 108 rooted strands; pulling any 5 strands from different places with 1 lbf (0.45 kg) on the luggage scale moves none of them out.",
+    "The cap's tally card shows 6, 12, 18, 24, 30, 36, 42, then 42 for Rnds 8 to 10, and 21 for each flap row.",
+    "The cap sits on the head with no gap between cap edge and head wider than 2 mm (1/16 in) at any point.",
+    "The sewn cap holds 15 lbf (6.8 kg) for 10 seconds at the front, side and back edges, with no stitch giving way. This is a home target, not certification.",
+    "Seen from the top at 30 cm (12 in), no bare cap shows between the curls on Rnds 5 to 9.",
+    "The doll with hair is scored on the toy rubric."
+   ],
+   "wrong": [
+    [
+     "Rooted strands slide out",
+     "Snug each loop down firmly and root under the whole stitch, not one loop. Use a hook 0.5 mm smaller so the strand fills the hole."
+    ],
+    [
+     "The cap is too tight to reach the head's widest point",
+     "Your cap tension is tighter than the head's. Make the next cap with a hook 0.5 mm larger; keep this one for a smaller doll."
+    ],
+    [
+     "Curls twist into a tangle",
+     "Pull each curl straight down after making it and let it spring back. Tighter chains make tighter curls; looser make softer ones."
+    ],
+    [
+     "Hand fatigue during the 57 curls",
+     "Make curls in sets of 10, with a pause between sets. Spread them over two or three sessions."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Doll hair by rooting and by crocheting into free loops of a wig cap",
+   "rubric": true,
+   "sources": [
+    "https://stitchesnscraps.com/tutorial-amigurumi-doll-hair/",
+    "https://www.sweetsofties.com/2021/05/amigurumi-hair.html",
+    "https://www.shinyhappyworld.com/2013/01/how-to-add-yarn-hair-to-amigurumi-tutorial.html",
+    "https://www.domestika.org/en/courses/2079-amigurumi-design-clothing-hair-and-accessories"
+   ]
+  },
+  {
+   "id": "T310.3",
+   "origin": "new",
+   "t": "Removable clothes fitted to the doll",
+   "kind": "project",
+   "h": 12,
+   "time": "about 12 hours over 2 to 3 weeks",
+   "prereq_units": [
+    "T310.2",
+    "1.2",
+    "1.9",
+    "2.10",
+    "2.11"
+   ],
+   "why": "Clothes are where your flat fundamentals meet your toys. Fitting a garment to a body you measured is the same thinking as designing a toy part, and a doll with a small wardrobe is one of the most loved toys you can make.",
+   "need": "Your base doll with hair; worsted cotton in two clothing colors; your house hook; a soft tape measure; a ruler with mm; stitch markers; a needle; your gauge notes from FND unit 1.9; a calculator.",
+   "learn": "This unit gives its own fitted skirt and top (below). For more free patterns to try afterward: The Loopy Lamb, <a href='https://theloopylamb.com/easy-free-crochet-doll-clothes-patterns-tutorials/'>Easy Free Crochet Doll Clothes Patterns and Tutorials</a> (a roundup; check each pattern's fit against your doll). Paid options, only if dressing dolls becomes a favorite: Leire Villar (Ameskeria), <a href='https://www.domestika.org/en/courses/2079-amigurumi-design-clothing-hair-and-accessories'>Amigurumi Design: Clothing, Hair and Accessories</a> on Domestika (price not confirmed, as of Oct 2026), and Miya, <a href='https://tuttlepublishing.com/other/crochet-cute-dolls-with-adorable-mix-and-match-outfits'>Crochet Cute Dolls with Mix-and-Match Outfits</a> (Tuttle; 63 wardrobe pieces; price not confirmed, as of Oct 2026). Left-handed: no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Measure the body where the garment sits, then add ease: about 1 cm (3/8 in) for a skirt waist, 2 cm (3/4 in) for a top that overlaps at the back.",
+    "Stitches per cm comes from a swatch in the clothing yarn and stitch. Stitches needed = measurement in cm x stitches per cm. Round to a whole stitch.",
+    "A garment has to get on and off. A skirt goes on over the feet; a top that can't pass over the head opens at the back and closes with ties.",
+    "Ties are safer than buttons or snaps on a child's toy. Keep each tie 15 cm (6 in) or shorter.",
+    "Joined rounds of hdc: ch 2 at the start (it doesn't count as a stitch) and sl st to the first hdc at the end. Joined rounds make a straight hem; a spiral would leave a step."
+   ],
+   "drill": [
+    "Swatch: in the clothing yarn and your house hook, ch 22 and work 8 rows of hdc. Count the hdc in 5 cm (2 in) at the center and divide by 5. That's G, stitches per cm. Write it.",
+    "Measure the doll around the hips at Rnd 14 (H, in cm) and around the chest under the arms (C, in cm).",
+    "Skirt size: N = H x G, rounded to a whole number, plus 2. Example: H = 8 cm, G = 1.8. 8 x 1.8 = 14.4, rounds to 14, plus 2 makes N = 16.",
+    "Skirt: ch N, sl st to the first ch to join without twisting. Rnd 1: ch 2, hdc in each ch, sl st to first hdc (N). Rnd 2: increase 6 evenly; for N = 16 that is ch 2, (hdc, 2 hdc in next) x6, hdc 4 (22). Rnd 3: increase 6 evenly again; for 22 that is ch 2, (hdc 2, 2 hdc in next) x6, hdc 4 (28). Rnds 4 to 6: hdc around (28). Rnd 7: sc around. Fasten off. Write your own N and each round's count.",
+    "Top size: W = (C + 2) x G, rounded. Example: C = 6 cm. 8 x 1.8 = 14.4, so W = 14.",
+    "Top, worked flat: ch W + 2. Row 1: hdc in the 3rd ch from the hook and each ch across (W). Rows 2 to 5: ch 2 (doesn't count), turn, hdc across (W). Edge the whole piece with one round of sc, 3 sc in each corner (FND 2.11).",
+    "Straps: wrap the top around the doll with the opening at the back. Mark where each arm meets the top edge, front and back. Chain a strap long enough to go from the front mark over the shoulder to the back mark. Make the second strap with the same number of chains. Sew both ends of each strap on (FND 2.10).",
+    "Ties: join yarn at each top back corner, ch 25, fasten off and knot the end. Measure each; trim the chain if it's longer than 15 cm (6 in).",
+    "Dress the doll, undress it, and dress it again. Finishing ritual: daylight photo dressed, binder label with H, C, G, N and W, and one line on what you'd change in the next garment."
+   ],
+   "pass": [
+    "Your log shows G, H, C, N, W and the count for every round and row, and the arithmetic checks.",
+    "The skirt goes on over the feet and comes off again in under 30 seconds each way, without forcing.",
+    "Worn at the waist, the gap between the skirt's top edge and the body is 1 cm (3/8 in) or less at every point.",
+    "Tied, the top's back edges overlap by 1 to 2.5 cm (3/8 to 1 in).",
+    "Tilted 45 degrees to each side, the straps stay on the shoulders.",
+    "Each tie measures 15 cm (6 in) or less."
+   ],
+   "wrong": [
+    [
+     "The skirt won't pass the hips",
+     "Your skirt came out tighter than your swatch. Add 3 stitches to N on the next skirt. Keep this one; it may fit a slimmer doll later."
+    ],
+    [
+     "The skirt slides down to the feet",
+     "N was too large. Take 2 stitches off N next time, or thread a chain through Rnd 1 as a drawstring tie of 15 cm (6 in) or less."
+    ],
+    [
+     "The top's back edges don't meet",
+     "C was measured too loosely or over the arms. Measure under the arms, snug but not tight, and add 2 cm."
+    ],
+    [
+     "The straps slip off",
+     "Move the strap ends 1 or 2 stitches toward the neck on both front and back."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Removable clothes fitted to a measured toy",
+   "rubric": false,
+   "sources": [
+    "https://theloopylamb.com/easy-free-crochet-doll-clothes-patterns-tutorials/",
+    "https://www.domestika.org/en/courses/2079-amigurumi-design-clothing-hair-and-accessories",
+    "https://tuttlepublishing.com/other/crochet-cute-dolls-with-adorable-mix-and-match-outfits"
+   ]
+  },
+  {
+   "id": "T310.4",
+   "origin": "new",
+   "t": "Tapestry and floats in the round: pictures on a toy",
+   "kind": "lab",
+   "h": 8,
+   "time": "about 8 hours over 4 sessions",
+   "prereq_units": [
+    "T120.3",
+    "T230.1"
+   ],
+   "why": "Color worked into the fabric gives a toy markings, a heart on a chest or a patch on a belly without sewing anything on. Knowing how the spiral pulls a picture sideways lets you choose the method and plan for the drift.",
+   "need": "Worsted cotton in two strongly contrasting colors (A, the main color, a little darker than B helps hide carried B), your house hook, stitch markers in two colors, Poly-Fil, a bent-tip needle, a pencil and squared paper, a ruler with mm.",
+   "learn": "Free first choice: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/?p=15898'>A Colour Changing Crochet Investigation</a>, which measures how much a picture drifts in a spiral. Then Dedri Uys (Look At What I Made), <a href='https://lookatwhatimade.net/crafts/yarn/crochet/crochet-tutorials/how-to-crochet-tapestry-crochet-in-rounds/'>How to Crochet Tapestry Crochet in Rounds</a>, which teaches carrying the yarn in rounds. Left-handed: no left-handed version; mirror the right-handed steps. (Left-handers' pictures slant the other way.)",
+   "key": [
+    "Tapestry: carry the unused color along the top of the previous round and work over it, so it travels inside the stitches. It's the sturdiest method, and the carried color can peek through.",
+    "Floats inside: leave the unused color hanging inside the piece and carry it loosely across the inside to where it's next needed. In a toy the inside is hidden, so the floats never show. Keep each float to 7 stitches or fewer so stuffing doesn't catch it.",
+    "True intarsia, with a separate ball for each color area, works best in flat rows. In a spiral the yarn always ends on the wrong edge of the patch, so toymakers use floats inside for small repeated motifs, as in the three-heart band here.",
+    "Change color on the last pull-through of the stitch before, as in T120.3.",
+    "A plain spiral drifts about one stitch every five rounds. With tapestry it drifts faster, about one stitch every two rounds (PlanetJune's measurement). Patterns designed for tapestry shift each chart row back to compensate.",
+    "Draw the chart before you start. Each square is one stitch; each row is one round, read from bottom to top."
+   ],
+   "drill": [
+    "Draw the heart on squared paper, 7 stitches wide, bottom to top. Row 1: 1 square at the center. Row 2: 3. Row 3: 5. Rows 4 and 5: 7. Row 6: 3, a gap of 1, 3.",
+    "Cylinder in A: Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: sc, inc, (sc 2, inc) x5, sc (24). Rnd 5: (sc 3, inc) x6 (30). Rnds 6 to 7: sc 30 (30).",
+    "Heart 1 in tapestry, carrying B around the whole round: Rnd 8: 14 A, 1 B, 15 A. Rnd 9: 13 A, 3 B, 14 A. Rnd 10: 12 A, 5 B, 13 A. Rnd 11: 11 A, 7 B, 12 A. Rnd 12: 11 A, 7 B, 12 A. Rnd 13: 11 A, 3 B, 1 A, 3 B, 12 A. Each round is 30. Cut B and tie it to A's tail inside.",
+    "Rnds 14 to 16: sc 30 in A.",
+    "Hearts 2 with floats inside: three hearts around the tube, one per 10 stitches, with B and A carried loosely along the inside. Rnd 17: (5 A, 1 B, 4 A) x3. Rnd 18: (4 A, 3 B, 3 A) x3. Rnd 19: (3 A, 5 B, 2 A) x3. Rnds 20 and 21: (2 A, 7 B, 1 A) x3. Rnd 22: (2 A, 3 B, 1 A, 3 B, 1 A) x3. Each round is 30, and no float is longer than 7 stitches. Keep every float loose enough that the fabric lies flat.",
+    "Rnds 23 to 24: sc 30 in A. Stuff as you close: Rnd 25: (sc 3, dec) x6 (24). Rnd 26: sc, dec, (sc 2, dec) x5, sc (18). Rnd 27: (sc, dec) x6 (12). Rnd 28: dec x6 (6). Ultimate Finish.",
+    "For one heart of each group, count how many stitches sideways the top notch sits from the bottom point. Write both numbers.",
+    "At 30 cm (12 in) in daylight, count the places where B shows through A on Rnds 8 to 13 outside heart 1."
+   ],
+   "pass": [
+    "Your tally card shows 30 for every round from 5 to 24, and each heart round's A and B counts match the chart.",
+    "The drift for heart 1 and for one of the three hearts is written down in stitches, and your log names the method that drifted less.",
+    "B shows through A in no more than 5 places outside heart 1 at 30 cm (12 in).",
+    "Squeezed gently, the fabric at the back of the three hearts lies flat, with no float pulling a pucker.",
+    "Passed cold: in a later session, chart a 5-stitch-wide star or initial on squared paper and work it on a 30-stitch swatch tube with the method you prefer."
+   ],
+   "wrong": [
+    [
+     "The heart looks squashed or slanted",
+     "That is the drift. On the next motif, shift each chart row one stitch back every two rounds, against the slant."
+    ],
+    [
+     "B shows through A all along the round",
+     "Carry B only across the heart and a few stitches either side, or switch to floats inside. Keep B's carry on the inside edge of the stitch."
+    ],
+    [
+     "The yarns twist into a rope",
+     "Turn the work one way after each change and the other way after the next, or let the balls hang and untwist every round."
+    ],
+    [
+     "A float puckers the fabric",
+     "It's too tight. Spread the stitches on the hook before you change color, so the float spans the full width."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Tapestry crochet and floats inside a toy, and measuring spiral drift",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/blog/?p=15898",
+    "https://lookatwhatimade.net/crafts/yarn/crochet/crochet-tutorials/how-to-crochet-tapestry-crochet-in-rounds/"
+   ]
+  },
+  {
+   "id": "T310.5",
+   "origin": "new",
+   "t": "Reading charted and Japanese amigurumi diagrams",
+   "kind": "lab",
+   "h": 6,
+   "time": "about 6 hours over 3 sessions",
+   "prereq_units": [
+    "2.8",
+    "T101.1",
+    "1.2",
+    "T230.1"
+   ],
+   "why": "Japanese amigurumi books, one of the richest traditions in the craft, write their patterns almost entirely as round tables and symbol charts. Once you can read them, the language of the book stops mattering, and a chart shows at a glance where every increase sits.",
+   "need": "Squared or plain paper and a pencil, a compass or a round lid for drawing circles, worsted cotton in one light color, your house hook, stitch markers, Poly-Fil, your 2.8 chart notes, and one charted amigurumi pattern for the last step.",
+   "learn": "Free first choice: Craft Yarn Council, <a href='https://www.craftyarncouncil.com/standards/crochet-chart-symbols'>Crochet Chart Symbols</a> (the US key; the Japanese symbols are close to it). No free English page for Japanese amigurumi terms was confirmed (as of Oct 2026), so the key below teaches them; also read the key page printed in each book. Paid, if you'd like a guided class: Creative Crochet Corner, <a href='https://www.creativecrochetcorner.com/class/see-it-crochet-it-reading-diagrams'>See It Crochet It: Reading Diagrams</a>, which moves from flat charts to charts in the round (price not confirmed, as of Oct 2026). Left-handed: no left-handed version; mirror the right-handed steps. Left-handers read round charts clockwise, as in FND 2.8.",
+   "key": [
+    "A Japanese amigurumi pattern usually gives a round table: 段 (round) with each round's 目数 (stitch count) and 増減数 (stitches increased or decreased). 増減なし means no increase or decrease.",
+    "The chart shows the same piece from above as a set of rings, center first. Right-handers read each ring counterclockwise. Many books draw only one wedge of a repeat and expect you to work it around.",
+    "Symbols: × or + is sc (細編み). A V with a stitch in each arm is an increase (2 sc in one stitch). An upside-down V is a decrease. A filled dot is a sl st (引き抜き編み). An open oval is a chain (くさり編み). 中長編み is hdc and 長編み is dc.",
+    "Many Japanese amigurumi patterns use joined rounds: ch 1 to start (立ち上がり, which doesn't count), and a sl st into the first sc to close. The chart shows that chain and sl st at each round's start. Follow the chart; if it shows a spiral, work a spiral.",
+    "輪の作り目 is the magic ring. Japanese hooks are numbered by size: 4/0 is 2.5 mm, 5/0 is 3.0 mm, 6/0 is 3.5 mm, 7/0 is 4.0 mm."
+   ],
+   "drill": [
+    "Make a card with the 11 terms and 5 symbols from the key (sc, increase, decrease, sl st, chain). Use it for this unit, then test yourself without it at the start of the next session.",
+    "Translate this round table into US round notation, staggering the increases and decreases as in T230.1. 段 1: 6目 (輪の作り目に細編み6目). 段 2: 12目, +6. 段 3: 18目, +6. 段 4: 24目, +6. 段 5 to 8: 24目, 増減なし. 段 9: 18目, -6. 段 10: 12目, -6. 段 11: 6目, -6.",
+    "Draw its chart for Rnds 1 to 4 as four rings, with every symbol, the ch 1 at each round's start and the closing sl st. Count the symbols in each ring and write the count beside it.",
+    "Work the piece from your own translation in joined rounds (ch 1, sc around, sl st to first sc). Stuff it before Rnd 11 and close.",
+    "Ask another person to count the symbols in each ring of your chart, without your counts showing. Compare.",
+    "Find one charted amigurumi pattern, such as a translated Japanese amigurumi book from your library or a free charted pattern from a designer you trust. Make one part (a head or a body) from the chart and table alone, writing your US translation of each round as you go."
+   ],
+   "pass": [
+    "Your translation gives 6, 12, 18, 24, then 24 for Rnds 5 to 8, then 18, 12, 6, and the finished piece matches those counts.",
+    "Another person's symbol count for each ring of your chart matches yours: 6, 12, 18, 24.",
+    "The part from the outside pattern has a written US translation for every round, and its counts match the pattern's table.",
+    "Passed cold: at the start of a later session, you name at least 14 of the 16 terms and symbols on your card without looking, and relearn the rest."
+   ],
+   "wrong": [
+    [
+     "Your count is 1 more than the chart's on joined rounds",
+     "You worked a sc into the ch 1 or the sl st. Skip both; the first sc goes into the same stitch as the sl st."
+    ],
+    [
+     "The joined-round seam leans to one side",
+     "That's normal for joined rounds. Keep it at the back or side of the piece, where the pattern's photo shows the seam."
+    ],
+    [
+     "You can't tell an increase from two separate sc",
+     "Look at the bottoms of the symbols. An increase's two stitches meet at one point in the ring below."
+    ],
+    [
+     "The pattern uses a term your card doesn't have",
+     "Look it up in the book's own key page, add it to your card, and carry on."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Reading Japanese round tables and symbol charts for amigurumi",
+   "rubric": false,
+   "sources": [
+    "https://www.craftyarncouncil.com/standards/crochet-chart-symbols",
+    "https://www.creativecrochetcorner.com/class/see-it-crochet-it-reading-diagrams"
+   ]
+  }
+ ]
+}

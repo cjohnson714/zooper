@@ -1,0 +1,292 @@
+{
+ "code": "TOY 230",
+ "title": "Shaping and scale",
+ "year": 2,
+ "track": "toy",
+ "required": true,
+ "hours": 30,
+ "credits": 0.7,
+ "hook": "your house hook (3.5 mm for worsted cotton); 2.75 mm for DK; 5.0 mm for two strands of worsted; 6.0 to 6.5 mm for plush; 2.0 or 2.25 mm for fine cotton",
+ "yarn": "#4 worsted cotton (Lion Brand 24/7 Cotton) plus small amounts of DK, one plush or chenille yarn, and a #1 fingering or #2 sport cotton",
+ "level": 3,
+ "prereqs": [
+  "TOY 190"
+ ],
+ "summary": "You learn to control where a piece grows: smooth or faceted circles, bulges and height on one side, and the same toy at four sizes from tiny to plush.",
+ "intro": "Until now, a pattern has told you where every increase goes. In this course you see why designers place them where they do, and you learn the two tools that push a shape in one direction: clustered increases and short rows. Then you change size the way toymakers do, with yarn and hook together, and finish with a mini of a toy you've already made. Every lab uses the same 42-stitch sphere, so your measurements compare cleanly.",
+ "outcomes": [
+  "You can write a round of increases stacked or staggered and predict how the finished circle will look.",
+  "You can work an invisible increase and choose where it's worth the extra care.",
+  "You can add a bulge or extra height to one side of a piece with clustered increases or short rows, and measure the result.",
+  "You can make the same piece at four scales and record the size ratio for each yarn and hook pair.",
+  "You can make a mini toy to the same finishing standard as your full-size toys."
+ ],
+ "assessment": "Each unit passes on its own checks. T230.2's snake and T230.4's mini are also scored on the shared toy rubric (8 lines, 0 to 2 each; a toy passes at 12 of 16 with no 0 for Safety). A check that doesn't pass yet gets one note and one change on the next piece. After three tries in one sitting, stop for the day. Finished pieces are kept as they are.",
+ "reading": "The Essential Guide to Amigurumi (June Gilbank): reread the Amigurumi 101 part before T230.1, and skim the opening of Part 3, Designing Amigurumi, for how she thinks about increase placement. You return to Part 3 in full in TOY 410. Free reading that goes with the course: PlanetJune's Scaling Amigurumi and A Colour Changing Crochet Investigation (both linked in the units).",
+ "units": [
+  {
+   "id": "T230.1",
+   "origin": "new",
+   "t": "Staggered vs stacked increases, and the invisible increase",
+   "kind": "lab",
+   "h": 6,
+   "time": "about 6 hours over 3 or 4 sessions",
+   "prereq_units": [
+    "T190.1",
+    "1.7",
+    "T101.1",
+    "3.1"
+   ],
+   "why": "Where the increases sit decides whether a head looks round or faceted. Once you can see the difference and choose it on purpose, every pattern you read makes more sense, and you have the first tool you'll use as a designer in TOY 410.",
+   "need": "Worsted cotton in one light color (stitches show best), your house hook, 6 stitch markers, Poly-Fil, a bent-tip needle, a ruler with mm, your tally card and phone.",
+   "learn": "Free first choice: Wendi Gratz (Shiny Happy World), <a href='https://www.shinyhappyworld.com/2011/07/amigurumi-design-crochet-increases-even-swirl.html'>Amigurumi Design: Crochet Increases, Even and Swirl</a> (2011, still accurate). Then Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/invisible-increase-and-decrease/'>Invisible Increase and Decrease</a> (video). For why markings drift on a spiral: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/?p=15898'>A Colour Changing Crochet Investigation</a>. Left-handed: no left-handed version of these three; mirror the right-handed steps.",
+   "key": [
+    "A flat circle grows by 6 stitches a round. If each round puts its increases directly above the last round's, the 6 increase columns become 6 corners and the circle turns into a hexagon.",
+    "Staggering moves the increases half a repeat on every other round. Write it as 'sc 2, inc, (sc 4, inc) x5, sc 2' instead of '(sc 4, inc) x6'. The count is the same; only the starting point moves.",
+    "Decreases follow the same rule. Stacked decreases make a pointed or faceted top; staggered ones close smoothly.",
+    "Stacked increases aren't wrong. Designers use them on purpose for a hexagon base, a faceted gem or the ridges of a pumpkin.",
+    "An invisible increase works the two stitches of the increase so the second one tucks under the first. It's worth the time on smooth, light-colored heads where increase lines catch the light. Watch Kati's video for which loops she uses and copy it exactly.",
+    "A spiral drifts about one stitch every five rounds even with even increases (PlanetJune's measurement), so a column of stacked increases slowly leans. That is expected."
+   ],
+   "drill": [
+    "Disc A, stacked: Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: (sc 4, inc) x6 (36). Rnd 7: (sc 5, inc) x6 (42). Sl st, fasten off.",
+    "Disc B, staggered: Rnds 1 to 3 as Disc A. Rnd 4: sc, inc, (sc 2, inc) x5, sc (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: sc 2, inc, (sc 4, inc) x5, sc 2 (36). Rnd 7: (sc 5, inc) x6 (42). Sl st, fasten off.",
+    "Disc C: same as Disc B, but work every increase from Rnd 3 on as an invisible increase.",
+    "Lay each disc flat without stretching. Measure its widest and narrowest diameter in mm, and write both and the difference on the tally card.",
+    "At 30 cm (12 in) in daylight, count how many of the 18 increases on Rnds 5 to 7 you can see on Disc B and on Disc C. Write both counts.",
+    "Make the 42-stitch sphere (staggered). Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: sc, inc, (sc 2, inc) x5, sc (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: sc 2, inc, (sc 4, inc) x5, sc 2 (36). Rnd 7: (sc 5, inc) x6 (42). Rnds 8 to 13: sc 42 (42). Rnd 14: (sc 5, dec) x6 (36). Rnd 15: sc 2, dec, (sc 4, dec) x5, sc 2 (30). Rnd 16: (sc 3, dec) x6 (24). Rnd 17: sc, dec, (sc 2, dec) x5, sc (18). Stuff firmly. Rnd 18: (sc, dec) x6 (12). Rnd 19: dec x6 (6). Ultimate Finish. Use invisible increases and invisible decreases throughout. Keep it: T230.2 and T230.3 use it as your standard.",
+    "Measure the sphere's diameter three ways (side to side, front to back, top to bottom) and write all three. Label it 'standard: worsted, house hook'."
+   ],
+   "pass": [
+    "Your tally card shows 6, 12, 18, 24, 30, 36, 42 for each disc. For the sphere it shows those same counts, then 42 for Rnds 8 to 13, then 36, 30, 24, 18, 12, 6.",
+    "Disc B's widest and narrowest diameters differ by 3 mm (1/8 in) or less. Disc A's difference is written down, whatever it is.",
+    "Your count of visible increases on Disc C is lower than on Disc B.",
+    "The sphere's three diameters are within 4 mm (3/16 in) of each other.",
+    "Passed cold: at the start of a later session, write Rnds 4 to 7 of a staggered disc from memory and check them against Disc B."
+   ],
+   "wrong": [
+    [
+     "Your staggered round ends with the wrong count",
+     "Count the stitches used, not made: sc 2, inc, (sc 4, inc) x5, sc 2 uses 2 + 1 + 25 + 2 = 30. Write that sum under the round before you start it."
+    ],
+    [
+     "Disc B still looks a little hexagonal",
+     "Check that Rnds 4 and 6 really start with the half repeat. If they do, the spiral's drift is showing; it fades once the piece is stuffed."
+    ],
+    [
+     "Invisible increases leave a small hole",
+     "Your tension loosened on the second stitch. Snug the yarn before you pull through, and rewatch Kati's video once without crocheting."
+    ],
+    [
+     "The sphere comes out slightly egg-shaped",
+     "Stuff in small pieces from the bottom up and press the filling outward before Rnd 18. Use it on the next sphere; keep this one as your record."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Staggered increases and decreases, and the invisible increase",
+   "rubric": false,
+   "sources": [
+    "https://www.shinyhappyworld.com/2011/07/amigurumi-design-crochet-increases-even-swirl.html",
+    "https://www.hookedbykati.com/invisible-increase-and-decrease/",
+    "https://www.planetjune.com/blog/?p=15898"
+   ]
+  },
+  {
+   "id": "T230.2",
+   "origin": "new",
+   "t": "Short rows and directional shaping",
+   "kind": "lab",
+   "h": 8,
+   "time": "about 8 hours over 4 to 5 sessions",
+   "prereq_units": [
+    "T230.1",
+    "T120.1",
+    "3.3",
+    "T120.3",
+    "T120.4"
+   ],
+   "why": "Real animals aren't symmetrical tubes. Bellies push forward, the backs of heads rise, snouts point. Clustering increases on one side and working short rows are the two ways designers add volume in one direction without making a separate piece, and you will meet both in Pica Pau, Edward's Menagerie and your own designs.",
+   "need": "Worsted cotton in two colors, your house hook, 4 stitch markers in two colors, Poly-Fil, a bent-tip needle, a ruler with mm, your tally card, and the free Suki pattern open on screen. Read the whole snake pattern before you start. If it asks for a color change, use T120.3; if it asks for safety eyes, use T120.4.",
+   "learn": "There are few dedicated free lessons on short rows in amigurumi, so this unit teaches the method in its own steps below. Free pattern to practice it in: Craft Passion, <a href='https://www.craftpassion.com/?p=1069797'>Suki the crochet snake</a>, described by its designer as a beginner-friendly way to try short rows (the site is ad-supported; check that the page shows the full pattern free before you start, as of Oct 2026). For clustered increases, reread Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>. Left-handed: no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Clustered increases: put several increases close together on one side of a round and the fabric bulges out on that side. Matching decreases in the same place a few rounds later bring it back in. That's a belly, a cheek or a muzzle.",
+    "Short rows: work back and forth over part of the round only. Each extra row adds one row of height on that side and none on the other, so the piece tilts or rises there. That is the back of a head, a heel or the curve of a snake.",
+    "Each turn leaves a small gap at the edge of the section. On the next full round, work a decrease over the gap and the stitch beside it, then an increase in the next stitch, so no hole shows and the count stays the same.",
+    "Turning puts the wrong side out for every other row. In sc it looks close enough on most toys. Some designers fasten off and rejoin at the start of each short row instead so the right side always faces out.",
+    "Mark the start and end of each short-row section with a second marker color, so you never lose the round start."
+   ],
+   "drill": [
+    "Bulge tube. Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: sc, inc, (sc 2, inc) x5, sc (24). Rnds 5 to 7: sc 24 (24).",
+    "Mark stitches 1 to 12 as the front. Rnd 8: (sc, inc) x6 over the front, sc 12 over the back (30). Rnds 9 to 11: sc 30 (30). Rnd 12: (sc, dec) x6 over the 18 front stitches, sc 12 over the back (24). Rnds 13 to 15: sc 24 (24). Stuff, then close: Rnd 16: (sc 2, dec) x6 (18). Rnd 17: (sc, dec) x6 (12). Rnd 18: dec x6 (6). Ultimate Finish.",
+    "Measure the tube's depth front to back at Rnd 10 and its width side to side at Rnd 10, in mm. Write both.",
+    "Short-row tube. Rnds 1 to 7 as the bulge tube (24). Mark stitches 1 to 12 as the front, 13 to 20 as the short-row section and 21 to 24 as the rest of the back, using the second marker color on stitches 13 and 20.",
+    "Rnd 8: sc 12 over the front. Row 1: sc 8 over stitches 13 to 20, ch 1, turn. Row 2: sc 8 back across, ch 1, turn. Row 3: sc 8, ch 1, turn. Row 4: sc 8, ch 1, turn. Row 5: sc 8, then sc 4 over stitches 21 to 24 to finish the round (24). Rows 1 to 5 are all 8 stitches, so the section is 4 rows taller than the rest.",
+    "Rnd 9: sc around all 24 (24). At each of the two edges of the short-row section, work one dec over the turn gap and the stitch beside it, then one inc in the next stitch, so the count stays 24. Rnds 10 to 11: sc 24 (24). Stuff and close as Rnds 16 to 18 of the bulge tube.",
+    "Stand the short-row tube on its closed bottom. Measure its height at the middle of the short-row section and at the front in mm, and write the difference.",
+    "Make Suki the snake from Craft Passion, writing every short-row section's stitch counts beside the pattern's.",
+    "Finishing ritual: daylight photo of the two tubes and the snake together, binder label (yarn, hook, date, pattern, designer), and one line on where you would use each method on a toy you would like to make."
+   ],
+   "pass": [
+    "The bulge tube's front-to-back depth at Rnd 10 is at least 3 mm (1/8 in) more than its side-to-side width.",
+    "The short-row tube's short-row section stands 8 to 20 mm (5/16 to 3/4 in) taller than its front.",
+    "Held at 30 cm (12 in) in daylight, no turn gap shows light through it on either tube.",
+    "Every short-row section of the snake has written counts that match the pattern, and the snake is scored on the toy rubric."
+   ],
+   "wrong": [
+    [
+     "A hole shows where a short row turned",
+     "On the next full round, work a decrease over the gap and the stitch beside it, then an increase in the next stitch. Sew a small hole closed from inside with a yarn tail before stuffing."
+    ],
+    [
+     "The round start got lost among the short rows",
+     "Move the round-start marker only on full rounds. Keep the short-row markers a different color."
+    ],
+    [
+     "The bulge is barely visible",
+     "Clustered increases need room. Spread them over fewer stitches (inc in every stitch over 6 stitches instead of every other over 12) on the next tube."
+    ],
+    [
+     "The snake curls the wrong way",
+     "Check that each short-row section starts on the stitch the pattern names. Note it and fix it on the next section; the curve can vary along a snake."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Short rows and clustered increases for one-sided shaping",
+   "rubric": true,
+   "sources": [
+    "https://www.craftpassion.com/?p=1069797",
+    "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/"
+   ]
+  },
+  {
+   "id": "T230.3",
+   "origin": "new",
+   "t": "Scaling by yarn and hook: DK, two strands, and plush",
+   "kind": "lab",
+   "h": 8,
+   "time": "about 8 hours over 4 sessions",
+   "prereq_units": [
+    "T230.1",
+    "T101.2"
+   ],
+   "why": "Toymakers change size by changing yarn and hook together, keeping every stitch count. Measuring it yourself gives you a scale table you can trust for your own tension, which you'll use to remake toys in T330.2 and to grade your own designs in TOY 410.",
+   "need": "Your 42-stitch standard sphere from T230.1; DK cotton (your Pica Pau DK works) and your 2.75 mm hook; two balls of worsted cotton and a 5.0 mm hook; one plush or chenille yarn (#6 super bulky) and a 6.0 or 6.5 mm hook; stitch markers in 2 colors; Poly-Fil; a ruler with mm; a calculator.",
+   "learn": "Free first choice: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/scaling'>Scaling Amigurumi</a>, a measured investigation with yarn, hook and scale factor for eight sizes. For plush: The Friendly Red Fox, <a href='https://www.thefriendlyredfox.com/tips-and-tricks-for-working-with-plush-yarn/'>Tips and Tricks for Working with Plush Yarn</a>. For the chain-2 start: Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/crochet-magic-circle-amigurumi/'>Magic Circle or Chain-2 Start</a>, or Jess Huff's <a href='https://jesshuff.com/videos/chain-start-amigurumi-tutorial/'>Chain Start Amigurumi Tutorial</a> (video). Left-handed: no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Keep every count the same and change only the yarn and hook. The toy grows or shrinks in proportion.",
+    "PlanetJune's table gives these scales against worsted on 3.5 mm (1x): small, sport to DK on 2.25 to 2.75 mm, about 0.8x; large, two strands of worsted plus one strand of bulky on 5 mm, about 1.5x; double, two strands of bulky plus one strand of super bulky on 6.5 mm, about 2x. She calls the factors rough, and your tension will move them.",
+    "Scale factor = the new piece's diameter divided by your standard piece's diameter. Use the average of three diameters for each.",
+    "Two strands held together: pull one end from the center and one from the outside of the same ball, or use two balls. Catch both strands in every stitch.",
+    "Plush and chenille: start with a chain-2 instead of a magic ring, because these yarns can snap when cinched. You can't see the stitches, so count by feel and place a marker every 6 stitches on increase rounds. Sew with a blunt needle.",
+    "Plush stretches and the fabric gaps open. Go down a hook size if stuffing shows; the squeeze test still applies."
+   ],
+   "drill": [
+    "Make the 42-stitch sphere (as in T230.1) in DK on the 2.75 mm hook.",
+    "Make it again in two strands of worsted held together on the 5.0 mm hook. This is lighter than PlanetJune's large row, so expect a ratio a little under 1.5.",
+    "Make it again in one strand of plush on the 6.0 or 6.5 mm hook, starting with ch 2, 6 sc in the 2nd ch from the hook. One strand is lighter than PlanetJune's double row, so expect a ratio under 2. On Rnds 2 to 7 place a marker after every repeat so you can count 6 groups by feel.",
+    "Measure each sphere three ways in mm and average them. Do the same for your standard sphere.",
+    "Divide each average by the standard average. Write each ratio to two decimals in a table beside PlanetJune's rough factors (0.8, 1.5, 2).",
+    "Squeeze-test each sphere in daylight at 30 cm (12 in). If stuffing shows, note the hook you'd try next for that yarn.",
+    "Add the table to your binder as 'My scale table'."
+   ],
+   "pass": [
+    "Four spheres, each with written counts 6, 12, 18, 24, 30, 36, 42, then 42 for Rnds 8 to 13, then 36, 30, 24, 18, 12, 6.",
+    "Your scale table shows each sphere's average diameter in mm and in, and its ratio to the standard sphere to two decimals.",
+    "The DK sphere is smaller than your standard sphere, and both the two-strand and plush spheres are larger.",
+    "Each sphere passes the squeeze test, or your table names the smaller hook to use for that yarn next time."
+   ],
+   "wrong": [
+    [
+     "You lose count on the plush sphere",
+     "Stop at the last marker you trust, feel each stitch top between thumb and finger, and count to 6 between markers. Don't frog plush more than once; it sheds."
+    ],
+    [
+     "A stitch catches only one of the two strands",
+     "Slow down, and check each stitch has two strands at its top. Fix it on the next stitch by working through both strands carefully."
+    ],
+    [
+     "Your ratio is far from PlanetJune's factor",
+     "Her factors are rough and your tension differs. Record your ratio; your table is the one you will use."
+    ],
+    [
+     "The plush sphere is lumpy",
+     "Use more, smaller bits of stuffing and press them outward. Plush hides lumps less than cotton does."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Scaling a piece by yarn and hook, and working plush yarn",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/scaling",
+    "https://www.thefriendlyredfox.com/tips-and-tricks-for-working-with-plush-yarn/",
+    "https://www.hookedbykati.com/crochet-magic-circle-amigurumi/",
+    "https://jesshuff.com/videos/chain-start-amigurumi-tutorial/"
+   ]
+  },
+  {
+   "id": "T230.4",
+   "origin": "new",
+   "t": "Minis in fine cotton",
+   "kind": "project",
+   "h": 8,
+   "time": "about 8 hours over 4 to 6 short sessions",
+   "prereq_units": [
+    "T230.3",
+    "T120.4",
+    "T210.4"
+   ],
+   "why": "Minis are quick to finish, use leftovers, and make wonderful gifts for adults. They also show every uneven stitch, so making one to your full-size standard sharpens your tension and finishing on everything else.",
+   "need": "A #1 fingering or #2 sport cotton in a light color, a 2.0 or 2.25 mm hook (buy one if you don't have it; an ergonomic handle helps at this size), fine stitch markers or a scrap of contrast thread, Poly-Fil, a sharp embroidery needle and a small bent-tip needle, black embroidery floss or fine yarn for eyes, a bright task light, magnification if it helps, a ruler with mm, and the pattern of a toy you've already made at full size with no more than 5 parts (for example your T101.3 Wooble or your T150.5 toy).",
+   "learn": "Free first choice: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/scaling'>Scaling Amigurumi</a> (its mini and small rows), then <a href='https://www.planetjune.com/tinyeyes'>Tiny Yarn Eyes</a> and her <a href='https://www.planetjune.com/eyeoptions'>Eye Options</a> page. Paid, only if minis become a favorite: Steffi Glaves, <a href='https://show.searchpress.com/book/9781446309704/100-micro-amigurumi'>100 Micro Amigurumi</a> (David & Charles, 2023; price not confirmed, as of Oct 2026; an ebook edition is on Hoopla through some libraries), which leads into the optional T340.2 Micro amigurumi. Left-handed: no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Keep the full-size pattern's counts and change only yarn and hook, exactly as in T230.3.",
+    "Safety eyes are usually too big at this scale. Tiny yarn eyes or embroidered eyes fit better and contain no hard parts.",
+    "A mini small enough to fit in the small-parts cylinder from T120.4 is for older children and adults only. Label it that way when you give it.",
+    "Stuff with tiny pinches, pushed in with the back of the hook or a chopstick. Over-stuffing a mini stretches the stitches open.",
+    "Fine work strains hands and eyes. Pause every 20 minutes, open and close your hands, and look across the room. Two short sessions are better than one long one."
+   ],
+   "drill": [
+    "Make the 42-stitch sphere (as in T230.1) in your fine cotton. Measure it three ways, average, and add its ratio to your scale table from T230.3.",
+    "Use that ratio to predict the mini's height: full-size toy height in mm x ratio. Write the prediction.",
+    "Make the mini, writing the count beside every round of every part.",
+    "Give it tiny yarn eyes or embroidered eyes, placed at the same rounds and spacing as on the full-size toy.",
+    "Measure the finished mini's height and compare it with your prediction.",
+    "Finishing ritual: a daylight photo of the mini beside the full-size toy, binder label (yarn, hook, date, pattern, designer, 'adults and older children'), and one line on what the mini showed you about your tension."
+   ],
+   "pass": [
+    "Every round of every part has a written count matching the full-size pattern.",
+    "The mini's measured height is within 15% of your prediction, or your log explains the difference (for example, tighter stuffing).",
+    "The eyes sit on the same round within 1 mm (1/32 in) of each other, and paired parts match in length within 1 mm.",
+    "In daylight at 30 cm (12 in), no stuffing shows between stitches.",
+    "The mini is scored on the toy rubric."
+   ],
+   "wrong": [
+    [
+     "You can't see where to put the hook",
+     "Use a lighter color, a brighter light, and a dark cloth on your lap. Feel for the hole with the hook tip before you push."
+    ],
+    [
+     "The magic ring won't close or the thread snaps",
+     "Use a chain-2 start, as in T230.3. Fine cotton forgives it more than a ring."
+    ],
+    [
+     "Hands ache after a session",
+     "Stop for the day. Next time, use an ergonomic handle, loosen your grip, and keep sessions to 20 minutes with a pause between."
+    ],
+    [
+     "The yarn eyes look uneven",
+     "Make one more pair on a scrap and choose the better pair. Sew them on; keep the first mini as it is and use what you learned on the next one."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Making a mini toy in fine cotton",
+   "rubric": true,
+   "sources": [
+    "https://www.planetjune.com/scaling",
+    "https://www.planetjune.com/tinyeyes",
+    "https://www.planetjune.com/eyeoptions",
+    "https://show.searchpress.com/book/9781446309704/100-micro-amigurumi"
+   ]
+  }
+ ]
+}

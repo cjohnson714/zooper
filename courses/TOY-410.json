@@ -1,0 +1,553 @@
+{
+  "code": "TOY 410",
+  "title": "Toy design studio",
+  "year": 4,
+  "track": "toy",
+  "required": true,
+  "hours": 75,
+  "credits": 1.7,
+  "hook": "your house hook (3.5 mm for worsted cotton)",
+  "yarn": "#4 worsted cotton (Lion Brand 24/7 Cotton), light colors for the labs",
+  "level": 4,
+  "prereqs": [
+    "TOY 310",
+    "TOY 320",
+    "TOY 330"
+  ],
+  "summary": "You learn the shape math of amigurumi and use it to design, prototype and write your first original toy, then plan its colors and add structure.",
+  "intro": "Until now, a designer has chosen every count for you. In this course you learn to choose them: where increases go, how a sphere's counts follow a curve, what angle a cone makes, and how to place a muzzle where you planned it. Then you turn a sketch into a parts table and make your first original toy in seven small stages, ending with a second copy made from your own pattern alone. Each lab makes small pieces, not whole toys, and a prototype that doesn't match yet is simply the next version's notes.",
+  "outcomes": [
+    "You can write any round of increases or decreases evenly and check it with Used and Made sums.",
+    "You can write a sphere schedule for any widest count and measure how round the result is.",
+    "You can predict a cone's tip angle from its increase rate and check it with a protractor.",
+    "You can plan where a bulge lands on a piece, allowing for spiral drift.",
+    "You can measure your toy gauge and convert a sketch into a parts table with counts.",
+    "You can prototype, revise and write a toy pattern that makes a matching second copy.",
+    "You can plan a toy's colors by value and add a base, wire or joints to your own design."
+  ],
+  "assessment": "Each unit passes on its own checks. 3.6 and T410.7 are also scored on the shared toy rubric (8 lines, 0 to 2 each; a toy passes at 12 of 16 with no 0 for Safety). The course's central check is 3.6's second copy, made from your pattern alone, matching the prototype within 3 mm (1/8 in) on every part. A check that doesn't pass yet gets one note and one change on the next piece. After three tries in one sitting, stop for the day. Finished toys and prototypes are kept as they are.",
+  "reading": "The Essential Guide to Amigurumi (June Gilbank), Part 3, Designing Amigurumi, read in full across the course: the shapes chapters with T410.2 and T410.3, the rest before T410.5. Free reading: Hooked by Kati's Basic Amigurumi Shapes: The Shape Is in the Math, PlanetJune's A Colour Changing Crochet Investigation, and the Tiny Curl and Elise Rose design-process articles (all linked in the units). Optional: Pitachan's Design Your Own Amigurumi (2024) and Principe del Crochet's Domestika course Amigurumi Design and Creation (about $34 list, as of Oct 2026).",
+  "units": [
+    {
+      "id": "T410.1",
+      "origin": "new",
+      "t": "Increase distribution and the flat circle",
+      "kind": "lab",
+      "h": 5,
+      "time": "about 5 hours over 3 sessions",
+      "prereq_units": [
+        "T230.1",
+        "T330.1",
+        "T101.1",
+        "1.7",
+        "1.2"
+      ],
+      "why": "Every shape you design starts as a question about how many stitches to add, and where. This lab shows why 6 per round lies flat, what happens with more or fewer, and how to write any round of increases or decreases evenly, so you never need to look one up again.",
+      "need": "Worsted cotton in one light color, your house hook (3.5 mm), 6 stitch markers, a ruler with mm, pencil and your tally card. Disc B from T230.1 if you kept it.",
+      "learn": "Free: Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>, for the idea that the counts make the shape. Reread Wendi Gratz (Shiny Happy World), <a href='https://www.shinyhappyworld.com/2011/07/amigurumi-design-crochet-increases-even-swirl.html'>Amigurumi Design: Crochet Increases, Even and Swirl</a>. Textbook: June Gilbank, <a href='https://www.planetjune.com/amibooke'>The Essential Guide to Amigurumi</a>, the opening of Part 3, Designing Amigurumi (right- and left-handed editions). Left-handed: Kati's and Wendi's posts have no left-handed version; mirror the right-handed steps. The counting in this lab is the same in either hand.",
+      "key": [
+        "A flat circle grows because each round sits farther from the center. The circumference grows by 2 x pi x the round's height each round. A tight sc is about 0.95 times as tall as it is wide, so the new round needs about 6 more stitches. That is where the 6 comes from.",
+        "Fewer than 6 increases per round and the edge is too short to lie flat, so the piece cups into a bowl. More than 6 and the edge is too long, so it ruffles.",
+        "The general rule: increases per round = about 6 x sin(angle), where the angle is between the fabric and the piece's center line. Flat is 90 degrees (6 per round). A tube is 0 degrees (0 per round). Everything in between is a cone. You test this in T410.3.",
+        "Taller stitches need more. Patterns commonly start hdc circles with 8 to 10 and dc circles with 12, because those stitches are taller for their width. The optional step below lets you see it.",
+        "To spread k increases over a round of N stitches, divide: N / k = the repeat length s. Each repeat is (sc s-1, inc). For decreases, each repeat is (sc s-2, dec).",
+        "When N / k ends in .5, alternate a short and a long repeat. For 30 stitches with 4 increases, 30 / 4 = 7.5, so write (sc 6, inc, sc 7, inc) x2.",
+        "Check every written round with two sums. Used: stitches of the last round you work into (sc = 1, inc = 1, dec = 2). Made: stitches the round ends with (sc = 1, inc = 2, dec = 1). Used equals the previous count. Made equals the new count."
+      ],
+      "drill": [
+        "Disc 5 (cups). Rnd 1: magic ring, 5 sc (5). Rnd 2: inc x5 (10). Rnd 3: (sc, inc) x5 (15). Rnd 4: sc, inc, (sc 2, inc) x4, sc (20). Rnd 5: (sc 3, inc) x5 (25). Rnd 6: sc 2, inc, (sc 4, inc) x4, sc 2 (30). Rnd 7: (sc 5, inc) x5 (35). Sl st, fasten off.",
+        "Disc 6 (flat). Use Disc B from T230.1, or make it again: Rnds 1 to 7 of the staggered 42-stitch disc (6, 12, 18, 24, 30, 36, 42).",
+        "Disc 8 (ruffles). Rnd 1: magic ring, 8 sc (8). Rnd 2: inc x8 (16). Rnd 3: (sc, inc) x8 (24). Rnd 4: sc, inc, (sc 2, inc) x7, sc (32). Rnd 5: (sc 3, inc) x8 (40). Rnd 6: sc 2, inc, (sc 4, inc) x7, sc 2 (48). Rnd 7: (sc 5, inc) x8 (56). Sl st, fasten off.",
+        "Set each disc right side up on a table and press the center lightly with one finger. Measure the highest point of the edge above the table in mm. On Disc 8, count the waves around the edge. Write everything on the tally card.",
+        "Optional (1 hour, uses unit 1.2): two 4-round hdc discs, one starting with 8 hdc and adding 8 per round (8, 16, 24, 32), one starting with 10 and adding 10 per round (10, 20, 30, 40). Write which one lies flatter with your tension.",
+        "On paper, write each of these rounds evenly, with both sums under each: (a) 24 to 30; (b) 27 to 30; (c) 30 to 34; (d) 36 to 40; (e) 20 to 25; (f) 30 to 26; (g) 42 to 35.",
+        "Check your answers against this key: (a) (sc 3, inc) x6. (b) (sc 8, inc) x3. (c) (sc 6, inc, sc 7, inc) x2. (d) (sc 8, inc) x4. (e) (sc 3, inc) x5. (f) (sc 5, dec, sc 6, dec) x2. (g) (sc 4, dec) x7. A staggered version of any of these with the same sums is also right."
+      ],
+      "pass": [
+        "Your tally card shows the counts 5, 10, 15, 20, 25, 30, 35 and 8, 16, 24, 32, 40, 48, 56, written round by round.",
+        "Disc 6's edge stays within 2 mm (1/16 in) of the table all the way round. Disc 5's edge rises at least 5 mm (3/16 in) all the way round. Disc 8 won't lie flat without folding, and its wave count is written down.",
+        "All seven written rounds have both sums under them, and every Used equals the starting count and every Made equals the new count.",
+        "Passed cold: at the start of a later session, write rounds for 33 to 36 and 36 to 30 from memory with both sums, and check them. (Key: (sc 10, inc) x3; (sc 4, dec) x6.)"
+      ],
+      "wrong": [
+        [
+          "Disc 6 also cups a little",
+          "Your sc is a little shorter than average, which is normal for tight amigurumi tension. Write it down. Your own flat number may be closer to 6.5, and it explains why some of your balls come out slightly flat."
+        ],
+        [
+          "A written round's Used sum is off by one",
+          "You probably counted a dec as 1 used. A dec works 2 stitches. Recount with the rule sc = 1, inc = 1, dec = 2."
+        ],
+        [
+          "Disc 5 and Disc 8 look about the same as Disc 6",
+          "Check the counts on the tally card first. If they're right, press the discs flatter on the table and measure again from a fixed eye height."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Writing any round of increases or decreases evenly, and the 6 x sin(angle) rule",
+      "rubric": false,
+      "sources": [
+        "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/",
+        "https://www.shinyhappyworld.com/2011/07/amigurumi-design-crochet-increases-even-swirl.html",
+        "https://www.planetjune.com/amibooke"
+      ]
+    },
+    {
+      "id": "T410.2",
+      "origin": "new",
+      "t": "Sphere schedules: the standard ball and the sine ball",
+      "kind": "lab",
+      "h": 6,
+      "time": "about 6 hours over 3 or 4 sessions",
+      "prereq_units": [
+        "T410.1",
+        "3.1"
+      ],
+      "why": "This is the lesson where the counts become the shape. You make the ball every pattern uses and a ball whose counts follow the curve of a real sphere, then measure both. Once you see the difference, you can write a round head of any size.",
+      "need": "Worsted cotton (Lion Brand 24/7 Cotton), your house hook, Poly-Fil, markers, a bent-tip needle, a soft tape measure or a 2 cm (3/4 in) strip of paper and a ruler, a calculator (the phone one works; switch it to scientific and radians), tally card.",
+      "learn": "Textbook: June Gilbank, <a href='https://www.planetjune.com/amibooke'>The Essential Guide to Amigurumi</a>, Part 3, the chapters on designing with basic shapes (right- and left-handed editions). Free: Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>. The sine schedule below is derived geometry, written out in this unit; no tutorial teaches it in this form. Left-handed: Kati's post has no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "The standard ball (+6 a round to 36, six rounds even, -6 a round) is easy to remember. It grows faster than a real sphere in its early rounds, so it comes out a little barrel-shaped, with flatter top and bottom.",
+        "A sphere's stitch count at round k follows N x sin(6k / N), where N is the count at the widest round (radians on the calculator). It needs about pi x N / 6 rounds from pole to pole.",
+        "For N = 36 that gives 6, 12, 17, 22, 27, 30, 33, 35, 36, 36, 35, 33, 30, 26, 22, 16, 11, 5. Smoothed into steps of 3 (22 becomes 24 so no step is more than 6), it becomes 6, 12, 18, 24, 27, 30, 33, 36, 36, 36, 36, 33, 30, 27, 24, 18, 12, 6.",
+        "Rounds that add 3 use T410.1's method: 24 to 27 is (sc 7, inc) x3.",
+        "Measure a ball with two circumferences. Equator: around the widest round. Pole to pole: around the ball through the magic ring and the closing point. On a round ball they match.",
+        "Your own stitch shape shifts the result a little. If your sine ball is taller than it is wide, use one fewer even round next time; if it's flatter, add one."
+      ],
+      "drill": [
+        "Ball A, standard. Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: sc, inc, (sc 2, inc) x5, sc (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: sc 2, inc, (sc 4, inc) x5, sc 2 (36). Rnds 7 to 12: sc 36 (36). Rnd 13: (sc 4, dec) x6 (30). Rnd 14: (sc 3, dec) x6 (24). Rnd 15: (sc 2, dec) x6 (18). Stuff firmly. Rnd 16: (sc, dec) x6 (12). Rnd 17: dec x6 (6). Ultimate Finish.",
+        "Ball B, sine. Rnds 1 to 4 as Ball A (24). Rnd 5: (sc 7, inc) x3 (27). Rnd 6: sc 4, inc, (sc 8, inc) x2, sc 4 (30). Rnd 7: (sc 9, inc) x3 (33). Rnd 8: sc 5, inc, (sc 10, inc) x2, sc 5 (36). Rnds 9 to 11: sc 36 (36). Rnd 12: (sc 10, dec) x3 (33). Rnd 13: sc 4, dec, (sc 9, dec) x2, sc 5 (30). Rnd 14: (sc 8, dec) x3 (27). Rnd 15: sc 3, dec, (sc 7, dec) x2, sc 4 (24). Rnd 16: (sc 2, dec) x6 (18). Stuff firmly, to the same squeeze as Ball A. Rnd 17: (sc, dec) x6 (12). Rnd 18: dec x6 (6). Ultimate Finish.",
+        "Use invisible decreases on both balls. Use the same yarn, hook and stuffing on both.",
+        "Measure each ball's equator and pole-to-pole circumference in mm. Divide pole-to-pole by equator and write the ratio to two decimals (for example 0.93).",
+        "Photograph both balls side by side from the side, camera level with their middles, on a plain background.",
+        "On paper, work out a sine schedule for N = 30: compute 30 x sin(6k / 30) for k = 1 to 7, round each to a multiple of 3 (use 21 for 21.5), then write one more 30 and mirror the list, so 30 appears three times. Then check it against the key: 6, 12, 18, 21, 24, 27, 30, 30, 30, 27, 24, 21, 18, 12, 6 (15 rounds). A 16-round version with one more 30 is also right.",
+        "Keep Ball B. Label it 'sine 36: worsted, house hook'. T410.5 uses it to measure your toy gauge."
+      ],
+      "pass": [
+        "Your tally card has every round's count for both balls, matching the drill.",
+        "Ball B's pole-to-pole and equator circumferences match within 5% (for a 200 mm (7 7/8 in) equator, within 10 mm (3/8 in)).",
+        "Ball B's ratio is closer to 1.00 than Ball A's, written on the card.",
+        "Your N = 30 schedule starts at 6, peaks at 30, has 15 or 16 rounds, is symmetric, and no round changes by more than 6.",
+        "Passed cold: at a later session, write the N = 36 sine schedule (counts only) from memory."
+      ],
+      "wrong": [
+        [
+          "Ball B comes out taller than wide",
+          "Your stitches are a little taller than average. Make the next sine ball with Rnds 9 to 10 even (two rounds instead of three) and measure again."
+        ],
+        [
+          "Ball B is lumpy where the 3-stitch rounds meet the 6-stitch rounds",
+          "Stuff in small pieces and press outward with a chopstick before Rnd 16. The pinch-and-push fix from 3.1 smooths the rest."
+        ],
+        [
+          "Your calculator gives odd numbers for the N = 30 schedule",
+          "It's in degree mode. Switch it to radians (RAD) and recompute. sin(1.2) should be 0.932."
+        ],
+        [
+          "The two circumferences are hard to measure the same way twice",
+          "Wrap a paper strip, mark where it meets with a pencil, then lay it on the ruler. Measure each one twice and use the average."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Writing a sphere schedule for any widest count",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/amibooke",
+        "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/"
+      ]
+    },
+    {
+      "id": "T410.3",
+      "origin": "new",
+      "t": "Cones, tapers, ovals and eggs",
+      "kind": "lab",
+      "h": 7,
+      "time": "about 7 hours over 4 sessions",
+      "prereq_units": [
+        "T410.2",
+        "T120.2",
+        "3.4",
+        "T120.1"
+      ],
+      "why": "Ears, horns, beaks, noses, limbs, tails and bodies are all made of these shapes. Here you predict each one's angle from its counts, then check it with a protractor, so you can choose the right rate for any part you sketch.",
+      "need": "Worsted cotton, your house hook, Poly-Fil, markers, a protractor (plastic, or a phone protractor app), plain paper, a pencil and ruler, Cone B from T120.2 if you kept it, tally card.",
+      "learn": "Free: Wendi Gratz (Shiny Happy World), <a href='https://shinyhappyworld.com/?p=3206'>Creating Cone Shapes in Amigurumi</a>. Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>. Reread your 3.4 notes on ovals worked around a chain. Textbook: June Gilbank, <a href='https://www.planetjune.com/amibooke'>The Essential Guide to Amigurumi</a>, Part 3, on cones and ovals. Left-handed: Wendi's and Kati's posts have no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Increases per round = 6 x sin(half the tip angle). So 3 per round gives a tip of about 60 degrees, 2 per round about 39 degrees, and 1 per round about 19 degrees.",
+        "A rule of thumb you may see says every-other-round cones have 45-degree sides. Six increases every other round average 3 a round, which predicts a 60-degree tip. You measure it yourself below.",
+        "Decreases work the same way in reverse. One decrease a round makes a gentle taper, which is how a leg narrows to the ankle.",
+        "An egg grows fast and closes slowly. Quick increases make a broad, flat-ish end that it can stand on; slow decreases make the pointed end.",
+        "An oval worked around a chain puts all its increases at the two ends. Matching decreases in the same places later make a bean or a foot.",
+        "With 1 increase per round, move the increase each round (middle, then end) so the cone stays straight instead of leaning."
+      ],
+      "drill": [
+        "Cone A, 3 per round. Rnd 1: magic ring, 6 sc (6). Rnd 2: (sc, inc) x3 (9). Rnd 3: (sc 2, inc) x3 (12). Rnd 4: (sc 3, inc) x3 (15). Rnd 5: (sc 4, inc) x3 (18). Rnd 6: (sc 5, inc) x3 (21). Rnd 7: (sc 6, inc) x3 (24). Fasten off.",
+        "Cone B2, 2 per round. Rnd 1: magic ring, 6 sc (6). Rnd 2: (sc 2, inc) x2 (8). Rnd 3: (sc 3, inc) x2 (10). Rnd 4: (sc 4, inc) x2 (12). Rnd 5: (sc 5, inc) x2 (14). Rnd 6: (sc 6, inc) x2 (16). Rnd 7: (sc 7, inc) x2 (18). Rnd 8: (sc 8, inc) x2 (20). Rnd 9: (sc 9, inc) x2 (22). Rnd 10: (sc 10, inc) x2 (24). Fasten off.",
+        "Cone C, 1 per round. Rnd 1: magic ring, 6 sc (6). Rnd 2: sc 3, inc, sc 2 (7). Rnd 3: sc 6, inc (8). Rnd 4: sc 4, inc, sc 3 (9). Rnd 5: sc 8, inc (10). Rnd 6: sc 5, inc, sc 4 (11). Rnd 7: sc 10, inc (12). Rnd 8: sc 6, inc, sc 5 (13). Rnd 9: sc 12, inc (14). Rnd 10: sc 7, inc, sc 6 (15). Rnd 11: sc 14, inc (16). Rnd 12: sc 8, inc, sc 7 (17). Rnd 13: sc 16, inc (18). Fasten off.",
+        "Stuff each cone just firmly enough to hold its shape. Lay it on paper, trace both sides along its full length, extend the two lines with a ruler until they meet at the tip, and measure the angle with the protractor. Do the same for T120.2's Cone B (6 increases every other round) if you have it.",
+        "Taper (a leg). Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnds 4 to 6: sc 18 (18). Rnd 7: sc 16, dec (17). Rnd 8: sc 7, dec, sc 8 (16). Rnd 9: sc 14, dec (15). Rnd 10: sc 6, dec, sc 7 (14). Rnd 11: sc 12, dec (13). Rnd 12: sc 5, dec, sc 6 (12). Rnds 13 to 14: sc 12 (12). Stuff. Rnd 15: dec x6 (6). Ultimate Finish. Measure the width at Rnd 5 and Rnd 13.",
+        "Egg. Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: sc, inc, (sc 2, inc) x5, sc (24). Rnd 5: (sc 3, inc) x6 (30). Rnds 6 to 9: sc 30 (30). Rnd 10: (sc 8, dec) x3 (27). Rnd 11: sc 27 (27). Rnd 12: (sc 7, dec) x3 (24). Rnd 13: sc 24 (24). Rnd 14: (sc 6, dec) x3 (21). Rnd 15: sc 21 (21). Rnd 16: (sc 5, dec) x3 (18). Stuff firmly, filling the wide end first. Rnd 17: (sc, dec) x6 (12). Rnd 18: dec x6 (6). Ultimate Finish.",
+        "Bean (a 3D oval). Ch 11. Rnd 1: sc in the 2nd ch from hook, sc 8, 3 sc in the last ch; along the other side of the chain, sc 8, then 2 sc in the same ch as your first sc (22). Rnd 2: inc, sc 8, inc x3, sc 8, inc x2 (28). Rnds 3 to 8: sc 28 (28). Rnd 9: dec, sc 8, dec x3, sc 8, dec x2 (22). Stuff. Rnd 10: dec x11 (11). Rnd 11: sc, dec x5 (6). Ultimate Finish.",
+        "Write a one-line rule under each shape on your card: what its counts did, and what part of a toy it could be."
+      ],
+      "pass": [
+        "Every round count for all six pieces is on your tally card and matches the drill.",
+        "Cone A's tip measures 50 to 70 degrees, Cone B2's 29 to 49 degrees, and Cone C's 9 to 29 degrees.",
+        "If you measured T120.2's Cone B, its angle is written next to Cone A's, with one line on what that says about the 45-degree rule.",
+        "The taper is at least 4 mm (5/32 in) narrower at Rnd 13 than at Rnd 5.",
+        "The egg stands on its wide end on a flat table for 10 seconds without support.",
+        "The bean lies on its side without rolling, and its length is greater than its width (both written in mm)."
+      ],
+      "wrong": [
+        [
+          "Cone C leans or curls to one side",
+          "The increases are stacking. Check that even rounds put the increase in the middle and odd rounds at the end, as written."
+        ],
+        [
+          "A cone angle is far outside its range",
+          "Overstuffing rounds the sides out. Remove some stuffing, trace again closer to the tip, and measure once more."
+        ],
+        [
+          "The egg won't stand",
+          "Its wide end needs firmer stuffing than the point. Add stuffing at the base through the gap before Rnd 17 next time, and press the base flat on the table while you close."
+        ],
+        [
+          "Gaps show along the bean's chain line",
+          "Work Rnd 1 into the chain's back bump on the first side, as in 3.4. On this one, a few stitches of matching yarn sewn over the gap close it."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Predicting a cone's angle from its increase rate, and designing tapers, eggs and 3D ovals",
+      "rubric": false,
+      "sources": [
+        "https://shinyhappyworld.com/?p=3206",
+        "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/",
+        "https://www.planetjune.com/amibooke"
+      ]
+    },
+    {
+      "id": "T410.4",
+      "origin": "new",
+      "t": "Directional shaping by plan",
+      "kind": "lab",
+      "h": 6,
+      "time": "about 6 hours over 3 sessions",
+      "prereq_units": [
+        "T410.3",
+        "T230.2",
+        "T310.4"
+      ],
+      "why": "In T230.2 you followed counts that pushed a piece outward. Now you decide where the bulge goes before you start, write the rounds yourself, and check that it lands there. That is how a muzzle, a belly or cheeks become part of the head instead of a sewn-on piece.",
+      "need": "Worsted cotton in a light color, your house hook, Poly-Fil, 6 markers in two colors, a contrasting scrap yarn, a ruler with mm, your tally card and the drift notes from T310.4.",
+      "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/?p=15898'>A Colour Changing Crochet Investigation</a> (how far a spiral drifts per round). Reread Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>, on how increase placement shapes a piece. Textbook: June Gilbank, <a href='https://www.planetjune.com/amibooke'>The Essential Guide to Amigurumi</a>, Part 3. No free tutorial teaches planned placement step by step, so the method is written out below. Left-handed: neither page has a left-handed version; mirror the right-handed steps. A left-handed spiral drifts the other way, so read 'left' and 'right' in your drift notes as your own.",
+      "key": [
+        "Name the round start first. In this course it is always center back. Then the center front of an N-stitch round sits between stitch N/2 and N/2 + 1.",
+        "A bulge centered on the front means the cluster of increases is centered on that point. For 6 increases on a 30-stitch round: sc 12, inc x6, sc 12.",
+        "A spiral drifts. PlanetJune measured about 1 stitch every 5 rounds in ordinary sc. Over 10 rounds that is about 2 stitches, so a feature planned by count can land 2 stitches off a straight line. Your own T310.4 measurement is the better number.",
+        "To correct for drift, shift a feature's starting stitch against the drift by (rounds since your reference round / 5) stitches.",
+        "Bring a bulge back with the same number of decreases over the same stitches a few rounds later. The rounds between set its depth.",
+        "Side features use quarter points. On 30 stitches, the sides sit near stitches 7 to 8 and 22 to 23."
+      ],
+      "drill": [
+        "Muzzle head (written for you). Rnd 1: magic ring, 6 sc (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: sc, inc, (sc 2, inc) x5, sc (24). Rnd 5: (sc 3, inc) x6 (30). Rnd 6: sc 30 (30). Clip second-color markers into stitches 15 and 16 of Rnd 6. The gap between them is your center front.",
+        "Rnd 7: sc 12, inc x6, sc 12 (36). Rnds 8 to 9: sc 36 (36). Rnd 10: sc 12, dec x6, sc 12 (30). Rnds 11 to 12: sc 30 (30). Rnd 13: (sc 3, dec) x6 (24). Rnd 14: (sc 2, dec) x6 (18). Stuff firmly, pushing stuffing into the muzzle first. Rnd 15: (sc, dec) x6 (12). Rnd 16: dec x6 (6). Ultimate Finish.",
+        "Thread the contrasting scrap straight up from the gap between the Rnd 6 markers to Rnd 12, following the columns of stitches, and tie it loosely. Count how many stitches the muzzle's center sits from that thread, and which way. Measure from the side how far the muzzle sticks out past the curve of the head.",
+        "Belly body (you write it). Start from this brief: a 24-stitch body, round start at center back, Rnds 1 to 4 to 24 staggered, Rnds 5 to 6 even, a belly over the front 8 stitches that grows by 4 stitches on Rnd 7, stays out for 3 rounds, and comes back on Rnd 11, then 2 rounds even and a close. Write every round with Used and Made sums before you crochet.",
+        "Check your rounds against the key, then crochet it: Rnd 7: sc 8, (sc, inc) x4, sc 8 (28). Rnds 8 to 10: sc 28 (28). Rnd 11: sc 8, (sc, dec) x4, sc 8 (24). Rnds 12 to 13: sc 24 (24). Rnd 14: (sc 2, dec) x6 (18). Stuff. Rnd 15: (sc, dec) x6 (12). Rnd 16: dec x6 (6). Ultimate Finish.",
+        "Paper only: write one round that adds a 4-stitch cheek on each side of a 30-stitch head. Key: sc 5, inc x4, sc 11, inc x4, sc 6 (38). Used 30, Made 38.",
+        "Photograph the head and body from the front and side with a ruler in the shot."
+      ],
+      "pass": [
+        "The muzzle's center sits within 2 stitches of the Rnd 6 thread, and the direction and number of stitches are written on your card.",
+        "From the side, the muzzle sticks out at least 5 mm (3/16 in) past the curve of the head.",
+        "Your written belly rounds have Used and Made sums that check, before you crochet them.",
+        "From the side, with a ruler held along the back, the belly sticks out at least 3 mm (1/8 in) past the line of the chest above it.",
+        "The cheek round's sums check (Used 30, Made 38)."
+      ],
+      "wrong": [
+        [
+          "The muzzle lands 3 or more stitches to one side",
+          "That's drift, larger than average. Write the number. On your next head, start the cluster that many stitches earlier (or later, if it drifted the other way)."
+        ],
+        [
+          "The muzzle looks like a flat patch instead of a bump",
+          "It needs depth. Add one more even round between the increase and decrease rounds next time, and stuff the muzzle before the head."
+        ],
+        [
+          "The belly comes back in too sharply and forms a ridge",
+          "Spread the decreases over 2 rounds next time: two decreases on each round instead of four on one."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Planning where a bulge lands by count, allowing for spiral drift",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/blog/?p=15898",
+        "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/",
+        "https://www.planetjune.com/amibooke"
+      ]
+    },
+    {
+      "id": "T410.5",
+      "origin": "new",
+      "t": "Sketch to parts",
+      "kind": "lesson",
+      "h": 6,
+      "time": "about 6 hours over 3 sessions",
+      "prereq_units": [
+        "T410.4",
+        "T410.2",
+        "T210.1",
+        "T330.1",
+        "T330.3"
+      ],
+      "why": "Without this step, design is trial and error with yarn. Turning a sketch into numbers first means your first prototype is already close, and every change after that is small.",
+      "need": "Ball B from T410.2, a soft tape measure or paper strip, a ruler with mm, plain paper, a pencil, a calculator, your T210.1 face recipe card, your T330.1 annotated patterns, worsted cotton and your house hook for the test part.",
+      "learn": "Free: Tiny Curl, <a href='https://www.tinycurl.co/how-to-design-amigurumi-crochet-pattern/'>How to Design Your Own Amigurumi Crochet Pattern</a>; Elise Rose Crochet, <a href='https://eliserosecrochet.com/how-to-become-an-amigurumi-designer-in-8-easy-steps/'>How to Become an Amigurumi Designer in 8 Easy Steps</a>. Textbook: June Gilbank, <a href='https://www.planetjune.com/amibooke'>The Essential Guide to Amigurumi</a>, Part 3. Paid, optional: Principe del Crochet (Marcelo Javier Cortes) on Domestika, <a href='https://www.domestika.org/en/courses/1574-amigurumi-design-and-creation'>Amigurumi Design and Creation</a>, about $34 list and often discounted (as of Oct 2026), with English audio; and Pitachan (Phanitta Chomsinsap), <a href='https://www.amazon.com/Design-Your-Own-Amigurumi-Pitachan/dp/B0CWY21YLN'>Design Your Own Amigurumi</a> (book, 2024, price not confirmed). Left-handed: none of these has a left-handed version; mirror the right-handed steps. Sketching and the arithmetic are the same in either hand.",
+      "key": [
+        "Toy gauge comes from your own ball. Stitch width W = Ball B's equator / 36. Round height H = (Ball B's pole-to-pole circumference / 2) / 18. Write both in mm.",
+        "Sketch at actual size, front and side. A first original works best at 10 to 15 cm (4 to 6 in) tall, with 4 to 6 parts.",
+        "Break the sketch into the shapes you've drilled: sphere, cylinder, cone, egg, oval, flattened piece. Each part gets a widest diameter D and a length.",
+        "Widest count N = pi x D / W. Round to a multiple of 6 for large round parts, or 3 for small ones.",
+        "Rounds: a sphere needs about (pi x D / 2) / H rounds. A cylinder needs its length / H rounds, counting the rounds of its starting disc. A cone's rate comes from its tip angle (T410.3).",
+        "A flattened piece of width w starts from a tube of about 2 x w / W stitches.",
+        "Worked example: W = 5.2 mm, H = 4.9 mm, head diameter 70 mm. N = 3.14 x 70 / 5.2 = 42.3, so 42. Rounds = (3.14 x 70 / 2) / 4.9 = 22.4, so 22. That matches the N = 42 sine schedule, which also runs 22 rounds.",
+        "Proportion is a style. Big head and low, wide-set eyes read young (T210.1). Pica Pau's tall bodies and small eyes read calm and grown-up. Pick one on purpose and write it on the sketch."
+      ],
+      "drill": [
+        "Measure Ball B and write W and H on a new card titled 'my toy gauge'.",
+        "Write a one-paragraph brief: what the character is, who it's for, finished height, yarn, colors (two at most for this first one), eyes (safety eyes for adults and older children, embroidered for under-3s), and one word for its style. Keep it original: no studio-owned characters and nothing copied from a designer's toy.",
+        "Draw the character front and side at actual size. Draw a center line on both views.",
+        "Outline each part as a shape and label it: head (sphere), body (egg), legs (tapers), ears (flattened cones), and so on. Use at least four shape types.",
+        "For each part, measure D and length on the sketch and write the widest count and round count next to it, using the formulas. Show the arithmetic.",
+        "Make a parts table: part, shape, how many, widest count, rounds, color, where it attaches (round and stitch on the body or head).",
+        "Crochet the largest part from your numbers alone, writing a count for every round. Stuff it and measure its widest diameter. Keep it: it becomes the first piece of your 3.6 prototype."
+      ],
+      "pass": [
+        "Your toy gauge card shows W and H in mm, with the two measurements they came from.",
+        "Every part on the sketch has a widest count and a round count written next to it, with the arithmetic on the parts table.",
+        "The sketch uses at least four different shape types.",
+        "The test part's widest diameter is within 10% of the sketch's (for 70 mm (2 3/4 in), between 63 and 77 mm (2 1/2 and 3 in))."
+      ],
+      "wrong": [
+        [
+          "The test part comes out too big",
+          "Your stuffing stretched the fabric. Stuff to the same squeeze as Ball B, then recompute N with the measured size and note the difference on the gauge card."
+        ],
+        [
+          "The sketch has 8 or more parts",
+          "Merge some. Ears and limbs can be cones or tapers, and a head and body can be worked in one piece. Fewer parts make a calmer first original."
+        ],
+        [
+          "Your N doesn't come out near a multiple of 6",
+          "Round to the nearest multiple of 3 and end the increases with a round of 3 (T410.1 method)."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Measuring your toy gauge and converting a sketch into a parts table",
+      "rubric": false,
+      "sources": [
+        "https://www.tinycurl.co/how-to-design-amigurumi-crochet-pattern/",
+        "https://eliserosecrochet.com/how-to-become-an-amigurumi-designer-in-8-easy-steps/",
+        "https://www.planetjune.com/amibooke",
+        "https://www.domestika.org/en/courses/1574-amigurumi-design-and-creation",
+        "https://www.amazon.com/Design-Your-Own-Amigurumi-Pitachan/dp/B0CWY21YLN"
+      ]
+    },
+    {
+      "id": "3.6",
+      "origin": "revised",
+      "t": "Your first original toy",
+      "kind": "project",
+      "h": 35,
+      "time": "about 30 to 40 hours over 6 to 10 weeks, in seven stages",
+      "prereq_units": [
+        "T410.5",
+        "T410.3",
+        "T410.4",
+        "T210.2",
+        "T120.4",
+        "3.3"
+      ],
+      "why": "This is the step from toymaker to designer. You turn the T410.5 sketch into a toy, improve it on purpose, write it down, and prove the pattern works by making a second copy from the page alone. Every stage is small, and a prototype that doesn't match yet is the next stage's notes.",
+      "need": "Your sketch, parts table and toy gauge card from T410.5, worsted cotton in your chosen colors (about 100 g (186 yd) total is plenty), your house hook, Poly-Fil, eyes per your brief, markers, pins, a bent-tip needle, a ruler with mm, a notebook or spreadsheet for the round table and version log, a shoebox for the prototype, your phone.",
+      "learn": "Free: Tiny Curl, <a href='https://www.tinycurl.co/how-to-design-amigurumi-crochet-pattern/'>How to Design Your Own Amigurumi Crochet Pattern</a>, for how working designers prototype and revise. June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/amigurumi-troubleshooter/'>Amigurumi Troubleshooter</a>, to name what went wrong in a prototype. Textbook: June Gilbank, <a href='https://www.planetjune.com/amibooke'>The Essential Guide to Amigurumi</a>, Part 3. Paid, optional: Principe del Crochet, <a href='https://www.domestika.org/en/courses/1574-amigurumi-design-and-creation'>Amigurumi Design and Creation</a> on Domestika (about $34 list, as of Oct 2026). Left-handed: none of these has a left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Write while you crochet. Every round goes into a round table straight away: Round, Instructions, Count, Notes. Memory is the first thing a second copy shows up.",
+        "Version everything. V1, V2, V3 each get a date, a photo and one line per change: what changed and why.",
+        "Change one or two things per version, so you can see what each change did.",
+        "Placement is part of the pattern. Write where each part attaches as a round and a stitch count from a named landmark, for example 'arms between Rnds 12 and 13 of the body, 4 stitches each side of center front'.",
+        "A prototype that doesn't match the sketch is information. Keep every version in the shoebox with its label.",
+        "The real test is the copy. If you need to look at the first toy to make the second, the pattern is missing something. Write that down on the gaps list instead of looking.",
+        "Toys for children under 3 get embroidered eyes and no small parts; follow your T120.4 safety notes and run the home tug test on every attached part."
+      ],
+      "drill": [
+        "Stage A, brief check (about 1 hour). Reread your T410.5 brief and parts table. Confirm 4 to 6 parts, at least four shape types (from sphere, cylinder, oval, cone, flattened piece, egg), and one or two colors. Start the round table and the version log.",
+        "Stage B, prototype V1 (about 8 hours). Crochet every part from the parts table, writing every round's instructions and count as you go. Stuff, place parts with pins, photograph front, side and back, then attach. Fit the face from your T210.1 recipe.",
+        "Stage C, review (about 1 hour). Photograph V1 next to the sketch at the same size. Measure every part's height and widest width in mm and compare with the sketch. Score V1 on the toy rubric. Pick up to three changes, one per part, and write them in the version log.",
+        "Stage D, prototype V2 (about 7 hours). Make the changed parts (and the unchanged ones again if you want a full second toy). Update the round table. Review as in Stage C. If any part is still more than 10% off the sketch, or you'd simply like to, make a V3 (about 5 hours).",
+        "Stage E, clean pattern (about 5 hours). Turn the round table of the final version into a pattern draft: materials, toy gauge, each part with one line per round and its count in parentheses, stuffing notes, assembly with placements as rounds and stitches, the face recipe, a safety note. Check every round's Used and Made sums.",
+        "Stage F, copy from the page (about 8 hours). Put the final prototype in the shoebox and give it to someone, or put it in another room. Make a second toy from the draft only. Each time the draft doesn't tell you something, write the round and the question on a gaps list and make your best guess.",
+        "Stage G, compare (about 1 hour). Measure every part on both toys (height and widest width) and write both numbers. Photograph them side by side. For each line on the gaps list, add the missing information to the draft and mark it V-final with the date. Score the copy on the toy rubric."
+      ],
+      "pass": [
+        "The round table has a count for every round of every part, and every round's Used and Made sums check.",
+        "The version log has at least two versions, each with a date, a photo and a line for every change.",
+        "The second copy, made from the draft alone, matches the final prototype within 3 mm (1/8 in) on every part's height and widest width.",
+        "Every item on the gaps list has a matching line in the V-final draft.",
+        "The design uses at least four shape types, listed in the parts table.",
+        "The copy scores at least 12 of 16 on the shared toy rubric (8 lines, 0 to 2 each; a toy passes at 12 of 16 with no 0 for Safety), and every attached part passes the T120.4 home tug test."
+      ],
+      "wrong": [
+        [
+          "The copy comes out bigger or smaller than the prototype",
+          "Tension drifts over weeks. Make a 6-round disc (36) before Stage F and compare its diameter with your toy gauge card; change hook size by 0.25 mm if it differs by more than 2 mm (1/16 in)."
+        ],
+        [
+          "Parts match but the toy looks different",
+          "Placement isn't pinned down. Add a landmark and stitch count for every attached part, and a photo of the pinned layout, to the draft."
+        ],
+        [
+          "You've made three versions and one part still looks wrong",
+          "Stop the loop for that part. Ask one specific question with photos and your round table (the ask template from your binder), and come back to it on another day."
+        ],
+        [
+          "The project starts to feel like a chore",
+          "Take a week off from it or work on a comfort toy. Stages are separate on purpose, so you can stop after any one and pick up from the version log."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Designing a toy from your own sketch and writing a pattern another copy can be made from",
+      "rubric": true,
+      "sources": [
+        "https://www.tinycurl.co/how-to-design-amigurumi-crochet-pattern/",
+        "https://www.planetjune.com/blog/amigurumi-troubleshooter/",
+        "https://www.planetjune.com/amibooke",
+        "https://www.domestika.org/en/courses/1574-amigurumi-design-and-creation"
+      ]
+    },
+    {
+      "id": "T410.6",
+      "origin": "new",
+      "t": "Color planning",
+      "kind": "lab",
+      "h": 4,
+      "time": "about 4 hours over 2 sessions",
+      "prereq_units": [
+        "3.6",
+        "T410.4",
+        "T120.3",
+        "T310.4"
+      ],
+      "why": "Color mistakes are the cheapest ones to catch on paper. A grayscale check shows whether a face or a belly will read from across a room before you spend a skein on it.",
+      "need": "Your 3.6 sketch (three photocopies or tracings), colored pencils or a phone drawing app, the shade card for one yarn line (Lion Brand 24/7 Cotton, from the store display or the brand's site), small amounts of the yarns you pick, your house hook, your phone's black-and-white (mono) photo filter.",
+      "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/?p=15898'>A Colour Changing Crochet Investigation</a> (where stripes and color changes drift on a spiral) and her <a href='https://www.planetjune.com/color'>colour tutorials</a> (Changing Colour, Perfect Stripes, Managing Yarns). Left-handed: the colour tutorials page has left-handed versions of the technique videos; the investigation has no left-handed version, so mirror the right-handed steps.",
+      "key": [
+        "This builds on the value method in T330.2 (and B4 for blankets). Value (how light or dark a color is) does most of the work. Two colors with the same value blur together from a distance, however different their hues.",
+        "A grayscale photo shows value directly. If two neighboring features turn the same gray, change one of them.",
+        "Give each color a role: main, accent and detail. Eyes and the muzzle usually need the strongest contrast with the face.",
+        "Pencils and screens lie about yarn. Check the winning palette again in real yarn.",
+        "Stripes and color changes jog at the round start. Keep the round start at center back so every jog lands there, and plan stripes to start on that line."
+      ],
+      "drill": [
+        "From one yarn line's shade card, choose three palettes for your 3.6 character, each with a main, an accent and a detail color, plus the eye color.",
+        "Color the three sketches, one per palette.",
+        "Photograph all three with the mono filter. For each neighboring pair (eyes and face, muzzle and face, belly and body, inner and outer ear, any stripe and its neighbor), mark on the sketch whether they separate: yes or no.",
+        "Pick the palette with the most yeses. Change any color that scored a no.",
+        "In real yarn, crochet a 4-round disc (6, 12, 18, 24) in each color of the winner. Overlap them the way the features meet on the toy and take a mono photo.",
+        "Write a color plan into your pattern draft: each part's color by role and shade name, the round each color change happens on, and 'round start at center back' for every part with a change."
+      ],
+      "pass": [
+        "Three colored sketches and three mono photos are in your binder, each pair marked yes or no.",
+        "In the mono photo of the yarn discs, a second person can point to the boundary between every neighboring pair without help.",
+        "The color plan names every color change by round number, with every change starting at the center-back round start."
+      ],
+      "wrong": [
+        [
+          "Two colors that looked different turn the same gray",
+          "Keep the one you like more and replace the other with a shade at least two steps lighter or darker on the card."
+        ],
+        [
+          "The yarn discs read differently from the pencil sketch",
+          "That's why the yarn check is there. Trust the yarn photo and update the plan."
+        ],
+        [
+          "Stripe jogs show at the side of the toy",
+          "The round start drifted. Move the start back to center back at the first color-change round, using your T410.4 drift number."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Planning a toy's colors by value and checking them in grayscale",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/blog/?p=15898",
+        "https://www.planetjune.com/color"
+      ]
+    },
+    {
+      "id": "T410.7",
+      "origin": "new",
+      "t": "Structure for originals: stand or pose",
+      "kind": "project",
+      "h": 6,
+      "time": "about 6 hours over 2 or 3 sessions",
+      "prereq_units": [
+        "3.6",
+        "T220.1",
+        "T220.2",
+        "T320.1",
+        "T320.2",
+        "T320.3"
+      ],
+      "why": "In TOY 220 and TOY 320 you added bases, joints and wire to other designers' toys. Writing structure into your own pattern means choosing the method, sizing it from your counts and putting the steps and the safety note where a maker will need them.",
+      "need": "Your 3.6 pattern draft and yarn, your house hook, Poly-Fil, and the materials for one method: a stiff insert (plastic canvas or stiff felt) and poly pellets with a sealable pouch for a stand; 1 to 2 mm aluminum craft wire, pliers and tape for a pose; or thread or button joints for movement. A ruler, a book about 20 cm (8 in) long and a stack of coins or a small box to raise one end.",
+      "learn": "Free: Little World of Whimsy, <a href='https://littleworldofwhimsy.com/how-to-make-amigurumi-stand-up-easy-hacks/'>How to Make Amigurumi Stand Up (Easy Hacks!)</a>; 5 Little Monsters, <a href='https://www.5littlemonsters.com/2017/07/how-to-make-weighted-bases-for-crochet.html'>How to Make Weighted Bases for Crochet Projects</a>; The Loopy Lamb, <a href='https://theloopylamb.com/how-to-use-poly-pellets-in-amigurumi/'>How to Use Poly Pellets in Amigurumi</a>; Ella's Crocheted Toys, <a href='http://ellacrochetedtoys.blogspot.com/2017/09/tutorial-wire-frame-for-your-amigurumi.html'>Tutorial: Wire Frame for Your Amigurumi</a> (2017); The Friendly Red Fox, <a href='https://www.thefriendlyredfox.com/?p=81955'>Creating Moving Arms and Legs with Yarn</a>; Funky Friends Factory, <a href='https://funkyfriendsfactory.com/blog/button-jointing-for-beginners'>Button Jointing for Beginners</a>. Left-handed: none of these has a left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Choose by character. A sitting or standing animal gets a base; a figure that should wave or bend gets wire; a teddy-style toy gets joints.",
+        "A flat base starts as a flat circle (T410.1) ended with a back-loop round (T220.1). Cut the insert 2 mm (1/16 in) smaller than the crocheted base's diameter so it doesn't show at the edge.",
+        "Pellets only go in a sealed pouch, never loose. Wire ends get a small loop bent in with pliers and a wrap of tape, then a layer of stuffing, so they can't poke through.",
+        "Wire, thread joints, button joints and disc joints make the toy a display piece, not a toy for children. Pellets in a sealed pouch and safety eyes make it unsuitable for children under 3. The pattern says so in its safety note, in plain words.",
+        "Put structure steps in the pattern at the round where they happen, for example 'Before Rnd 18, insert the base and pellet pouch'."
+      ],
+      "drill": [
+        "Choose one method for your character and write one line on why.",
+        "Rework the part it affects. For a base: change the body's first rounds to a flat circle of the right size, add a back-loop round, and recompute the following counts. For wire: plan the wire's path and length (part length x 2 plus 2 cm (3/4 in) for the end loops) on the sketch. For joints: mark the joint points as rounds and stitches on the body and limbs.",
+        "Make a V-structure of the affected parts (or the whole toy) and assemble it.",
+        "Test it: a base toy goes on a 20 cm (8 in) book with one end raised 3.5 cm (1 3/8 in), about a 10-degree tilt. A wired limb is bent into a pose and left for 1 hour. Jointed limbs are set in three positions.",
+        "Write the structure section into your pattern draft: materials with sizes, the steps at the right rounds, and the safety note. Add it to the version log."
+      ],
+      "pass": [
+        "Base: the toy stands on the tilted book for 10 seconds without support, and the insert's edge can't be seen from 30 cm (12 in).",
+        "Wire: the limb holds its pose for 1 hour with less than 5 mm (3/16 in) of droop, and no wire end can be felt through the fabric when you press along it.",
+        "Joints: each limb holds all three positions without slipping.",
+        "The pattern draft names the method, materials with sizes, the round where each step happens, and a safety note that says plainly whether the toy is for display only (wire, joints) or not for children under 3 (pellets, safety eyes).",
+        "The toy scores at least 12 of 16 on the shared toy rubric (8 lines, 0 to 2 each; a toy passes at 12 of 16 with no 0 for Safety)."
+      ],
+      "wrong": [
+        [
+          "The base toy tips forward",
+          "Its weight sits ahead of the base. Move the pellet pouch to the back of the base, or widen the base by one round of 6 increases."
+        ],
+        [
+          "A wire end pokes through",
+          "Bend a tighter loop and wrap it with more tape, then add a pad of stuffing over it before closing. On the next copy, end the wire 1 cm (3/8 in) shorter."
+        ],
+        [
+          "Jointed limbs flop",
+          "The joint is loose. Pull the thread tighter before tying off, or add a washer under each button on the next toy."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Engineering a stand, a pose or joints into your own pattern",
+      "rubric": true,
+      "sources": [
+        "https://littleworldofwhimsy.com/how-to-make-amigurumi-stand-up-easy-hacks/",
+        "https://www.5littlemonsters.com/2017/07/how-to-make-weighted-bases-for-crochet.html",
+        "https://theloopylamb.com/how-to-use-poly-pellets-in-amigurumi/",
+        "http://ellacrochetedtoys.blogspot.com/2017/09/tutorial-wire-frame-for-your-amigurumi.html",
+        "https://www.thefriendlyredfox.com/?p=81955",
+        "https://funkyfriendsfactory.com/blog/button-jointing-for-beginners"
+      ]
+    }
+  ]
+}

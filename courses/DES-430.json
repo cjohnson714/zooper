@@ -1,0 +1,26 @@
+{
+ "code": "DES 430",
+ "title": "Garment design, grading and testing",
+ "year": null,
+ "track": "elective",
+ "required": false,
+ "hours": 68,
+ "credits": 1.5,
+ "hook": "As your designs direct",
+ "yarn": "As your designs direct",
+ "level": 4,
+ "prereqs": [
+  "FND 210",
+  "TOY 420"
+ ],
+ "summary": "Original stitch patterns and charts, a multi-size accessory, a graded garment specification, tech editing and testing.",
+ "intro": "Optional elective. It is not part of the required path, and nothing required waits on it. The toy major already teaches pattern writing, tech editing, testing and publishing in TOY 420. Take this course if you want to grade a design across sizes, which garments and multi-size accessories need. Designing is mostly careful writing and arithmetic.",
+ "outcomes": [
+  "You can write original stitch patterns and charts that another crocheter works correctly from your instructions alone.",
+  "You can design a multi-size accessory where each size measures within 1/2 in (12 mm) of its stated size.",
+  "You can grade a garment so every number traces back through a spreadsheet formula to a body measurement.",
+  "You can tech edit a pattern and run a test with three testers."
+ ],
+ "assessment": "Each unit passes on its pass list. The graded garment specification (9.5) is reviewed against its spreadsheet.",
+ "units_from_old_phase": "p9"
+}

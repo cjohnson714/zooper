@@ -1,0 +1,31 @@
+{
+ "code": "GAR 410",
+ "title": "Garments and fit",
+ "year": null,
+ "track": "elective",
+ "required": false,
+ "hours": 150,
+ "credits": 3.3,
+ "hook": "As each pattern directs",
+ "yarn": "As each pattern directs",
+ "level": 4,
+ "prereqs": [
+  "FND 210"
+ ],
+ "summary": "Four sweaters in rising order of construction difficulty, each fitted to your measured body.",
+ "intro": "Optional elective. It is not part of the required path, and nothing required waits on it. Garments are about measurement more than stitches. Every sweater uses the same fit loop: measure, choose a size from the schematic and ease, swatch and block, check gauge again after 4 in (10 cm) of real fabric, and fix fit before seaming. Doll clothes in TOY 310 use a small version of the same thinking.",
+ "outcomes": [
+  "You can choose a size from a schematic and state the ease it gives you.",
+  "You can make a cardigan, a seamed pullover, a panel sweater with worked-on edges and a top-down sweater, each within 1 in (2.5 cm) of your planned measurements.",
+  "You can keep a fit notebook complete enough to serve as a fit specification for design work."
+ ],
+ "assessment": "Each garment passes on its measured pass list. The fit notebook (7.5) is checked for completeness.",
+ "units_from_old_phase": "p7",
+ "pass_fixes": {
+  "7.6": [
+   "Yoke depth and body length match your planned numbers within 1/2 in (12 mm)",
+   "Your fit notebook lists each adjustment with the measurement before and after it",
+   "The sweater is recorded in your fit notebook"
+  ]
+ }
+}

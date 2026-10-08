@@ -1,0 +1,524 @@
+{
+  "code": "TOY 101",
+  "title": "Stitches for toys",
+  "year": 1,
+  "track": "toy",
+  "required": true,
+  "hours": 37,
+  "credits": 0.8,
+  "hook": "5.0 mm for flat swatches; 3.5 mm for toy work, then your house hook from T101.2",
+  "yarn": "#4 smooth acrylic for flat swatches; #4 worsted cotton for toy work",
+  "level": 1,
+  "prereqs": [
+    "TOY 100"
+  ],
+  "summary": "Learn single crochet properly, then the ring, the spiral, round notation and the invisible-closing ball, and make your first toy from your own magic ring.",
+  "intro": "Every amigurumi is mostly single crochet worked in a spiral. This course builds that, one piece at a time: flat swatches to learn the stitch and read it, circles and spirals, a pattern-reading lab, the perfect ball, and a density lab that sets your hook for every later toy. It ends with a whole Wooble started from your own magic ring.",
+  "outcomes": [
+    "You can make 20 rows of 20 single crochet with straight edges and count any row correctly.",
+    "You can start from a magic ring or a chain-2 start and work a flat spiral circle to 42 stitches, staggering the increases.",
+    "You can read a round written as 'R4: sc, inc, [2 sc, inc] x 5, sc (24)', check its count, and find an error in a written round.",
+    "You can make a 36-stitch ball with invisible decreases and the Ultimate Finish so its two ends look alike.",
+    "You can choose the hook that keeps stuffing hidden in your yarn without squeezing, and you can make a whole toy from a written pattern."
+  ],
+  "assessment": "Each unit passes when its pass list is met once in practice and once cold (at the start of a later session, after warm-up rounds, with a few fresh rows or rounds). The final project, T101.3, is scored on the shared toy rubric as Meets or Not yet for each criterion.",
+  "reading": "The Essential Guide to Amigurumi, by June Gilbank: the Amigurumi 101 section (magic ring, single crochet in the round, increases, decreases), then the stuffing and finishing sections before unit 3.1. Keep PlanetJune's free tutorial index (planetjune.com/help) and Amigurumi Troubleshooter as standing references.",
+  "units": [
+    {
+      "id": "1.1",
+      "origin": "revised",
+      "t": "Slip knot, chain and single crochet",
+      "kind": "lesson",
+      "h": 6,
+      "time": "about 6 hours over 6 sessions",
+      "prereq_units": [
+        "0",
+        "T100.1"
+      ],
+      "why": "Almost all of a toy is single crochet. Learning it flat first, in big, light stitches, lets you see every loop before you work in tight cotton.",
+      "need": "5.0 mm hook, light acrylic, 2 locking markers, scissors. For the last step: 3.5 mm hook and toy cotton.",
+      "learn": "Tamara Kelly's free Learn to Crochet course at Moogly (<a href=\"https://www.mooglyblog.com/learn-how-to-crochet/\">right-handed</a> or <a href=\"https://mooglyblog.com/how-to-crochet-left-handed\">left-handed</a>): watch Slip Knot, Chain, and Single Crochet in order and practice between videos. Second voice: Lion Brand's blog post <a href=\"https://blog.lionbrand.com/?p=21376\">4 Ways to Learn to Knit or Crochet</a> (Lion Brand Yarns), which points to their two short Learn to Crochet video playlists, about a minute per video. For toys specifically, June Gilbank's <a href=\"https://www.planetjune.com/basics\">Amigurumi Basics</a> (PlanetJune) shows single crochet with right- and left-handed video. Left-handed: Moogly's left-handed course and PlanetJune's left-handed videos. Lion Brand's playlists are right-handed; mirror them.",
+      "key": [
+        "Your yarn hand controls the yarn: it runs over your index finger, and the other fingers pinch it lightly.",
+        "Let each new loop ride up onto the hook's shaft before you pull through. The shaft sets the size of every loop; the narrow throat makes loops too small.",
+        "The loop on the hook is never counted as a stitch.",
+        "When chaining, count the Vs on the front of the chain, not the loop on the hook and not the slip knot.",
+        "Single crochet: insert the hook, yarn over, pull up a loop (two loops on the hook), yarn over, pull through both.",
+        "Turning chain: at the end of a row, chain 1 and turn. In single crochet, that chain doesn't count as a stitch. The first sc goes into the last stitch you made."
+      ],
+      "drill": [
+        "Make three chains of 30. Count each one twice; both counts should say 30.",
+        "Chain 21. Sc into the 2nd chain from the hook and into each chain after it (20 sc).",
+        "Clip a marker into the first and last stitch of the row. Chain 1, turn, and sc into each of the 20 stitches. Move both markers up every row.",
+        "Repeat until you have 20 rows of 20 sc.",
+        "Variable practice: with the 3.5 mm hook and toy cotton, chain 11 and work 10 rows of 10 sc."
+      ],
+      "pass": [
+        "Every row of the acrylic swatch has 20 stitches (count 5 rows chosen at random)",
+        "Both side edges stay within 3 mm (1/8 in) of a ruler laid along them",
+        "Your hook slides into any chain in the starting row without forcing",
+        "The cotton swatch has 10 stitches in every row",
+        "Passed cold: at the start of a later session, after 2 warm-up rows, 4 fresh rows still have 20 stitches each"
+      ],
+      "wrong": [
+        [
+          "Chains too tight to work into",
+          "Let each chain ride up onto the shaft. Still tight? Chain with a hook one size larger and switch back for row 1."
+        ],
+        [
+          "Piece gets wider",
+          "You're working two stitches into the first stitch of a row, often the turning chain. The markers show where each row starts and ends."
+        ],
+        [
+          "Piece gets narrower",
+          "The last stitch of the row hides at the edge. It's the one with the marker; work into it."
+        ],
+        [
+          "Hand cramps",
+          "Loosen your grip and pause. Go back to the T100.1 template: 15 to 25 minutes, then a break."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Slip knot, chain and single crochet",
+      "rubric": false,
+      "sources": [
+        "https://www.mooglyblog.com/learn-how-to-crochet/",
+        "https://mooglyblog.com/how-to-crochet-left-handed",
+        "https://blog.lionbrand.com/?p=21376",
+        "https://www.planetjune.com/basics"
+      ]
+    },
+    {
+      "id": "1.3",
+      "origin": "revised",
+      "t": "Stitch anatomy",
+      "kind": "lab",
+      "h": 3,
+      "time": "about 3 hours over 3 sessions",
+      "prereq_units": [
+        "1.1"
+      ],
+      "why": "Counting, front and back loops, the invisible decrease and fixing mistakes all depend on seeing the parts of a stitch. Toys ask you to work into exact loops all the time.",
+      "need": "5.0 mm hook, light acrylic, a yarn needle, about 50 cm (20 in) of contrasting yarn, markers.",
+      "learn": "Moogly's course (<a href=\"https://www.mooglyblog.com/learn-how-to-crochet/\">right-handed</a> or <a href=\"https://mooglyblog.com/how-to-crochet-left-handed\">left-handed</a>): the Front and Back Loop Only lesson. Then June Gilbank's <a href=\"https://www.planetjune.com/rightside\">Which Is the Right Side?</a> (PlanetJune), which shows how the same stitch looks from front and back, with right- and left-handed video. Left-handed: Moogly's left-handed course and PlanetJune's left-handed video.",
+      "key": [
+        "The top of every stitch is a sideways V. The leg nearer you is the front loop; the far leg is the back loop. Together they are 'both loops'.",
+        "The body of the stitch below the V is the post.",
+        "Unless a pattern says otherwise, insert the hook under both loops.",
+        "Back loop only (BLO) leaves the front loop as a ridge on the side facing you; front loop only (FLO) leaves the back loop as a ridge on the far side. Toys use BLO to turn a corner, like the edge of a flat base.",
+        "Flat rows turn, so the side facing you flips every row. That makes BLO or FLO ridges alternate between the two faces. In the round you never turn, so every ridge lands on the same face.",
+        "To count a row, count the Vs along its top edge, from one marker to the other."
+      ],
+      "drill": [
+        "Chain 21 and work 1 row of 20 sc. Then work 4 rows in BLO, 4 rows in FLO, and 4 rows under both loops, each 20 sc. Clip a marker at each section change.",
+        "Thread the needle with the contrasting yarn and run it under the front loops only of the last row, from end to end, without catching the back loops.",
+        "Photograph the swatch and, in the photo or on a printout, label one front loop, one back loop, one post and one turning chain."
+      ],
+      "pass": [
+        "Each of the 13 rows has 20 stitches",
+        "Lift the contrasting yarn: it holds exactly 20 front loops, and all 20 back loops of that row are still free",
+        "The BLO section shows 4 ridges of unworked front loops, 2 on each face, alternating row by row; the FLO section shows 4 ridges of unworked back loops, also 2 on each face",
+        "Passed cold: in a later session, count one random row of someone else's choosing and get 20 on the first count"
+      ],
+      "wrong": [
+        [
+          "Can't tell front from back loop",
+          "Hold the work so the row you're working is on top and facing you. The loop closest to your chest is the front loop."
+        ],
+        [
+          "Row counts drift in the BLO section",
+          "BLO rows feel looser and the last stitch is easy to skip. Use the end markers."
+        ],
+        [
+          "Contrasting yarn catches both loops",
+          "Slide the needle under one strand at a time, tip pointing along the row."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Seeing the parts of a stitch",
+      "rubric": false,
+      "sources": [
+        "https://www.mooglyblog.com/learn-how-to-crochet/",
+        "https://mooglyblog.com/how-to-crochet-left-handed",
+        "https://www.planetjune.com/rightside"
+      ]
+    },
+    {
+      "id": "1.6",
+      "origin": "revised",
+      "t": "Increases and decreases",
+      "kind": "lab",
+      "h": 3,
+      "time": "about 3 hours over 2 or 3 sessions",
+      "prereq_units": [
+        "1.3"
+      ],
+      "why": "Every toy shape is made by adding and removing stitches in the right places. Learning them flat, where you can see each one, makes rounds easy to understand.",
+      "need": "5.0 mm hook, light acrylic, markers, ruler.",
+      "learn": "June Gilbank's <a href=\"https://www.planetjune.com/basics\">Amigurumi Basics</a> (PlanetJune): the increase and the standard single crochet decrease (sc2tog), with right- and left-handed video. Second voice: Kati's <a href=\"https://www.hookedbykati.com/?p=6241\">The Basic Stitches of Amigurumi</a> (Hooked by Kati). For the decrease, The Woobles' free <a href=\"https://www.thewoobles.com/decrease\">single crochet decrease</a> page (The Woobles) also shows the invisible decrease you'll use in 3.1. Left-handed: PlanetJune's left-handed video, The Woobles' <a href=\"https://thewoobles.com/pages/how-to-single-crochet-decrease-for-lefties\">decrease page for lefties</a>, and AllFreeCrochet's <a href=\"https://AllFreeCrochet.com/Crochet-Videos/Learn-the-Single-Crochet-Decrease-Stitch-Craft-Video\">left-handed single crochet decrease video</a>.",
+      "key": [
+        "An increase (inc) is 2 sc worked into the same stitch. It adds 1.",
+        "A standard decrease (sc2tog, also written dec) pulls up a loop in each of 2 stitches, then yarns over and pulls through all 3 loops. It takes 2 stitches and makes 1, so it removes 1.",
+        "Count check: stitches used from the row below always equals the previous count. Stitches made equals the new count.",
+        "Use the standard decrease when both sides of the fabric show. Toys in the round use the invisible decrease, which comes in 3.1."
+      ],
+      "drill": [
+        "Triangle A (decreasing): chain 21, sc in the 2nd chain from the hook and across (20). Every following row: ch 1, turn, sc2tog, sc to the last 2 stitches, sc2tog. Rows go 20, 18, 16, 14, 12, 10, 8, 6, 4, 2: 10 rows. The last row is worked over 4 stitches: sc2tog twice (2).",
+        "Triangle B (increasing): chain 3, sc in the 2nd chain from the hook and in the next (2). Every following row: ch 1, turn, inc in the first stitch, sc to the last stitch, inc in the last stitch. Rows go 2, 4, 6, 8, 10, 12, 14, 16, 18, 20: 10 rows. The second row is worked over 2 stitches: inc twice (4).",
+        "Write each row's count in your log as you go."
+      ],
+      "pass": [
+        "Your log shows each row changing by exactly 2, and the counts match the lists above",
+        "Both sloped edges of each triangle lie within 3 mm (1/8 in) of a straight ruler",
+        "The two triangles' 20-stitch edges match in length within 6 mm (1/4 in)",
+        "Passed cold: in a later session, work 4 fresh rows of Triangle B's pattern starting from 2 and reach 8"
+      ],
+      "wrong": [
+        [
+          "A row changes by 1 or 3",
+          "One end was skipped or worked twice. Clip a marker into the first and last stitch of every row."
+        ],
+        [
+          "Decrease edge looks stepped",
+          "Make sure the sc2tog uses the very first two stitches, not the second and third."
+        ],
+        [
+          "Increase edge puckers",
+          "Increases at the edge pull tight. Let each loop ride up onto the shaft."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Increases and standard decreases",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/basics",
+        "https://www.hookedbykati.com/?p=6241",
+        "https://www.thewoobles.com/decrease",
+        "https://thewoobles.com/pages/how-to-single-crochet-decrease-for-lefties",
+        "https://AllFreeCrochet.com/Crochet-Videos/Learn-the-Single-Crochet-Decrease-Stitch-Craft-Video"
+      ]
+    },
+    {
+      "id": "1.7",
+      "origin": "revised",
+      "t": "Circles and the spiral",
+      "kind": "lab",
+      "h": 6,
+      "time": "about 6 hours over 5 or 6 sessions",
+      "prereq_units": [
+        "1.6"
+      ],
+      "why": "Every toy starts as a circle. The magic ring closes its center, the spiral hides the seam, and markers keep you counting. These are the habits that make every later toy work.",
+      "need": "3.5 mm hook, toy cotton, 4 locking markers, ruler. Optional: the 5.0 mm hook and acrylic for a first practice ring.",
+      "learn": "June Gilbank's <a href=\"https://www.planetjune.com/blog/amigurumi-help/how-to-crochet-a-magic-ring/\">How to Crochet a Magic Ring</a> (PlanetJune), with right- and left-handed video. Kati's <a href=\"https://www.hookedbykati.com/crochet-magic-circle-amigurumi/\">Magic Circle or Chain-2 Start: Which Is Better for Amigurumi?</a> (Hooked by Kati) teaches the chain-2 start. Nicole Chase's <a href=\"https://www.thenicolechase.com/blog/crochet-in-the-round\">Crocheting in the Round</a> (Nicole Chase) covers spirals, joined rounds and counting. For markers, The Woobles' <a href=\"https://thewoobles.com/pages/how-to-use-stitch-markers-left-handed-crochet\">stitch markers page</a> (The Woobles, left-handed version; it links its right-handed twin) or Mari-Liis Lille's <a href=\"https://www.lilleliis.com/how-to-use-stitch-markers-in-amigurumi-crochet/\">How to Use Stitch Markers in Amigurumi</a> (Lilleliis). Then June Gilbank's <a href=\"https://www.planetjune.com/rightside\">Which Is the Right Side?</a> (PlanetJune; right- and left-handed video). Left-handed: PlanetJune's left-handed videos and The Woobles' left-handed marker page; Hooked by Kati and Nicole Chase have no left-handed version, so mirror the right-handed steps.",
+      "key": [
+        "Magic ring: wrap the yarn into a loop, work the first round of sc over the loop and its tail, then pull the tail to close the center. Pull it closed before you start round 2, and again once you weave the tail in.",
+        "Chain-2 start: chain 2 and work round 1 into the 2nd chain from the hook. It works in any pattern that says magic ring, and it's gentler on plush yarns later.",
+        "Spiral rounds just keep going: the first stitch of round 2 goes into the first stitch of round 1. Amigurumi uses spirals unless a pattern says to join.",
+        "Joined rounds end with a slip stitch: insert the hook into the first stitch of the round, yarn over, and pull through the stitch and the loop on the hook in one motion. Then chain 1 and start the next round in that same first stitch. Joins leave a visible seam line, so toys mostly avoid them.",
+        "Clip a marker into the first stitch of each round and move it up when you get back to it. Before moving it, count the stitches since the marker.",
+        "A flat single-crochet circle adds 6 stitches every round: 6, 12, 18, 24, 30, 36, 42. Fewer increases make a cup; more make a ruffle.",
+        "Stagger the increases. If every round's increases sit on top of the last round's, the circle turns into a hexagon. Shift where each round's repeat starts, as in rounds 4 and 6 below.",
+        "Right side and wrong side: worked in a spiral, the right side shows neat Vs; the wrong side shows little horizontal bars. Small pieces often curl wrong side out; push the center through so the Vs face out.",
+        "Round notation: 'R3: [sc, inc] x 6 (18)' means repeat 'sc, inc' six times; the number in parentheses is the stitch count at the end of the round. T101.1 covers notation fully."
+      ],
+      "drill": [
+        "Circle A, spiral: R1: 6 sc in a magic ring (6); R2: inc in each st around (12); R3: [sc, inc] x 6 (18); R4: sc, inc, [2 sc, inc] x 5, sc (24); R5: [3 sc, inc] x 6 (30); R6: 2 sc, inc, [4 sc, inc] x 5, 2 sc (36); R7: [5 sc, inc] x 6 (42).",
+        "Circle B, joined: the same 7 rounds, but end each round with a slip stitch into its first stitch and chain 1 before the next round.",
+        "Circle C, chain-2 start: chain 2, then work rounds 1 to 6 of Circle A into the 2nd chain from the hook (36).",
+        "Right-side cup: start a 4th piece and work rounds 1 to 4 (24), then sc around for 4 rounds without increasing (24). Let it curl into a cup. Turn it so the Vs face outward.",
+        "Count the stitches of every round of every piece before you move the marker. Write each count in your log."
+      ],
+      "pass": [
+        "Your log shows 6, 12, 18, 24, 30, 36, 42 for A and B, and 6 to 36 for C",
+        "A, B and C each lie flat on a table with no edge lifting more than 3 mm (1/8 in)",
+        "No center hole: a pencil tip won't pass through the middle of A or C",
+        "A and B measure within 5 mm (3/16 in) of each other across the widest point",
+        "Circle A is round. Measured across in 3 directions, its largest and smallest widths are within 3 mm (1/8 in)",
+        "The cup is right side out: only Vs show on the outside",
+        "Passed cold: in a later session, after warm-up rounds, a fresh magic ring and rounds 1 to 4 count 6, 12, 18, 24"
+      ],
+      "wrong": [
+        [
+          "Circle cups into a bowl",
+          "Too few increases, or very tight stitches. Recount each round against the list."
+        ],
+        [
+          "Circle ruffles",
+          "Too many increases. Usually a stitch was worked twice at the marker. Count before you move the marker."
+        ],
+        [
+          "Hole in the middle",
+          "Pull the ring's tail tight before round 2. If the ring tail slips, weave it back through round 1 before cinching again."
+        ],
+        [
+          "Circle looks like a hexagon",
+          "Increases are stacking. Use the staggered rounds 4 and 6 exactly as written."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Magic ring, spiral rounds and markers",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/blog/amigurumi-help/how-to-crochet-a-magic-ring/",
+        "https://www.hookedbykati.com/crochet-magic-circle-amigurumi/",
+        "https://www.thenicolechase.com/blog/crochet-in-the-round",
+        "https://thewoobles.com/pages/how-to-use-stitch-markers-left-handed-crochet",
+        "https://www.lilleliis.com/how-to-use-stitch-markers-in-amigurumi-crochet/",
+        "https://www.planetjune.com/rightside"
+      ]
+    },
+    {
+      "id": "T101.1",
+      "origin": "new",
+      "t": "Reading amigurumi round notation",
+      "kind": "lab",
+      "h": 3,
+      "time": "about 3 hours over 2 or 3 sessions",
+      "prereq_units": [
+        "1.7"
+      ],
+      "why": "Patterns are written in a compact shorthand. Once you can check every round's arithmetic, you can catch mistakes in a pattern or in your own work before they show.",
+      "need": "Pencil, binder, your 1.7 circles, 3.5 mm hook and cotton.",
+      "learn": "Cuddly Stitches Craft's <a href=\"https://www.cuddlystitchescraft.com/how-to-read-amigurumi-patterns\">How to Read Amigurumi Patterns</a> (Cuddly Stitches Craft). Keep the Craft Yarn Council's <a href=\"https://craftyarncouncil.com/node/39\">standard abbreviations</a> (Craft Yarn Council) open beside it. Ribblr's <a href=\"https://ribblr.com/learn/crochet-row-counter\">row counter</a> (Ribblr) is an optional digital counter. Left-handed: notation reads the same for both hands, so there is no separate version.",
+      "key": [
+        "R or Rnd = round. 'Rnds 8–12' means work the same instruction for rounds 8, 9, 10, 11 and 12 (5 rounds).",
+        "The number in parentheses at the end is the stitch count after that round. Check it every round.",
+        "[ ] x 6 or ( ) x 6 means repeat what's inside 6 times. Anything outside the brackets is worked once.",
+        "sc = single crochet; inc = 2 sc in one stitch; dec = sc2tog; invdec = invisible decrease (3.1); sl st = slip stitch; st(s) = stitch(es); FLO and BLO = front or back loop only; 'sc around' = 1 sc in each stitch.",
+        "The two-number check: the stitches a round uses always equal the previous round's count. Each sc uses 1 and makes 1; each inc uses 1 and makes 2; each dec or invdec uses 2 and makes 1.",
+        "UK patterns call your sc 'dc'. A pattern from the UK or Australia that says '6 dc in a magic ring' means 6 US sc.",
+        "Patterns list parts in order (head, body, arms) and then assembly. Read the whole pattern once before you start."
+      ],
+      "drill": [
+        "Answer these 10 questions in your binder, then check against the key in the pass list. Q1: after a round of 6, 'inc x 6' ends with how many? Q2: after 18, '[2 sc, inc] x 6' ends with? Q3: after 24, 'sc around' ends with? Q4: after 30, '[3 sc, dec] x 6' uses how many and ends with? Q5: after 24, '[2 sc, invdec] x 6' ends with? Q6: after 12, 'invdec x 6' ends with? Q7: after 24, a pattern says 'Rnd 5: [2 sc, inc] x 6 (30)'. Is it correct? If not, write the fix. Q8: after 36, 'Rnds 8–13: sc around (36)' is how many rounds and how many sc in total? Q9: 'Rnd 4: in FLO, sc around (24)'. Which loop do you work into? Q10: a UK pattern says 'Rnd 2: 2 dc in each st (12)'. Write it in US terms.",
+        "Write the round table for Circle A of unit 1.7 from memory, in notation, with counts.",
+        "Work a fresh circle from your written table, rounds 1 to 5, and count each round."
+      ],
+      "pass": [
+        "Quiz score 10 of 10 against this key. Q1: 12. Q2: 24. Q3: 24. Q4: uses 30, ends with 24. Q5: 18. Q6: 6. Q7: no; it uses only 18 of 24 stitches and ends with 24; the fix is '[3 sc, inc] x 6 (30)'. Q8: 6 rounds, 216 sc. Q9: the front loop only, the one nearer you. Q10: 'Rnd 2: inc in each st (12)', or '2 sc in each st (12)'.",
+        "Your written round table for Circle A matches the 1.7 drill, including the staggered rounds 4 and 6",
+        "Your fresh circle counts 6, 12, 18, 24, 30",
+        "Passed cold: in a later session, write the round table for a 24-stitch circle (rounds 1 to 4) without looking"
+      ],
+      "wrong": [
+        [
+          "Repeat counts don't add up",
+          "Multiply what's inside the brackets first, then add anything outside. For Q2: (2 + 1) stitches used x 6 = 18, and (2 + 2) made x 6 = 24."
+        ],
+        [
+          "Confusing dc in UK and US patterns",
+          "Look for 'US terms' or 'UK terms' near the top of the pattern. If it doesn't say and the first round is '6 dc in a magic ring', it's almost certainly UK."
+        ],
+        [
+          "Losing your place in long even sections",
+          "Tick each round in the margin or use a counter. Rnds 8–13 is 6 ticks."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Reading and checking round notation",
+      "rubric": false,
+      "sources": [
+        "https://www.cuddlystitchescraft.com/how-to-read-amigurumi-patterns",
+        "https://craftyarncouncil.com/node/39",
+        "https://ribblr.com/learn/crochet-row-counter"
+      ]
+    },
+    {
+      "id": "3.1",
+      "origin": "revised",
+      "t": "The perfect ball",
+      "kind": "lab",
+      "h": 6,
+      "time": "about 6 hours over 4 to 6 sessions",
+      "prereq_units": [
+        "1.7",
+        "T101.1"
+      ],
+      "why": "The sphere is the basic unit of amigurumi: heads, bodies, noses and paws are spheres or parts of one. A ball whose closing end matches its starting end is the first piece worth judging.",
+      "need": "3.5 mm hook, toy cotton, polyester fiberfill, a marker, yarn needle, a chopstick or stuffing tool, ruler.",
+      "learn": "June Gilbank's <a href=\"https://www.planetjune.com/invdec\">Invisible Decrease</a> (PlanetJune; right- and left-handed video) and <a href=\"https://www.planetjune.com/finish\">The Ultimate Finish</a> (PlanetJune; right- and left-handed video). For stuffing, The Woobles' <a href=\"https://thewoobles.com/stuff-amigurumi\">How to Stuff Amigurumi</a> (The Woobles; it has a left-handed version) and June Gilbank's <a href=\"https://www.planetjune.com/blog/?p=22910\">How to Fix Uneven Stuffing: The Pinch-and-Push Method</a> (PlanetJune). Second voices: Nicole Chase's <a href=\"https://thenicolechase.com/blog/invisible-decrease\">Invisible Decrease</a> (Nicole Chase) and Cuddly Stitches Craft's <a href=\"https://www.cuddlystitchescraft.com/closing-amigurumi-hole-right\">How to Close Amigurumi</a> (Cuddly Stitches Craft). Left-handed: PlanetJune's left-handed videos, The Woobles' <a href=\"https://thewoobles.com/pages/how-to-single-crochet-decrease-for-lefties\">decrease page for lefties</a> and its left-handed stuffing page. Stuck? June Gilbank's <a href=\"https://www.planetjune.com/blog/amigurumi-troubleshooter/\">Amigurumi Troubleshooter</a> (PlanetJune).",
+      "key": [
+        "Invisible decrease (invdec): insert the hook into the front loop only of the next stitch, then the front loop only of the stitch after it (3 loops on the hook), yarn over and pull through 2 loops, yarn over and pull through the last 2. It uses 2 stitches and makes 1, without the bump of a standard decrease.",
+        "The invisible decrease only hides on the right side. Check that the Vs face out before you start decreasing.",
+        "Stuff in small teased-out pieces, a little at a time, pushing each piece to the far side. Stuff firmly when 18 stitches remain and top up at 12. After that, the hole is too small.",
+        "Firm means the ball springs back when squeezed and you can't feel separate lumps. Too little sags; too much stretches the stitches open.",
+        "Fasten off: cut the yarn leaving a 20 cm (8 in) tail, and pull the tail through the loop on the hook.",
+        "The Ultimate Finish: thread the tail on the needle and pass it under the front loop only of each remaining stitch, working in the same direction you crochet, then pull to close. The closed end looks like a magic ring.",
+        "Hide the end inside: insert the needle next to the closing, push it out the far side of the ball, pull gently, and trim flush. The end springs back inside."
+      ],
+      "drill": [
+        "Ball 1: R1: 6 sc in a magic ring (6); R2: inc in each st around (12); R3: [sc, inc] x 6 (18); R4: sc, inc, [2 sc, inc] x 5, sc (24); R5: [3 sc, inc] x 6 (30); R6: 2 sc, inc, [4 sc, inc] x 5, 2 sc (36); R7–R12: sc around (36), 6 rounds; R13: 2 sc, invdec, [4 sc, invdec] x 5, 2 sc (30); R14: [3 sc, invdec] x 6 (24); R15: sc, invdec, [2 sc, invdec] x 5, sc (18). Stuff firmly now. R16: [sc, invdec] x 6 (12); top up the stuffing. R17: invdec x 6 (6). Fasten off and close with the Ultimate Finish. Hide both ends inside.",
+        "Log each round's count. That's 17 rounds: the 36-stitch section is rounds 6 to 12.",
+        "Ball 2: the same ball, in a later session. Before starting, work 2 warm-up rounds on a scrap ring and pull them out."
+      ],
+      "pass": [
+        "Your log shows the counts 6, 12, 18, 24, 30, 36, then 36 for rounds 7 to 12, then 30, 24, 18, 12, 6",
+        "Squeezed gently in daylight at 30 cm (12 in), no stuffing shows between stitches",
+        "Hand both balls to someone else and ask them to point to where each ball started. They can't tell the magic-ring end from the closed end better than by guessing (wrong or unsure on at least one of the two)",
+        "Measured across in 3 directions, each ball's largest and smallest diameters are within 3 mm (1/8 in)",
+        "The two balls' diameters are within 3 mm (1/8 in) of each other",
+        "No tails or bumps show on the outside"
+      ],
+      "wrong": [
+        [
+          "Stuffing shows when squeezed",
+          "Make the next ball one hook size smaller. Pulling tighter usually opens the gaps further; T101.2 tests this."
+        ],
+        [
+          "Decrease half looks bumpier than the increase half",
+          "Check the right side was out, and that each invdec goes through front loops only. Make the next ball with this fixed."
+        ],
+        [
+          "Ball is lumpy",
+          "Use the pinch-and-push method from outside, or add stuffing in smaller pieces next time."
+        ],
+        [
+          "Hole won't close neatly",
+          "Use front loops only for the Ultimate Finish and pull slowly. Close it once more with a second pass if it gapes."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Invisible decrease, stuffing and the Ultimate Finish",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/invdec",
+        "https://www.planetjune.com/finish",
+        "https://thewoobles.com/stuff-amigurumi",
+        "https://www.planetjune.com/blog/?p=22910",
+        "https://thenicolechase.com/blog/invisible-decrease",
+        "https://www.cuddlystitchescraft.com/closing-amigurumi-hole-right",
+        "https://thewoobles.com/pages/how-to-single-crochet-decrease-for-lefties",
+        "https://www.planetjune.com/blog/amigurumi-troubleshooter/"
+      ]
+    },
+    {
+      "id": "T101.2",
+      "origin": "new",
+      "t": "Density lab: hook size and yarn-under sc",
+      "kind": "lab",
+      "h": 4,
+      "time": "about 4 hours over 3 or 4 sessions",
+      "prereq_units": [
+        "3.1"
+      ],
+      "why": "Toys need fabric dense enough to hide stuffing. The smaller hook gives you that without squeezing, which is the craft fix and the hand-health fix at once. This lab picks your house hook for every later toy.",
+      "need": "Your toy cotton; hooks of 3.5 mm, 3.0 or 3.25 mm, and 2.75 mm (borrow or buy the ones you don't have); fiberfill; marker; ruler; masking tape and a pen for labels.",
+      "learn": "June Gilbank's <a href=\"https://www.planetjune.com/blog/stitch-tension-in-amigurumi-an-investigation/\">Stitch Tension in Amigurumi: an Investigation</a> (PlanetJune), which measured that a smaller hook closes gaps and a tighter grip doesn't. Then June Gilbank's <a href=\"https://www.planetjune.com/yarnover\">Yarn Over vs Yarn Under</a> (PlanetJune) and Once Upon a Cheerio's <a href=\"https://onceuponacheerio.com/2022/05/how-to-yarn-under-single-crochet.html\">How to Yarn Under Single Crochet</a> (Once Upon a Cheerio). Nicole Chase's <a href=\"https://thenicolechase.com/blog/amigurumi-hook-size\">Choosing Amigurumi Crochet Hook Size</a> (Nicole Chase) is the second voice. Left-handed: no left-handed version of the yarn-under pages was confirmed, so mirror the right-handed steps; the tension article applies to both hands.",
+      "key": [
+        "Stuffing shows? Go down a hook. Don't squeeze.",
+        "Yarn under changes only the first wrap of each sc. After you insert the hook, wrap the yarn front to back instead of back to front, and pull up a loop. Then yarn over as usual and pull through both loops. The stitches turn into small x shapes and the fabric gets tighter.",
+        "Yarn under is optional. Never mix yarn-under and yarn-over sc in the same toy, because the two look different side by side.",
+        "Your house hook is the largest hook that passes the squeeze test in that yarn and feels comfortable. Record it for each yarn you use.",
+        "Smaller hooks ask more of your hands. A cushioned handle helps most on small hooks, and so does a pause after each closed piece."
+      ],
+      "drill": [
+        "Make the small test ball on each hook (3.5 mm, then 3.0 or 3.25 mm, then 2.75 mm), with your usual relaxed grip: R1: 6 sc in a magic ring (6); R2: inc x 6 (12); R3: [sc, inc] x 6 (18); R4: sc, inc, [2 sc, inc] x 5, sc (24); R5–R8: sc around (24), 4 rounds; R9: [2 sc, invdec] x 6 (18); R10: [sc, invdec] x 6 (12); stuff firmly; R11: invdec x 6 (6). Ultimate Finish.",
+        "Make a 4th ball in yarn-under sc on the largest hook that didn't pass the squeeze test (or on 3.5 mm if they all passed).",
+        "Label each ball with tape: hook size and 'YO' or 'YU'.",
+        "For each ball, write in your log: squeeze test (pass or not), diameter in mm, and hand comfort from 1 (strained) to 5 (easy).",
+        "Choose your house hook for this yarn and write it on the inside cover of your binder."
+      ],
+      "pass": [
+        "Four labeled balls, each with counts 6, 12, 18, 24, 24, 24, 24, 24, 18, 12, 6 in the log",
+        "Your house-hook ball passes the squeeze test: in daylight at 30 cm (12 in), no stuffing shows",
+        "Your log shows the 2.75 mm ball measuring smaller across than the 3.5 mm ball",
+        "Your house hook rated 3 or higher for comfort; if none did, the log names the change you'll try (another yarn, a handle, or yarn under)",
+        "Passed cold: in a later session, a fresh ball on your house hook passes the squeeze test"
+      ],
+      "wrong": [
+        [
+          "Every ball shows stuffing",
+          "Check that the right side is out and the stuffing isn't overpacked. Then try yarn under on your smallest comfortable hook."
+        ],
+        [
+          "Small hook keeps splitting the cotton",
+          "Mercerized cotton splits less, and a hook with a rounder head helps. Slow down on the yarn over."
+        ],
+        [
+          "Hand aches on 2.75 mm",
+          "Stop for the day. Next session try yarn under on a 3.0 or 3.25 mm hook, which can give similar density with less strain."
+        ],
+        [
+          "Yarn-under ball came out a different size",
+          "That's expected. It's why you never mix the two in one toy."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Choosing a hook for dense fabric; yarn-under single crochet",
+      "rubric": false,
+      "sources": [
+        "https://www.planetjune.com/blog/stitch-tension-in-amigurumi-an-investigation/",
+        "https://www.planetjune.com/yarnover",
+        "https://onceuponacheerio.com/2022/05/how-to-yarn-under-single-crochet.html",
+        "https://thenicolechase.com/blog/amigurumi-hook-size"
+      ]
+    },
+    {
+      "id": "T101.3",
+      "origin": "new",
+      "t": "A Wooble from scratch",
+      "kind": "project",
+      "h": 6,
+      "time": "4 to 8 hours over a week or two",
+      "prereq_units": [
+        "1.0",
+        "T101.1",
+        "3.1",
+        "T101.2"
+      ],
+      "why": "This is your first toy from a written pattern with nothing pre-started. You start from your own magic ring, check every round, stuff to your density standard, and close it invisibly. Placed beside your 1.0 kit toy, it shows exactly what TOY 101 added.",
+      "need": "One Beginner-level Woobles pattern: the pattern in a second Woobles Beginner kit (set the pre-started piece aside and start fresh), or a one-piece project from Justine Tiu's <a href=\"https://insighteditions.com/products/crochet-amigurumi-for-every-occasion\">Crochet Amigurumi for Every Occasion</a> ($24.99 list, as of Oct 2026). Your toy cotton and house hook from T101.2, a marker, fiberfill, a yarn needle, and the eyes the pattern calls for.",
+      "learn": "Use the pattern's own instructions, with your TOY 101 tutorials as reference. For eyes, The Woobles' <a href=\"https://thewoobles.com/use-safety-eyes\">How to Use Safety Eyes</a> (The Woobles; it has a left-handed version). Free alternative if you'd rather not buy a pattern: the strawberry or the whale from Nicole Chase's free <a href=\"https://www.thenicolechase.com/amigurumi-for-beginners\">Learn Amigurumi for Beginners</a> course (Nicole Chase; right-handed video only, so mirror the steps). Those add a color change, which the course teaches. To keep to one new skill, work it in one color. The book is grouped by occasion. Choose a project made of one main piece with no joined limbs.",
+      "key": [
+        "Read the whole pattern once first. Mark where the eyes go and where you stuff.",
+        "Write the round counts down the margin and tick each one as you finish it.",
+        "If the pattern's yarn or hook differs from yours, use your house hook with your yarn. The toy may come out a slightly different size; that's fine.",
+        "Fit safety eyes where the pattern says, before you stuff the head and before the opening gets small. Snap the washer on fully from the inside.",
+        "This toy is for you or an older child. Toys for children under 3 need embroidered eyes and extra checks, which TOY 120 teaches.",
+        "Don't change anything else about the pattern this time. The new skill is following it start to finish."
+      ],
+      "drill": [
+        "Start from your own magic ring, not a pre-started piece.",
+        "Check and tick every round's count before you move the marker.",
+        "Stuff in small pieces to the T101.2 standard, close with the Ultimate Finish, and hide all ends inside.",
+        "Finishing ritual: a daylight photo on a plain background, with your 1.0 toy beside it. Binder label: yarn, hook, date, pattern. One line on what you like most and one thing you'd change."
+      ],
+      "pass": [
+        "Every round in your margin is ticked and matches the pattern's count",
+        "Squeezed gently in daylight at 30 cm (12 in), no stuffing shows",
+        "The magic-ring start has no visible hole, and the closing looks like the start",
+        "No tails show on the outside",
+        "If it has two eyes, both posts sit in the same round (count rounds from the magic ring to each), and their centers measure level within 2 mm (about 1/16 in)",
+        "Scored on the toy rubric, with each criterion marked Meets or Not yet, and the 'one thing to change' written down for your next toy"
+      ],
+      "wrong": [
+        [
+          "A round count is off by one",
+          "Check the last stitch before the marker; it's the one most often skipped. Pull back to the marker and redo that round."
+        ],
+        [
+          "One eye sits a round higher",
+          "Before snapping the washers on, count rounds from the ring to each eye post. If the toy is already closed, keep it and make the next one with the eyes counted first."
+        ],
+        [
+          "Stuffing shows on the finished toy",
+          "Keep this toy. Make the next one a hook size down, or in yarn under."
+        ],
+        [
+          "The toy came out larger than the pattern photo",
+          "Your yarn or hook differs from the pattern's. That's fine for this project; write both in the binder."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Following a written toy pattern from your own magic ring, with nothing pre-started",
+      "rubric": true,
+      "sources": [
+        "https://insighteditions.com/products/crochet-amigurumi-for-every-occasion",
+        "https://thewoobles.com/use-safety-eyes",
+        "https://www.thenicolechase.com/amigurumi-for-beginners",
+        "https://thewoobles.com/collections/leveling-up"
+      ]
+    }
+  ]
+}

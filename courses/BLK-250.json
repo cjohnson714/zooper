@@ -1,0 +1,642 @@
+{
+ "code": "BLK 250",
+ "title": "Heirloom blanket studio",
+ "year": 2,
+ "track": "blanket",
+ "required": true,
+ "hours": 239,
+ "credits": 5.3,
+ "hook": "4 mm for the practice mandalas; one final hook chosen and logged in B7 (5.5 mm for the Large size in worsted)",
+ "yarn": "#4 worsted you already own for B1 to B4; the final yarn (worsted, DK or 4 ply by size) bought once, in one dye lot, in B7",
+ "level": 3,
+ "prereqs": [
+  "FND 110"
+ ],
+ "summary": "One studio session a week, from the first granny square to a finished Sophie's Universe, with every step gated on the skill it actually needs.",
+ "intro": "This is your dream project, built as a weekly studio that runs alongside the toy courses from Year 2. Each step names the units it needs, so the blanket opens up as the fundamentals do. The early steps cost a few hours and yarn you already own; the big purchase waits until your own swatches show which yarn and size suit your hands. There is no deadline anywhere in this course.",
+ "outcomes": [
+  "You can check any square or blanket for squareness with its diagonals.",
+  "You can work clusters, invisible joins and petals layered into free front loops.",
+  "You can choose a palette by value and prove it reads in black and white.",
+  "You can plan yardage by dye lot with a margin, and keep a log that carries a project through breaks.",
+  "You can block, measure and label a full-size heirloom."
+ ],
+ "assessment": "Each step passes on its own measured checks, logged in your Blanket log. The studio is complete at B10. B11 is optional. Studio hours include B1 to B10; the sampler blanket's own hours count in FND 210, and the Universe's hours are an estimate until your log replaces them.",
+ "reading": "No toy textbook chapter applies. Read Dedri Uys's notes on her pattern style before B3, and the Sophie's Universe book's opening chapter if you buy it before B8.",
+ "units": [
+  {
+   "id": "B1",
+   "origin": "new",
+   "t": "Granny squares, read as blanket practice",
+   "kind": "review",
+   "h": 2,
+   "time": "about 2 hours in 1 or 2 sessions, after unit 1.8",
+   "prereq_units": [
+    "1.8"
+   ],
+   "gate_note": "Opens when unit 1.8 (the granny square) passes.",
+   "why": "Chain spaces and corners are the skeleton of every round of Sophie's Universe. Measuring your granny squares the way you will measure the Garden later starts the habit while the stakes are tiny.",
+   "need": "The four granny squares you made in unit 1.8, a ruler or tape measure in mm and inches, a notebook or a page in your binder labeled Blanket log, your phone camera.",
+   "learn": "Use the tutorials already linked in unit 1.8 for the square itself. Checking squareness by the diagonals has no verified free tutorial, so this unit teaches it in its own words below. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "A square is square when its two diagonals match. Measure corner to opposite corner both ways.",
+    "Measure on a flat table, without stretching, with the square lying right side up.",
+    "Write the hook, yarn, date and both diagonals in your Blanket log. This page grows into the record of your heirloom.",
+    "A difference under 3 mm (1/8 in) on a small square is normal. Bigger gaps usually come from one corner with an extra or a missing stitch."
+   ],
+   "drill": [
+    "Lay each square flat. Measure both diagonals in mm. Write them in the log.",
+    "Measure the side length on all four sides. Write them down.",
+    "Photograph the four squares side by side from straight above.",
+    "Start the Blanket log with one line per square: date, hook, yarn, side lengths, diagonals, minutes spent."
+   ],
+   "pass": [
+    "On at least three of the four squares, the two diagonals differ by 3 mm (1/8 in) or less.",
+    "The Blanket log has a line for every square with both diagonals written down."
+   ],
+   "wrong": [
+    [
+     "One diagonal is much longer",
+     "Count the stitches on each side. A side with an extra stitch pushes its corner out. Make the next square with a marker in every corner space."
+    ],
+    [
+     "The square ruffles or cups",
+     "Ruffles mean too many stitches or a loose hand; cups mean too few or a tight hand. Check the count first, then try 0.5 mm up or down on the next square."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Checking squareness with the diagonals",
+   "rubric": false,
+   "sources": []
+  },
+  {
+   "id": "B2",
+   "origin": "new",
+   "t": "Texture for the Universe: clusters, invisible joins and front-loop layers",
+   "kind": "lab",
+   "h": 5,
+   "time": "about 4 to 6 hours over 3 sessions",
+   "prereq_units": [
+    "1.2",
+    "1.3",
+    "1.7",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.5"
+   ],
+   "gate_note": "Opens when FND units 2.1 (standing stitches and the invisible join), 2.2 (joining yarn), 2.3 (post stitches and spikes) and 2.5 (puffs, bobbles, popcorns and clusters) pass. They need 1.2 (dc and tr), 1.3 (back and front loops) and 1.7 (magic ring).",
+   "why": "Sophie's Universe uses three things the core units only touch: clusters, joined rounds closed so the seam vanishes, and petals worked into front loops left from an earlier round so they stand in front of later rounds. One small swatch teaches all three before the mandala asks for them.",
+   "need": "Light-colored #4 worsted yarn you already own (24/7 Cotton or practice acrylic), a 4 mm hook (your Woobles hook works), a bent-tip needle, 4 stitch markers, scissors, a ruler.",
+   "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/amigurumi-help/invisible-finish-for-open-edges-in-amigurumi/'>Invisible Finish for Open Edges</a>, a related way to close a seam with the needle. For the join itself, use the tutorial linked in unit 2.1. Clusters and front-loop layers have no verified free tutorial in this library, so this unit teaches them in its own words below. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "A cluster (dc3tog) is three double crochets that share one top. Work each dc until two loops remain on the hook, then yarn over and pull through all four loops.",
+    "A treble cluster (tr3tog) is the same idea with trebles: work each tr until two loops remain, then yarn over and pull through all four loops.",
+    "Invisible join: cut the yarn and pull the tail out of the last stitch. Thread the needle, pass it under both loops of the first real stitch of the round (skip any turning chain), then go back down into the top of the last stitch, where the tail came out. Snug it until it looks like one more stitch top.",
+    "Working in the back loop only leaves the front loops free. A later round can be worked into those front loops, in front of the rounds that followed. That is how layered petals stand forward.",
+    "Count clusters as one stitch each. A ch-2 space is a space with no stitch in it."
+   ],
+   "drill": [
+    "Part A, clusters, worked flat. Ch 19. Row 1: dc in the 4th ch from the hook and in each ch across (16 dc; the 3 skipped chains count as the first dc, so the row has 17 stitches).",
+    "Row 2: ch 3 (does not count), turn, skip the first st, dc in the next st, (ch 2, dc3tog over the next 3 sts) x5. Count: 1 dc and 5 clusters, with 5 ch-2 spaces. Check the math: 1 skipped + 1 + (3 x 5) = 17 stitches used.",
+    "Row 3: ch 3 (does not count), turn, (dc in the next cluster, 2 dc in the next ch-2 space) x5, dc in the last dc (16 dc: 5 + 10 + 1).",
+    "Row 4: ch 4 (does not count), turn, tr in the first st, (ch 2, tr3tog over the next 3 sts) x5. Count: 1 tr and 5 clusters. Fasten off.",
+    "Part B, joined rounds with an invisible join. Rnd 1: in a magic ring, ch 3 (does not count), 12 dc. Pull the ring closed. Invisible join to the first dc (12).",
+    "Rnd 2: standing dc in any st, dc in the same st, 2 dc in each remaining st around (24). Invisible join.",
+    "Rnd 3: standing dc in any st, 2 dc in the next st, (dc in the next st, 2 dc in the next st) x11 (36). Invisible join.",
+    "Part C, a front-loop layer. Rnd 4: standing sc in the back loop of any st, sc in the back loop of each st around (36). Invisible join. Rnd 3's front loops are now free.",
+    "Rnd 5, into Rnd 3's free front loops, in front of Rnd 4: standing sc in any free front loop, (skip 1, 5 dc in the next, skip 1, sc in the next) x8, skip 1, 5 dc in the next, skip 1, invisible join to the first sc. Count: 9 shells. Check the math: 1 + (4 x 8) + 3 = 36 front loops used.",
+    "Rnd 6: fold the shells toward you. Work into both loops of Rnd 4's stitches: standing sc in any st, sc around (36). Invisible join. Weave in all ends."
+   ],
+   "pass": [
+    "Row 3 has 16 dc, and rows 2 and 4 each have 5 clusters with 5 ch-2 spaces between them.",
+    "A second person, given 10 seconds per round, can't find the join on at least two of Rnds 2, 3 and 4.",
+    "The 9 shells of Rnd 5 stand in front of Rnd 4 with no shell trapped under Rnd 6.",
+    "The round swatch lies flat on the table, with no edge lifting more than 5 mm (1/4 in)."
+   ],
+   "wrong": [
+    [
+     "Clusters lean or look loose",
+     "Keep each partial dc the same height before the final yarn over. Pull the last loop snug, then go on."
+    ],
+    [
+     "The invisible join leaves a bump",
+     "You likely went under the turning chain. Pass the needle under the first real stitch instead, and snug the tail only until it matches its neighbors."
+    ],
+    [
+     "Rnd 5 shells pucker the swatch",
+     "Check you skipped one front loop on each side of every shell. Count the free loops between shells: there should be 3 (skip, sc, skip)."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Clusters, the invisible join on joined rounds, and a petal layer in free front loops (three small, related moves taught on one swatch)",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/blog/amigurumi-help/invisible-finish-for-open-edges-in-amigurumi/"
+   ]
+  },
+  {
+   "id": "B3",
+   "origin": "new",
+   "t": "Sophie's Mandala, Small",
+   "kind": "project",
+   "h": 4,
+   "time": "about 2 to 4 hours (estimate) over 1 to 3 sessions",
+   "prereq_units": [
+    "B2",
+    "1.7",
+    "2.1",
+    "2.3",
+    "2.5",
+    "2.12"
+   ],
+   "gate_note": "Opens when B2 passes. B2 already needs 2.1, 2.3 and 2.5. Weaving in ends uses 2.12.",
+   "why": "This is the center of the dream blanket, made now in yarn you already own. It costs nothing, takes an evening or two, and puts the first piece of the heirloom in your hands years before the blanket is done.",
+   "need": "#4 worsted yarn you own in three or more light-to-mid solid colors (24/7 Cotton or practice acrylic), a 4 mm hook (the pattern lists 4 mm, US G/6, for worsted), a bent-tip needle, markers, a ruler, your Blanket log.",
+   "learn": "Free: Dedri Uys (Look At What I Made), <a href='https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-mandala-part-1-small/'>Sophie's Mandala {Small}</a>, a photo tutorial with front and back post stitches. Its first six rounds are based on Chris Simon's Lace Petals Square, credited on the page. Finished size in the pattern: about 7 in (18 cm) across, using about 50 yd (45 m) of worsted. Rounds 1 to 8 match Part 1 of Sophie's Universe. Round 9 adds scallops for the Small only, so skip it if you plan to go on to the Medium or Large. Read the whole page once before you start. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "The mandala is one pattern in three parts: Small, Medium and Large. Each part has optional ending rounds, so the Small is a finished piece on its own.",
+    "Round 9 is for the Small only. Skip it if you will continue into the Medium, Large or Garden.",
+    "Read Dedri Uys's notes on how she writes rounds before Round 1. Her style is the one you will read for the whole blanket.",
+    "Start each new color with a standing stitch (unit 2.1) and close each round with the invisible join from B2.",
+    "Popcorns close from the front so they pop toward you. If one pops to the back, push it through to the front before the next round.",
+    "Count every round against the pattern and mark the first stitch."
+   ],
+   "drill": [
+    "Read the pattern start to finish without crocheting. Mark every stitch you haven't used before. Look each one up in units 2.1 to 2.5 or B2.",
+    "Make the Small mandala, writing each round's count in your Blanket log as you finish it.",
+    "Weave in every end (unit 2.12). Lay it flat and measure the diameter across three lines through the center.",
+    "Log the hook, yarn, colors, three diameters and minutes spent. Photograph it from straight above."
+   ],
+   "pass": [
+    "Every popcorn sits on the right side: count them on the back and find zero.",
+    "On a table, no part of the edge lifts more than 5 mm (1/4 in) and the center does not rise.",
+    "The three diameters are within 5 mm (1/4 in) of one another.",
+    "The log shows the diameter, hook and yarn."
+   ],
+   "wrong": [
+    [
+     "The edge ruffles",
+     "Too many stitches or a loose hand. Recount the last round. If the count is right, make the next mandala with a hook 0.5 mm smaller."
+    ],
+    [
+     "The piece cups into a bowl",
+     "Too few stitches or a tight hand. Recount, then try a hook 0.5 mm larger next time."
+    ],
+    [
+     "Post stitches look thin and gappy",
+     "Wrap the post fully, and pull the first yarn over up to the height of the round."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Following Dedri Uys's written rounds for a textured mandala",
+   "rubric": false,
+   "sources": [
+    "https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-mandala-part-1-small/"
+   ]
+  },
+  {
+   "id": "B4",
+   "origin": "new",
+   "t": "Palette by value",
+   "kind": "lab",
+   "h": 6,
+   "time": "about 4 to 6 hours (estimate) over 2 or 3 sessions",
+   "prereq_units": [
+    "B3"
+   ],
+   "gate_note": "Opens when B3 passes.",
+   "why": "Color is half of a blanket that looks great, and testing it costs two small mandalas and no blanket yarn. Texture shows as shadow, and shadow only reads on light-to-mid solid colors with clear steps of lightness between neighbors.",
+   "need": "Two candidate palettes of 4 to 6 colors each, in yarn you own or a few cheap balls, the 4 mm hook, your B3 notes, a phone camera with a black-and-white filter, a plain backdrop, a second person for five minutes.",
+   "learn": "Look at finished blankets first: the <a href='https://ravelry.com/patterns/library/550990'>Sophie's Universe project gallery on Ravelry</a> (free account), Dedri Uys's pattern page with makers' photos. Choose two colorways you like and note what makes them read clearly. Palette checks by value have no verified tutorial, so this unit teaches the method in its own words. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Value means lightness. Two colors of the same value blur together in a photo, at a distance and to some eyes.",
+    "Neighboring rounds need different values, not just different hues, or the rings melt into one.",
+    "Post stitches, popcorns and petals show as shadows. Shadows read on light-to-mid solid or near-solid yarn. Very dark or variegated yarn hides texture.",
+    "A few accent colors repeated at regular intervals read as planned. Many unrelated colors read as scrappy.",
+    "Decide by photo, not by memory. A black-and-white photo shows value at a glance."
+   ],
+   "drill": [
+    "Wind a short strand of each color in palette A onto a card in the order you would use them. Do the same for palette B.",
+    "Photograph both cards in black and white. If two neighbors look like the same gray, swap one and photograph again.",
+    "Make one Small mandala in each palette, following your B3 notes.",
+    "Photograph both mandalas side by side, in color and then in black and white, from straight above, in daylight.",
+    "Show the black-and-white photo to a second person. Ask them to count the color rings on each mandala without seeing the color photo.",
+    "Write in your log which palette won and the reason in one sentence."
+   ],
+   "pass": [
+    "The black-and-white card photo of the chosen palette shows every pair of neighbors as clearly different grays.",
+    "On the chosen palette's mandala, a second person counts the same number of color rings in the black-and-white photo as you used.",
+    "Your log names the chosen palette and the reason in one sentence."
+   ],
+   "wrong": [
+    [
+     "Both palettes look muddy in gray",
+     "Too many mid values. Swap one color in each for a clearly lighter one, and keep the darkest for small accents."
+    ],
+    [
+     "The palette looks great in color and flat in gray",
+     "The colors share a value. Keep the hues, and choose a lighter or darker shade of one of them."
+    ],
+    [
+     "You like neither",
+     "That is useful data. Pick one color you love from each and build a third card. A card costs minutes."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Planning a blanket palette by value with a grayscale check",
+   "rubric": false,
+   "sources": [
+    "https://ravelry.com/patterns/library/550990"
+   ]
+  },
+  {
+   "id": "B5",
+   "origin": "new",
+   "t": "The first whole blanket: record the stitch sampler",
+   "kind": "review",
+   "h": 2,
+   "time": "about 2 hours, after the sampler blanket in unit 2.16 is finished",
+   "prereq_units": [
+    "2.10",
+    "2.11",
+    "2.13",
+    "2.16"
+   ],
+   "gate_note": "Opens when units 2.10 (seams), 2.11 (edges and borders), 2.13 (blocking) and 2.16 (the stitch sampler blanket) pass. The sampler's own hours count in FND 210.",
+   "why": "Marly Bird's Stitch Sampler Baby Blanket is your first complete blanket. It practices blocking squares to size, seaming and a border at about a tenth of the Universe's scale. Measuring it the way you will measure the Garden makes it part of the dream track too.",
+   "need": "Your finished sampler blanket from unit 2.16, a tape measure, a long straightedge or a taut string, your Blanket log, your phone camera.",
+   "learn": "The pattern and its videos are linked in unit 2.16: Marly Bird, <a href='https://marlybird.com/crochet-stitch-sampler-baby-blanket-cal-details/'>Crochet Stitch Sampler Baby Blanket CAL details</a> (a 2015 crochet-along with nine stitches, a border, and written and charted instructions). Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Measure the whole blanket the same way as every square: both diagonals, all four sides.",
+    "Hold a taut string along each edge. A straight edge touches the string along its length.",
+    "Wash and dry it once as its owner would, then measure again. That is the wash test every heirloom gets."
+   ],
+   "drill": [
+    "Lay the blanket flat on a floor. Measure all four sides and both diagonals. Log them.",
+    "Run a taut string along each edge and note the largest gap between the string and the edge.",
+    "Wash and dry it once following the yarn label. Measure again and log the change in percent: (after minus before) divided by before, times 100.",
+    "Log the total hours from unit 2.16 next to the measurements."
+   ],
+   "pass": [
+    "The two diagonals differ by 13 mm (1/2 in) or less.",
+    "No edge has a gap of more than 6 mm (1/4 in) from the taut string.",
+    "After one wash, each side changed by 3% or less, or the log names the reason."
+   ],
+   "wrong": [
+    [
+     "Diagonals differ a lot",
+     "Usually one square was blocked to a different size. Note it, and block every square to one template on the next joined project."
+    ],
+    [
+     "It grew in the wash",
+     "Common with cotton and some acrylics. Log the growth; it tells you to swatch and wash before you choose the final yarn in B7."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Measuring a whole blanket: diagonals, edge straightness and a wash test",
+   "rubric": false,
+   "sources": [
+    "https://marlybird.com/crochet-stitch-sampler-baby-blanket-cal-details/"
+   ]
+  },
+  {
+   "id": "B6",
+   "origin": "new",
+   "t": "Sophie's Mandala, Medium then Large",
+   "kind": "project",
+   "h": 9,
+   "time": "about 6 to 12 hours (estimate) over 3 to 5 weeks of studio sessions",
+   "prereq_units": [
+    "B3",
+    "B4",
+    "1.9",
+    "2.12",
+    "2.13"
+   ],
+   "gate_note": "Opens when B3 and B4 pass and units 1.9 (gauge), 2.12 (ends) and 2.13 (blocking) pass.",
+   "why": "Rounds grow into the hundreds of stitches and flatness becomes a real test. This is the first point where your measurements can be checked against the pattern's, and the first time your candidate final yarn meets the pattern.",
+   "need": "Your B4 palette in a candidate final yarn if you can (a few balls), or in yarn you own; the hook that gives the pattern's gauge (unit 1.9); markers; a tape measure; your Blanket log.",
+   "learn": "Free: Dedri Uys (Look At What I Made), Sophie's Mandala {Medium} (linked from the <a href='https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-mandala-part-1-small/'>Small page</a>) and <a href='https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-mandala-part-3-large/'>Sophie's Mandala {Large}</a>, parts 2 and 3 of the same pattern. Continue from a Small mandala or start a new one in the candidate yarn. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Keep one hook for the whole piece. A hook of the same size but a different brand or head shape can change gauge.",
+    "Write each part's finished diameter in the log and compare it with the size the pattern gives for your yarn.",
+    "Fix problems in the center, never later. Each outer round magnifies the error beneath it.",
+    "Mark every corner or repeat with a marker once repeats appear."
+   ],
+   "drill": [
+    "Swatch the candidate yarn to the pattern's gauge (unit 1.9). Log the hook brand and size.",
+    "Work the Medium part. Count every round and log the count. Measure three diameters and log them.",
+    "Work the Large part the same way.",
+    "Wet-block or steam it (unit 2.13) as the yarn allows, and measure again."
+   ],
+   "pass": [
+    "The finished Large mandala lies flat, with no edge lifting more than 5 mm (1/4 in).",
+    "Its three diameters are within 10 mm (3/8 in) of one another.",
+    "The blocked diameter is within 5% of the pattern's stated size for your yarn, or the log records the difference and your gauge."
+   ],
+   "wrong": [
+    [
+     "It ruffles past the Medium part",
+     "Your tension loosened as the rounds got longer. Go down 0.5 mm from where the ruffle starts, or tighten slightly and recount."
+    ],
+    [
+     "Counts drift on long rounds",
+     "Place a marker every 20 stitches or at every repeat, and count marker to marker."
+    ],
+    [
+     "Size is far from the pattern's",
+     "Check gauge again on a fresh swatch with the same hook. A swatch is cheaper than a Garden."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Keeping a large round piece flat and on size over hundreds of stitches",
+   "rubric": false,
+   "sources": [
+    "https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-mandala-part-1-small/",
+    "https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-mandala-part-3-large/"
+   ]
+  },
+  {
+   "id": "B7",
+   "origin": "new",
+   "t": "Yarn, size and the long-project plan",
+   "kind": "lesson",
+   "h": 3,
+   "time": "about 2 to 3 hours in 1 or 2 sessions",
+   "prereq_units": [
+    "B6",
+    "2.15"
+   ],
+   "gate_note": "Opens when B6 passes and unit 2.15 (yarn and fiber literacy) passes.",
+   "why": "Buy once, after the swatch evidence is in. The smallest size is a fully legitimate choice if finishing sooner matters. A year-long project also needs a plan for breaks, so you can put it down and pick it up again without losing your tension.",
+   "need": "Your B6 mandala and log, the pattern's yarn table, a calculator, your yarn shops' sites (Michaels, The Yarn Remedy, WeCrochet, Hobbii, LoveCrafts), a box or bags for storing yarn by color.",
+   "learn": "Free: Dedri Uys, the <a href='https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-cal-2015/sophies-universe-cal-2015-information/'>Sophie's Universe CAL 2015 information page</a>, with the yarn table for each size. Paid: the <a href='https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-cal-2015/sophies-universe-book'>Sophie's Universe book</a> (216 pages, published by Scheepjes; see the <a href='https://scheepjes.com/en/sophies-universe-dedri-uys-3068'>Scheepjes product page</a>; price not confirmed as of Oct 2026). Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "The original was designed in three sizes (from the CAL information page): Large about 1.8 m (71 in) square in worsted with a 5.5 mm hook, 4,265 yd (3,900 m); Medium about 1.4 m (55 in) square in DK, 3,720 yd (3,400 m); Small about 1 m (39 in) square in 4 ply (#2), 2,730 yd (2,500 m). These totals leave out the optional squares and the border.",
+    "Dedri notes that the Large yardage assumes a tight hand, and Ravelry lists 4,265 to 4,703 yd (3,900 to 4,300 m) for the Large. If your swatches run loose, plan toward the top of that range.",
+    "Add a 15% margin for your tension and the border. Worked example, Large: 4,265 x 1.15 = 4,905 yd. In 24/7 Cotton at 186 yd per skein, that is 4,905 / 186 = 26.4, so 27 skeins, about 2.7 kg (6 lb) of cotton. A blanket that heavy is one reason makers choose a lighter yarn.",
+    "Medium with the margin: 3,720 x 1.15 = 4,278 yd. Small with the margin: 2,730 x 1.15 = 3,140 yd (rounded). Split these by color using the pattern's own table.",
+    "Buy every color at once from one dye lot, plus one spare skein of each main color. Write the lot numbers in your log.",
+    "One hook for the whole blanket: same size, brand and head shape. Write the brand in the log.",
+    "Make a log page per part: date, hook, hours, round counts and the measurement at each checkpoint.",
+    "After a break of about two weeks or more, warm up on a swatch and measure it against your gauge before touching the blanket.",
+    "There is no deadline. A part a month is progress; so is a part a season."
+   ],
+   "drill": [
+    "Compare your B6 mandala's measurements with the pattern's. Write which size and yarn weight your hands match best.",
+    "Choose a size. Write the yardage for each color from the pattern's table, add 15%, and convert to skeins for your chosen yarn. Round up.",
+    "Price the list at two shops and write both totals with the date.",
+    "Set up the log: one page per part, and a front page with hook brand and size, yarn, lot numbers and gauge.",
+    "Buy the yarn. Store it by color, each bag labeled with the lot number."
+   ],
+   "pass": [
+    "The log has a skein count for every color, with your arithmetic shown, and the totals include the 15% margin.",
+    "Every color's lot number is written down, with one spare skein of each main color.",
+    "The log's front page names the hook brand and size and your measured gauge."
+   ],
+   "wrong": [
+    [
+     "The yarn you want is out of stock in one lot",
+     "Buy that color's full amount from one lot at another shop, or change that color to one you can buy in one lot. A mixed lot shows as a stripe."
+    ],
+    [
+     "The total cost is more than you want to spend",
+     "Choose the smaller size or a less expensive yarn of the same weight, and test it on a Small mandala first."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Yardage planning by dye lot, and a log for a year-long project",
+   "rubric": false,
+   "sources": [
+    "https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-cal-2015/sophies-universe-cal-2015-information/",
+    "https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-cal-2015/sophies-universe-book",
+    "https://scheepjes.com/en/sophies-universe-dedri-uys-3068"
+   ]
+  },
+  {
+   "id": "B8",
+   "origin": "new",
+   "t": "Sophie's Garden in the final yarn",
+   "kind": "project",
+   "h": 32,
+   "time": "about 25 to 40 hours (estimate), over 2 to 4 months of weekly sessions",
+   "prereq_units": [
+    "B7",
+    "2.8",
+    "2.11",
+    "2.12",
+    "2.13"
+   ],
+   "gate_note": "Opens when B7 passes and units 2.8 (symbol charts), 2.11 (edges and borders) and 2.13 (blocking) pass. Never gated on the CGOA review (cp1).",
+   "why": "The Garden turns the round mandala into a square. If it passes its checkpoint, it becomes the center of your Universe, so none of this work is practice that gets set aside.",
+   "need": "Your final yarn and the one hook named in your log, markers, a bent-tip needle, blocking mats and rust-proof pins, a tape measure, your Blanket log.",
+   "learn": "Free: Dedri Uys, <a href='https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-garden-large-crochet-square-photo-tutorial/'>Sophie's Garden</a>. The designer has moved the photo tutorial into Sophie's Universe: Part 1 holds Rounds 1 to 8, Part 2 Rounds 9 to 15, Part 3 Rounds 16 to 25 and Part 4 Rounds 26 to 36. Start at <a href='https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-part-1-cal-2015/'>Sophie's Universe Part 1 (CAL 2015)</a>. Read the page for the stated size and gauge, and write them in your log before you start. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Read each part completely before you start it. Mark every round where the shape changes from round to square.",
+    "Measure at every checkpoint the pattern gives, and log it. If you are off, change the hook before going on, never in the middle of a round.",
+    "Check squareness with both diagonals once the corners appear, and again after blocking.",
+    "Weave in ends as you go (unit 2.12). A Garden with 30 tails waiting is a chore you can skip."
+   ],
+   "drill": [
+    "Work Rounds 1 to 8 (Part 1). Log counts, hours and the checkpoint measurement.",
+    "Work Rounds 9 to 15, 16 to 25 and 26 to 36 the same way, one part per page.",
+    "Block it (unit 2.13) to the pattern's checkpoint size. Let it dry completely.",
+    "Measure both diagonals and all four sides. Photograph it from straight above."
+   ],
+   "pass": [
+    "The blocked Garden matches the pattern's checkpoint measurement for your size, within 13 mm (1/2 in).",
+    "The two diagonals differ by 13 mm (1/2 in) or less.",
+    "It lies flat after blocking, with no edge lifting more than 6 mm (1/4 in).",
+    "The log has a page for each of the four parts with counts, hours and measurements."
+   ],
+   "wrong": [
+    [
+     "The corners pull in or flare",
+     "Count the stitches between corner markers on each side. They should match. Fix the side that differs before the next round."
+    ],
+    [
+     "It's larger than the checkpoint",
+     "Go down 0.5 mm for the next part and log the change. If the whole Garden is off, it becomes a cushion front and you start a new Garden with the smaller hook. No work is wasted; the cushion is a finished piece."
+    ],
+    [
+     "Petals lie flat instead of standing",
+     "Check you worked them into the free front loops (B2), and press them forward with your fingers before blocking."
+    ]
+   ],
+   "tier": "big",
+   "new_skill": "The round-to-square transition at blanket scale, plus measuring to the pattern's checkpoints",
+   "rubric": false,
+   "sources": [
+    "https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-garden-large-crochet-square-photo-tutorial/",
+    "https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-part-1-cal-2015/"
+   ]
+  },
+  {
+   "id": "B9",
+   "origin": "new",
+   "t": "Sophie's Universe",
+   "kind": "project",
+   "h": 170,
+   "time": "about 150 to 200 hours (estimate). The 2015 CAL ran 20 weekly parts and the Garden is Parts 1 to 4. At 3 to 4 hours a week of blanket time, plan one part every 2 to 3 weeks, about 8 to 12 months after the Garden.",
+   "prereq_units": [
+    "B8"
+   ],
+   "recommended_units": [
+    "6.6"
+   ],
+   "gate_note": "Opens when the B8 Garden passes its checkpoint. Unit 6.6 (the lace shawl in the optional LAC 330) is recommended for confidence with openwork, not required.",
+   "why": "This is the summit: one continuous textured piece that grows out from the Garden you already made. Every skill in the studio meets here.",
+   "need": "Your B8 Garden, the rest of your final yarn by lot, the same hook, markers, blocking mats and pins (plus floor space or extra mats for a large piece), your Blanket log.",
+   "learn": "Free: Dedri Uys, the 2015 CAL on her blog, starting from <a href='https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-cal-2015/sophies-universe-cal-2015-information/'>the CAL information page</a>, and the <a href='https://ravelry.com/patterns/library/550990'>Ravelry pattern page</a> for other makers' notes on hard parts. Paid: the <a href='https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-cal-2015/sophies-universe-book'>Sophie's Universe book</a> (216 pages, Scheepjes; price not confirmed as of Oct 2026). The book reorganizes the parts; check your copy for its part and round counts. The Part 1 page lists a video by Esther Dijkstra; check each later part's page for its own video, because this library did not verify the full set. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Read each part through before you start it. Watch any linked video for that part first.",
+    "Log each part: date, hours, round counts, and the measurement at every checkpoint.",
+    "After a break of about two weeks or more, crochet a warm-up swatch and check your gauge before the blanket.",
+    "Never change hooks in the middle of a round. If you change at all, change at the start of a part and log it.",
+    "Measure the diagonals at every checkpoint. Small errors grow with every outer round.",
+    "A finished part is a finished part. A part that takes a month is fine; there is no schedule to keep."
+   ],
+   "drill": [
+    "Before each part: read it, mark new stitches, warm up for 5 minutes on a swatch.",
+    "Work the part. Log counts and hours. Measure at the end and compare with the pattern.",
+    "Every fourth part, lay the whole piece flat, measure both diagonals and photograph it.",
+    "When the last part is done, go on to B10."
+   ],
+   "pass": [
+    "Every part has a log page with counts, hours and a measurement.",
+    "At each checkpoint the diagonals differ by 25 mm (1 in) or less.",
+    "The unblocked piece is within 5% of the pattern's size for your chosen size at the last checkpoint, or the log records the difference."
+   ],
+   "wrong": [
+    [
+     "The edges wave after a long break",
+     "Your tension changed. Measure a warm-up swatch against your logged gauge. Adjust hook or hand before the next round."
+    ],
+    [
+     "A round's count is off by a few stitches",
+     "Fix it in that round. Every outer round magnifies the error, so the center is the cheapest place to correct."
+    ],
+    [
+     "You lose interest for a while",
+     "Put it away in its bag with the log on top. Make a toy. When you come back, start with a swatch and the log. The blanket waits."
+    ]
+   ],
+   "tier": "big",
+   "new_skill": "Sustaining one textured piece over many months with logged checkpoints",
+   "rubric": false,
+   "sources": [
+    "https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-cal-2015/sophies-universe-cal-2015-information/",
+    "https://ravelry.com/patterns/library/550990",
+    "https://lookatwhatimade.net/crafts/yarn/crochet/sophies-universe-cal-2015/sophies-universe-book"
+   ]
+  },
+  {
+   "id": "B10",
+   "origin": "new",
+   "t": "Finish and record the heirloom",
+   "kind": "project",
+   "h": 6,
+   "time": "about 4 to 8 hours (estimate) over 2 or 3 sessions",
+   "prereq_units": [
+    "B9"
+   ],
+   "gate_note": "Opens when B9 is complete.",
+   "why": "An heirloom ends properly: blocked to size, labeled for care, photographed and measured. Your logged hours also replace the plan's guesswork for any future big project.",
+   "need": "The finished blanket, enough blocking mats or a clean floor with towels, rust-proof pins, a long straightedge or taut string, a fabric care label or a sewn-in tag, your phone camera, your Blanket log.",
+   "learn": "Use unit 2.13 for blocking methods. Blocking at this scale has no verified tutorial in this library, so this unit teaches it in its own words. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Block in sections if your mats are smaller than the blanket. Pin along a taut string so each edge is straight.",
+    "Natural fibers wet-block. Acrylic needs steam, and steam relaxes acrylic permanently, so test steam on a corner or your B6 mandala first.",
+    "A care label tells the owner how to wash it. Write the fiber, wash temperature and drying method.",
+    "Add up all logged hours. That number is the true cost of an heirloom and the best forecast for the next one."
+   ],
+   "drill": [
+    "Block the blanket to the pattern's size for your chosen size. Let it dry completely.",
+    "Measure all four sides and both diagonals. Log them.",
+    "Sew in a care label with fiber, care, your name and the year.",
+    "Photograph it flat from above, folded, and in use. Save the photos with the log.",
+    "Total your logged hours and write them on the log's front page."
+   ],
+   "pass": [
+    "The blocked blanket is within 3% of the pattern's size for your chosen size on every side.",
+    "The two diagonals differ by 25 mm (1 in) or less.",
+    "No end is visible from either side at arm's length.",
+    "A care label is attached and the total hours are written in the log."
+   ],
+   "wrong": [
+    [
+     "One edge bows after blocking",
+     "Re-wet or re-steam that edge only and pin it to a taut string. Let it dry fully before unpinning."
+    ],
+    [
+     "An end pokes out after the wash",
+     "Weave it back along a different path for 5 cm (2 in) and split the plies as you go."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Blocking and labeling a full-size heirloom",
+   "rubric": false,
+   "sources": []
+  },
+  {
+   "id": "B11",
+   "origin": "new",
+   "t": "Optional destinations: Sophie's Dream, or Universe in Bloom",
+   "kind": "project",
+   "h": 0,
+   "optional": true,
+   "time": "varies; each choice is its own long project, with hours not published",
+   "prereq_units": [
+    "B8"
+   ],
+   "branch_gates": {
+    "Sophie's Dream (instead of the Universe)": [
+     "B8",
+     "2.10",
+     "6.2"
+    ],
+    "Universe in Bloom (after the dream)": [
+     "B10"
+    ]
+   },
+   "gate_note": "Optional. Sophie's Dream is an alternative to B9, open after B8 plus units 2.10 (seams) and 6.2 (join-as-you-go, in the optional LAC 330). Universe in Bloom is for after B10. The dream is complete at B10.",
+   "why": "Some makers would rather finish by repeating one square they have mastered than climb to the Universe. Others finish the Universe and want one more. Both are here, clearly optional.",
+   "need": "For the Dream: yarn and hook from your B7 plan and a join-as-you-go method from unit 6.2. For Universe in Bloom: the pattern and either the kit yarn or a palette you build yourself from individual balls.",
+   "learn": "Sophie's Dream, a joined-squares blanket designed by Dedri Uys and made by Jenny Lowman from 12 Sophie's Garden squares in Whirl yarn, joined and edged with a Whirlette border: <a href='https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-dream-pattern/'>Sophie's Dream pattern</a>. The free pattern is on the blog (as of Oct 2026). The original Stylecraft colors are gone, so plan your own palette (B4). Universe in Bloom, Dedri Uys's Scheepjes CAL for 2025 (it ran 8 October to 17 December 2025): <a href='https://lookatwhatimade.net/crafts/yarn/crochet/universe-in-bloom-cal-2025/universe-in-bloom-cal-2025-information/'>Universe in Bloom CAL 2025 information</a> and its <a href='https://www.ravelry.com/patterns/library/universe-in-bloom'>Ravelry page</a>. The Colour Crafter (DK acrylic) version measures about 160 x 160 cm (63 x 63 in) blocked with a 3.75 mm hook. The Cotton Create (fingering cotton blend) version measures about 145 x 145 cm (57 x 57 in) blocked with a 3 mm hook. Kit availability changes, so check retailers before you plan on a kit. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Sophie's Dream is its own destination and sits beside the Universe on the ladder. It is 12 Gardens joined, so it is about twelve Gardens of work.",
+    "For a joined-squares blanket, block every square to one template before joining, and check each square's diagonals.",
+    "Universe in Bloom had weekly photo and video tutorials in English on the designer's blog.",
+    "Neither is needed to finish the major or the dream."
+   ],
+   "drill": [
+    "Pick one destination, or neither. Write the reason in one sentence.",
+    "For the Dream: make one square, block it, and log its diagonals and size. Make the rest to match it.",
+    "For Universe in Bloom: plan the palette by value (B4) and the yardage with a 15% margin (B7) before buying."
+   ],
+   "pass": [
+    "Dream: every square's diagonals differ by 6 mm (1/4 in) or less before joining, and the joined blanket's diagonals differ by 25 mm (1 in) or less.",
+    "Universe in Bloom: the blocked blanket is within 3% of the pattern's size and the diagonals differ by 25 mm (1 in) or less."
+   ],
+   "wrong": [
+    [
+     "Squares come out different sizes",
+     "Block every square to the same template. If one is still off by more than 6 mm, make that square again with the hook logged for the first."
+    ],
+    [
+     "Kit colors are gone",
+     "Build your own palette from individual balls and check it in black and white, as in B4."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Choose one: joined-squares heirloom (Dream) or a second textured CAL (Universe in Bloom)",
+   "rubric": false,
+   "sources": [
+    "https://lookatwhatimade.net/crafts/yarn/crochet/free-crochet-patterns/sophies-dream-pattern/",
+    "https://lookatwhatimade.net/crafts/yarn/crochet/universe-in-bloom-cal-2025/universe-in-bloom-cal-2025-information/",
+    "https://www.ravelry.com/patterns/library/universe-in-bloom"
+   ]
+  }
+ ]
+}

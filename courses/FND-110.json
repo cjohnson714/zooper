@@ -1,0 +1,395 @@
+{
+ "code": "FND 110",
+ "title": "Flat foundations",
+ "year": 1,
+ "track": "fund",
+ "required": true,
+ "hours": 28,
+ "credits": 0.6,
+ "hook": "5.0 mm (plus 4.5 and 5.5 mm for gauge; 5.5 mm for the hat)",
+ "yarn": "#4 smooth acrylic for swatches; #4 worsted cotton for the mug rug",
+ "level": 1,
+ "prereqs": [
+  "TOY 101"
+ ],
+ "summary": "Taller stitches, color changes, pattern reading, granny squares, gauge and a fitted hat. These are the flat skills that make doll clothes, ears and blankets.",
+ "intro": "This minor runs alongside the toy path from Year 1, term 2, at about one session in three. It teaches the flat skills toys borrow (hdc and dc for ears, feet and clothes) and the ones the heirloom blanket needs. It ends with a cold exam you can compare with a year from now.",
+ "outcomes": [
+  "You can work 10 straight rows of 15 hdc, dc or tr with the right turning chain and the same count every row.",
+  "You can change color cleanly at a row end and weave in ends that survive a hard stretch.",
+  "You can follow a written pattern with repeats and counts and finish within 1/2 in (12 mm) of its stated size.",
+  "You can make a 4-round granny square with 48 dc and square corners.",
+  "You can measure gauge over 4 in (10 cm) and change hooks to match a target within 1/2 stitch.",
+  "You can make a hat that measures within 1 in (2.5 cm) of its pattern size and stays on."
+ ],
+ "assessment": "Each unit passes when its pass list is met once in practice and once cold, at the start of a later session. The course ends with unit 1.x, a cold exam worked from memory.",
+ "reading": "Everyday Crochet, by June Gilbank, for close-up stitch photos. The Essential Guide to Amigurumi (core text) is not needed here. Optional: Dora Ohrenstein's The Crocheter's Skill-Building Workshop.",
+ "units": [
+  {
+   "id": "1.2",
+   "origin": "revised",
+   "t": "Taller stitches and turning chains",
+   "kind": "lesson",
+   "h": 6,
+   "time": "about 6 hours over 5 or 6 sessions",
+   "prereq_units": [
+    "1.1",
+    "1.3"
+   ],
+   "why": "Half double, double and treble crochet build ears, flat feet, doll clothes and every blanket square. Turning chains decide whether your edges stay straight.",
+   "need": "5.0 mm hook, smooth light-colored #4 acrylic, 4 locking markers, paper tags.",
+   "learn": "Tamara Kelly's free Learn to Crochet course at Moogly (<a href=\"https://www.mooglyblog.com/learn-how-to-crochet/\">right-handed</a> or <a href=\"https://www.mooglyblog.com/how-to-crochet-left-handed/\">left-handed</a>): Slip Stitch, Half Double, Double and Treble. Then her <a href=\"https://www.mooglyblog.com/all-about-turning-chains/\">All About Turning Chains</a> (Moogly). Second voice with both hands: Sigoni Macaroni's free <a href=\"https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/\">Learn to Crochet Masterclass</a>. The turning-chain article has no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Taller stitches start with yarn overs before you insert the hook: one for hdc and dc, two for tr.",
+    "hdc: after pulling up a loop you have three loops; yarn over and pull through all three. dc: yarn over and pull through two loops, twice. tr: the same, three times.",
+    "A turning chain lifts the yarn to the new row's height: usually ch 1 for sc, ch 2 for hdc, ch 3 for dc, ch 4 for tr.",
+    "In most US patterns the ch 3 for dc and the ch 4 for tr count as the first stitch, so you skip the first stitch and work the last stitch into the top of the turning chain. The ch 2 for hdc often does not count. The pattern always wins; write its rule on your tag.",
+    "Count every row. A row that is one short or one long almost always went wrong at an edge."
+   ],
+   "drill": [
+    "hdc swatch: ch 17. Hdc in the 3rd ch from the hook and in each ch across (15 hdc; the ch 2 does not count). Rows 2 to 10: ch 2, turn, hdc in each st across (15).",
+    "dc swatch: ch 17. Dc in the 4th ch from the hook and in each ch across (15 dc; the skipped 3 ch count as the first dc). Rows 2 to 10: ch 3 (counts as dc), turn, skip the first st, dc in each st across, dc in the top of the turning ch (15).",
+    "tr swatch: ch 18. Tr in the 5th ch from the hook and in each ch across (15 tr; the skipped 4 ch count as the first tr). Rows 2 to 10: ch 4 (counts as tr), turn, skip the first st, tr in each st across, tr in the top of the turning ch (15).",
+    "Write the turning-chain rule on each swatch's tag.",
+    "Staircase: ch 16, sc in the 2nd ch from the hook and across (15). Work 2 rows each of sc, hdc, dc and tr, keeping 15 stitches every row.",
+    "Clip markers into the first and last stitch of every row and move them up as you go."
+   ],
+   "pass": [
+    "Every row of all four pieces has 15 stitches (count 3 rows chosen at random on each)",
+    "Both side edges of each swatch stay within 3 mm (1/8 in) of a ruler laid along them",
+    "Stitch sort: photograph 3 close-ups of each swatch (12 photos, tags hidden). Someone else shuffles them; you sort them into sc, hdc, dc and tr with no errors",
+    "Passed cold: at the start of a later session, 2 fresh rows of dc on 15 stitches still count 15 with straight edges"
+   ],
+   "wrong": [
+    [
+     "A gap at the start of each row",
+     "The turning chain is too loose. Make it snugger, or try one chain fewer and keep the count."
+    ],
+    [
+     "One edge longer than the other",
+     "You counted the turning chain on some rows and not others. Pick the rule on your tag and keep it every row."
+    ],
+    [
+     "The swatch grows by a stitch every few rows",
+     "You worked into the base of the turning chain as well as the turning chain itself. Skip the first stitch when the chain counts."
+    ],
+    [
+     "Treble stitches look loose and loopy",
+     "Pull each yarn over snug onto the shaft before the next step. Loose wraps make long, sloppy stitches."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "hdc, dc and tr, and turning-chain rules",
+   "rubric": false,
+   "sources": [
+    "https://www.mooglyblog.com/learn-how-to-crochet/",
+    "https://www.mooglyblog.com/how-to-crochet-left-handed/",
+    "https://www.mooglyblog.com/all-about-turning-chains/",
+    "https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/"
+   ]
+  },
+  {
+   "id": "1.4",
+   "origin": "revised",
+   "t": "Ends and color changes",
+   "kind": "lesson",
+   "h": 3,
+   "time": "about 3 hours over 2 sessions",
+   "prereq_units": [
+    "1.2"
+   ],
+   "why": "Toys and blankets change color constantly. A clean change and an end that never works loose are what make work look finished.",
+   "need": "5.0 mm hook, #4 acrylic in two colors, a yarn needle, scissors.",
+   "learn": "Weaving in: Creative Crochet Corner's <a href=\"https://www.creativecrochetcorner.com/post/how-to-weave-in-ends-securely\">How to Weave in Ends Securely</a> (slip under two strands, split the third, then reverse direction). Color changes: the Moogly course (<a href=\"https://www.mooglyblog.com/learn-how-to-crochet/\">right-handed</a> or <a href=\"https://www.mooglyblog.com/how-to-crochet-left-handed/\">left-handed</a>) shows the last-yarn-over change in its stitch videos; the key ideas below give the full method. The weaving page has no left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Leave tails about 6 in (15 cm) long. Short tails work loose and are hard to thread.",
+    "Weave each tail through stitches in at least three directions, and split the yarn's plies on the last pass so it grips.",
+    "To change color, work the old color's last stitch up to its final yarn over. Yarn over with the new color and pull through. The new color is now on the hook, ready for the next stitch.",
+    "At the end of a row, change on the last stitch of the old row, then make the turning chain in the new color.",
+    "Changing every 2 rows on a flat piece, you can carry the unused color loosely up the side instead of cutting it. Catch it under the first stitch of each row so it doesn't make loops."
+   ],
+   "drill": [
+    "Ch 22. Dc in the 4th ch from the hook and in each ch across (20 dc).",
+    "Work 12 rows of 20 dc, changing color every 2 rows. Cut and reattach for the first 6 rows; carry the yarn up the side for the last 6.",
+    "Weave in every end with the three-direction method."
+   ],
+   "pass": [
+    "Every row has 20 stitches",
+    "Stretch the swatch hard lengthwise and widthwise for 5 seconds each: no end shows on the right side and no tail end pops out",
+    "Each color line is a straight row with no stitch of the old color showing on the first stitch of a new stripe (check all 5 changes)",
+    "On the carried half, the side edge measures within 3 mm (1/8 in) of the cut-and-rejoin half's edge, so the carry is not pulling it in"
+   ],
+   "wrong": [
+    [
+     "A blip of the old color starts each new stripe",
+     "The change came one stitch after the switch point. Switch on the final yarn over of the last old-color stitch."
+    ],
+    [
+     "Tails work out after stretching",
+     "Go in three directions and split the plies on the last pass."
+    ],
+    [
+     "The carried edge puckers",
+     "Leave the carried strand as long as the side edge and lay it flat before catching it."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Color changes and secure ends",
+   "rubric": false,
+   "sources": [
+    "https://www.creativecrochetcorner.com/post/how-to-weave-in-ends-securely",
+    "https://www.mooglyblog.com/learn-how-to-crochet/",
+    "https://www.mooglyblog.com/how-to-crochet-left-handed/"
+   ]
+  },
+  {
+   "id": "1.5",
+   "origin": "revised",
+   "t": "Reading a written pattern",
+   "kind": "project",
+   "h": 4,
+   "time": "about 4 hours over 2 or 3 sessions",
+   "prereq_units": [
+    "1.2",
+    "1.4"
+   ],
+   "why": "Every pattern for a toy, a doll dress or a blanket square uses the same symbols. Once you can turn them into actions and check the counts, any pattern is open to you.",
+   "need": "5.0 mm hook, worsted cotton (Lion Brand 24/7 Cotton or Lily Sugar'n Cream), markers, a pencil.",
+   "learn": "The Craft Yarn Council's <a href=\"https://craftyarncouncil.com/node/39\">standards pages</a> (abbreviations, symbols and term notes). Project: Moogly's <a href=\"https://www.mooglyblog.com/learn-to-crochet-mug-rug/\">Learn to Crochet Mug Rug</a> (Tamara Kelly), written in abbreviations and plain English, with <a href=\"https://www.mooglyblog.com/learn-to-crochet-mug-rug-tutorial/\">right- and left-handed walkthrough videos</a>.",
+   "key": [
+    "* marks where a repeat starts. Work the steps after it, then \"rep from *\" as many times as the pattern says.",
+    "[ ] followed by a number: work the bracketed steps that many times in a row.",
+    "( ) usually means work all of it into one stitch, as in (2 dc, ch 2, 2 dc).",
+    "A number at the end of a line, like \"(20 sts)\", is a count to check, not an instruction.",
+    "\"Ch 3 (counts as dc)\" means the chain 3 is the row's first stitch.",
+    "Before you work a row, read it once and mark where each repeat starts and ends with your pencil."
+   ],
+   "drill": [
+    "Before you start, copy the mug rug's first 3 rows onto a card in plain words (for example \"chain 1, turn, single crochet in each stitch\").",
+    "Make the mug rug, checking every row's count against the pattern.",
+    "Measure the finished piece flat."
+   ],
+   "pass": [
+    "Your plain-words card matches the pattern line for line when someone else reads the two side by side (or you check it yourself a week later)",
+    "Every row's stitch count matches the pattern",
+    "The finished mug rug measures within 1/2 in (12 mm) of the pattern's stated size in both directions (about 5.5 x 4.5 in, 14 x 11.5 cm, as of Oct 2026)"
+   ],
+   "wrong": [
+    [
+     "You end a row with stitches left over",
+     "A repeat got skipped. Tick each repeat on your card as you finish it."
+    ],
+    [
+     "The count is right but the shape is wrong",
+     "You worked into the turning chain when it doesn't count, or skipped it when it does. Check the pattern's note at the top."
+    ],
+    [
+     "Lost your place halfway",
+     "Put a marker in the first stitch of every row and a pencil tick beside each finished row."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": "Following a written pattern row by row",
+   "rubric": false,
+   "sources": [
+    "https://craftyarncouncil.com/node/39",
+    "https://www.mooglyblog.com/learn-to-crochet-mug-rug/",
+    "https://www.mooglyblog.com/learn-to-crochet-mug-rug-tutorial/"
+   ]
+  },
+  {
+   "id": "1.8",
+   "origin": "revised",
+   "t": "The granny square",
+   "kind": "project",
+   "h": 3,
+   "time": "about 3 hours over 2 sessions",
+   "prereq_units": [
+    "1.2",
+    "1.4",
+    "1.5",
+    "1.7"
+   ],
+   "why": "The granny square teaches chain spaces, corners and joined rounds. It is also the first rung of the heirloom blanket studio.",
+   "need": "5.0 mm hook, #4 acrylic in 4 colors, yarn needle.",
+   "learn": "Bella Coco's <a href=\"https://blog.bellacococrochet.com/crochet-granny-square/\">Crochet Granny Square</a> (Sarah-Jayne Fragola). It opens in UK terms; switch to US terms on the page. Right- and left-handed videos are on the page.",
+   "key": [
+    "A granny square is built from groups of 3 dc worked into chain spaces.",
+    "Each corner space holds two groups with ch 2 between them. Each side space holds one group.",
+    "Each round adds one group per side: 12 dc in round 1, 24 in round 2, 36 in round 3, 48 in round 4.",
+    "Twist the square a little each round if it starts to skew; it settles when you block it."
+   ],
+   "drill": "Four classic granny squares, 4 rounds each, changing color every round. Count the 3-dc groups at the end of each round (4, 8, 12, 16).",
+   "pass": [
+    "Round 4 of each square has 16 groups (48 dc) and 4 corner spaces",
+    "Each square lies flat on a table: no corner lifts more than 6 mm (1/4 in)",
+    "The two diagonals of each square match within 6 mm (1/4 in)",
+    "All four squares measure within 6 mm (1/4 in) of each other side to side"
+   ],
+   "wrong": [
+    [
+     "The square ripples",
+     "The corner chains are too long. Use ch 2, or ch 1 if your chains run loose."
+    ],
+    [
+     "It curls into a bowl",
+     "The corner chains are too tight, or a corner group is absent. Count the groups."
+    ],
+    [
+     "The square twists",
+     "Normal in joined rounds. Block it, and turn your work for each round if the pattern allows."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Chain-space groups and corners",
+   "rubric": false,
+   "sources": [
+    "https://blog.bellacococrochet.com/crochet-granny-square/"
+   ]
+  },
+  {
+   "id": "1.9",
+   "origin": "revised",
+   "t": "Gauge",
+   "kind": "lab",
+   "h": 3,
+   "time": "about 3 hours over 2 sessions",
+   "prereq_units": [
+    "1.2"
+   ],
+   "why": "Garments, hats and blanket squares need a set size. Toys use the density lab in T101.2 instead; this unit teaches the flat, stitches-per-4-in gauge every other pattern uses.",
+   "need": "4.5, 5.0 and 5.5 mm hooks, #4 acrylic, a ruler, pins.",
+   "learn": "Yarnspirations' <a href=\"https://www.yarnspirations.com/how-to-measure-crochet-gauge.html\">How to Measure Crochet Gauge</a>. No left-handed version; mirror the right-handed steps (measuring is the same for both hands).",
+   "key": [
+    "Measure across the middle of the swatch, never along an edge, and count half stitches.",
+    "More stitches per 4 in (10 cm) than the pattern means your stitches are small, so go up a hook size. Fewer means go down.",
+    "Lay the swatch flat and let it rest for an hour before you measure. Full blocking is taught in 2.13.",
+    "Gauge for toys is different: there you want no stuffing showing (T101.2). Flat gauge sets size."
+   ],
+   "drill": [
+    "Three dc swatches about 6 in (15 cm) square on 4.5, 5.0 and 5.5 mm hooks. Ch 25 to start each and adjust if needed.",
+    "Count stitches and rows over the central 4 in (10 cm) and write them on each tag.",
+    "Gauge match: take your 5.0 mm stitch count and subtract 1. That is your target. Choose the hook size you expect to give that count (one size up from 5.0 mm, usually), make a fourth 6 in swatch, and measure it."
+   ],
+   "pass": [
+    "Your three tags show fewer stitches per 4 in as the hook gets bigger",
+    "The fourth swatch is within 1/2 stitch of your target over 4 in (10 cm)",
+    "Someone else measures one of your swatches and gets the same count as your tag, within 1/2 stitch"
+   ],
+   "wrong": [
+    [
+     "Counts change every time you measure",
+     "Measure flat, after the swatch has rested, without stretching, over the middle 4 in."
+    ],
+    [
+     "The fourth swatch overshot",
+     "Hook sizes are steps. If one size up overshoots, try a different hook brand at the same size or adjust your yarn tension."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Measuring and matching flat gauge",
+   "rubric": false,
+   "sources": [
+    "https://www.yarnspirations.com/how-to-measure-crochet-gauge.html"
+   ]
+  },
+  {
+   "id": "1.10",
+   "origin": "revised",
+   "t": "A hat that fits",
+   "kind": "project",
+   "h": 6,
+   "time": "about 6 hours over 3 or 4 sessions",
+   "prereq_units": [
+    "1.5",
+    "1.7",
+    "1.9"
+   ],
+   "why": "A hat puts gauge, joined rounds and a written pattern together in something you can test on a real head.",
+   "need": "#4 worsted yarn, 5.5 mm hook, a soft tape measure, stitch markers.",
+   "learn": "Measure around the head at its widest point, across the forehead and just above the ears, and compare with the Craft Yarn Council's <a href=\"https://www.craftyarncouncil.com/standards/head-circumference-chart\">Head Circumference Chart</a>. Project: Oombawka Design's <a href=\"https://oombawkadesigncrochet.com/simple-double-crochet-hat/\">Simple Double Crochet Hat</a> (Rhondda Mol): top-down, joined rounds, #4 yarn, 5.5 mm hook, sizes preemie to adult large, with left-handed videos for the baby sizes. For adult sizes, mirror the right-handed steps.",
+   "key": [
+    "Choose the size from the head measurement. Ignore the age label.",
+    "Swatch to the pattern's gauge first (unit 1.9). A hat one stitch off per 4 in can be 1 in (2.5 cm) off around.",
+    "The crown is a flat circle. It lies flat when each round adds the same number of stitches, spread evenly.",
+    "Stop increasing where the pattern says, then work even. The sides drop straight down."
+   ],
+   "drill": [
+    "Measure the wearer's head and write the size you chose.",
+    "Make a gauge swatch and adjust the hook until it matches.",
+    "Make the hat. After the last increase round, lay the crown flat and measure its diameter against the pattern."
+   ],
+   "pass": [
+    "The crown lies flat on a table: no ripple and no cup higher than 6 mm (1/4 in)",
+    "The hat laid flat measures within 1/2 in (12 mm) of half the pattern's stated circumference (so within 1 in, 2.5 cm, all the way around)",
+    "On the wearer's head, it stays on through 10 nods and 10 head shakes and leaves no red line after 10 minutes"
+   ],
+   "wrong": [
+    [
+     "The crown ruffles",
+     "Too many increases or too big a hook for the crown. Count each round against the pattern."
+    ],
+    [
+     "The crown cups into a bowl",
+     "Too few increases, or tight stitches. Check gauge again."
+    ],
+    [
+     "The hat fits loosely",
+     "Your gauge drifted looser on the body. Make the next one a hook size smaller."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Working to size",
+   "rubric": false,
+   "sources": [
+    "https://www.craftyarncouncil.com/standards/head-circumference-chart",
+    "https://oombawkadesigncrochet.com/simple-double-crochet-hat/"
+   ]
+  },
+  {
+   "id": "1.x",
+   "origin": "revised",
+   "t": "Flat foundations exam",
+   "kind": "exam",
+   "h": 3,
+   "time": "about 3 hours in 1 or 2 sessions",
+   "prereq_units": [
+    "1.2",
+    "1.4",
+    "1.5",
+    "1.8",
+    "1.9"
+   ],
+   "why": "A cold test shows what your hands keep without help. It also gives you a sample to compare with a year from now.",
+   "need": "5.0 mm hook, #4 acrylic in 4 colors, yarn needle, ruler.",
+   "learn": "No new lesson. Work from memory; look nothing up during the sampler. No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Warm up with 2 rows of sc on scrap yarn, then start.",
+    "Count every row before you turn.",
+    "If a row goes wrong, rip it back and rework it. That is part of the exam."
+   ],
+   "drill": "One 20-stitch sampler, without looking anything up: ch 21, then 8 rows sc, 6 rows hdc, 4 rows dc, 2 rows tr (20 stitches every row), changing color each time the stitch changes. Weave in every end, then make one 4-round granny square from memory.",
+   "pass": [
+    "Every row has 20 stitches",
+    "Both side edges stay within 3 mm (1/8 in) of a ruler",
+    "Stretch test: no end shows on the right side",
+    "The granny square has 48 dc in round 4 and its diagonals match within 6 mm (1/4 in)",
+    "Both pieces are tagged with the date and filed with your T100.1 notes"
+   ],
+   "wrong": [
+    [
+     "Edges wander at the stitch changes",
+     "Check the turning chain rule for the new stitch on your 1.2 tags, then try two rows again."
+    ],
+    [
+     "You froze and couldn't remember a step",
+     "Look it up, finish the piece, and repeat the exam in a later session."
+    ]
+   ],
+   "tier": "comfort",
+   "new_skill": null,
+   "rubric": false,
+   "sources": []
+  }
+ ]
+}

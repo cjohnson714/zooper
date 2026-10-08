@@ -1,0 +1,32 @@
+{
+ "code": "TUN 320",
+ "title": "Tunisian crochet",
+ "year": null,
+ "track": "elective",
+ "required": false,
+ "hours": 61,
+ "credits": 1.4,
+ "hook": "6.5 mm Tunisian hook with a 24 in (60 cm) cord; 6.5 mm double-ended Tunisian hook",
+ "yarn": "#4 worsted",
+ "level": 3,
+ "prereqs": [
+  "FND 210"
+ ],
+ "summary": "The Tunisian foundation row, core stitches, curl control, lace and Toni Lipsey's 20-square Tunisian Snowy Sampler.",
+ "intro": "Optional elective. It is not part of the required path, and nothing required waits on it. Tunisian crochet loads a row of loops onto a long hook and works them off again, so it behaves almost like a separate craft. It feels like starting over, and that is normal. Its project has 20 squares of 12 in (30 cm), each with its own video, and it is rated beginner-plus by its designer.",
+ "outcomes": [
+  "You can work the foundation row and Tunisian simple, knit and purl stitches with straight edges and a steady count.",
+  "You can control curl with stitch choice, edge stitches and blocking.",
+  "You can work Tunisian lace with clean diagonal holes.",
+  "You can make 20 sampler squares that block to 12 in (30 cm) within 1/4 in (6 mm) and join them flat."
+ ],
+ "assessment": "Each unit passes on its pass list. The Tunisian Snowy Sampler (5.4) is the course project.",
+ "units_from_old_phase": "p5",
+ "pass_fixes": {
+  "5.2": [
+   "The alternating swatch lies flat unblocked",
+   "The simple-stitch swatch lies flat after blocking",
+   "Before blocking, the simple-stitch swatch curls more than the alternating swatch: measure the curl height of each in mm and record both"
+  ]
+ }
+}

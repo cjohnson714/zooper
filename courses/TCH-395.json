@@ -1,0 +1,310 @@
+{
+ "code": "TCH 395",
+ "title": "Teaching crochet",
+ "year": 3,
+ "track": "elective",
+ "required": false,
+ "hours": 40,
+ "credits": 0.9,
+ "hook": "4 mm for class samples; a Tunisian hook for Level II",
+ "yarn": "#4 worsted in light solid colors for demonstrations",
+ "level": 3,
+ "prereqs": [
+  "FND 210",
+  "TOY 120"
+ ],
+ "summary": "An optional course in teaching others: how hand skills are learned, mirrored demos for left-handed students, a lesson plan, live classes, and the Craft Yarn Council's instructor program.",
+ "intro": "Teaching is an optional path for when you'd like to share the craft. You learn a few evidence-based rules for teaching hand skills, practice demonstrating for left-handed students, write and teach a 90-minute first-ball class, and can go on to the Craft Yarn Council's Certified Instructors Program. Level I is a complete credential; Level II is optional within this optional course.",
+ "outcomes": [
+  "You can teach one stitch with feedback on the work, not the person.",
+  "You can demonstrate mirrored for a left-handed student and hand them good resources.",
+  "You can write and run a timed 90-minute beginner class.",
+  "You can complete CYC Certified Instructor Level I."
+ ],
+ "assessment": "T395.1 to T395.4 pass on observable student results and your logs. T395.5 passes when CYC confirms Level I. T395.6 is optional.",
+ "reading": "No toy textbook chapter. Read the CYC program requirements in full before T395.5.",
+ "units": [
+  {
+   "id": "T395.1",
+   "origin": "new",
+   "t": "How people learn a hand skill",
+   "kind": "lesson",
+   "h": 3,
+   "time": "about 3 hours over 2 sessions",
+   "prereq_units": [
+    "2.14"
+   ],
+   "why": "Good crocheters are not always good teachers. A few findings from the research on learning motor skills tell you what to show, when to step back, and how to give feedback that helps.",
+   "need": "A notebook and a friend willing to learn one stitch from you for 20 minutes.",
+   "learn": "No verified free tutorial on teaching crochet is in this library, so this unit teaches the principles in its own words, drawn from the learning research used to build this major. Watch one live class taught by someone else to see them in action, for example a Crochet Guild of America <a href='https://crochet.org/take-class/'>online class</a> (paid per class; prices not seen as of Oct 2026). Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Show slowly, then let them do it. A beginner learns the motion by making it, not by watching it twice more.",
+    "One new thing per lesson. Repeat it in a block first; mix it with other stitches only once it is steady.",
+    "Feedback on the work, never on the person. 'This stitch went into the back loop only' helps. 'You're careless' makes things worse.",
+    "Let them count first, then check. Learners who check their own count before you confirm it keep the skill longer.",
+    "Offer a demonstration, a photo and written steps for clarity. Matching teaching to a 'visual learner' or 'kinesthetic learner' has no good evidence for it.",
+    "Stop while they still want more. Tired hands learn little."
+   ],
+   "drill": [
+    "Plan a 20-minute lesson on one stitch your friend doesn't know: 3 minutes to show, 12 to practice, 5 to count and review.",
+    "Teach it. Note every place they got stuck, in their words.",
+    "Write one change you'd make to the lesson."
+   ],
+   "pass": [
+    "Your friend makes 10 of the new stitch in a row that you both count as correct, at the end of the 20 minutes.",
+    "Your notes list where they got stuck and one change to the lesson."
+   ],
+   "wrong": [
+    [
+     "You take the hook to fix their work",
+     "Hand it back. Point to the stitch and describe what to do; their hands need the practice."
+    ],
+    [
+     "They get frustrated",
+     "Stop the new stitch, have them make 5 of something they know, and end there for the day."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Teaching one stitch with task-level feedback",
+   "rubric": false,
+   "sources": [
+    "https://crochet.org/take-class/"
+   ]
+  },
+  {
+   "id": "T395.2",
+   "origin": "new",
+   "t": "Teaching left-handed students",
+   "kind": "lab",
+   "h": 2,
+   "time": "about 2 hours in 1 or 2 sessions",
+   "prereq_units": [
+    "T395.1"
+   ],
+   "why": "About one student in ten is left-handed, and most tutorials are right-handed. A teacher who can demonstrate mirrored and point to good left-handed resources keeps those students.",
+   "need": "Your hook and yarn, a mirror at least 30 cm (12 in) tall, a phone on a stand.",
+   "learn": "Left-handed resources to give students: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/blog/amigurumi-help/how-to-crochet-a-magic-ring/'>How to Crochet a Magic Ring</a>, <a href='https://www.planetjune.com/invdec'>Invisible Decrease</a> and <a href='https://www.planetjune.com/finish'>The Ultimate Finish</a>, each with a left-handed video. The Woobles, <a href='https://thewoobles.com/pages/how-to-use-safety-eyes-for-lefties'>How to use safety eyes for lefties</a>. Mirrored demonstration has no verified tutorial in this library, so this unit teaches it in its own words. Left-handed: the PlanetJune and Woobles pages above have left-handed versions.",
+   "key": [
+    "Sit facing a left-handed student and they see a mirror image of your right-handed hands, which matches their own. Sit side by side with a right-handed student.",
+    "A left-handed student works rounds clockwise, so their spiral and stitch tops lean the other way. Their right side is still the side facing them as they work.",
+    "Charts and photos are drawn for right-handed work. A left-handed student can flip a photo horizontally on a phone to match their hands.",
+    "Never ask a left-handed student to switch hands."
+   ],
+   "drill": [
+    "Hold your work in front of a mirror and make 6 sc in a magic ring. Watch only the mirror. This is what a facing left-handed student sees.",
+    "Record a 1-minute video of the magic ring and flip it horizontally on your phone. Compare it with PlanetJune's left-handed magic ring video.",
+    "Write a one-page handout of left-handed links for your class."
+   ],
+   "pass": [
+    "A left-handed person (or you, working left-handed slowly) makes a 6 sc magic ring from your flipped video alone, with the count right.",
+    "Your handout lists at least 3 left-handed resources with working links."
+   ],
+   "wrong": [
+    [
+     "The flipped video confuses the viewer",
+     "Narrate with 'hook hand' and 'yarn hand' instead of 'right' and 'left'."
+    ],
+    [
+     "The student's spiral leans the other way",
+     "That is correct for left-handed work. Show them it matches the left-handed tutorial."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Mirrored demonstration and left-handed teaching materials",
+   "rubric": false,
+   "sources": [
+    "https://www.planetjune.com/blog/amigurumi-help/how-to-crochet-a-magic-ring/",
+    "https://www.planetjune.com/invdec",
+    "https://www.planetjune.com/finish",
+    "https://thewoobles.com/pages/how-to-use-safety-eyes-for-lefties"
+   ]
+  },
+  {
+   "id": "T395.3",
+   "origin": "new",
+   "t": "Write a lesson plan: a first amigurumi ball",
+   "kind": "lab",
+   "h": 4,
+   "time": "about 3 to 5 hours over 2 sessions",
+   "prereq_units": [
+    "T395.2",
+    "3.1"
+   ],
+   "why": "A lesson plan turns what you know into a class anyone could run. It's also the core of the Craft Yarn Council's Level I homework.",
+   "need": "Your T395.1 notes, your own 3.1 ball as a sample, a notebook or document.",
+   "learn": "Craft Yarn Council, <a href='https://craftyarncouncil.com/standards/project-levels'>Project Skill Levels</a>, for describing the class level. Lesson-plan writing has no verified free tutorial in this library, so this unit teaches it in its own words. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "A plan states the goal, the skill level, the materials each student brings, and a timed sequence.",
+    "Budget time honestly. Beginners take about three times as long as you to make a round.",
+    "Plan the stopping point: what a student takes home finished, and what they finish at home.",
+    "Include a safety note: safety eyes are not for toys given to children under 3."
+   ],
+   "drill": [
+    "Write a 90-minute plan for 'your first amigurumi ball', with this sequence and timings: welcome and materials 5 min; magic ring 15 min; Rnd 2 increases 15 min; Rnds 3 and 4 increases 20 min; break 5 min; even rounds and counting 15 min; how to finish at home 10 min; questions 5 min. Check the total: 5 + 15 + 15 + 20 + 5 + 15 + 10 + 5 = 90.",
+    "Write the round card students take home: Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnds 5 to 8: sc around (24). Rnd 9: (sc 2, dec) x6 (18). Rnd 10: (sc, dec) x6 (12). Stuff. Rnd 11: dec x6 (6). Finish.",
+    "Write the materials list per student: #4 worsted yarn in a light solid color, 4 mm hook, 2 markers, needle, small bag of fiberfill."
+   ],
+   "pass": [
+    "The plan's timings add up to exactly 90 minutes.",
+    "Every round on the card has a count, and each count is correct (6, 12, 18, 24, 24, 18, 12, 6).",
+    "A second person can say from the plan alone what students bring and what they take home."
+   ],
+   "wrong": [
+    [
+     "The plan runs long in practice",
+     "Cut the even rounds from class and send them home on the card."
+    ],
+    [
+     "Students arrive with the wrong yarn",
+     "Put a photo of the right yarn on the sign-up page and bring 3 spare kits."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Writing a timed lesson plan with a take-home card",
+   "rubric": false,
+   "sources": [
+    "https://craftyarncouncil.com/standards/project-levels"
+   ]
+  },
+  {
+   "id": "T395.4",
+   "origin": "new",
+   "t": "Teach the class",
+   "kind": "project",
+   "h": 6,
+   "time": "about 6 hours: 2 classes of 90 minutes plus setup and notes",
+   "prereq_units": [
+    "T395.3"
+   ],
+   "why": "Teaching real students shows what the plan left out. These hours also count toward the student-teaching hours the CYC program asks for.",
+   "need": "Your plan and round cards, 2 to 4 students (friends, family, a library or yarn shop group), spare kits, a timer, a notebook.",
+   "learn": "No outside resource needed. Use your T395.1 to T395.3 work. Left-handed: use your T395.2 handout.",
+   "key": [
+    "Log date, place, number of students and minutes taught. CYC asks for a record of teaching hours.",
+    "Walk the room every few minutes. Look at each student's last round, not their face, when you check.",
+    "End on something finished, even if it's only Rnd 2."
+   ],
+   "drill": [
+    "Teach the class twice, to different students, with the plan.",
+    "After each class, note: how many students reached Rnd 4 with 24 stitches, where people got stuck, and one change.",
+    "Revise the plan once between the two classes."
+   ],
+   "pass": [
+    "Your log records two classes with dates, students and minutes.",
+    "In the second class, at least half of the students reach Rnd 4 with a correct count of 24.",
+    "The plan has one dated revision."
+   ],
+   "wrong": [
+    [
+     "Most students stall on the magic ring",
+     "Offer a chain-2 start as a backup next time, and teach the magic ring once they have a round done."
+    ],
+    [
+     "One student needs all your time",
+     "Pair them with a faster student for a few minutes and come back."
+    ]
+   ],
+   "tier": "stretch",
+   "new_skill": "Teaching a live group class",
+   "rubric": false,
+   "sources": []
+  },
+  {
+   "id": "T395.5",
+   "origin": "new",
+   "t": "CYC Certified Instructors Program, Crochet Level I",
+   "kind": "project",
+   "h": 25,
+   "time": "about 20 to 30 hours, including at least 15 hours of student teaching; CYC allows 6 months per level for the homework",
+   "prereq_units": [
+    "T395.4",
+    "1.6",
+    "1.7",
+    "2.6"
+   ],
+   "why": "The Craft Yarn Council's program is the standard US credential for crochet teachers. It certifies teaching, not mastery, and gives your teaching a recognized frame.",
+   "need": "The program enrollment (fee below), yarn and hook for the required swatches, your lesson plans, your teaching log.",
+   "learn": "Craft Yarn Council, <a href='https://www.craftyarncouncil.com/teach.html'>Certified Instructors Program</a>: Crochet Level I and Level II, $150 per level (as of Oct 2026; older sources cite $85; confirm on the enrollment page). Self-paced by correspondence at any time, or on-site sessions (a 2026 listing named Dallas/Fort Worth in August and Livermore, California, in October; check CYC for later dates). Alternative: Salena Baca's <a href='https://americancrochetassociation.blog/crochet-courses/'>American Crochet Association</a> Pro membership, $24 a month (as of Oct 2026), includes a teacher certification; its certificates are self-issued. Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Level I covers teaching basics, a lesson plan, basic stitches, increases and decreases, pattern stitches and working in the round.",
+    "Level I asks for at least 15 hours of student teaching. Your T395.4 classes are a start; log every hour.",
+    "Level I is passed before Level II homework begins.",
+    "Check the current requirements on CYC's page when you enroll. Program details change."
+   ],
+   "drill": [
+    "Enroll and read the full Level I requirements. Make a checklist from them.",
+    "Make each required swatch and write each required plan, checking off the list.",
+    "Teach until your log shows 15 hours or more.",
+    "Submit the homework as CYC directs."
+   ],
+   "pass": [
+    "CYC confirms Level I as passed.",
+    "Your teaching log shows 15 or more hours."
+   ],
+   "wrong": [
+    [
+     "A swatch comes back for revision",
+     "Fix the one thing named, make it again on a different day, and resubmit."
+    ],
+    [
+     "Teaching hours are slow to build",
+     "Ask a library or The Yarn Remedy about a monthly beginner circle; one 90-minute class a month gets you there within a year."
+    ]
+   ],
+   "tier": "big",
+   "new_skill": "Completing a formal teaching credential",
+   "rubric": false,
+   "sources": [
+    "https://www.craftyarncouncil.com/teach.html",
+    "https://americancrochetassociation.blog/crochet-courses/"
+   ]
+  },
+  {
+   "id": "T395.6",
+   "origin": "new",
+   "t": "CYC Certified Instructors Program, Crochet Level II",
+   "kind": "project",
+   "h": 30,
+   "optional": true,
+   "time": "about 25 to 35 hours, including more student teaching; 6 months allowed for the homework",
+   "prereq_units": [
+    "T395.5",
+    "2.7",
+    "2.16",
+    "5.1"
+   ],
+   "why": "Level II rounds out a teacher's range. Its topic list is also a good audit of your own fundamentals.",
+   "need": "Level II enrollment, yarn and hooks for the required swatches (including a Tunisian hook), your teaching log.",
+   "learn": "Craft Yarn Council, <a href='https://www.craftyarncouncil.com/teach.html'>Certified Instructors Program</a>, Level II, $150 (as of Oct 2026). Left-handed: No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Level II covers meshes, stitch and color variations, Tunisian, Aran, finishing, pattern writing and lesson plans.",
+    "Its Tunisian and Aran topics lean on the optional TUN 320 unit 5.1 and FND unit 2.7 (cables).",
+    "Optional within an optional course. Level I is a complete credential on its own."
+   ],
+   "drill": [
+    "Enroll and make a checklist from the Level II requirements.",
+    "Work through each swatch and plan, checking it off.",
+    "Submit as CYC directs."
+   ],
+   "pass": [
+    "CYC confirms Level II as passed."
+   ],
+   "wrong": [
+    [
+     "Tunisian swatches curl",
+     "Go up a hook size for Tunisian and block the swatch (unit 2.13) before you submit."
+    ],
+    [
+     "Pattern-writing homework feels unclear",
+     "Use your T420.1 style sheet as the model."
+    ]
+   ],
+   "tier": "big",
+   "new_skill": "The full CYC crochet teaching credential",
+   "rubric": false,
+   "sources": [
+    "https://www.craftyarncouncil.com/teach.html"
+   ]
+  }
+ ]
+}

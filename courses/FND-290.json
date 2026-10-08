@@ -1,0 +1,94 @@
+{
+ "code": "FND 290",
+ "title": "CGOA Fundamentals review",
+ "year": 3,
+ "track": "fund",
+ "required": true,
+ "hours": 30,
+ "credits": 0.7,
+ "hook": "As the workbook directs",
+ "yarn": "As the workbook directs",
+ "level": 2,
+ "prereqs": [
+  "FND 210"
+ ],
+ "summary": "Complete the Crochet Guild of America's Fundamentals of Crochet Masters program and mail it for an outside review.",
+ "intro": "This is the outside check on the fundamentals goal. You work through CGOA's 54-page workbook, make every swatch twice, and mail the portfolio for review. Nothing else in the major waits on the reply, so keep making toys and blanket squares while it is out.",
+ "outcomes": [
+  "You can complete all 17 workbook swatches to CGOA's nine standards, each checked with a ruler and a stitch count.",
+  "You can answer all 36 written questions and complete the Master Project.",
+  "You can present a clean, tagged portfolio ready for an outside reviewer."
+ ],
+ "assessment": "Passes when the portfolio is mailed with every swatch self-checked and the three weakest reviewed by an experienced crocheter. CGOA's result is recorded when it arrives; a re-review ($30, as of Oct 2026) is available 1 month to 1 year after a not-passing result.",
+ "reading": "The CGOA Fundamentals of Crochet workbook. Reference: Everyday Crochet, by June Gilbank.",
+ "units": [
+  {
+   "id": "cp1",
+   "origin": "revised",
+   "t": "CGOA Fundamentals of Crochet review",
+   "kind": "review",
+   "h": 30,
+   "time": "about 30 hours over 2 to 4 months, then a mailed review of about 4 months",
+   "prereq_units": [
+    "1.2",
+    "1.4",
+    "1.5",
+    "1.7",
+    "1.8",
+    "1.9",
+    "2.1",
+    "2.3",
+    "2.6",
+    "2.10",
+    "2.11",
+    "2.12",
+    "2.13",
+    "2.14",
+    "2.15"
+   ],
+   "why": "An outside reviewer judges your work against the Crochet Guild of America's national standard. It is the external check on the fundamentals goal.",
+   "need": "Your practice yarn and hooks, a binder with sheet protectors, tags, postage.",
+   "learn": "The Crochet Guild of America's <a href=\"https://crochet.org/become-a-master/\">Masters program</a> and the <a href=\"https://crochet.org/?p=56213\">Fundamentals of Crochet workbook</a> page: a 54-page workbook with 17 swatches, 36 written questions and a final Master Project, in eight chapters (pattern reading, chains and foundation stitches, three ways of working in the round, stitch locations, gauge and drape, weaving in ends, blocking, the project). Cost (paid, as of Oct 2026): $99 for members or $159 for non-members. A <a href=\"https://crochet.org/join-cgoa/\">digital membership</a> is $35 a year, so joining first costs less ($134 total). Questions go to the <a href=\"https://www.ravelry.com/groups/cgoa-masters-program\">CGOA Masters Program group on Ravelry</a>. No left-handed version; mirror the right-handed steps.",
+   "key": [
+    "Follow the instructions as written, even where you'd prefer another method.",
+    "Even, neat stitches and consistent gauge across each swatch, on a hook size suited to the yarn.",
+    "Ends woven in securely and invisibly; correct stitch count in every row and the correct number of rows.",
+    "Make each swatch at least twice, find your own errors, and keep the better one.",
+    "Written answers show you understand the principles. Every item complete, clean, and free of stains, odors and pet hair.",
+    "There is no deadline. If five or more items fall short, the portfolio comes back \"not passing at this time\"; rework those items and buy a re-review ($30, as of Oct 2026) between 1 month and 1 year after the first review.",
+    "Nothing in this major waits for the mailed result. Carry on with your toy and blanket units while it is out."
+   ],
+   "drill": [
+    "Join CGOA (digital, $35 a year, as of Oct 2026), then buy Fundamentals of Crochet.",
+    "Work one chapter at a time. Make each swatch at least twice and keep the better one.",
+    "Self-check every swatch against the nine standards with a ruler and a stitch count, and write the result on its tag.",
+    "Ask an instructor, a local guild member or the Ravelry group to look at your three weakest swatches.",
+    "Complete the written answers and the Master Project, then submit as the workbook directs."
+   ],
+   "pass": [
+    "Every swatch has a tag showing its stitch count per row, its measured size, and a check against all nine standards",
+    "An instructor or experienced crocheter has looked at your three weakest swatches and you have reworked any they flagged",
+    "The portfolio is mailed (the course passes on mailing; the reviewer's result is recorded when it arrives)"
+   ],
+   "wrong": [
+    [
+     "A swatch keeps coming out uneven",
+     "Compare it with the matching FND unit's pass check and redo that drill first. Fix one thing and try again; after three tries in one sitting, stop for the day."
+    ],
+    [
+     "The portfolio came back not passing",
+     "Rework only the listed items and buy the re-review. Everything else stands."
+    ]
+   ],
+   "tier": null,
+   "new_skill": "Presenting work to an outside standard",
+   "rubric": false,
+   "sources": [
+    "https://crochet.org/become-a-master/",
+    "https://crochet.org/?p=56213",
+    "https://crochet.org/join-cgoa/",
+    "https://www.ravelry.com/groups/cgoa-masters-program"
+   ]
+  }
+ ]
+}

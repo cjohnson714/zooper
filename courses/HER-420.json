@@ -1,0 +1,35 @@
+{
+ "code": "HER 420",
+ "title": "Heritage and specialty techniques",
+ "year": null,
+ "track": "elective",
+ "required": false,
+ "hours": 95,
+ "credits": 2.1,
+ "hook": "Steel hooks for Irish and Bruges lace; a hairpin lace loom and a 25 mm (US 50) needle or dowel",
+ "yarn": "Thread and #4 yarn as each unit directs",
+ "level": 4,
+ "prereqs": [
+  "FND 210"
+ ],
+ "summary": "Irish crochet, hairpin, broomstick and Bruges lace, Solomon's knot, slip-stitch crochet, cords, hyperbolic and freeform work.",
+ "intro": "Optional elective. It is not part of the required path, and nothing required waits on it. These are the specialty techniques an experienced crocheter recognizes on sight and can work when asked. Each unit ends in a small finished piece. Hyperbolic and freeform work (8.8) is the closest to toy sculpting and pairs well with TOY 340.",
+ "outcomes": [
+  "You can work an Irish crochet rose with even layered petals and padded motifs on a uniform mesh.",
+  "You can work hairpin, broomstick and Bruges lace and Solomon's knot to even, measured loops.",
+  "You can work slip-stitch ribbing that stretches to 1.5 times its width and springs back, and short rows without holes.",
+  "You can make cords and braids of even width and a hyperbolic plane that holds its ratio."
+ ],
+ "assessment": "Each unit passes on its pass list. Each piece is tagged and filed.",
+ "units_from_old_phase": "p8",
+ "pass_fixes": {
+  "8.8": [
+   "Every plane holds its ratio on every row (count 3 rows)",
+   "Make two planes, one at 1 increase per 5 stitches and one at 1 per 2. The faster plane measures more ruffles around its edge; record both counts"
+  ],
+  "8.9": [
+   "Each swatch matches its chapter's photos",
+   "Each swatch is tagged with the stitch count of its last row and its measured size"
+  ]
+ }
+}

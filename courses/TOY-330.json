@@ -1,0 +1,549 @@
+{
+  "code": "TOY 330",
+  "title": "Modify and remix",
+  "year": 3,
+  "track": "toy",
+  "required": true,
+  "hours": 32,
+  "credits": 0.7,
+  "hook": "your house hook for worsted; 2.75 mm for Pica Pau Cotton 8/7 or DK",
+  "yarn": "#4 worsted cotton for the remix units; DK or Pica Pau Cotton 8/7 (#3) for the Pica Pau studio",
+  "level": 3,
+  "prereqs": [
+    "TOY 290"
+  ],
+  "summary": "You learn to read why a pattern works, then change patterns you already know: new colors, a new size, parts from two patterns joined into one creature, and a Pica Pau list chosen by skill.",
+  "intro": "Designers start by reading and adapting patterns before they invent from scratch. This course is that step. You annotate patterns you've made, recolor and rescale a toy, build a creature from parts of two patterns, and plan your own Pica Pau studio, a list of animals chosen so each one adds one thing. Nothing here can really go wrong, since every toy starts from a pattern that already works. Go at whatever pace feels good.",
+  "outcomes": [
+    "You can look at a run of round counts and say what shape it makes before you crochet it.",
+    "You can plan a three-color palette that still reads in a grayscale photo.",
+    "You can predict a toy's size at a new yarn and hook from your own scale table.",
+    "You can attach a part from one pattern to a body from another so it fits and sits straight, and credit both designers.",
+    "You can choose your next toy by the one skill it adds."
+  ],
+  "assessment": "T330.1 passes on a prediction quiz. T330.2, T330.3 and the first studio animal in T330.4 are scored on the shared toy rubric and their own checks. If a check doesn't pass yet, fix one thing and try again. After three tries in one sitting, stop for the day.",
+  "reading": "The Essential Guide to Amigurumi (June Gilbank): the chapter on customizing patterns, and the opening of Part 3, Designing Amigurumi. The front matter of each Pica Pau book before its first animal in T330.4.",
+  "units": [
+    {
+      "id": "T330.1",
+      "origin": "new",
+      "t": "Design reading: annotate patterns you've made",
+      "kind": "lab",
+      "h": 4,
+      "time": "about 4 hours over 2 or 3 sessions",
+      "prereq_units": [
+        "T101.1",
+        "3.4",
+        "T120.2",
+        "3.2",
+        "T120.5",
+        "T150.1",
+        "T150.2",
+        "T230.1",
+        "T230.2"
+      ],
+      "why": "Every shape in a toy is written in its counts. Reading the counts of patterns you've already made, and naming the shape each part makes, builds the eye every later design unit uses. It costs no yarn.",
+      "need": "Three patterns you've finished, with the toys beside you: one Woobles pattern from 3.2, your T150.2 Pica Pau animal, and your T150.1 PlanetJune or T120.5 toy. Sheet protectors and a wet-erase marker (or photocopies and a pen), three highlighter colors, a ruler.",
+      "learn": "Free: Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/'>Basic Amigurumi Shapes: The Shape Is in the Math</a>. Wendi Gratz (Shiny Happy World), <a href='https://www.shinyhappyworld.com/2011/07/amigurumi-design-crochet-increases-even-swirl.html'>Amigurumi design: increases that swirl vs stay even</a> and <a href='https://shinyhappyworld.com/?p=3206'>Creating cone shapes</a>. Paid textbook: June Gilbank, <a href='https://www.planetjune.com/amibooke'>The Essential Guide to Amigurumi</a>, Part 3 (price not confirmed, as of Oct 2026), which comes in a separate left-handed edition. Left-handed: the free pages have no left-handed version; mirror the right-handed steps, or use the left-handed edition of the Essential Guide.",
+      "key": [
+        "Count changes per round tell you the shape. Plus 6 a round lies flat. Fewer than 6 a round cups into a cone or dome. No change makes a straight tube. Minus a few a round tapers.",
+        "Where the increases go matters as much as how many. Increases spread around the round grow the piece evenly. Increases bunched in one stretch push out one side: a snout, a belly, a cheek.",
+        "Stacked increases (same place every round) make corners; offset increases keep it round. You saw both in T230.1.",
+        "Ovals start on a chain. The straight middle stays the same length, and the growth happens at the two curved ends.",
+        "Write what you see in a fixed code so you can compare patterns: I for an increase cluster, D for a decrease cluster, E for even rounds, with the count and the shape name."
+      ],
+      "drill": [
+        "Annotate pattern 1. For each part, highlight increase rounds in one color, even rounds in a second and decrease rounds in a third. In the margin, write the widest count, how many even rounds, and the shape name (ball, egg, tube, cone, oval, flat circle, one-sided bulge).",
+        "Hold the finished part beside its notes. Write one line on anything the counts didn't predict (for example, stuffing made it rounder).",
+        "Repeat for patterns 2 and 3.",
+        "Quiz. Cover the answer key in the last step. For each excerpt, write the shape before you look. A: Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnds 4 to 12: sc around (18).",
+        "B: Rnd 1: 4 sc in a magic ring (4). Rnd 2: (sc, inc) x2 (6). Rnd 3: (sc, inc) x3 (9). Rnd 4: (sc 2, inc) x3 (12). Rnd 5: (sc 3, inc) x3 (15).",
+        "C: Ch 7. Rnd 1: sc in the 2nd ch from hook, sc 4, 3 sc in the last ch; along the other side, sc 4, 2 sc in the first ch (14).",
+        "D: Rnd 1: 6 sc in a magic ring (6). Rnd 2: inc x6 (12). Rnd 3: (sc, inc) x6 (18). Rnd 4: (sc 2, inc) x6 (24). Rnds 5 to 8: sc around (24). Rnd 9: (sc 2, dec) x6 (18). Rnd 10: (sc, dec) x6 (12). Rnd 11: dec x6 (6).",
+        "E: Rnd 7 ends with 24 stitches. Rnd 8: sc 6, inc x6, sc 12 (30). Rnd 9: sc 6, (sc, inc) x6, sc 12 (36). Rnds 10 to 12: sc around (36).",
+        "Answer key. A: a tube with a rounded end (a limb or a long body). B: a cone (an ear, horn or beak). C: a flat oval (a muzzle, sole or the start of an oval body). D: a ball. E: a bulge on one side only (a snout or a belly).",
+        "File the three annotated patterns and your quiz answers in your binder under 'Design reading'."
+      ],
+      "pass": [
+        "Every part of all three patterns has its highlighted rounds, widest count, even-round count and shape name written beside it.",
+        "Each pattern has at least one line on something the counts didn't predict, or a note that they predicted everything.",
+        "You named the shape for at least 4 of the 5 quiz excerpts before uncovering the answer key."
+      ],
+      "wrong": [
+        [
+          "You can't tell a cone from a dome",
+          "Count the increases per round. A steady small number (2 or 3) keeps growing into a cone; increases that stop after a few rounds make a dome. Check against a part you made."
+        ],
+        [
+          "The pattern's notation hides the counts",
+          "Write the round out longhand, stitch by stitch, and count it, as in T101.1."
+        ],
+        [
+          "The finished part doesn't match its counts",
+          "Stuffing and tension shape it too. Note the difference in the margin. That note is part of the reading."
+        ]
+      ],
+      "tier": null,
+      "new_skill": "Reading a pattern's counts as shapes",
+      "rubric": false,
+      "sources": [
+        "https://www.hookedbykati.com/basic-amigurumi-shapes-the-shape-is-in-the-math/",
+        "https://www.shinyhappyworld.com/2011/07/amigurumi-design-crochet-increases-even-swirl.html",
+        "https://shinyhappyworld.com/?p=3206",
+        "https://www.planetjune.com/amibooke"
+      ]
+    },
+    {
+      "id": "T330.2",
+      "origin": "new",
+      "t": "Recolor and rescale a toy",
+      "kind": "project",
+      "h": 6,
+      "time": "about 6 hours over 2 or 3 sessions",
+      "prereq_units": [
+        "T330.1",
+        "T120.3",
+        "T230.3"
+      ],
+      "why": "Changing a toy's colors and size is the first creative step that can't go wrong, because the pattern already works. It teaches two habits designers use every day: checking a palette by lightness, and predicting size from a scale table.",
+      "need": "A toy you've already made and its pattern (a small one, such as a Woobles pattern or your T120.5 animal), three new colors in one yarn, the hook your T230.3 scale table pairs with that yarn, your scale table, Poly-Fil, eyes or embroidery thread, a phone camera with a black-and-white filter, a ruler, the toy rubric.",
+      "learn": "Free: June Gilbank (PlanetJune), <a href='https://www.planetjune.com/scaling'>Scaling Amigurumi</a>, for the scale factors, and <a href='https://www.planetjune.com/blog/?p=15898'>A Colour Changing Crochet Investigation</a>, for how color changes behave. No verified free tutorial covers checking a palette in grayscale for toys, so this unit teaches it in its own words below. Left-handed: no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "You may have met value (lightness) in blanket unit B4. Here it is applied to toys, and if B4 is done this key idea is a quick refresher. A palette reads by lightness more than by hue. Two colors of the same lightness blur together in a photo, at a distance and to some eyes.",
+        "Pick three: a light, a medium and a dark. Give the main body the medium, the largest detail the light and the smallest details the dark.",
+        "Check before you buy or start. Lay the three yarns side by side and photograph them in black and white. You should see three clearly different grays.",
+        "Size is a prediction, then a measurement. Predicted height = original height x the ratio in your scale table for the new yarn and hook.",
+        "Keep every count the same. Rescaling by yarn and hook changes size without touching the pattern."
+      ],
+      "drill": [
+        "Measure your original toy's height in mm and in. Write both down.",
+        "Choose the new yarn and hook from your T230.3 scale table. Write the predicted height: original height x ratio.",
+        "Choose three colors. Photograph the strands side by side in black and white. If two look like the same gray, swap one and photograph again.",
+        "Write a color map: which parts take light, medium and dark.",
+        "Make the toy in the new yarn, writing the count beside every round of every part.",
+        "Measure the finished height in mm and in. Photograph the new toy beside the original in color, then again in black and white.",
+        "Score it on the toy rubric. Add a line to your scale table with this toy's predicted and measured heights."
+      ],
+      "pass": [
+        "The black-and-white strand photo shows three distinct grays, and a second person can point to each color's area in the black-and-white toy photo.",
+        "Every round of every part has a written count matching the original pattern.",
+        "The measured height is within 10% of your predicted height, or your log names the reason (for example, stuffing firmness).",
+        "The toy is scored on the toy rubric."
+      ],
+      "wrong": [
+        [
+          "Two colors merge in the gray photo",
+          "They share a lightness. Swap one for a lighter or darker shade and photograph the strands again."
+        ],
+        [
+          "The toy came out a different size than predicted",
+          "Check your stitch tension against the scale-table sphere. Note the new ratio for this yarn and use it next time."
+        ],
+        [
+          "Stuffing shows through in the new yarn",
+          "The hook is too big for that yarn. Note the next size down in your scale table for the next toy."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Planning a three-color palette by lightness with a grayscale check",
+      "rubric": true,
+      "sources": [
+        "https://www.planetjune.com/scaling",
+        "https://www.planetjune.com/blog/?p=15898"
+      ]
+    },
+    {
+      "id": "T330.3",
+      "origin": "new",
+      "t": "Swap parts and kitbash a creature",
+      "kind": "project",
+      "h": 8,
+      "time": "about 8 hours over 3 or 4 sessions",
+      "prereq_units": [
+        "T330.1",
+        "T330.2",
+        "3.3",
+        "T150.3",
+        "T120.4"
+      ],
+      "why": "Putting the ears of one pattern on the body of another is how many designers find their first original. It teaches how parts fit: where they sit, how big the attachment circle is, and how to keep them straight. It also teaches how to credit the designers whose work you used.",
+      "need": "Two patterns you own and have made (Edward's Menagerie works well because every animal shares one body plan), one yarn and hook for every part, Poly-Fil, eyes, pins, a bent-tip needle, a ruler, an index card for the remix card, your luggage scale and sling, the toy rubric.",
+      "learn": "Free: Kati (Hooked by Kati), <a href='https://www.hookedbykati.com/no-more-crooked-ami-parts/'>No More Crooked Ami Parts</a>. June Gilbank (PlanetJune), <a href='https://www.planetjune.com/join'>Joining Amigurumi</a>, and her <a href='https://www.planetjune.com/terms'>pattern terms of use</a> as an example of what a designer allows. Paid, optional: Príncipe del Crochet (Domestika), <a href='https://www.domestika.org/en/courses/2575-crochet-create-and-customize-your-amigurumi'>Crochet: Create and Customize Your Amigurumi</a> (price varies with Domestika sales, as of Oct 2026). Left-handed: the PlanetJune joining page and the course have no left-handed version; mirror the right-handed steps.",
+      "key": [
+        "Make every part in the same yarn and hook. Parts from two patterns fit when they share one gauge.",
+        "Compare sizes by counts. If the new body's widest count differs from the part's original body by more than about 20%, choose a part from a toy closer in size, or add or remove one increase round (6 stitches) on the part.",
+        "An open part covers a circle on the body. A part whose open edge has S stitches needs a circle about S / 3 stitches wide and the same number of rounds tall, because a single crochet is nearly as tall as it is wide. A 12-stitch opening covers about 4 stitches across and 4 rounds high.",
+        "Pin, look from the front, side and top, then sew. Count stitches out from a landmark so paired parts match.",
+        "Remixes made from other designers' patterns are for you. Share photos with both designers named and their patterns linked. Don't publish counts taken from their patterns, and read each designer's terms before you sell anything made from them."
+      ],
+      "drill": [
+        "Choose a body from pattern 1 and two parts (ears, tail, limbs or a snout) from pattern 2. On the remix card, write each pattern's title, designer, page or link, and which rounds you're using.",
+        "Write the widest count of the new body and of the body each part came from. If they differ by more than 20%, adjust the part by one increase round and write the new counts.",
+        "Make all pieces in one yarn and hook, writing the count beside every round.",
+        "For each part, work out its circle: open-edge stitches / 3, rounded to whole stitches. Pin that circle on the body, counting rounds and stitches from the eyes or the start of the round.",
+        "Photograph front, side and top with everything pinned. Move anything uneven, then sew.",
+        "If the creature goes to a child, tug each part at 15 lbf (6.8 kg) for 10 seconds.",
+        "Name the creature, score it on the toy rubric, and file the remix card with its photos."
+      ],
+      "pass": [
+        "The remix card names both patterns, both designers, the pages or links, and the rounds used.",
+        "Every round of every piece has a written count, and any change from the source pattern is written beside it.",
+        "Each part's attachment circle measures within 1 stitch of its worked-out width, counted on the finished toy.",
+        "Paired parts sit on the same round and match in height within 2 mm (1/16 in), measured from the table.",
+        "If it's for a child, every part held 15 lbf (6.8 kg) for 10 seconds.",
+        "It is scored on the toy rubric."
+      ],
+      "wrong": [
+        [
+          "The part looks too big or too small for the body",
+          "The gauges or body sizes differ. Make the next part with one increase round more or less, or in the body's yarn and hook."
+        ],
+        [
+          "Parts lean or sit crooked",
+          "Pin by counting from a landmark on both sides, and sew around the whole circle, not just the front, as in Kati's tutorial."
+        ],
+        [
+          "The open edge puckers as you sew",
+          "The circle is too small for the edge. Pin a circle 1 stitch wider and spread the edge evenly before sewing."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Fitting parts from one pattern onto another's body",
+      "rubric": true,
+      "sources": [
+        "https://www.hookedbykati.com/no-more-crooked-ami-parts/",
+        "https://www.planetjune.com/join",
+        "https://www.planetjune.com/terms",
+        "https://www.domestika.org/en/courses/2575-crochet-create-and-customize-your-amigurumi"
+      ]
+    },
+    {
+      "id": "T330.4",
+      "origin": "new",
+      "t": "Your Pica Pau studio: a list chosen by skill",
+      "kind": "project",
+      "h": 14,
+      "time": "about 14 hours for this unit (2 hours to plan, then about 12 on the first studio animal). The rest of the list continues as studio work, one animal at a time, with no end date.",
+      "prereq_units": [
+        "T150.2",
+        "T330.1",
+        "T330.3",
+        "T120.2",
+        "T120.3",
+        "T120.4",
+        "T210.1"
+      ],
+      "why": "Your plan holds all 60 animals from Yan Schenkel's three books. Making all 60 in order would mean hundreds of hours of practice at one level. A shorter list, chosen so each animal adds one thing, keeps every toy a small step forward. The other 43 stay in your plan as joy projects to make whenever you like.",
+      "need": "Animal Friends of Pica Pau, books 1, 2 and 3 (Yan Schenkel, Meteoor Books), which you own. DK cotton or Pica Pau Cotton 8/7 and your Clover Amour 2.75 mm hook. Stitch markers, Poly-Fil, pins, a bent-tip needle, eyes in the sizes listed, or a child-safe alternative from T120.4, a ruler, your luggage scale and sling, one index card per animal, the toy rubric.",
+      "learn": "The three books themselves: <a href='https://www.barnesandnoble.com/w/animal-friends-of-pica-pau-yan-schenkel/1126060512'>Animal Friends of Pica Pau 1, 2 and 3</a> by Yan Schenkel (you own them). For other makers' finished versions to compare with, <a href='https://amigurumi.com'>Amigurumi.com</a> (Meteoor Books' site). Technique backup: your earlier units named beside each tag. Left-handed: no left-handed version of the books; mirror the right-handed steps and photos.",
+      "key": [
+        "The tags below come from each animal's shape and from your plan's data (book, page, level, height, eye size, color count). They are proposals. Before you start an animal, skim its pattern and correct the tag on its card.",
+        "Heights are the book's, made in its yarn. In your yarn they may differ, as in T150.2. Record both.",
+        "The list runs from easy to intermediate, across all three books, with one new focus per animal. Make it in order, or swap any animal for a joy project that has the same tag.",
+        "Some tags point to units you may not have done yet (T310.4, T320.3). Make those animals after the unit they name.",
+        "Each studio animal takes about 12 to 16 hours. The whole list is about 200 to 270 hours, spread across Years 3 and 4 and beyond at whatever pace suits you.",
+        "Logan Koala or Darwin Turtle, whichever you made in T150.2, already counts. The 43 animals not on this list are joy projects: no tag, no check, make them for fun.",
+        "Five animals in your plan (Newton Owl, Henriette Zebra, Amelia Giraffe, Lupita Spider Monkey, Agatha Bee) have no eye size. Check how their eyes are made before choosing eyes for a gift."
+      ],
+      "drill": [
+        "Read the opening pages of Books 1 and 3 (you read Book 2's in T150.2). Add anything that differs to your front-matter card.",
+        "Make one index card per animal below. Write its tag, then skim its pattern and write 'confirmed' or the real new skill it adds.",
+        "The studio list:",
+        "1. Pedro Von Dito Pig (Book 1, p. 56; easy; 11 in or 279 mm; 8 mm eyes; 5 colors). Tag: Book 1 conventions. Your first Book 1 animal, with only 5 colors. Read Book 1's opening pages and compare them with your Book 2 card from T150.2.",
+        "2. Lola Panda (Book 1, p. 80; easy; 9.5 in or 241 mm; 8 mm eyes; 5 colors). Tag: Face placement on contrast patches. Dark patches around the eyes make every millimeter of eye placement visible. Use your T210.1 face study.",
+        "3. Newton Owl (Book 2, p. 74; easy; 6.5 in or 165 mm; no eye size in your plan; 4 colors). Tag: A small toy, and eyes without a listed size. At 6.5 in (165 mm), one of the two smallest animals in your plan, with only 4 colors: a lighter-week toy. Your plan lists no eye size, so check how the book makes the eyes.",
+        "4. George McPlatypus (Book 1, p. 96; easy; 10 in or 254 mm; 8 mm eyes; 6 colors). Tag: Flat pieces: bill and tail. A bill and a tail that need to lie flat and attach square. Reviews T120.2 and T330.3.",
+        "5. Luisa Elephant (Book 2, p. 92; easy; 12.5 in or 318 mm; 8 mm eyes; 8 colors). Tag: A trunk: a taper. A trunk is a tapered tube. Annotate its rounds before you start (T330.1). It also has 8 colors.",
+        "6. Henriette Zebra (Book 2, p. 86; easy; 14 in or 356 mm; no eye size in your plan; 6 colors). Tag: Stripes: repeated color changes. Many color changes on many parts. Every stripe tests your T120.3 jogless method.",
+        "7. Rosa Cheetah (Book 1, p. 84; easy; 12 in or 305 mm; 10 mm eyes; 6 colors). Tag: Spots: surface color. Spots are added color on a finished surface. Compare the book's method with T210.4 and T220.3.",
+        "8. Humboldt Penguin (Book 3, p. 82; easy; 9 in or 229 mm; 12 mm eyes; 6 colors). Tag: Book 3 conventions, and a standing bird. Your first Book 3 animal: read its opening pages first. Set it beside your T220.2 penguin and note how each one stands.",
+        "9. Cosmo Snail (Book 3, p. 146; easy; 11.5 in or 292 mm; 10 mm eyes; 6 colors). Tag: A shell: a firm shape on a soft body. A shell is a separate shape that has to keep its form and sit straight on the body.",
+        "10. Amelia Giraffe (Book 3, p. 164; easy; 19.5 in or 495 mm; no eye size in your plan; 6 colors). Tag: The tallest toy: even stuffing over height. At 19.5 in (495 mm) it's the tallest animal in your plan. A long neck shows every soft spot, so stuff in small pieces and measure as you go.",
+        "11. Hector Rhinoceros (Book 1, p. 114; intermediate; 13.5 in or 343 mm; 8 mm eyes; 8 colors). Tag: First intermediate: a horn and 8 colors. Your first animal marked intermediate. The horn is a cone you can predict from its counts.",
+        "12. Sebastian Lion (Book 2, p. 146; intermediate; 11 in or 279 mm; 8 mm eyes; 7 colors). Tag: A mane: texture framing the face. A mane changes the whole face. Compare the book's method with your T220.4 loop-stitch fur.",
+        "13. Mabel Hedgehog (Book 3, p. 112; intermediate; 8 in or 203 mm; 8 mm eyes; 8 colors). Tag: Spines: texture over a body. Texture covering a whole body. Compare the book's method with T220.6.",
+        "14. Ramona Cow (Book 3, p. 96; intermediate; 14 in or 356 mm; 10 mm eyes; 8 colors). Tag: Patches: color shapes on the body. Patches are shaped areas of color. Compare the book's method with T310.4.",
+        "15. Bonny Puffin (Book 1, p. 124; intermediate; 10 in or 254 mm; 10 mm eyes; 7 colors). Tag: A beak in color blocks, and wings. A multi-color beak is small, precise color work, and wings have to match as a pair.",
+        "16. Lupita Spider Monkey (Book 2, p. 120; intermediate; 13.5 in or 343 mm; no eye size in your plan; 6 colors). Tag: Long limbs and a tail: an option to pose. Long limbs and a tail suit a wire frame from T320.3. With wire it becomes a display piece, labeled as one.",
+        "17. Gertrude Dragon (Book 1, p. 152; intermediate; 12.5 in or 318 mm; 10 mm eyes; 4 colors). Tag: Wings and many small parts: the studio finale. Wings, small parts and placement all appear in one toy, so it makes a good last toy for the list.",
+        "Make the first studio animal, Pedro Von Dito Pig, writing the count beside every round of every part.",
+        "Pin all parts, photograph front, side and top, compare with the book photo, then sew. If it's for a child, tug every part at 15 lbf (6.8 kg) for 10 seconds.",
+        "Measure its height in mm and in and write it beside the book's. Score it on the toy rubric. On its card, write one line on what its tag taught you.",
+        "Start a studio log page in your binder: animal, date finished, hours, tag, rubric score. Add a row each time you finish one."
+      ],
+      "pass": [
+        "There is a card for each of the 17 animals, each with its tag marked 'confirmed' or replaced by the skill you found in the pattern.",
+        "Every round of every part of the first studio animal has a written count matching the pattern.",
+        "Paired parts match within 2 mm (1/16 in) in length and width.",
+        "If it's for a child, every attached part held 15 lbf (6.8 kg) for 10 seconds.",
+        "It is scored on the toy rubric and its height is recorded beside the book's.",
+        "The studio log page exists with its first row filled in."
+      ],
+      "wrong": [
+        [
+          "A tag turns out wrong for the pattern",
+          "That's expected; tags are proposals. Write the real skill on the card, and if it's one you haven't learned yet, check which unit teaches it first."
+        ],
+        [
+          "An animal feels like too big a jump",
+          "Swap it for an easier animal with a similar tag, or make a joy project first. The list order is a suggestion."
+        ],
+        [
+          "The list starts to feel like a chore",
+          "Make a joy project instead. The list waits, and a toy you enjoy is still practice."
+        ],
+        [
+          "Your yarn makes the toy much bigger than the book",
+          "Worsted on a larger hook does that. Use DK or Cotton 8/7 on the 2.75 mm hook for a size closer to the book's."
+        ]
+      ],
+      "tier": "stretch",
+      "new_skill": "Choosing your next toy by the one skill it adds",
+      "rubric": true,
+      "studio": [
+        {
+          "order": 1,
+          "book": 1,
+          "page": 56,
+          "name": "Pedro Von Dito Pig",
+          "level": "easy",
+          "height_in": "11",
+          "height_mm": 279,
+          "eyes_mm": "8",
+          "colors": 5,
+          "tag": "Book 1 conventions",
+          "reason": "Your first Book 1 animal, with only 5 colors. Read Book 1's opening pages and compare them with your Book 2 card from T150.2.",
+          "tier": "comfort"
+        },
+        {
+          "order": 2,
+          "book": 1,
+          "page": 80,
+          "name": "Lola Panda",
+          "level": "easy",
+          "height_in": "9.5",
+          "height_mm": 241,
+          "eyes_mm": "8",
+          "colors": 5,
+          "tag": "Face placement on contrast patches",
+          "reason": "Dark patches around the eyes make every millimeter of eye placement visible. Use your T210.1 face study.",
+          "tier": "stretch"
+        },
+        {
+          "order": 3,
+          "book": 2,
+          "page": 74,
+          "name": "Newton Owl",
+          "level": "easy",
+          "height_in": "6.5",
+          "height_mm": 165,
+          "eyes_mm": "",
+          "colors": 4,
+          "tag": "A small toy, and eyes without a listed size",
+          "reason": "At 6.5 in (165 mm), one of the two smallest animals in your plan, with only 4 colors: a lighter-week toy. Your plan lists no eye size, so check how the book makes the eyes.",
+          "tier": "comfort"
+        },
+        {
+          "order": 4,
+          "book": 1,
+          "page": 96,
+          "name": "George McPlatypus",
+          "level": "easy",
+          "height_in": "10",
+          "height_mm": 254,
+          "eyes_mm": "8",
+          "colors": 6,
+          "tag": "Flat pieces: bill and tail",
+          "reason": "A bill and a tail that need to lie flat and attach square. Reviews T120.2 and T330.3.",
+          "tier": "stretch"
+        },
+        {
+          "order": 5,
+          "book": 2,
+          "page": 92,
+          "name": "Luisa Elephant",
+          "level": "easy",
+          "height_in": "12.5",
+          "height_mm": 318,
+          "eyes_mm": "8",
+          "colors": 8,
+          "tag": "A trunk: a taper",
+          "reason": "A trunk is a tapered tube. Annotate its rounds before you start (T330.1). It also has 8 colors.",
+          "tier": "stretch"
+        },
+        {
+          "order": 6,
+          "book": 2,
+          "page": 86,
+          "name": "Henriette Zebra",
+          "level": "easy",
+          "height_in": "14",
+          "height_mm": 356,
+          "eyes_mm": "",
+          "colors": 6,
+          "tag": "Stripes: repeated color changes",
+          "reason": "Many color changes on many parts. Every stripe tests your T120.3 jogless method.",
+          "tier": "stretch"
+        },
+        {
+          "order": 7,
+          "book": 1,
+          "page": 84,
+          "name": "Rosa Cheetah",
+          "level": "easy",
+          "height_in": "12",
+          "height_mm": 305,
+          "eyes_mm": "10",
+          "colors": 6,
+          "tag": "Spots: surface color",
+          "reason": "Spots are added color on a finished surface. Compare the book's method with T210.4 and T220.3.",
+          "tier": "stretch"
+        },
+        {
+          "order": 8,
+          "book": 3,
+          "page": 82,
+          "name": "Humboldt Penguin",
+          "level": "easy",
+          "height_in": "9",
+          "height_mm": 229,
+          "eyes_mm": "12",
+          "colors": 6,
+          "tag": "Book 3 conventions, and a standing bird",
+          "reason": "Your first Book 3 animal: read its opening pages first. Set it beside your T220.2 penguin and note how each one stands.",
+          "tier": "comfort"
+        },
+        {
+          "order": 9,
+          "book": 3,
+          "page": 146,
+          "name": "Cosmo Snail",
+          "level": "easy",
+          "height_in": "11.5",
+          "height_mm": 292,
+          "eyes_mm": "10",
+          "colors": 6,
+          "tag": "A shell: a firm shape on a soft body",
+          "reason": "A shell is a separate shape that has to keep its form and sit straight on the body.",
+          "tier": "stretch"
+        },
+        {
+          "order": 10,
+          "book": 3,
+          "page": 164,
+          "name": "Amelia Giraffe",
+          "level": "easy",
+          "height_in": "19.5",
+          "height_mm": 495,
+          "eyes_mm": "",
+          "colors": 6,
+          "tag": "The tallest toy: even stuffing over height",
+          "reason": "At 19.5 in (495 mm) it's the tallest animal in your plan. A long neck shows every soft spot, so stuff in small pieces and measure as you go.",
+          "tier": "stretch"
+        },
+        {
+          "order": 11,
+          "book": 1,
+          "page": 114,
+          "name": "Hector Rhinoceros",
+          "level": "intermediate",
+          "height_in": "13.5",
+          "height_mm": 343,
+          "eyes_mm": "8",
+          "colors": 8,
+          "tag": "First intermediate: a horn and 8 colors",
+          "reason": "Your first animal marked intermediate. The horn is a cone you can predict from its counts.",
+          "tier": "stretch"
+        },
+        {
+          "order": 12,
+          "book": 2,
+          "page": 146,
+          "name": "Sebastian Lion",
+          "level": "intermediate",
+          "height_in": "11",
+          "height_mm": 279,
+          "eyes_mm": "8",
+          "colors": 7,
+          "tag": "A mane: texture framing the face",
+          "reason": "A mane changes the whole face. Compare the book's method with your T220.4 loop-stitch fur.",
+          "tier": "stretch"
+        },
+        {
+          "order": 13,
+          "book": 3,
+          "page": 112,
+          "name": "Mabel Hedgehog",
+          "level": "intermediate",
+          "height_in": "8",
+          "height_mm": 203,
+          "eyes_mm": "8",
+          "colors": 8,
+          "tag": "Spines: texture over a body",
+          "reason": "Texture covering a whole body. Compare the book's method with T220.6.",
+          "tier": "stretch"
+        },
+        {
+          "order": 14,
+          "book": 3,
+          "page": 96,
+          "name": "Ramona Cow",
+          "level": "intermediate",
+          "height_in": "14",
+          "height_mm": 356,
+          "eyes_mm": "10",
+          "colors": 8,
+          "tag": "Patches: color shapes on the body",
+          "reason": "Patches are shaped areas of color. Compare the book's method with T310.4.",
+          "tier": "stretch"
+        },
+        {
+          "order": 15,
+          "book": 1,
+          "page": 124,
+          "name": "Bonny Puffin",
+          "level": "intermediate",
+          "height_in": "10",
+          "height_mm": 254,
+          "eyes_mm": "10",
+          "colors": 7,
+          "tag": "A beak in color blocks, and wings",
+          "reason": "A multi-color beak is small, precise color work, and wings have to match as a pair.",
+          "tier": "stretch"
+        },
+        {
+          "order": 16,
+          "book": 2,
+          "page": 120,
+          "name": "Lupita Spider Monkey",
+          "level": "intermediate",
+          "height_in": "13.5",
+          "height_mm": 343,
+          "eyes_mm": "",
+          "colors": 6,
+          "tag": "Long limbs and a tail: an option to pose",
+          "reason": "Long limbs and a tail suit a wire frame from T320.3. With wire it becomes a display piece, labeled as one.",
+          "tier": "stretch"
+        },
+        {
+          "order": 17,
+          "book": 1,
+          "page": 152,
+          "name": "Gertrude Dragon",
+          "level": "intermediate",
+          "height_in": "12.5",
+          "height_mm": 318,
+          "eyes_mm": "10",
+          "colors": 4,
+          "tag": "Wings and many small parts: the studio finale",
+          "reason": "Wings, small parts and placement all appear in one toy, so it makes a good last toy for the list.",
+          "tier": "stretch"
+        }
+      ],
+      "sources": [
+        "https://www.barnesandnoble.com/w/animal-friends-of-pica-pau-yan-schenkel/1126060512",
+        "https://amigurumi.com"
+      ]
+    }
+  ]
+}
