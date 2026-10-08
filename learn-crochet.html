@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Learn Crochet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&family=Young+Serif&display=swap" rel="stylesheet">
+<style>
+/* Layout: one calm column. Six levels, each built the same way, so you always know where to look.
+   Type: Young Serif for headings, Atkinson Hyperlegible Next for reading. */
+:root{
+  --serif:"Young Serif", "Iowan Old Style", Georgia, serif;
+  --sans:"Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --bg:#F4F2EC; --surface:#FFFFFF; --ink:#1E2430; --ink-2:#566070; --rule:#DAD7CD; --soft:#EBE8DF;
+  --accent:#B3365F; --accent-ink:#FFFFFF; --done:#2F7D5A; --link:#1F5A99;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14171C; --surface:#1C2027; --ink:#ECEFF2; --ink-2:#A3AEBB; --rule:#2D333C; --soft:#242A32;
+    --accent:#F0709B; --accent-ink:#14171C; --done:#4CC49B; --link:#8DBBF0; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14171C; --surface:#1C2027; --ink:#ECEFF2; --ink-2:#A3AEBB; --rule:#2D333C; --soft:#242A32;
+  --accent:#F0709B; --accent-ink:#14171C; --done:#4CC49B; --link:#8DBBF0; color-scheme:dark;
+}
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; scroll-behavior:smooth; background:var(--bg); }
+@media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto; } }
+body{ margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:18px; line-height:1.6; }
+.wrap{ max-width:720px; margin:0 auto; padding:28px 20px 80px; }
+a{ color:var(--link); text-underline-offset:3px; }
+a:hover{ text-decoration-thickness:2px; }
+:focus-visible{ outline:3px solid var(--accent); outline-offset:3px; border-radius:2px; }
+h1,h2,h3{ font-family:var(--serif); font-weight:400; text-wrap:balance; margin:0; line-height:1.15; }
+p{ margin:0 0 14px; }
+ul{ margin:0; padding:0; list-style:none; }
+
+/* masthead */
+.eyebrow{ font-size:14px; letter-spacing:.04em; text-transform:uppercase; color:var(--ink-2); font-weight:600; }
+h1{ font-size:clamp(38px, 8vw, 58px); margin:10px 0 16px; letter-spacing:-.01em; }
+.lede{ font-size:20px; max-width:34em; }
+.facts{ display:grid; grid-template-columns:repeat(3, 1fr); gap:0; margin:26px 0 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); }
+.fact{ padding:12px 14px 12px 0; }
+.fact + .fact{ padding-left:14px; border-left:1px solid var(--rule); }
+.fact b{ display:block; font-family:var(--serif); font-weight:400; font-size:26px; line-height:1.1; }
+.fact span{ font-size:14px; color:var(--ink-2); }
+@media (max-width:520px){ .facts{ grid-template-columns:1fr; } .fact + .fact{ padding-left:0; border-left:0; border-top:1px solid var(--rule); } .fact{ display:flex; align-items:baseline; gap:10px; } .fact b{ font-size:22px; } }
+
+/* progress strip */
+.strip{ margin:30px 0 8px; }
+.strip ol{ display:grid; grid-template-columns:repeat(6, 1fr); gap:8px; margin:0; padding:0; list-style:none; }
+.strip a{ display:flex; flex-direction:column; align-items:center; gap:6px; text-decoration:none; color:var(--ink); font-size:13px; }
+.strip .dot{ width:44px; height:44px; border-radius:50%; border:2px solid var(--ink-2); display:grid; place-items:center; font-family:var(--serif); font-size:20px; background:var(--surface); }
+.strip a[data-done="true"] .dot{ background:var(--done); border-color:var(--done); color:var(--accent-ink); }
+.strip a[data-here="true"] .dot{ border-color:var(--accent); box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 30%, transparent); }
+.strip small{ color:var(--ink-2); font-size:12.5px; text-align:center; line-height:1.25; }
+.strip-note{ color:var(--ink-2); font-size:15px; margin:10px 0 0; }
+
+/* sections */
+section.block{ margin-top:56px; }
+.h2{ font-size:30px; margin:0 0 14px; }
+.kit li{ padding:9px 0; border-top:1px solid var(--rule); display:grid; grid-template-columns:minmax(0,10.5em) minmax(0,1fr); gap:4px 16px; }
+.kit li:last-child{ border-bottom:1px solid var(--rule); }
+.kit b{ font-weight:600; }
+@media (max-width:520px){ .kit li{ grid-template-columns:1fr; } }
+.note{ background:var(--soft); border-radius:6px; padding:14px 16px; margin:18px 0 0; font-size:16.5px; }
+.note p:last-child{ margin:0; }
+
+/* a level */
+.level{ margin-top:64px; padding-top:28px; border-top:2px solid var(--ink); scroll-margin-top:12px; }
+.level-head{ display:grid; grid-template-columns:auto 1fr; gap:4px 18px; align-items:end; }
+.level-n{ font-family:var(--serif); font-size:72px; line-height:.85; color:var(--accent); }
+.level-title{ font-size:clamp(28px, 6vw, 38px); }
+.level-time{ grid-column:2; font-size:15px; color:var(--ink-2); }
+.goal{ font-size:20px; margin:18px 0 22px; max-width:34em; }
+.row{ display:grid; grid-template-columns:7.2em minmax(0,1fr); gap:6px 20px; padding:16px 0; border-top:1px solid var(--rule); }
+.row > h3{ font-family:var(--sans); font-size:14px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-2); padding-top:3px; }
+.row p:last-child, .row ul:last-child{ margin-bottom:0; }
+.row .teach{ color:var(--ink-2); font-size:16px; margin-top:6px; }
+.pick{ font-weight:700; font-size:19px; }
+.hand{ font-size:15px; color:var(--ink-2); }
+.ready li{ position:relative; padding-left:26px; margin:6px 0; }
+.ready li::before{ content:""; position:absolute; left:2px; top:.62em; width:11px; height:11px; border:2px solid var(--ink-2); border-radius:50%; }
+@media (max-width:560px){ .row{ grid-template-columns:1fr; gap:2px; } .level-n{ font-size:60px; } }
+.finish{ margin-top:14px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+.btn{ font:inherit; font-weight:700; font-size:16px; padding:11px 18px; border-radius:6px; border:2px solid var(--ink); background:var(--ink); color:var(--surface); cursor:pointer; min-height:46px; }
+.btn[aria-pressed="true"]{ background:var(--done); border-color:var(--done); color:var(--accent-ink); }
+.finish small{ color:var(--ink-2); font-size:14.5px; }
+
+/* after the levels */
+.paths{ display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:14px; margin-top:6px; }
+@media (max-width:560px){ .paths{ grid-template-columns:1fr; } }
+.path{ background:var(--surface); border:1px solid var(--rule); border-radius:6px; padding:16px 18px; }
+.path h3{ font-size:22px; margin-bottom:6px; }
+.path p{ font-size:16.5px; margin-bottom:8px; }
+.path p:last-child{ margin:0; }
+.simple li{ padding:11px 0; border-top:1px solid var(--rule); }
+.simple li:last-child{ border-bottom:1px solid var(--rule); }
+.simple b{ font-weight:700; }
+footer{ margin-top:64px; padding-top:18px; border-top:1px solid var(--rule); color:var(--ink-2); font-size:15px; }
+.theme{ margin-top:14px; font-size:14px; }
+.theme button{ font:inherit; font-size:14px; background:none; border:1px solid var(--rule); color:var(--ink-2); border-radius:4px; padding:5px 10px; cursor:pointer; margin-right:6px; }
+.theme button[aria-pressed="true"]{ color:var(--ink); border-color:var(--ink); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">A beginner's path to confident crochet</p>
+  <h1>Learn Crochet</h1>
+  <p class="lede">Six levels that take you from your first loop to making things that fit, hang well and last. Each step names one thing to follow, so you never have to choose.</p>
+  <div class="facts">
+    <div class="fact"><b>6 levels</b><span>first loop to intermediate</span></div>
+    <div class="fact"><b>5 to 8 months</b><span>at 3 to 5 hours a week</span></div>
+    <div class="fact"><b>Free first</b><span>one course, one site, two books</span></div>
+  </div>
+</header>
+
+<nav class="strip" aria-label="Levels">
+  <ol id="strip"></ol>
+  <p class="strip-note" id="stripnote">Tap a level to jump to it. Mark a level finished when you are ready for the next.</p>
+</nav>
+
+<section class="block" id="start">
+  <h2 class="h2">Before level 1</h2>
+  <p>You need very little. Buy these and nothing else for now.</p>
+  <ul class="kit">
+    <li><b>Yarn</b><span>One skein of smooth, light-colored worsted-weight yarn (the label shows a 4). Cotton or acrylic both work. Light colors let you see every stitch.</span></li>
+    <li><b>Hook</b><span>5.0 mm (US H-8) or 5.5 mm (US I-9). Aluminum is fine. If your hand tires, try one with a thicker, cushioned handle.</span></li>
+    <li><b>Small things</b><span>Scissors, a blunt yarn needle with a big eye, and a few locking stitch markers.</span></li>
+  </ul>
+  <div class="note"><p><b>Left-handed?</b> Every video below has a left-handed version or says so. If one doesn't, sit facing a mirror, or watch with the video flipped.</p>
+  <p><b>Already making kits like The Woobles?</b> You are somewhere in levels 4 to 5. Start at level 1 anyway and move quickly. The early levels fill in what the kits skip over: why the stitches look the way they do, and how to read a pattern.</p></div>
+</section>
+
+<!-- LEVEL 1 -->
+<section class="level" id="l1" data-level="1">
+  <div class="level-head"><span class="level-n" aria-hidden="true">1</span><h2 class="level-title">First stitches</h2><span class="level-time">About 2 to 3 weeks</span></div>
+  <p class="goal">Hold the hook and yarn comfortably, and make rows of single crochet that stay the same width.</p>
+  <div class="row"><h3>Follow</h3><div>
+    <p class="pick"><a href="https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/">Sigoni Macaroni's free Learn to Crochet Masterclass</a></p>
+    <p>Lessons 1 to 4: materials, hook, yarn and tension, slip knot and chain, single crochet.</p>
+    <p class="teach">Teaches how to hold everything, how loops are made, and how to count a row. Free on YouTube with ads. Right- and left-handed.</p>
+  </div></div>
+  <div class="row"><h3>Make</h3><div>
+    <p>One square swatch: chain 21, then single crochet 20 stitches per row, for 20 rows. Count every row.</p>
+    <p class="teach">It's plain on purpose. Straight edges mean you're not adding or skipping stitches.</p>
+  </div></div>
+  <div class="row"><h3>You're ready when</h3><ul class="ready">
+    <li>Every row has 20 stitches.</li>
+    <li>Both edges are straight against a ruler.</li>
+    <li>You can start a new swatch without the video.</li>
+  </ul></div>
+  <div class="finish"><button class="btn" data-finish="1" aria-pressed="false">I've finished level 1</button><small>Saved on this device only.</small></div>
+</section>
+
+<!-- LEVEL 2 -->
+<section class="level" id="l2" data-level="2">
+  <div class="level-head"><span class="level-n" aria-hidden="true">2</span><h2 class="level-title">Taller stitches</h2><span class="level-time">About 3 to 4 weeks</span></div>
+  <p class="goal">Learn the four stitches almost every pattern uses, and the turning chains that go with them.</p>
+  <div class="row"><h3>Follow</h3><div>
+    <p class="pick"><a href="https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/">The same Sigoni Macaroni course</a></p>
+    <p>The lessons on double crochet, straight edges, half double crochet and treble crochet.</p>
+    <p class="teach">Teaches how tall each stitch is, which chain you start each row with, and where the last stitch of a row hides.</p>
+  </div></div>
+  <div class="row"><h3>Make</h3><div>
+    <p>A cotton dishcloth in double crochet: chain 32, double crochet into the 4th chain from the hook, then 1 double crochet in each chain across (30 stitches). Each row: chain 3, turn, double crochet across, ending in the top of the turning chain. Stop when it is as tall as it is wide.</p>
+    <p class="teach">Dishcloths are small, useful, and forgiving if the edges wander.</p>
+  </div></div>
+  <div class="row"><h3>You're ready when</h3><ul class="ready">
+    <li>Every row has 30 stitches.</li>
+    <li>You can tell single, half double, double and treble crochet apart by sight.</li>
+    <li>The edges have no gaps at the start of a row.</li>
+  </ul></div>
+  <div class="finish"><button class="btn" data-finish="2" aria-pressed="false">I've finished level 2</button><small>Saved on this device only.</small></div>
+</section>
+
+<!-- LEVEL 3 -->
+<section class="level" id="l3" data-level="3">
+  <div class="level-head"><span class="level-n" aria-hidden="true">3</span><h2 class="level-title">Reading patterns</h2><span class="level-time">About 3 to 4 weeks</span></div>
+  <p class="goal">Follow a written pattern from start to finish without watching a video, and fix small mistakes as you go.</p>
+  <div class="row"><h3>Follow</h3><div>
+    <p class="pick"><a href="https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/">Sigoni Macaroni's course</a>, the lesson on reading and following patterns, then its Starlight Infinity Scarf</p>
+    <p>Keep the <a href="https://www.craftyarncouncil.com/standards/crochet-abbreviations">Craft Yarn Council abbreviation list</a> open while you read.</p>
+    <p class="teach">Teaches what the stars and brackets mean, what the stitch count at the end of a line is for, and how to read the abbreviations.</p>
+  </div></div>
+  <div class="row"><h3>Own this book</h3><div>
+    <p class="pick"><a href="https://planetjune.com/books">Everyday Crochet: The Complete Beginner's Guide</a> by June Gilbank</p>
+    <p class="teach">Photos for every stitch, tips for left-handers, symbol charts, ways to fix common mistakes, and 15 projects that get harder as you go. It stays useful through level 6. Try your library first.</p>
+  </div></div>
+  <div class="row"><h3>Make</h3><div>
+    <p>The Starlight Infinity Scarf from the course. Write the stitch count beside each row as you finish it.</p>
+  </div></div>
+  <div class="row"><h3>You're ready when</h3><ul class="ready">
+    <li>You finished a pattern with no video, and your counts matched.</li>
+    <li>You know that a US pattern's single crochet is a UK pattern's double crochet.</li>
+    <li>You can undo several rows and redo them without panic.</li>
+  </ul></div>
+  <div class="finish"><button class="btn" data-finish="3" aria-pressed="false">I've finished level 3</button><small>Saved on this device only.</small></div>
+</section>
+
+<!-- LEVEL 4 -->
+<section class="level" id="l4" data-level="4">
+  <div class="level-head"><span class="level-n" aria-hidden="true">4</span><h2 class="level-title">Working in the round</h2><span class="level-time">About 4 to 6 weeks</span></div>
+  <p class="goal">Crochet in circles, add stitches evenly, and make a granny square and a hat that fits.</p>
+  <div class="row"><h3>Follow</h3><div>
+    <p class="pick"><a href="https://www.sigonimacaroni.com/learn-to-crochet-masterclass-free-online-class/">Sigoni Macaroni's course</a>, the lesson on joined versus continuous rounds</p>
+    <p>Then the <a href="https://www.sigonimacaroni.com/classic-granny-square-crochet-pattern-tutorial/">classic granny square tutorial</a> by the same teacher.</p>
+    <p class="teach">Teaches turning a ring into a flat circle, adding the same number of stitches every round, and building corners.</p>
+  </div></div>
+  <div class="row"><h3>Make</h3><div>
+    <p>Four granny squares, changing color every round. Then the free <a href="https://oombawkadesigncrochet.com/simple-double-crochet-hat/">Simple Double Crochet Hat</a> by Oombawka Design, a top-down hat worked in worsted yarn on a 5.5 mm hook.</p>
+  </div></div>
+  <div class="row"><h3>You're ready when</h3><ul class="ready">
+    <li>Your squares match in size and lie flat.</li>
+    <li>You can find the first stitch of any round.</li>
+    <li>The hat fits the head it was made for.</li>
+  </ul></div>
+  <div class="finish"><button class="btn" data-finish="4" aria-pressed="false">I've finished level 4</button><small>Saved on this device only.</small></div>
+</section>
+
+<!-- LEVEL 5 -->
+<section class="level" id="l5" data-level="5">
+  <div class="level-head"><span class="level-n" aria-hidden="true">5</span><h2 class="level-title">Your first toys</h2><span class="level-time">About 4 to 8 weeks</span></div>
+  <p class="goal">Make small stuffed toys (amigurumi) with firm fabric, round shapes and a neat finish.</p>
+  <div class="row"><h3>Follow</h3><div>
+    <p class="pick"><a href="https://www.planetjune.com/help">PlanetJune's free tutorials</a>, the Basics section first, then Amigurumi Essentials</p>
+    <p class="teach">Teaches the magic ring, invisible decreases, closing a toy with no hole, and joining parts. Most videos come in right- and left-handed versions.</p>
+  </div></div>
+  <div class="row"><h3>Make</h3><div>
+    <p class="pick"><a href="https://thewoobles.com">A Woobles beginner kit</a></p>
+    <p class="teach">The yarn, hook, pattern and videos come together, and the piece is pre-started, so you get a finished toy. Then make the same kit's pattern again from scratch with your own yarn.</p>
+  </div></div>
+  <div class="row"><h3>You're ready when</h3><ul class="ready">
+    <li>Your toy's stitches are tight enough that no stuffing shows when you squeeze it.</li>
+    <li>You can make a ball and close it so you can't find the end.</li>
+    <li>Matching parts, such as ears or arms, are the same size within 2 mm (1/16 inch).</li>
+  </ul></div>
+  <div class="finish"><button class="btn" data-finish="5" aria-pressed="false">I've finished level 5</button><small>Saved on this device only.</small></div>
+</section>
+
+<!-- LEVEL 6 -->
+<section class="level" id="l6" data-level="6">
+  <div class="level-head"><span class="level-n" aria-hidden="true">6</span><h2 class="level-title">Intermediate skills</h2><span class="level-time">About 6 to 10 weeks</span></div>
+  <p class="goal">Match a pattern's size, shape finished pieces, join them neatly, and use textured stitches.</p>
+  <div class="row"><h3>Follow</h3><div>
+    <p class="pick">Everyday Crochet, the chapters on stitch patterns and finishing</p>
+    <p>Gauge: <a href="https://sarahmaker.com/crochet-gauge/">Sarah Maker's guide to measuring gauge</a>. Blocking: <a href="https://www.handylittleme.com/how-to-block-crochet/">Handy Little Me's beginner guide</a>.</p>
+    <p class="teach">Teaches why a swatch tells you how big a project will be, how to wash or steam a piece into shape, and how to join squares and edges.</p>
+  </div></div>
+  <div class="row"><h3>Make</h3><div>
+    <p>Marly Bird's <a href="https://marlybird.com/stitch-sampler-baby-blanket-border/">Stitch Sampler Baby Blanket</a>: nine squares, each a different stitch, plus a border. The squares are free on her blog; the compiled pattern is a paid download.</p>
+  </div></div>
+  <div class="row"><h3>You're ready when</h3><ul class="ready">
+    <li>You can swatch, measure and adjust your hook to match a pattern.</li>
+    <li>Your squares are the same size after blocking, and you joined them without gaps.</li>
+    <li>You can choose a pattern slightly above your level and finish it.</li>
+  </ul></div>
+  <div class="finish"><button class="btn" data-finish="6" aria-pressed="false">I've finished level 6</button><small>Saved on this device only.</small></div>
+</section>
+
+<section class="block" id="next">
+  <h2 class="h2">What comes next</h2>
+  <p>You're an intermediate crocheter. Pick whichever direction pulls you. Each has one thing to start with.</p>
+  <div class="paths">
+    <div class="path"><h3>Toys</h3><p>The book to own: <a href="https://planetjune.com/amibook">The Essential Guide to Amigurumi</a> by June Gilbank, in right- and left-handed editions.</p></div>
+    <div class="path"><h3>Blankets</h3><p>The classic heirloom project: <a href="https://ravelry.com/patterns/library/550990">Sophie's Universe</a>, free as a 20-part crochet-along.</p></div>
+    <div class="path"><h3>Wearables</h3><p>A first cardigan: Moogly's free <a href="https://www.mooglyblog.com/cosmos-cardigan/">Cosmos Cardigan</a>.</p></div>
+    <div class="path"><h3>Mastery</h3><p>An outside check of everything above: the Crochet Guild of America's <a href="https://www.crochet.org/page/MasterPrograms">Masters programs</a>. Start with Fundamentals.</p></div>
+  </div>
+</section>
+
+<section class="block" id="help">
+  <h2 class="h2">When you're stuck</h2>
+  <ul class="simple">
+    <li><b>Ask a person.</b> <a href="https://www.reddit.com/r/CrochetHelp/">r/CrochetHelp</a> answers questions. Post two daylight photos (front and back), the pattern line, your hook size and what you expected.</li>
+    <li><b>Find a pattern or a note from someone who made it.</b> <a href="https://www.ravelry.com">Ravelry</a> is free to join.</li>
+    <li><b>Look something up.</b> The <a href="https://www.craftyarncouncil.com/standards/crochet-abbreviations">Craft Yarn Council</a> keeps the standard abbreviations, yarn weights and hook sizes.</li>
+    <li><b>If a teacher doesn't click.</b> Try Bella Coco's beginner videos on YouTube for the same lessons.</li>
+    <li><b>If your hand hurts.</b> Stop, loosen your grip and rest. Pain that keeps coming back is worth a doctor's advice.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Checked October 2026. Links go to the creators' own pages, and creators move things. If a link is gone, search the creator's name and the lesson title. Prices and availability change.</p>
+  <div class="theme" role="group" aria-label="Color theme">Theme: <button data-theme-set="auto" aria-pressed="true">Match device</button><button data-theme-set="light" aria-pressed="false">Light</button><button data-theme-set="dark" aria-pressed="false">Dark</button></div>
+</footer>
+
+</div>
+<script>
+(function(){
+  var KEY = "learn-crochet-v1", TKEY = KEY + ":theme";
+  var NAMES = ["First stitches", "Taller stitches", "Reading patterns", "In the round", "First toys", "Intermediate"];
+  var done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) {}
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} }
+  function here(){ for (var i = 1; i <= 6; i++) if (!done[i]) return i; return 7; }
+  function draw(){
+    var h = here(), s = "";
+    for (var i = 1; i <= 6; i++) {
+      s += '<li><a href="#l' + i + '" data-done="' + (!!done[i]) + '" data-here="' + (i === h) + '"><span class="dot" aria-hidden="true">' + (done[i] ? "✓" : i) + '</span><small>' + NAMES[i-1] + (done[i] ? ", finished" : i === h ? ", you are here" : "") + '</small></a></li>';
+    }
+    document.getElementById("strip").innerHTML = s;
+    document.getElementById("stripnote").textContent = h === 7 ? "All six levels finished. Pick a direction under What comes next." : "You are at level " + h + ". Take your time; each level is meant to be enjoyed.";
+    var b = document.querySelectorAll("[data-finish]");
+    for (var j = 0; j < b.length; j++) {
+      var n = Number(b[j].getAttribute("data-finish"));
+      b[j].setAttribute("aria-pressed", String(!!done[n]));
+      b[j].textContent = done[n] ? "Level " + n + " finished" : "I've finished level " + n;
+    }
+  }
+  document.addEventListener("click", function(e){
+    var f = e.target.closest ? e.target.closest("[data-finish]") : null;
+    if (f) { var n = Number(f.getAttribute("data-finish")); if (done[n]) delete done[n]; else done[n] = true; save(); draw(); return; }
+    var t = e.target.closest ? e.target.closest("[data-theme-set]") : null;
+    if (t) setTheme(t.getAttribute("data-theme-set"), true);
+  });
+  function setTheme(v, store){
+    var r = document.documentElement;
+    if (v === "light" || v === "dark") r.setAttribute("data-theme", v); else r.removeAttribute("data-theme");
+    var b = document.querySelectorAll("[data-theme-set]");
+    for (var i = 0; i < b.length; i++) b[i].setAttribute("aria-pressed", String(b[i].getAttribute("data-theme-set") === v));
+    if (store) { try { localStorage.setItem(TKEY, v); } catch (e) {} }
+  }
+  var saved = "auto"; try { saved = localStorage.getItem(TKEY) || "auto"; } catch (e) {}
+  setTheme(saved, false);
+  draw();
+})();
+</script>
+</body>
+</html>

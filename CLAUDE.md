@@ -1,4 +1,20 @@
-# Crochet Master Plan — project brief
+# Crochet projects — brief
+
+## Current direction (October 2026): `learn-crochet.html`
+
+The learner found the four-year major unusable: too many resources, repeats, dead links, checkboxes everywhere,
+too personal. The real goal is **a short, calm, general guide: "this is how you become proficient at crochet"**.
+Beginner to intermediate only, six levels, **one recommended resource per step, no options**, plain "you're ready
+when" checks, no streaks or dashboards. Amigurumi is level 5 (matching how most guides sequence it), not a separate
+track. Masters/advanced material is a one-line pointer at the end. Keep it short; add nothing without removing
+something. Published as its own artifact (see the link in the session). Link only to creators' stable pages and
+say "search the creator's name" if a link dies; do not link deep pages that were not seen in a search result.
+
+The older app below (`crochet-master-plan.html`, `courses/`, `research/`) is kept as source material, not the product.
+
+---
+
+# Crochet Master Plan — project brief (older, kept for reference)
 
 `crochet-master-plan.html` is a single-file app (no build step) published as a claude.ai artifact:
 https://claude.ai/artifact/XoNkeg5R9bsqSy4GCu6Wk4. Republish it after every change, keeping its
